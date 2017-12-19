@@ -644,6 +644,10 @@ h2.header_title {
 	width: 260px;
 }
 
+.sponsor-logos-mega .sponsorship-logo--deloitte {
+	width: 220px;
+}
+
 .sponsor-logos-startup {
 		justify-content: center;
 		display: flex;
