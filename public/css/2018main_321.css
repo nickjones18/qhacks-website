@@ -741,6 +741,9 @@ h2.header_title {
 	width: 160px;
 }
 
+.sponsor-logos-startup .sponsorship-logo--jetbrains {
+	width: 85px;
+}
 
 .sponsor-logos-community {
 	justify-content: center;
