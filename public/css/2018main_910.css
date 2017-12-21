@@ -629,7 +629,7 @@ h2.header_title {
 }
 
 .sponsor-logos-mega .sponsorship-logo--scotiabank {
-	width: 300px
+	width: 270px
 }
 
 .sponsor-logos-mega .sponsorship-logo--ratehub {
@@ -645,7 +645,11 @@ h2.header_title {
 }
 
 .sponsor-logos-mega .sponsorship-logo--deloitte {
-	width: 220px;
+	width: 210px;
+}
+
+.sponsor-logos-mega .sponsorship-logo--avanade {
+	width: 270px;
 }
 
 .sponsor-logos-startup {
