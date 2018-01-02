@@ -653,7 +653,7 @@ h2.header_title {
 }
 
 .sponsor-logos-mega .sponsorship-logo--youi {
-	width: 140px;
+	width: 130px;
 }
 
 .sponsor-logos-startup {
@@ -756,6 +756,11 @@ h2.header_title {
 .sponsor-logos-startup .sponsorship-logo--jetbrains {
 	width: 85px;
 }
+
+.sponsor-logos-startup .sponsorship-logo--twilio {
+	width: 140px;
+}
+
 
 .sponsor-logos-community {
 	justify-content: center;
