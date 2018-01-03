@@ -18,7 +18,6 @@ function WidthChange(mq) {
 
 }
 $(document).ready(function(){
-
 	// hide mlh badge when scrolling
 	var hidden = false;
 	$(document).scroll(function(){
@@ -35,3 +34,4 @@ $(document).ready(function(){
 	    }
 	});
 });
+lazyload();
