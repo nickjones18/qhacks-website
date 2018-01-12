@@ -761,6 +761,10 @@ h2.header_title {
 	width: 140px;
 }
 
+.sponsor-logos-startup .sponsorship-logo--aventec {
+	width: 90px;
+}
+
 
 .sponsor-logos-community {
 	justify-content: center;
@@ -806,6 +810,11 @@ h2.header_title {
 .sponsor-logos-community .sponsorship-logo--ukrlogic {
 		width: 220px;
 }
+
+.sponsor-logos-community .sponsorship-logo--computing {
+		width: 300px;
+}
+
 
 /* Media Queries */
 
