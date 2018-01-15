@@ -554,7 +554,7 @@ h2.header_title {
 	max-width: 1000px;
 	font-size: 0.8em;
 	margin: 0 auto;
-	margin-bottom: 40px;
+	margin-bottom: 60px;
 	width: 100%;
 }
 
@@ -602,6 +602,10 @@ h2.header_title {
 
 .sponsor-logos-giga .sponsorship-logo--sunlife {
 	width: 420px
+}
+
+.sponsor-logos-giga .sponsorship-logo--kwikee {
+	width: 380px
 }
 
 .sponsor-logos-mega {
