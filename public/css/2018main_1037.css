@@ -638,11 +638,11 @@ h2.header_title {
 }
 
 .sponsor-logos-giga .sponsorship-logo--sunlife {
-	width: 400px
+	width: 400px;
 }
 
 .sponsor-logos-giga .sponsorship-logo--kwikee {
-	width: 360px
+	width: 360px;
 }
 
 .sponsor-logos-mega {
@@ -1001,6 +1001,10 @@ h2.header_title {
 	}
 
 	.sponsor-logos-giga .sponsorship-logo--kwikee {
+		margin-left: 30px;
+		margin-right: 30px;
+		width: 85%;
+		margin-top: 70px;
 		max-width: 350px
 	}
 
