@@ -528,6 +528,32 @@ h2.header_title {
 	transition-property: transform;
 }
 
+.people .user-pic {
+	max-width: 200px;
+	max-height: 200px;
+}
+.people .user-pic,
+.people .user-pic *,
+.people .user-pic *:before,
+.people .user-pic *:after {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+.img-rounded {
+	border-radius: 100px;
+}
+
+.speakers {
+	padding-top: 50px;
+}
+
+.bio {
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
 /* Sponsors */
 
 .sponsors-wrap{
@@ -596,20 +622,27 @@ h2.header_title {
 }
 
 .sponsorship-logo--igan {
-	max-width: 500px
+	max-width: 480px
+}
+
+.sponsor-logos-giga {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .sponsor-logos-giga .sponsorship-logo {
-	width: 100%;
-	margin: auto
+	width: 100px;
+	margin: 0px;
 }
 
 .sponsor-logos-giga .sponsorship-logo--sunlife {
-	width: 420px
+	width: 400px
 }
 
 .sponsor-logos-giga .sponsorship-logo--kwikee {
-	width: 380px
+	width: 360px
 }
 
 .sponsor-logos-mega {
@@ -779,6 +812,14 @@ h2.header_title {
 
 .sponsor-logos-startup .sponsorship-logo--xesto {
 	width: 140px;
+}
+
+.sponsor-logos-startup .sponsorship-logo--thinkresearch {
+	width: 120px;
+}
+
+.sponsor-logos-startup .sponsorship-logo--esight {
+	width: 130px;
 }
 
 
