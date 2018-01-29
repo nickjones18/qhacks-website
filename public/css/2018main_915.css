@@ -814,9 +814,6 @@ h2.header_title {
 	width: 140px;
 }
 
-.sponsor-logos-startup .sponsorship-logo--thinkresearch {
-	width: 120px;
-}
 
 .sponsor-logos-startup .sponsorship-logo--esight {
 	width: 130px;
@@ -826,6 +823,9 @@ h2.header_title {
 	width: 180px;
 }
 
+.sponsor-logos-startup .sponsorship-logo--righthealth {
+	width: 80px;
+}
 
 .sponsor-logos-community {
 	justify-content: center;
@@ -874,6 +874,10 @@ h2.header_title {
 
 .sponsor-logos-community .sponsorship-logo--computing {
 		width: 300px;
+}
+
+.sponsor-logos-community .sponsorship-logo--blackdog {
+		width: 330px;
 }
 
 
