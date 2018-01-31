@@ -880,6 +880,14 @@ h2.header_title {
 		width: 330px;
 }
 
+.sponsor-logos-community .sponsorship-logo--tearoom {
+		width: 220px;
+}
+
+.sponsor-logos-community .sponsorship-logo--pcc {
+		width: 160px;
+}
+
 
 /* Media Queries */
 
