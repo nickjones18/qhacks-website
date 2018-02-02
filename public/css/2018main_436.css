@@ -330,6 +330,46 @@ a.btn-cta-secondary:hover,
 	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
 }
 
+/* SCHEDULE */
+
+.schedule {
+	padding: 40px 0;
+}
+
+.schedule .title {
+	margin-bottom: 60px;
+	font-size: 28px;
+}
+
+.schedule .panel {
+	background: #c61633;
+}
+
+.schedule .panel .panel-heading {
+	padding: 15px 30px;
+}
+
+.schedule .panel .panel-body {
+	padding: 30px;
+	padding-top: 0;
+	color: #666;
+	background: #fff;
+}
+
+.schedule .panel .panel-title {
+	font-weight: normal;
+	color: #fff;
+}
+
+.schedule .panel .panel-title .active {
+	color: #408337;
+}
+
+.schedule .panel .panel-title .panel-toggle .fa {
+	margin-right: 10px;
+	color: #0a205b;
+}
+
 /* FAQ */
 
 .faq {
