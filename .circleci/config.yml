@@ -1,0 +1,42 @@
+version: 2
+jobs:
+  code-style:
+    branches:
+      ignore:
+        - qhacks-2016
+        - qhacks-2017
+        - qhacks-2018
+    docker:
+      - image: circleci/node:latest
+    steps:
+      - checkout
+      - run:
+          name: Install NPM dependencies
+          command: npm install
+      - run:
+          name: Check Code Style
+          command: npm run style
+
+  test:
+    branches:
+      ignore:
+        - qhacks-2016
+        - qhacks-2017
+        - qhacks-2018
+    docker:
+      - image: circleci/node:latest
+    steps:
+      - checkout
+      - run:
+          name: Install NPM Dependencies
+          command: npm install
+      - run:
+          name: Perform Unit Tests and Send Coverage Data
+          command: npm run test-with-coverage
+
+workflows:
+  version: 2
+  run-tests:
+    jobs:
+      - code-style
+      - test
