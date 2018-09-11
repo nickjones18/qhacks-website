@@ -1,25 +1,32 @@
 version: 2
 jobs:
-  deploy:
+  code-style:
     docker:
-      - image: google/cloud-sdk:latest
+      - image: circleci/node:latest
     steps:
       - checkout
       - run:
-          name: Dump Google Cloud Credentials to file
-          command: echo ${GOOGLE_AUTH} > ${HOME}/gcp-key.json
+          name: Install NPM dependencies
+          command: npm install
       - run:
-          name: Add Google Cloud Service Account credentials to GCloud SDK
-          command: gcloud auth activate-service-account --key-file ${HOME}/gcp-key.json
-      - deploy:
-          name: Deploy to Google App Engine
-          command: gsutil -m rsync -rd -x \.git ./public gs://${BUCKET_ID}
+          name: Check Code Style
+          command: npm run style
+
+  test:
+    docker:
+      - image: circleci/node:latest
+    steps:
+      - checkout
+      - run:
+          name: Install NPM Dependencies
+          command: npm install
+      - run:
+          name: Perform Unit Tests and Send Coverage Data
+          command: npm run test-with-coverage
 
 workflows:
   version: 2
-  deploy:
+  run-tests:
     jobs:
-      - deploy:
-          filters:
-            branches:
-              only: /^master$/
+      - code-style
+      - test
