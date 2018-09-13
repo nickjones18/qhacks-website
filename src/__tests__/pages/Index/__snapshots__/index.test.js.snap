@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IndexPage renders correctly 1`] = `
+<div>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    link={
+      Array [
+        Object {
+          "href": "test-file-stub",
+          "rel": "shortcut icon",
+        },
+        Object {
+          "href": "https://fonts.googleapis.com/css?family=Encode+Sans:400,700,900,100,300",
+          "rel": "stylesheet",
+          "type": "text/css",
+        },
+        Object {
+          "href": "https://fonts.googleapis.com/css?family=Lato:400,700,900,100,300",
+          "rel": "stylesheet",
+          "type": "text/css",
+        },
+      ]
+    }
+    meta={
+      Array [
+        Object {
+          "content": "QHacks is back for round four! We're bringing in students from all over North America to come together for a wild 36 hours - designing, developing, demoing, cup-stacking, and foosball-playing at our home base at Queen's University. Whether you're a first timer or a seasoned veteran, QHacks definitely has something to satisfy your interests. This weekend is about inclusiveness for all disciplines - students from any level of skill, from any field of study are encouraged to bring their innovative ideas for a weekend of creative problem solving! The only prerequisites for this weekend are a love for tech and drive to learn.",
+          "name": "description",
+        },
+        Object {
+          "content": "Hackathon, Queen's University, Kingston, QHacks, Queensu",
+          "name": "keywords",
+        },
+      ]
+    }
+    title="QHacks | Queen's University | Winter 2019"
+  />
+  <section
+    id="headerLanding"
+  >
+    <div
+      id="headerTitle"
+    >
+      <img
+        className="logo"
+        src="test-file-stub"
+      />
+      <h2
+        className="subTitle"
+      >
+        Queen's University | February 1
+        <sup>
+          st
+        </sup>
+         - 3
+        <sup>
+          rd
+        </sup>
+        , 2019
+      </h2>
+      <div
+        className="btnRow"
+      >
+        <a
+          className="btn btnMain yellowBtn"
+          href="https://2018.qhacks.io"
+        >
+          QHacks 2018
+        </a>
+        <a
+          className="btn btnMain orangeBtn"
+          href="mailto:partnership@qhacks.io"
+        >
+          Partner
+        </a>
+      </div>
+      <div
+        className="talkToUs"
+      >
+        Talk to us at:
+         
+        <a
+          className="frontContactLink"
+          href="mailto:hello@qhacks.io"
+        >
+          hello@qhacks.io
+        </a>
+      </div>
+      <div
+        className="talkToUs"
+      >
+        This year's website is under construction!
+      </div>
+    </div>
+  </section>
+</div>
+`;
