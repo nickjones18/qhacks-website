@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu renders correctly 1`] = `
+<div
+  align="right"
+  css={
+    Object {
+      "@media(max-width: 820px)": Object {
+        "display": "none",
+      },
+      "display": "grid",
+      "gridColumnGap": "50px",
+      "gridTemplateColumns": "1fr auto auto auto auto auto",
+      "marginRight": "80px",
+      "paddingTop": "32px",
+    }
+  }
+>
+  <a
+    key="0"
+  >
+    THIS
+  </a>
+  <a
+    key="1"
+  >
+    IS
+  </a>
+  <a
+    key="2"
+  >
+    A
+  </a>
+  <a
+    key="3"
+  >
+    TEST
+  </a>
+</div>
+`;
