@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Landing renders correctly 1`] = `
+<div
+  className="landing"
+  css={
+    Object {
+      "background": "url(test-file-stub) no-repeat center center fixed",
+      "backgroundSize": "cover",
+      "height": "100vh",
+      "minHeight": "700px",
+      "width": "100%",
+    }
+  }
+>
+  <Menu
+    breadCrumbs={
+      Array [
+        "ABOUT",
+        "SPEAKERS",
+        "SCHEDULE",
+        "TESTIMONIALS",
+        "SPONSORS",
+        "FAQ",
+      ]
+    }
+  />
+  <div
+    css={
+      Object {
+        "display": "grid",
+        "gridTemplateColumns": "auto auto",
+      }
+    }
+  >
+    <div
+      css={
+        Object {
+          "@media(max-width: 1000px)": Object {
+            "marginLeft": "auto",
+            "marginRight": "auto",
+            "paddingLeft": "20px",
+            "paddingRight": "20px",
+          },
+          "height": "100%",
+          "paddingLeft": "110px",
+          "paddingRight": "50px",
+          "paddingTop": "42px",
+        }
+      }
+    >
+      <img
+        src="test-file-stub"
+        width="200px"
+      />
+      <br />
+      <img
+        css={
+          Object {
+            "height": "",
+            "paddingBottom": "24px",
+            "paddingTop": "72px",
+          }
+        }
+        src="test-file-stub"
+      />
+      <h2
+        css={
+          Object {
+            "color": "#00205b",
+            "fontWeight": 600,
+          }
+        }
+      >
+        Queen’s University • February 1-3, 2019
+      </h2>
+      <h2
+        css={
+          Object {
+            "color": "#575757",
+            "fontWeight": 500,
+            "lineHeight": "30px",
+            "paddingTop": "72px",
+          }
+        }
+      >
+        Canada’s largest hardware hackathon. 
+        <br />
+        Join us for an unforgettable experience.
+      </h2>
+      <ActionButton
+        backgroundColor="#ffffff"
+        foregroundColor="#00205b"
+        style={
+          Object {
+            "height": "48px",
+            "marginTop": "40px",
+            "width": "176px",
+          }
+        }
+        text="login"
+      />
+    </div>
+    <img
+      css={
+        Object {
+          "@media(max-width: 1000px)": Object {
+            "display": "none",
+          },
+          "height": "40vw",
+          "marginBottom": "64px",
+          "marginTop": "50px",
+          "maxHeight": "600px",
+        }
+      }
+      src="test-file-stub"
+    />
+  </div>
+</div>
+`;
