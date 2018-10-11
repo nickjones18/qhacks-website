@@ -6,6 +6,7 @@ import Landing from "../components/Landing";
 import BriefSummary from "../components/BriefSummary";
 import MailingListSignup from "../components/MailingListSignup";
 import SellingPoints from "../components/SellingPoints";
+import EventSchedule from "../components/EventSchedule";
 
 export default () => (
   <div>
@@ -46,5 +47,6 @@ export default () => (
     <MailingListSignup />
     <BriefSummary />
     <SellingPoints />
+    <EventSchedule />
   </div>
 );
