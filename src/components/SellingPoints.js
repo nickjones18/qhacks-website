@@ -3,6 +3,8 @@ import mentors from "../assets/img/mentors.svg";
 import hackers from "../assets/img/hackers.svg";
 import judges from "../assets/img/judges.svg";
 import schools from "../assets/img/schools.svg";
+import qhacksSellingPointOne from "../assets/img/qhacksSellingPointOne.jpg";
+import qhacksSellingPointTwo from "../assets/img/qhacksSellingPointTwo.jpg";
 import applications from "../assets/img/applications.svg";
 import challenges from "../assets/img/challenges.svg";
 import SellingPointsIcons from "./SellingPointsIcons.js";
@@ -35,8 +37,7 @@ const blurbStyle = {
 };
 
 const imgStyle = {
-  backgroundColor: "#515151",
-  height: "320px",
+  maxHeight: "320px",
   maxWidth: "475px"
 };
 
@@ -78,7 +79,10 @@ const SellingPoints = () => (
           ]}
         />
       </div>
-      <div css={{ ...flexChildStyle, ...imgStyle }} />
+      <img
+        src={qhacksSellingPointOne}
+        css={{ ...flexChildStyle, ...imgStyle }}
+      />
     </div>
     <div
       css={{
@@ -87,7 +91,10 @@ const SellingPoints = () => (
         marginBottom: 0
       }}
     >
-      <div css={{ ...flexChildStyle, ...imgStyle }} />
+      <img
+        src={qhacksSellingPointTwo}
+        css={{ ...flexChildStyle, ...imgStyle }}
+      />
       <div css={{ ...flexChildStyle, ...detailsStyle }}>
         <h1>Showcase to Experts.</h1>
         <p css={blurbStyle}>

@@ -69,18 +69,18 @@ exports[`SellingPoints renders correctly 1`] = `
         }
       />
     </div>
-    <div
+    <img
       css={
         Object {
-          "backgroundColor": "#515151",
           "flex": 1,
-          "height": "320px",
           "margin": "0 28px 32px 28px",
+          "maxHeight": "320px",
           "maxWidth": "475px",
           "minWidth": "300px",
           "textAlign": "center",
         }
       }
+      src="test-file-stub"
     />
   </div>
   <div
@@ -96,18 +96,18 @@ exports[`SellingPoints renders correctly 1`] = `
       }
     }
   >
-    <div
+    <img
       css={
         Object {
-          "backgroundColor": "#515151",
           "flex": 1,
-          "height": "320px",
           "margin": "0 28px 32px 28px",
+          "maxHeight": "320px",
           "maxWidth": "475px",
           "minWidth": "300px",
           "textAlign": "center",
         }
       }
+      src="test-file-stub"
     />
     <div
       css={
