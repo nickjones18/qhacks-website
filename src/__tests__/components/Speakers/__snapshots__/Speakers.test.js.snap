@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Speakers renders correctly 1`] = `
+<div
+  css={
+    Object {
+      "backgroundColor": "#f8f8f8",
+    }
+  }
+>
+  <h1
+    css={
+      Object {
+        "paddingBottom": "48px",
+        "paddingTop": "112px",
+        "textAlign": "center",
+      }
+    }
+  >
+    Fireside Chat Speakers
+  </h1>
+  <div
+    css={
+      Object {
+        "@media(max-width: 920px)": Object {
+          "display": "block",
+        },
+        "display": "grid",
+        "gridTemplateColumns": "1fr 1fr ",
+      }
+    }
+  >
+    <SpeakerCard
+      description="Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and ya."
+      image="test-file-stub"
+      key="Vinith Suriyakumar"
+      name="Vinith Suriyakumar"
+      title="Founder and CEO of Clarifai"
+    />
+    <SpeakerCard
+      description="Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and ya."
+      image="test-file-stub"
+      key="Noah Ifergan"
+      name="Noah Ifergan"
+      title="Founder and CEO of Clarifai"
+    />
+  </div>
+</div>
+`;

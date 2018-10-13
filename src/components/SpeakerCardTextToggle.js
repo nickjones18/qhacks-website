@@ -1,7 +1,7 @@
 import React from "react";
 
-const TextToggle = (props) => {
-  const color = props.focused ? "#c81c2e" : "#00205b";
+const SpeakerCardTextToggle = (props) => {
+  const color = props.focused ? "#00205b" : "#c81c2e";
   return (
     <div>
       <p
@@ -10,14 +10,15 @@ const TextToggle = (props) => {
           fontWeight: "bold",
           cursor: "default",
           transition: "1s",
+          textTransform: "uppercase",
           color
         }}
         onClick={props.onClick}
       >
-        {props.focused ? "LEARN MORE >>" : "SHOW LESS"}
+        {props.focused ? props.focusedText : `${props.defaultText} >>`}
       </p>
     </div>
   );
 };
 
-export default TextToggle;
+export default SpeakerCardTextToggle;

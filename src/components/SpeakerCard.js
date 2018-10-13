@@ -1,15 +1,13 @@
 import React, { Component } from "react";
-import TextToggle from "./TextToggle";
-import { css } from "glamor";
+import SpeakerCardTextToggle from "./SpeakerCardTextToggle";
 
-let animateText;
-class SpeakerInfo extends Component {
+class SpeakerCard extends Component {
   constructor() {
     super();
   }
 
   componentWillMount() {
-    this.setState({ learnMore: true });
+    this.setState({ learnMoreToggled: false });
   }
 
   render() {
@@ -19,7 +17,8 @@ class SpeakerInfo extends Component {
           css={{
             marginLeft: "auto",
             marginRight: "auto",
-            paddingBottom: "112px"
+            paddingBottom: "112px",
+            maxWidth: "600px"
           }}
         >
           <div
@@ -38,7 +37,7 @@ class SpeakerInfo extends Component {
               }}
             >
               <img
-                src={this.props.speaker.image}
+                src={this.props.image}
                 width="100%"
                 css={{
                   width: "100%",
@@ -46,8 +45,10 @@ class SpeakerInfo extends Component {
                   borderTopLeftRadius: "inherit",
                   borderTopRightRadius: "inherit",
                   transition: "1s",
-                  filter: this.state.learnMore ? "blur(0px)" : "blur(5px)",
-                  marginBottom: this.state.learnMore ? "0px" : "-200px"
+                  filter: this.state.learnMoreToggled
+                    ? "blur(5px)"
+                    : "blur(0px)",
+                  marginBottom: this.state.learnMoreToggled ? "-200px" : "0px"
                 }}
               />
             </div>
@@ -61,9 +62,9 @@ class SpeakerInfo extends Component {
                 overflow: "hidden"
               }}
             >
-              <h3>{this.props.speaker.name}</h3>
+              <h3>{this.props.name}</h3>
               <h2 css={{ fontWeight: 500, paddingTop: "8px" }}>
-                {this.props.speaker.title}
+                {this.props.title}
               </h2>
               <div css={{ textOverflow: "hidden" }}>
                 <p
@@ -72,11 +73,13 @@ class SpeakerInfo extends Component {
                     paddingBottom: "36px",
                     textOverflow: "hidden",
                     transition: "1s",
-                    marginBottom: this.state.learnMore ? "-200px" : "0px",
+                    marginBottom: this.state.learnMoreToggled
+                      ? "0px"
+                      : "-200px",
                     lineHeight: "20px"
                   }}
                 >
-                  {this.props.speaker.description}
+                  {this.props.description}
                 </p>
               </div>
             </div>
@@ -87,8 +90,10 @@ class SpeakerInfo extends Component {
                 paddingTop: "36px"
               }}
             >
-              <TextToggle
-                focused={this.state.learnMore}
+              <SpeakerCardTextToggle
+                focused={this.state.learnMoreToggled}
+                defaultText={"learn more"}
+                focusedText={"show less"}
                 onClick={this.onLearnMoreClicked}
               />
             </div>
@@ -99,17 +104,8 @@ class SpeakerInfo extends Component {
   }
 
   onLearnMoreClicked = () => {
-    if (this.state.learnMore) {
-      const animation = css.keyframes("text", {
-        "0%": { maxHeight: "40px" },
-        "100%": { maxHeight: "1000px" }
-      });
-      animateText = `${animation} 1s`;
-    } else {
-      animateText = "";
-    }
-    this.setState({ learnMore: !this.state.learnMore });
+    this.setState({ learnMoreToggled: !this.state.learnMoreToggled });
   };
 }
 
-export default SpeakerInfo;
+export default SpeakerCard;
