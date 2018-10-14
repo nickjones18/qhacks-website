@@ -1,0 +1,424 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FAQs renders correctly 1`] = `
+<div
+  css={
+    Object {
+      "backgroundColor": "#ffffff",
+    }
+  }
+>
+  <div
+    css={
+      Object {
+        "@media(max-width: 780px)": Object {
+          "paddingLeft": "24px",
+          "paddingRight": "24px",
+          "paddingTop": "64px",
+        },
+        "padding": "110px 180px 300px 180px",
+      }
+    }
+  >
+    <h1>
+      Frequently Asked Questions
+    </h1>
+    <div
+      css={
+        Object {
+          "@media(max-width: 1190px)": Object {
+            "display": "block",
+          },
+          "display": "grid",
+          "gridTemplateColumns": "1fr 1fr",
+          "paddingTop": "36px",
+        }
+      }
+    >
+      <div
+        css={
+          Object {
+            "@media(max-width: 780px)": Object {
+              "paddingRight": "24px",
+            },
+            "padding": "0px 64px 40px 0px",
+          }
+        }
+        key="Who can attend QHacks?"
+      >
+        <h2
+          css={
+            Object {
+              "fontWeight": "500",
+              "paddingBottom": "10px",
+            }
+          }
+        >
+          Who can attend QHacks?
+        </h2>
+        <p
+          css={
+            Object {
+              "color": "#000000",
+              "fontSize": "14px",
+              "lineHeight": "20px",
+            }
+          }
+        >
+          Any college or university student at any skill level! All you need is a passion for design/data/tech, and a willingness to learn! We welcome applicants from all fields of study.
+        </p>
+      </div>
+      <div
+        css={
+          Object {
+            "@media(max-width: 780px)": Object {
+              "paddingRight": "24px",
+            },
+            "padding": "0px 64px 40px 0px",
+          }
+        }
+        key="What if I don’t have a team?"
+      >
+        <h2
+          css={
+            Object {
+              "fontWeight": "500",
+              "paddingBottom": "10px",
+            }
+          }
+        >
+          What if I don’t have a team?
+        </h2>
+        <p
+          css={
+            Object {
+              "color": "#000000",
+              "fontSize": "14px",
+              "lineHeight": "20px",
+            }
+          }
+        >
+          Not to worry! There are many others in the same shoes. We'll be hosting team formation sessions prior to the hackathon that will get you up and running in no time!
+        </p>
+      </div>
+      <div
+        css={
+          Object {
+            "@media(max-width: 780px)": Object {
+              "paddingRight": "24px",
+            },
+            "padding": "0px 64px 40px 0px",
+          }
+        }
+        key="Where is QHacks hosted?"
+      >
+        <h2
+          css={
+            Object {
+              "fontWeight": "500",
+              "paddingBottom": "10px",
+            }
+          }
+        >
+          Where is QHacks hosted?
+        </h2>
+        <p
+          css={
+            Object {
+              "color": "#000000",
+              "fontSize": "14px",
+              "lineHeight": "20px",
+            }
+          }
+        >
+          QHacks will be taking place at Queen's University, in Kingston, Ontario. QHacks will be run in a number of buildings on Queen's campus including Goodwin Hall, Walter Light Hall, Beamish-Munro Hall, Biosciences Complex, and Carruthers Hall. Get lost? We'll have maps for you and volunteers all over campus to guide the way.
+        </p>
+      </div>
+      <div
+        css={
+          Object {
+            "@media(max-width: 780px)": Object {
+              "paddingRight": "24px",
+            },
+            "padding": "0px 64px 40px 0px",
+          }
+        }
+        key="What if I’m new to programming?"
+      >
+        <h2
+          css={
+            Object {
+              "fontWeight": "500",
+              "paddingBottom": "10px",
+            }
+          }
+        >
+          What if I’m new to programming?
+        </h2>
+        <p
+          css={
+            Object {
+              "color": "#000000",
+              "fontSize": "14px",
+              "lineHeight": "20px",
+            }
+          }
+        >
+          That's okay! A hackathon is a great place to get some experience. There will be tutorials, interesting workshops, and skilled mentors to answer any questions and help you reach your potential.
+        </p>
+      </div>
+      <div
+        css={
+          Object {
+            "@media(max-width: 780px)": Object {
+              "paddingRight": "24px",
+            },
+            "padding": "0px 64px 40px 0px",
+          }
+        }
+        key="How much does QHacks cost to attend?"
+      >
+        <h2
+          css={
+            Object {
+              "fontWeight": "500",
+              "paddingBottom": "10px",
+            }
+          }
+        >
+          How much does QHacks cost to attend?
+        </h2>
+        <p
+          css={
+            Object {
+              "color": "#000000",
+              "fontSize": "14px",
+              "lineHeight": "20px",
+            }
+          }
+        >
+          Absolutely nothing! Not a dime! Crazy eh?
+        </p>
+      </div>
+      <div
+        css={
+          Object {
+            "@media(max-width: 780px)": Object {
+              "paddingRight": "24px",
+            },
+            "padding": "0px 64px 40px 0px",
+          }
+        }
+        key="What can I create?"
+      >
+        <h2
+          css={
+            Object {
+              "fontWeight": "500",
+              "paddingBottom": "10px",
+            }
+          }
+        >
+          What can I create?
+        </h2>
+        <p
+          css={
+            Object {
+              "color": "#000000",
+              "fontSize": "14px",
+              "lineHeight": "20px",
+            }
+          }
+        >
+          What CAN'T you create? Whether it's a new mobile app, a snazzy new website, or a hardware hack you've been dreaming about, you can create it at QHacks!
+        </p>
+      </div>
+      <div
+        css={
+          Object {
+            "@media(max-width: 780px)": Object {
+              "paddingRight": "24px",
+            },
+            "padding": "0px 64px 40px 0px",
+          }
+        }
+        key="What if I’m not from Kingston?"
+      >
+        <h2
+          css={
+            Object {
+              "fontWeight": "500",
+              "paddingBottom": "10px",
+            }
+          }
+        >
+          What if I’m not from Kingston?
+        </h2>
+        <p
+          css={
+            Object {
+              "color": "#000000",
+              "fontSize": "14px",
+              "lineHeight": "20px",
+            }
+          }
+        >
+          QHacks will be sending buses to Montreal, Ottawa, Toronto and Waterloo. If those don't apply to you, we'll be offering travel reimbursements on a case by case basis.
+        </p>
+      </div>
+      <div
+        css={
+          Object {
+            "@media(max-width: 780px)": Object {
+              "paddingRight": "24px",
+            },
+            "padding": "0px 64px 40px 0px",
+          }
+        }
+        key="What should I bring?"
+      >
+        <h2
+          css={
+            Object {
+              "fontWeight": "500",
+              "paddingBottom": "10px",
+            }
+          }
+        >
+          What should I bring?
+        </h2>
+        <p
+          css={
+            Object {
+              "color": "#000000",
+              "fontSize": "14px",
+              "lineHeight": "20px",
+            }
+          }
+        >
+          Bring whatever helps you hack! If you have a specific hardware you want to work with, feel free to bring it. MLH will also be providing a hardware lab with a wide range of items. Some important items to bring include a valid form of student ID, laptop and charger, deodorant (arguably mandatory) and maybe a sleeping bag and change of clothes.
+        </p>
+      </div>
+      <div
+        css={
+          Object {
+            "@media(max-width: 780px)": Object {
+              "paddingRight": "24px",
+            },
+            "padding": "0px 64px 40px 0px",
+          }
+        }
+        key="What if I don’t have an idea?"
+      >
+        <h2
+          css={
+            Object {
+              "fontWeight": "500",
+              "paddingBottom": "10px",
+            }
+          }
+        >
+          What if I don’t have an idea?
+        </h2>
+        <p
+          css={
+            Object {
+              "color": "#000000",
+              "fontSize": "14px",
+              "lineHeight": "20px",
+            }
+          }
+        >
+          After you've accepted your offer to QHacks, join our QHacks Participant Slack where you can discuss ideas for projects or join a team that already has an idea. Stay tuned for our list of company APIs that can be seamlessly adapted to suit and inspire your hack!
+        </p>
+      </div>
+      <div
+        css={
+          Object {
+            "@media(max-width: 780px)": Object {
+              "paddingRight": "24px",
+            },
+            "padding": "0px 64px 40px 0px",
+          }
+        }
+        key="How will my project be judged?"
+      >
+        <h2
+          css={
+            Object {
+              "fontWeight": "500",
+              "paddingBottom": "10px",
+            }
+          }
+        >
+          How will my project be judged?
+        </h2>
+        <p
+          css={
+            Object {
+              "color": "#000000",
+              "fontSize": "14px",
+              "lineHeight": "20px",
+            }
+          }
+        >
+          Industry experts will be coming to QHacks to view your projects. Show them your demo, answer their intriguing questions, and compete for prizes!
+        </p>
+      </div>
+      <div
+        css={
+          Object {
+            "paddingTop": "12px",
+          }
+        }
+      >
+        <h2
+          css={
+            Object {
+              "fontWeight": "500",
+              "paddingBottom": "10px",
+            }
+          }
+        >
+          Have additional questions?
+        </h2>
+        <p
+          css={
+            Object {
+              "color": "#000000",
+              "fontSize": "14px",
+              "lineHeight": "20px",
+            }
+          }
+        >
+          Feel free to reach out to us at 
+          <a
+            css={
+              Object {
+                "color": "#c81c2e",
+                "fontWeight": "500",
+                "textDecoration": "underline",
+              }
+            }
+          >
+            hello@qhacks.io
+          </a>
+           
+          or on 
+          <a
+            css={
+              Object {
+                "color": "#c81c2e",
+                "fontWeight": "500",
+                "textDecoration": "underline",
+              }
+            }
+          >
+            Facebook
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
