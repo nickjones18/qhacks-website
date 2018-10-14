@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HackerTestimonials renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "height": "545px",
+    }
+  }
+/>
+`;
