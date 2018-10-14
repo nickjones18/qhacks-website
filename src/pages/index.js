@@ -8,6 +8,7 @@ import MailingListSignup from "../components/MailingListSignup";
 import SellingPoints from "../components/SellingPoints";
 import Speakers from "../components/Speakers";
 import EventSchedule from "../components/EventSchedule";
+import FAQs from "../components/FAQs";
 
 export default () => (
   <div>
@@ -50,5 +51,6 @@ export default () => (
     <SellingPoints />
     <Speakers />
     <EventSchedule />
+    <FAQs />
   </div>
 );

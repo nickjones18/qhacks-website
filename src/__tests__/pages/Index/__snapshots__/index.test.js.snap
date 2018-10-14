@@ -47,5 +47,6 @@ exports[`IndexPage renders correctly 1`] = `
   <SellingPoints />
   <Speakers />
   <EventSchedule />
+  <FAQs />
 </div>
 `;
