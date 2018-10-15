@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Podcast renders correctly 1`] = `
+<div
+  css={
+    Object {
+      "@media (max-width: 1128px)": Object {
+        "background": "url(test-file-stub) no-repeat center 360px",
+        "backgroundSize": "auto 100%",
+      },
+      "@media (max-width: 780px)": Object {
+        "padding": "0px 16px 160px 16px",
+      },
+      "background": "url(test-file-stub) no-repeat center 180px",
+      "backgroundSize": "100%",
+      "marginBottom": "-300px",
+      "paddingBottom": "133px",
+      "paddingLeft": "145px",
+      "paddingRight": "145px",
+    }
+  }
+>
+  <div
+    css={
+      Object {
+        "@media (max-width: 1128px)": Object {
+          "display": "block",
+        },
+        "backgroundColor": "#ffffff",
+        "border": "solid 1px #e8e8e8",
+        "borderRadius": "8px",
+        "boxShadow": "4px 9px 40px 2px rgba(7, 16, 75, 0.1)",
+        "display": "grid",
+        "gridTemplateColumns": "min-content auto",
+        "padding": "40px 28px 40px 28px",
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      css={
+        Object {
+          "@media (max-width: 1128px)": Object {
+            "textAlign": "center",
+          },
+        }
+      }
+    >
+      <img
+        css={
+          Object {
+            "@media (max-width: 1128px)": Object {
+              "width": "100%",
+            },
+            "maxWidth": "290px",
+          }
+        }
+        src="test-file-stub"
+      />
+    </div>
+    <div
+      css={
+        Object {
+          "@media (max-width: 1128px)": Object {
+            "paddingLeft": "0px",
+            "paddingTop": "46px",
+          },
+          "paddingLeft": "64px",
+          "textAlign": "left",
+        }
+      }
+    >
+      <h1
+        css={
+          Object {
+            "paddingBottom": "24px",
+          }
+        }
+      >
+        Listen to our podcast!
+      </h1>
+      <p
+        css={
+          Object {
+            "lineHeight": "1.5",
+            "paddingBottom": "40px",
+          }
+        }
+      >
+        Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare.
+      </p>
+      <ActionButton
+        backgroundColor="#ffffff"
+        foregroundColor="#00205b"
+        type="rounded"
+      >
+        Listen
+      </ActionButton>
+    </div>
+  </div>
+</div>
+`;
