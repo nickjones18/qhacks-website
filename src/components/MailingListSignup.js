@@ -1,5 +1,5 @@
 import React from "react";
-import circuits from "../assets/img/circuits.png";
+import circuits from "../assets/img/circuitsRed.png";
 import SignUpForm from "./SignUpForm";
 
 const MailingListSignup = (props) => (

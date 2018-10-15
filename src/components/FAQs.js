@@ -62,7 +62,7 @@ const FAQs = () => (
   <div css={{ backgroundColor: "#ffffff" }}>
     <div
       css={{
-        padding: "110px 180px 300px 180px",
+        padding: "110px 180px 114px 180px",
         "@media(max-width: 780px)": {
           paddingLeft: "24px",
           paddingRight: "24px",

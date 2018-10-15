@@ -16,7 +16,7 @@ exports[`FAQs renders correctly 1`] = `
           "paddingRight": "24px",
           "paddingTop": "64px",
         },
-        "padding": "110px 180px 300px 180px",
+        "padding": "110px 180px 114px 180px",
       }
     }
   >

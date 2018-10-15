@@ -9,6 +9,7 @@ import SellingPoints from "../components/SellingPoints";
 import Speakers from "../components/Speakers";
 import EventSchedule from "../components/EventSchedule";
 import FAQs from "../components/FAQs";
+import Podcast from "../components/Podcast";
 
 export default () => (
   <div>
@@ -52,5 +53,6 @@ export default () => (
     <Speakers />
     <EventSchedule />
     <FAQs />
+    <Podcast />
   </div>
 );
