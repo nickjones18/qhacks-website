@@ -13,8 +13,8 @@ const Podcast = () => (
       paddingLeft: "145px",
       paddingRight: "145px",
       "@media (max-width: 1128px)": {
-        backgroundSize: "auto 100%",
-        background: `url(${circuits}) no-repeat center 360px`
+        background: `url(${circuits}) no-repeat center 420px`,
+        backgroundSize: "auto 315px"
       },
       "@media (max-width: 780px)": {
         padding: "0px 16px 160px 16px"
