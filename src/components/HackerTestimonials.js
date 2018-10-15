@@ -5,8 +5,8 @@ import placeholderHeadshot from "../assets/img/placeholderHeadshot.jpg";
 
 const testimonials = [
   {
-    name: "Justin Perkins",
-    project: "DoppelGallery",
+    name: "Robert Saunders",
+    project: "Dolores",
     image: placeholderHeadshot,
     text:
       "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment."
@@ -37,7 +37,6 @@ class HackerTestimonials extends Component {
 
   nextTestimonial() {
     this.setState({
-      ...this.state,
       currentTestimonial: Math.min(
         this.state.currentTestimonial + 1,
         testimonials.length - 1
@@ -47,7 +46,6 @@ class HackerTestimonials extends Component {
 
   prevTestimonial() {
     this.setState({
-      ...this.state,
       currentTestimonial: Math.max(this.state.currentTestimonial - 1, 0)
     });
   }
