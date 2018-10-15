@@ -31,11 +31,13 @@ exports[`SignUpForm renders correctly 1`] = `
     foregroundColor="#00205b"
     style={
       Object {
-        "border": "none",
-        "borderRadius": "4px",
-        "fontSize": "18px",
-        "margin": "8px",
-        "marginLeft": "4px",
+        "buttonStyles": Object {
+          "border": "none",
+          "borderRadius": "4px",
+          "fontSize": "18px",
+          "margin": "8px",
+          "marginLeft": "4px",
+        },
       }
     }
     type="rect"

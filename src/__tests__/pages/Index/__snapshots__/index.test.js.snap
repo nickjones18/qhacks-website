@@ -50,5 +50,6 @@ exports[`IndexPage renders correctly 1`] = `
   <HackerTestimonials />
   <FAQs />
   <Podcast />
+  <Footer />
 </div>
 `;
