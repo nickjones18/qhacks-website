@@ -1,0 +1,322 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TestimonialList renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "height": "100%",
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+      "width": "50%",
+    }
+  }
+>
+  <CSSTransitionGroup
+    component={[Function]}
+    transitionAppear={false}
+    transitionEnter={true}
+    transitionEnterTimeout={500}
+    transitionLeave={true}
+    transitionLeaveTimeout={500}
+    transitionName="testimonialsAnimation"
+  >
+    <div
+      key="Justin Perkins DoppelGallery"
+      style={
+        Object {
+          "backgroundColor": "white",
+          "border": "solid 1px #e8e8e8",
+          "borderRadius": "8px",
+          "boxShadow": "4px 9px 40px 2px rgba(7, 16, 75, 0.1)",
+          "display": "inline-block",
+          "flex": "0 0 530px",
+          "height": "375px",
+          "margin": "45px 23px",
+          "opacity": 1,
+          "padding": "48px",
+          "position": "relative",
+          "transition": "opacity 300ms ease 0ms",
+          "whiteSpace": "normal",
+          "zIndex": 2,
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "marginBottom": "20px",
+          }
+        }
+      >
+        <img
+          src="test-file-stub"
+          style={
+            Object {
+              "borderRadius": "50%",
+              "height": "72px",
+              "width": "72px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "marginLeft": "24px",
+            }
+          }
+        >
+          <strong
+            style={
+              Object {
+                "display": "block",
+                "fontSize": "20px",
+                "marginBottom": "8px",
+              }
+            }
+          >
+            Justin Perkins
+          </strong>
+          <strong>
+            <span
+              style={
+                Object {
+                  "color": "#838383",
+                }
+              }
+            >
+              Project:
+            </span>
+             
+            DoppelGallery
+          </strong>
+        </div>
+      </div>
+      <p
+        style={
+          Object {
+            "lineHeight": "1.6",
+          }
+        }
+      >
+        Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+      </p>
+      <div
+        style={
+          Object {
+            "bottom": 24,
+            "position": "absolute",
+            "right": 40,
+            "textAlign": "right",
+          }
+        }
+      >
+        <img
+          src="test-file-stub"
+        />
+      </div>
+    </div>
+    <div
+      key="Ross Hill Dolores"
+      style={
+        Object {
+          "backgroundColor": "white",
+          "border": "solid 1px #e8e8e8",
+          "borderRadius": "8px",
+          "boxShadow": "4px 9px 40px 2px rgba(7, 16, 75, 0.1)",
+          "display": "inline-block",
+          "flex": "0 0 530px",
+          "height": "375px",
+          "margin": "45px 23px",
+          "opacity": 0.6,
+          "padding": "48px",
+          "position": "relative",
+          "transition": "opacity 300ms ease 200ms",
+          "whiteSpace": "normal",
+          "zIndex": 2,
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "marginBottom": "20px",
+          }
+        }
+      >
+        <img
+          src="test-file-stub"
+          style={
+            Object {
+              "borderRadius": "50%",
+              "height": "72px",
+              "width": "72px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "marginLeft": "24px",
+            }
+          }
+        >
+          <strong
+            style={
+              Object {
+                "display": "block",
+                "fontSize": "20px",
+                "marginBottom": "8px",
+              }
+            }
+          >
+            Ross Hill
+          </strong>
+          <strong>
+            <span
+              style={
+                Object {
+                  "color": "#838383",
+                }
+              }
+            >
+              Project:
+            </span>
+             
+            Dolores
+          </strong>
+        </div>
+      </div>
+      <p
+        style={
+          Object {
+            "lineHeight": "1.6",
+          }
+        }
+      >
+        Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+      </p>
+      <div
+        style={
+          Object {
+            "bottom": 24,
+            "position": "absolute",
+            "right": 40,
+            "textAlign": "right",
+          }
+        }
+      >
+        <img
+          src="test-file-stub"
+        />
+      </div>
+    </div>
+    <div
+      key="Joey Tepperman Dolores"
+      style={
+        Object {
+          "backgroundColor": "white",
+          "border": "solid 1px #e8e8e8",
+          "borderRadius": "8px",
+          "boxShadow": "4px 9px 40px 2px rgba(7, 16, 75, 0.1)",
+          "display": "inline-block",
+          "flex": "0 0 530px",
+          "height": "375px",
+          "margin": "45px 23px",
+          "opacity": 0.6,
+          "padding": "48px",
+          "position": "relative",
+          "transition": "opacity 300ms ease 200ms",
+          "whiteSpace": "normal",
+          "zIndex": 2,
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "marginBottom": "20px",
+          }
+        }
+      >
+        <img
+          src="test-file-stub"
+          style={
+            Object {
+              "borderRadius": "50%",
+              "height": "72px",
+              "width": "72px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "marginLeft": "24px",
+            }
+          }
+        >
+          <strong
+            style={
+              Object {
+                "display": "block",
+                "fontSize": "20px",
+                "marginBottom": "8px",
+              }
+            }
+          >
+            Joey Tepperman
+          </strong>
+          <strong>
+            <span
+              style={
+                Object {
+                  "color": "#838383",
+                }
+              }
+            >
+              Project:
+            </span>
+             
+            Dolores
+          </strong>
+        </div>
+      </div>
+      <p
+        style={
+          Object {
+            "lineHeight": "1.6",
+          }
+        }
+      >
+        Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+      </p>
+      <div
+        style={
+          Object {
+            "bottom": 24,
+            "position": "absolute",
+            "right": 40,
+            "textAlign": "right",
+          }
+        }
+      >
+        <img
+          src="test-file-stub"
+        />
+      </div>
+    </div>
+  </CSSTransitionGroup>
+</div>
+`;

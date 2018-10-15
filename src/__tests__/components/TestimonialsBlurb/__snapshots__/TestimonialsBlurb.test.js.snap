@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TestimonialsBlurb renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "height": "100%",
+      "justifyContent": "right",
+      "left": 0,
+      "paddingLeft": "5%",
+      "position": "absolute",
+      "top": 0,
+      "width": "50%",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "marginRight": "64px",
+        "width": "455px",
+      }
+    }
+  >
+    <h1
+      style={
+        Object {
+          "marginBottom": "30px",
+        }
+      }
+    >
+      Hacker Testimonials
+    </h1>
+    <p
+      style={
+        Object {
+          "lineHeight": "1.6",
+        }
+      }
+    >
+      See what past hackers thought about the event!
+    </p>
+    <p
+      style={
+        Object {
+          "lineHeight": "1.6",
+        }
+      }
+    >
+      Lorem ipsum dolor sit amet, consectetur adip.
+    </p>
+    <div
+      style={
+        Object {
+          "marginTop": "65px",
+        }
+      }
+    >
+      <input
+        onClick={[Function]}
+        src="test-file-stub"
+        style={
+          Object {
+            "border": "none",
+            "height": "20px",
+            "marginRight": "64px",
+            "opacity": 0.2,
+            "width": "40px",
+          }
+        }
+        type="image"
+      />
+      <input
+        onClick={[Function]}
+        src="test-file-stub"
+        style={
+          Object {
+            "border": "none",
+            "height": "20px",
+            "opacity": 1,
+            "width": "40px",
+          }
+        }
+        type="image"
+      />
+    </div>
+  </div>
+</div>
+`;
