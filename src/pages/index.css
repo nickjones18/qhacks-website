@@ -28,10 +28,6 @@ input {
   font-family: "Encode Sans", sans-serif;
 }
 
-input[type="text"]:focus {
-  outline: none;
-}
-
 h1 {
   font-size: 32px;
   color: #00205b;
@@ -55,23 +51,29 @@ p {
 }
 
 a {
+  text-decoration: none;
   color: #0a205b;
   font-weight: 600;
   font-size: 14px;
 }
 
 a:hover {
-  text-decoration: none;
   color: #c81c2e;
-  cursor: default;
+  /* cursor: default; */
 }
 
 a:focus {
   text-decoration: none;
 }
 
-button:focus {
-  outline: none;
+button:focus,
+input:focus {
+  outline: 1px dotted rgb(49, 54, 59);
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
 }
 
 button:hover {

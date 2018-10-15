@@ -15,7 +15,9 @@ const Menu = (props) => (
     }}
   >
     {props.breadCrumbs.map((label, key) => (
-      <a key={key}>{label}</a>
+      <a key={key} href="./">
+        {label}
+      </a>
     ))}
   </div>
 );

@@ -17,21 +17,25 @@ exports[`Menu renders correctly 1`] = `
   }
 >
   <a
+    href="./"
     key="0"
   >
     THIS
   </a>
   <a
+    href="./"
     key="1"
   >
     IS
   </a>
   <a
+    href="./"
     key="2"
   >
     A
   </a>
   <a
+    href="./"
     key="3"
   >
     TEST

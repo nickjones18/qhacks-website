@@ -2,9 +2,11 @@
 
 exports[`SpeakerCardTextToggle renders correctly 1`] = `
 <div>
-  <p
+  <button
     css={
       Object {
+        "background": "none",
+        "border": "none",
         "color": "#00205b",
         "cursor": "default",
         "fontSize": "16px",
@@ -16,6 +18,6 @@ exports[`SpeakerCardTextToggle renders correctly 1`] = `
     onClick={[Function]}
   >
     focused!
-  </p>
+  </button>
 </div>
 `;
