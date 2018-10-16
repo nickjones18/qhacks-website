@@ -1,34 +1,34 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`DaySwitcher renders correctly 1`] = `
-<ul
-  data-css-1ibitnz=""
+<div
+  data-css-14kqq20=""
 >
-  <li
+  <button
     className="selectedDay dayItem"
     key="2019-02-01"
     onClick={[Function]}
   >
     Day 
     1
-  </li>
-  <li
+  </button>
+  <button
     className="dayItem"
     key="2019-02-02"
     onClick={[Function]}
   >
     Day 
     2
-  </li>
-  <li
+  </button>
+  <button
     className="dayItem"
     key="2019-02-03"
     onClick={[Function]}
   >
     Day 
     3
-  </li>
-  <li
+  </button>
+  <div
     css={
       Object {
         "backgroundColor": "#C81C2E",
@@ -44,5 +44,5 @@ exports[`DaySwitcher renders correctly 1`] = `
     }
     role="none presentation"
   />
-</ul>
+</div>
 `;

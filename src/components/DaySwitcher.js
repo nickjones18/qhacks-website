@@ -40,28 +40,31 @@ class DaySwitcher extends Component {
       height: "44px",
       position: "relative",
       borderRadius: "44px",
-      "> li": {
+      "> button": {
         listStyleType: "none",
         textAlign: "center",
         lineHeight: "44px",
         textTransform: "uppercase",
         fontWeight: "bold",
-        cursor: "pointer"
+        cursor: "pointer",
+        background: "none",
+        border: "none",
+        fontSize: "18px"
       },
-      "> li.dayItem": {
+      "> button.dayItem": {
         zIndex: 2,
         transition: "color 1s ease"
       },
-      "> li.dayItem.selectedDay": {
+      "> button.dayItem.selectedDay": {
         color: "white"
       },
-      "> li.dayItem:not(.selectedDay):hover": {
+      "> button.dayItem:not(.selectedDay):hover": {
         color: "#C81C2E"
       }
     });
 
     const navItems = this.props.days.map((day, i) => (
-      <li
+      <button
         key={day}
         onClick={() => this.changeDay(day, i)}
         className={
@@ -69,14 +72,14 @@ class DaySwitcher extends Component {
         }
       >
         Day {i + 1}
-      </li>
+      </button>
     ));
 
     return (
-      <ul {...navBarCss}>
+      <div {...navBarCss}>
         {navItems}
-        <li role="none presentation" css={{ ...sliderCss }} />
-      </ul>
+        <div role="none presentation" css={{ ...sliderCss }} />
+      </div>
     );
   }
 }

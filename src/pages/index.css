@@ -28,10 +28,6 @@ input {
   font-family: "Encode Sans", sans-serif;
 }
 
-input[type="text"]:focus {
-  outline: none;
-}
-
 h1 {
   font-size: 32px;
   color: #00205b;
@@ -55,33 +51,78 @@ p {
 }
 
 a {
+  text-decoration: none;
   color: #0a205b;
   font-weight: 600;
   font-size: 14px;
 }
 
 a:hover {
-  text-decoration: none;
   color: #c81c2e;
-  cursor: default;
+  /* cursor: default; */
 }
 
 a:focus {
   text-decoration: none;
 }
 
-button:focus {
-  outline: none;
+button:focus,
+input:focus {
+  outline: 1px dotted rgb(49, 54, 59);
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
 }
 
 button:hover {
   cursor: pointer;
 }
 
-img {
+img,
+input[type="image"] {
   user-select: none;
   -moz-user-select: none;
   -webkit-user-drag: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.testimonialsAnimation-enter {
+  opacity: 0.5 !important;
+  transform: scale(0.9);
+  margin-right: -553px !important;
+  box-shadow: none;
+}
+
+.testimonialsAnimation-enter.testimonialsAnimation-enter-active {
+  opacity: 1 !important;
+  transform: scale(1);
+  margin-right: 23px !important;
+  box-shadow: 4px 9px 40px 2px rgba(7, 16, 75, 0.1);
+  transition: opacity 500ms ease 0ms, margin 500ms ease 0ms,
+    transform 500ms ease 0ms, box-shadow 500ms ease 0ms !important;
+  z-index: 1;
+}
+
+.testimonialsAnimation-exit {
+  opacity: 1 !important;
+  transform: scale(1);
+  box-shadow: 4px 9px 40px 2px rgba(7, 16, 75, 0.1);
+  margin-right: 23px !important;
+}
+
+.testimonialsAnimation-exit.testimonialsAnimation-exit-active {
+  opacity: 0.5 !important;
+  transform: scale(0.9);
+  box-shadow: none !important;
+  margin-right: -553px !important;
+  transition: opacity 500ms ease 0ms, margin 500ms ease 0ms,
+    transform 500ms ease 0ms, box-shadow 500ms ease 0ms !important;
+  z-index: 1;
 }

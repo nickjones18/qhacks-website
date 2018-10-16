@@ -4,19 +4,21 @@ const SpeakerCardTextToggle = (props) => {
   const color = props.focused ? "#00205b" : "#c81c2e";
   return (
     <div>
-      <p
+      <button
         css={{
           fontSize: "16px",
           fontWeight: "bold",
           cursor: "default",
           transition: "1s",
           textTransform: "uppercase",
+          background: "none",
+          border: "none",
           color
         }}
         onClick={props.onClick}
       >
         {props.focused ? props.focusedText : `${props.defaultText} >>`}
-      </p>
+      </button>
     </div>
   );
 };

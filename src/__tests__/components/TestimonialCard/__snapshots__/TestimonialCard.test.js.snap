@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TestimonialCard0 renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "white",
+      "border": "solid 1px #e8e8e8",
+      "borderRadius": "8px",
+      "boxShadow": "4px 9px 40px 2px rgba(7, 16, 75, 0.1)",
+      "display": "inline-block",
+      "flex": "0 0 530px",
+      "height": "375px",
+      "margin": "45px 23px",
+      "opacity": 1,
+      "padding": "48px",
+      "position": "relative",
+      "transition": "opacity 300ms ease 0ms",
+      "whiteSpace": "normal",
+      "zIndex": 2,
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "marginBottom": "20px",
+      }
+    }
+  >
+    <img
+      src="test-file-stub"
+      style={
+        Object {
+          "borderRadius": "50%",
+          "height": "72px",
+          "width": "72px",
+        }
+      }
+    />
+    <div
+      style={
+        Object {
+          "display": "inline-block",
+          "marginLeft": "24px",
+        }
+      }
+    >
+      <strong
+        style={
+          Object {
+            "display": "block",
+            "fontSize": "20px",
+            "marginBottom": "8px",
+          }
+        }
+      >
+        Ross Hill
+      </strong>
+      <strong>
+        <span
+          style={
+            Object {
+              "color": "#838383",
+            }
+          }
+        >
+          Project:
+        </span>
+         
+        Dolores
+      </strong>
+    </div>
+  </div>
+  <p
+    style={
+      Object {
+        "lineHeight": "1.6",
+      }
+    }
+  >
+    Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+  </p>
+  <img
+    src="test-file-stub"
+    style={
+      Object {
+        "bottom": 24,
+        "position": "absolute",
+        "right": 40,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`TestimonialCard1 renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "white",
+      "border": "solid 1px #e8e8e8",
+      "borderRadius": "8px",
+      "boxShadow": "4px 9px 40px 2px rgba(7, 16, 75, 0.1)",
+      "display": "inline-block",
+      "flex": "0 0 530px",
+      "height": "375px",
+      "margin": "45px 23px",
+      "opacity": 0.6,
+      "padding": "48px",
+      "position": "relative",
+      "transition": "opacity 300ms ease 200ms",
+      "whiteSpace": "normal",
+      "zIndex": 2,
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "marginBottom": "20px",
+      }
+    }
+  >
+    <img
+      src="test-file-stub"
+      style={
+        Object {
+          "borderRadius": "50%",
+          "height": "72px",
+          "width": "72px",
+        }
+      }
+    />
+    <div
+      style={
+        Object {
+          "display": "inline-block",
+          "marginLeft": "24px",
+        }
+      }
+    >
+      <strong
+        style={
+          Object {
+            "display": "block",
+            "fontSize": "20px",
+            "marginBottom": "8px",
+          }
+        }
+      >
+        Abc Xyz
+      </strong>
+      <strong>
+        <span
+          style={
+            Object {
+              "color": "#838383",
+            }
+          }
+        >
+          Project:
+        </span>
+         
+        Test1
+      </strong>
+    </div>
+  </div>
+  <p
+    style={
+      Object {
+        "lineHeight": "1.6",
+      }
+    }
+  >
+    Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+  </p>
+  <img
+    src="test-file-stub"
+    style={
+      Object {
+        "bottom": 24,
+        "position": "absolute",
+        "right": 40,
+      }
+    }
+  />
+</div>
+`;
