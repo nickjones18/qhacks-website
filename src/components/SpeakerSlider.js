@@ -33,6 +33,7 @@ class SpeakerSlider extends Component {
         this.handleSwipe(direction);
       }
     };
+
     return (
       <div css={{ width: "100%" }}>
         <SpeakerSliderDots

@@ -5,9 +5,12 @@ exports[`SpeakerCardTextToggle renders correctly 1`] = `
   <button
     css={
       Object {
+        ":hover": Object {
+          "color": "#00205b",
+        },
         "background": "none",
         "border": "none",
-        "color": "#00205b",
+        "color": "#a5a5a5",
         "cursor": "default",
         "fontSize": "16px",
         "fontWeight": "bold",

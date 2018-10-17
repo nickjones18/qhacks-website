@@ -1,7 +1,7 @@
 import React from "react";
 
 const SpeakerCardTextToggle = (props) => {
-  const color = props.focused ? "#00205b" : "#c81c2e";
+  const color = props.focused ? "#a5a5a5" : "#c81c2e";
   return (
     <div>
       <button
@@ -13,7 +13,10 @@ const SpeakerCardTextToggle = (props) => {
           textTransform: "uppercase",
           background: "none",
           border: "none",
-          color
+          color,
+          ":hover": {
+            color: "#00205b"
+          }
         }}
         onClick={props.onClick}
       >
