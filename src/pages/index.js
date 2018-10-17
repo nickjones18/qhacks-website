@@ -11,6 +11,7 @@ import EventSchedule from "../components/EventSchedule";
 import FAQs from "../components/FAQs";
 import Podcast from "../components/Podcast";
 import HackerTestimonials from "../components/HackerTestimonials";
+import Footer from "../components/Footer";
 
 export default () => (
   <div>
@@ -56,5 +57,6 @@ export default () => (
     <HackerTestimonials />
     <FAQs />
     <Podcast />
+    <Footer />
   </div>
 );
