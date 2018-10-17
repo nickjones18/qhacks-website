@@ -34,6 +34,7 @@ class DaySwitcher extends Component {
       display: "grid",
       gridTemplateColumns: `repeat(${this.props.days.length}, 1fr)`,
       width: "66%",
+      "@media(max-width: 700px)": { width: "100%" },
       maxWidth: "600px",
       margin: "20px auto 35px auto",
       backgroundColor: "#F6F6F6",

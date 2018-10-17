@@ -2,7 +2,7 @@
 
 exports[`DaySwitcher renders correctly 1`] = `
 <div
-  data-css-14kqq20=""
+  data-css-1lz13m5=""
 >
   <button
     className="selectedDay dayItem"

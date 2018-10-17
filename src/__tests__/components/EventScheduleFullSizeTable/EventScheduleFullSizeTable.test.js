@@ -1,14 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
+import EventScheduleFullSizeTable from "../../../components/EventScheduleFullSizeTable";
+import { shallow } from "enzyme";
 import moment from "moment-timezone";
-import DaySwitcher from "./DaySwitcher";
-import MediaQuery from "react-responsive";
-import EventScheduleFullSizeTable from "./EventScheduleFullSizeTable";
-import EventScheduleCompressedTable from "./EventScheduleCompressedTable";
-import { css } from "glamor";
 
-moment.tz.setDefault("America/Kingston");
-
-// duration in minutes, startDate as ISO 8601
 const schedule = [
   {
     startDate: "2019-02-01T17:00:00",
@@ -110,99 +104,23 @@ const schedule = [
   }
 ];
 
-const eventDays = [];
+const addDurations = (events) => {
+  return events.map((item) => {
+    let duration = moment(item.endDate).diff(item.startDate, "minutes", true);
+    if (duration > 59) {
+      duration = Math.round((duration / 60) * 100) / 100;
+      item.duration = `${duration} hr`;
+    } else {
+      item.duration = `${duration} min`;
+    }
+    return duration !== 1 ? { ...item, duration: `${item.duration}s` } : item;
+  });
+};
 
-for (const event of schedule) {
-  const start = moment(event.startDate).format("YYYY-MM-DD");
-  const end = moment(event.endDate).format("YYYY-MM-DD");
-  if (!eventDays.includes(start)) {
-    eventDays.push(start);
-  }
-  if (!eventDays.includes(end)) {
-    eventDays.push(end);
-  }
-}
-
-eventDays.sort((a, b) => {
-  return (
-    moment(a, "YYYY-MM-DD").format("X") - moment(b, "YYYY-MM-DD").format("X")
-  );
+describe("EventScheduleFullSizeTable", () => {
+  it("renders correctly", () => {
+    expect(
+      shallow(<EventScheduleFullSizeTable data={addDurations(schedule)} />)
+    ).toMatchSnapshot();
+  });
 });
-
-class EventSchedule extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      selectedDay: eventDays[0]
-    };
-  }
-
-  addDurations(events) {
-    return events.map((item) => {
-      let duration = moment(item.endDate).diff(item.startDate, "minutes", true);
-      if (duration > 59) {
-        duration = Math.round((duration / 60) * 100) / 100;
-        item.duration = `${duration} hr`;
-      } else {
-        item.duration = `${duration} min`;
-      }
-      return duration !== 1 ? { ...item, duration: `${item.duration}s` } : item;
-    });
-  }
-
-  changeDay(selectedDay) {
-    this.setState({ selectedDay });
-  }
-
-  render() {
-    const eventsOnSelectedDay = schedule.filter(
-      (item) =>
-        moment(item.startDate).format("YYYY-MM-DD") === this.state.selectedDay
-    );
-
-    const data = this.addDurations(eventsOnSelectedDay);
-
-    return (
-      <div
-        id="schedule"
-        css={{
-          padding: "110px 0",
-          margin: "0 auto",
-          maxWidth: "1076px",
-          width: "85%"
-        }}
-      >
-        <h1
-          css={{
-            textAlign: "center"
-          }}
-        >
-          Event Schedule
-        </h1>
-        <DaySwitcher
-          days={eventDays}
-          changeDay={(day) => this.changeDay(day)}
-        />
-        <h3
-          {...css({
-            textTransform: "uppercase",
-            marginLeft: "16px",
-            "@media(max-width: 700px)": { marginLeft: 0 }
-          })}
-        >
-          {moment(this.state.selectedDay, "YYYY-MM-DD").format(
-            "dddd, MMMM Do, YYYY"
-          )}
-        </h3>
-        <MediaQuery query="(min-device-width: 700px)">
-          <EventScheduleFullSizeTable data={data} />
-        </MediaQuery>
-        <MediaQuery query="(max-device-width: 700px)">
-          <EventScheduleCompressedTable data={data} />
-        </MediaQuery>
-      </div>
-    );
-  }
-}
-
-export default EventSchedule;
