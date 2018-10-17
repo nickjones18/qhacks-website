@@ -1,5 +1,5 @@
-describe('Event Schedule', () => {
+describe("Event Schedule", () => {
   beforeEach(() => {
-    cy.visit('/');
+    cy.visit("/#schedule");
   });
 });
