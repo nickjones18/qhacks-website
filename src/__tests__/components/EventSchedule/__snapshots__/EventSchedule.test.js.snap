@@ -39,11 +39,12 @@ exports[`EventSchedule renders correctly 1`] = `
         "textTransform": "uppercase",
       }
     }
+    data-css-9e5503=""
   >
     Friday, February 1st, 2019
   </h3>
   <MediaQuery
-    query="(min-device-width: 700px)"
+    query="screen and (min-width: 760px)"
     values={Object {}}
   >
     <EventScheduleFullSizeTable
@@ -96,7 +97,7 @@ exports[`EventSchedule renders correctly 1`] = `
     />
   </MediaQuery>
   <MediaQuery
-    query="(max-device-width: 700px)"
+    query="screen and (max-width: 760px)"
     values={Object {}}
   >
     <EventScheduleFullSizeTable

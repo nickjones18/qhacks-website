@@ -187,17 +187,17 @@ class EventSchedule extends Component {
           {...css({
             textTransform: "uppercase",
             marginLeft: "16px",
-            "@media(max-width: 700px)": { marginLeft: 0 }
+            "@media(max-width: 760px)": { marginLeft: 0 }
           })}
         >
           {moment(this.state.selectedDay, "YYYY-MM-DD").format(
             "dddd, MMMM Do, YYYY"
           )}
         </h3>
-        <MediaQuery query="(min-device-width: 700px)">
+        <MediaQuery query="screen and (min-width: 760px)">
           <EventScheduleFullSizeTable data={data} />
         </MediaQuery>
-        <MediaQuery query="(max-device-width: 700px)">
+        <MediaQuery query="screen and (max-width: 760px)">
           <EventScheduleCompressedTable data={data} />
         </MediaQuery>
       </div>
