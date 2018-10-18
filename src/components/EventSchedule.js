@@ -171,6 +171,7 @@ class EventSchedule extends Component {
 
     return (
       <div
+        id="schedule"
         css={{
           padding: "110px 0",
           margin: "0 auto",

@@ -2,7 +2,6 @@
 
 exports[`Landing renders correctly 1`] = `
 <div
-  className="landing"
   css={
     Object {
       "background": "url(test-file-stub) no-repeat center center",
@@ -14,6 +13,18 @@ exports[`Landing renders correctly 1`] = `
     }
   }
 >
+  <Header
+    breadCrumbs={
+      Array [
+        "ABOUT",
+        "SPEAKERS",
+        "SCHEDULE",
+        "TESTIMONIALS",
+        "SPONSORS",
+        "FAQ",
+      ]
+    }
+  />
   <Menu
     breadCrumbs={
       Array [
@@ -24,6 +35,13 @@ exports[`Landing renders correctly 1`] = `
         "SPONSORS",
         "FAQ",
       ]
+    }
+    imgCss={
+      Object {
+        "@media (min-width: 820px)": Object {
+          "opacity": 0,
+        },
+      }
     }
   />
   <div

@@ -26,6 +26,7 @@ const Speakers = () => (
     css={{
       backgroundColor: "#f8f8f8"
     }}
+    id="speakers"
   >
     <h1
       css={{

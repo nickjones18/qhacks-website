@@ -13,6 +13,7 @@ exports[`BriefSummary renders correctly 1`] = `
       "width": "100%",
     }
   }
+  id="about"
 >
   <div
     css={

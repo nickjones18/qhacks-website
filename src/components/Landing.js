@@ -5,6 +5,7 @@ import backgroundCubes from "../assets/img/backgroundCubes.svg";
 import landingImg from "../assets/img/landingImg.png";
 import ActionButton from "./ActionButton";
 import Menu from "./Menu";
+import Header from "./Header";
 
 const breadCrumbs = [
   "ABOUT",
@@ -21,7 +22,6 @@ const loginButtonCSS = {
 
 const Landing = () => (
   <div
-    className="landing"
     css={{
       width: "100%",
       height: "100vh",
@@ -31,7 +31,11 @@ const Landing = () => (
       backgroundSize: "cover"
     }}
   >
-    <Menu breadCrumbs={breadCrumbs} />
+    <Header breadCrumbs={breadCrumbs} />
+    <Menu
+      breadCrumbs={breadCrumbs}
+      imgCss={{ "@media (min-width: 820px)": { opacity: 0 } }}
+    />
     <div
       css={{
         display: "grid",

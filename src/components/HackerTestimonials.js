@@ -53,6 +53,7 @@ class HackerTestimonials extends Component {
   render() {
     return (
       <div
+        id="testimonials"
         style={{
           height: "545px",
           width: "100%",
