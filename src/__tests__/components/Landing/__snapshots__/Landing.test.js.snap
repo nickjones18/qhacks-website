@@ -16,32 +16,13 @@ exports[`Landing renders correctly 1`] = `
   <Header
     breadCrumbs={
       Array [
-        "ABOUT",
-        "SPEAKERS",
-        "SCHEDULE",
-        "TESTIMONIALS",
-        "SPONSORS",
-        "FAQ",
+        "about",
+        "speakers",
+        "schedule",
+        "testimonials",
+        "sponsors",
+        "faq",
       ]
-    }
-  />
-  <Menu
-    breadCrumbs={
-      Array [
-        "ABOUT",
-        "SPEAKERS",
-        "SCHEDULE",
-        "TESTIMONIALS",
-        "SPONSORS",
-        "FAQ",
-      ]
-    }
-    imgCss={
-      Object {
-        "@media (min-width: 820px)": Object {
-          "opacity": 0,
-        },
-      }
     }
   />
   <div
@@ -64,7 +45,7 @@ exports[`Landing renders correctly 1`] = `
           "height": "100%",
           "paddingLeft": "110px",
           "paddingRight": "50px",
-          "paddingTop": "42px",
+          "paddingTop": "142px",
         }
       }
     >

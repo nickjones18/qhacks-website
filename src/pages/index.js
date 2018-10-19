@@ -50,8 +50,10 @@ export default () => (
     />
     <Landing />
     <MailingListSignup />
-    <BriefSummary />
-    <SellingPoints />
+    <div id="about">
+      <BriefSummary />
+      <SellingPoints />
+    </div>
     <Speakers />
     <EventSchedule />
     <HackerTestimonials />

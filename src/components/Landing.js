@@ -8,12 +8,12 @@ import Menu from "./Menu";
 import Header from "./Header";
 
 const breadCrumbs = [
-  "ABOUT",
-  "SPEAKERS",
-  "SCHEDULE",
-  "TESTIMONIALS",
-  "SPONSORS",
-  "FAQ"
+  "about",
+  "speakers",
+  "schedule",
+  "testimonials",
+  "sponsors",
+  "faq"
 ];
 
 const loginButtonCSS = {
@@ -32,10 +32,6 @@ const Landing = () => (
     }}
   >
     <Header breadCrumbs={breadCrumbs} />
-    <Menu
-      breadCrumbs={breadCrumbs}
-      imgCss={{ "@media (min-width: 820px)": { opacity: 0 } }}
-    />
     <div
       css={{
         display: "grid",
@@ -46,7 +42,7 @@ const Landing = () => (
         css={{
           paddingLeft: "110px",
           paddingRight: "50px",
-          paddingTop: "42px",
+          paddingTop: "142px",
           height: "100%",
           "@media(max-width: 1000px)": {
             marginLeft: "auto",

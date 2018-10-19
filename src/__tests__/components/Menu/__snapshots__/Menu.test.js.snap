@@ -5,16 +5,21 @@ exports[`Menu renders correctly 1`] = `
   css={
     Object {
       "display": "grid",
-      "gridTemplateColumns": "auto auto",
+      "gridTemplateColumns": "min-content auto",
     }
   }
 >
   <img
     css={
       Object {
+        "@media(min-width:820px)": Object {
+          "opacity": "0",
+          "paddingLeft": "80px",
+        },
         "paddingBottom": "20px",
-        "paddingLeft": "80px",
+        "paddingLeft": "32px",
         "paddingTop": "20px",
+        "transition": "0.5s",
       }
     }
     src="test-file-stub"

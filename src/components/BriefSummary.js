@@ -10,7 +10,6 @@ const caretCSS = (backgroundColor) =>
 
 const BriefSummary = () => (
   <div
-    id="about"
     css={{
       width: "100%",
       background: "#f8f8f8",

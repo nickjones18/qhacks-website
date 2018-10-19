@@ -1,22 +1,27 @@
 import React from "react";
 import ScrollSpy from "react-scrollspy";
+import MobileMenu from "./MobileMenu";
 import colored from "../assets/img/colored.svg";
+import hamburger from "../assets/img/hamburger.svg";
 
 const Menu = (props) => {
-  const { imgCss } = props || { imgCss: {} };
   return (
     <div
       css={{
         display: "grid",
-        gridTemplateColumns: "auto auto"
+        gridTemplateColumns: "min-content auto"
       }}
     >
       <img
         css={{
-          paddingLeft: "80px",
+          paddingLeft: "32px",
           paddingTop: "20px",
           paddingBottom: "20px",
-          ...imgCss
+          transition: "0.5s",
+          "@media(min-width:820px)": {
+            paddingLeft: "80px",
+            opacity: props.imgCss ? "1" : "0"
+          }
         }}
         src={colored}
       />
