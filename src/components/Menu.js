@@ -1,8 +1,6 @@
 import React from "react";
 import ScrollSpy from "react-scrollspy";
-import MobileMenu from "./MobileMenu";
 import colored from "../assets/img/colored.svg";
-import hamburger from "../assets/img/hamburger.svg";
 
 const Menu = (props) => {
   return (
@@ -47,8 +45,9 @@ const Menu = (props) => {
           css={{
             display: "grid",
             gridColumnGap: "50px",
-            gridTemplateColumns:
-              "min-content min-content min-content min-content min-content min-content"
+            gridTemplateColumns: props.breadCrumbs
+              .map(() => "min-content ")
+              .reduce((a, b) => a + b)
           }}
           items={props.breadCrumbs}
           currentClassName="is-current"

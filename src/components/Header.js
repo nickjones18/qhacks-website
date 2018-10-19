@@ -14,7 +14,7 @@ class Header extends Component {
     };
   }
 
-  componentWillMount() {
+  componentDidMount() {
     window.onscroll = () => {
       const isLogoVisible = window.scrollY > 200;
       const isHeaderVisible =
@@ -25,7 +25,6 @@ class Header extends Component {
       ) {
         this.setState({ isHeaderVisible, isLogoVisible });
       }
-      console.log(this.state.isLogoVisible);
       prevScrollY = window.scrollY;
     };
   }

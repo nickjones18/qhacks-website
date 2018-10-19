@@ -7,8 +7,8 @@ exports[`Landing renders correctly 1`] = `
       "background": "url(test-file-stub) no-repeat center center",
       "backgroundSize": "cover",
       "height": "100vh",
-      "maxHeight": "800px",
-      "minHeight": "700px",
+      "maxHeight": "900px",
+      "minHeight": "800px",
       "width": "100%",
     }
   }

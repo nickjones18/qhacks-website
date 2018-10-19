@@ -28,6 +28,7 @@ const MobileMenu = (props) => (
         position: "fixed",
         width: "100vw",
         height: "100vh",
+        overflow: "hidden",
         top: "0px",
         left: "0px",
         zIndex: "4",

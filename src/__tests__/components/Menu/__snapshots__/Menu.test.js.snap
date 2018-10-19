@@ -50,7 +50,7 @@ exports[`Menu renders correctly 1`] = `
         Object {
           "display": "grid",
           "gridColumnGap": "50px",
-          "gridTemplateColumns": "min-content min-content min-content min-content min-content min-content",
+          "gridTemplateColumns": "min-content min-content min-content min-content ",
         }
       }
       currentClassName="is-current"

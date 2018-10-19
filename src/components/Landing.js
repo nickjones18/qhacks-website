@@ -4,7 +4,6 @@ import word from "../assets/img/wordmark.svg";
 import backgroundCubes from "../assets/img/backgroundCubes.svg";
 import landingImg from "../assets/img/landingImg.png";
 import ActionButton from "./ActionButton";
-import Menu from "./Menu";
 import Header from "./Header";
 
 const breadCrumbs = [
@@ -25,8 +24,8 @@ const Landing = () => (
     css={{
       width: "100%",
       height: "100vh",
-      minHeight: "700px",
-      maxHeight: "800px",
+      minHeight: "800px",
+      maxHeight: "900px",
       background: `url(${backgroundCubes}) no-repeat center center`,
       backgroundSize: "cover"
     }}
