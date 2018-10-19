@@ -2,16 +2,25 @@
 
 exports[`EventScheduleCompressedTable renders correctly 1`] = `
 <table
-  data-css-18wlc7p=""
+  data-css-113fyd2=""
 >
   <tbody
     key="Busses arrive/registration 2019-02-01T17:00:00"
   >
     <tr>
       <td
-        className="eventStart"
+        rowspan={2}
       >
-        5:00 PM
+        <div
+          className="eventStart"
+        >
+          5:00 PM
+        </div>
+        <div
+          className="eventEnd"
+        >
+          8:00 PM
+        </div>
       </td>
       <td
         className="eventName"
@@ -22,11 +31,6 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
       </td>
     </tr>
     <tr>
-      <td
-        className="eventEnd"
-      >
-        8:00 PM
-      </td>
       <td
         classname="eventLocation"
       >
@@ -39,9 +43,18 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        className="eventStart"
+        rowspan={2}
       >
-        5:00 PM
+        <div
+          className="eventStart"
+        >
+          5:00 PM
+        </div>
+        <div
+          className="eventEnd"
+        >
+          8:00 PM
+        </div>
       </td>
       <td
         className="eventName"
@@ -52,11 +65,6 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
       </td>
     </tr>
     <tr>
-      <td
-        className="eventEnd"
-      >
-        8:00 PM
-      </td>
       <td
         classname="eventLocation"
       >
@@ -69,9 +77,18 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        className="eventStart"
+        rowspan={2}
       >
-        8:00 PM
+        <div
+          className="eventStart"
+        >
+          8:00 PM
+        </div>
+        <div
+          className="eventEnd"
+        >
+          10:00 PM
+        </div>
       </td>
       <td
         className="eventName"
@@ -82,11 +99,6 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
       </td>
     </tr>
     <tr>
-      <td
-        className="eventEnd"
-      >
-        10:00 PM
-      </td>
       <td
         classname="eventLocation"
       >
@@ -99,9 +111,18 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        className="eventStart"
+        rowspan={2}
       >
-        10:00 PM
+        <div
+          className="eventStart"
+        >
+          10:00 PM
+        </div>
+        <div
+          className="eventEnd"
+        >
+          10:30 PM
+        </div>
       </td>
       <td
         className="eventName"
@@ -112,11 +133,6 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
       </td>
     </tr>
     <tr>
-      <td
-        className="eventEnd"
-      >
-        10:30 PM
-      </td>
       <td
         classname="eventLocation"
       >
@@ -129,9 +145,18 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        className="eventStart"
+        rowspan={2}
       >
-        10:00 PM
+        <div
+          className="eventStart"
+        >
+          10:00 PM
+        </div>
+        <div
+          className="eventEnd"
+        >
+          10:00 AM
+        </div>
       </td>
       <td
         className="eventName"
@@ -143,11 +168,6 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
     </tr>
     <tr>
       <td
-        className="eventEnd"
-      >
-        10:00 AM
-      </td>
-      <td
         classname="eventLocation"
       />
     </tr>
@@ -157,9 +177,18 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        className="eventStart"
+        rowspan={2}
       >
-        11:00 PM
+        <div
+          className="eventStart"
+        >
+          11:00 PM
+        </div>
+        <div
+          className="eventEnd"
+        >
+          12:00 AM
+        </div>
       </td>
       <td
         className="eventName"
@@ -170,11 +199,6 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
       </td>
     </tr>
     <tr>
-      <td
-        className="eventEnd"
-      >
-        12:00 AM
-      </td>
       <td
         classname="eventLocation"
       >
@@ -187,9 +211,18 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        className="eventStart"
+        rowspan={2}
       >
-        12:00 AM
+        <div
+          className="eventStart"
+        >
+          12:00 AM
+        </div>
+        <div
+          className="eventEnd"
+        >
+          1:00 AM
+        </div>
       </td>
       <td
         className="eventName"
@@ -200,11 +233,6 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
       </td>
     </tr>
     <tr>
-      <td
-        className="eventEnd"
-      >
-        1:00 AM
-      </td>
       <td
         classname="eventLocation"
       >
@@ -217,9 +245,18 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        className="eventStart"
+        rowspan={2}
       >
-        12:00 AM
+        <div
+          className="eventStart"
+        >
+          12:00 AM
+        </div>
+        <div
+          className="eventEnd"
+        >
+          1:00 AM
+        </div>
       </td>
       <td
         className="eventName"
@@ -230,11 +267,6 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
       </td>
     </tr>
     <tr>
-      <td
-        className="eventEnd"
-      >
-        1:00 AM
-      </td>
       <td
         classname="eventLocation"
       >
@@ -247,9 +279,18 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        className="eventStart"
+        rowspan={2}
       >
-        12:30 AM
+        <div
+          className="eventStart"
+        >
+          12:30 AM
+        </div>
+        <div
+          className="eventEnd"
+        >
+          1:00 AM
+        </div>
       </td>
       <td
         className="eventName"
@@ -260,11 +301,6 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
       </td>
     </tr>
     <tr>
-      <td
-        className="eventEnd"
-      >
-        1:00 AM
-      </td>
       <td
         classname="eventLocation"
       >
@@ -277,9 +313,18 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        className="eventStart"
+        rowspan={2}
       >
-        1:00 AM
+        <div
+          className="eventStart"
+        >
+          1:00 AM
+        </div>
+        <div
+          className="eventEnd"
+        >
+          2:00 AM
+        </div>
       </td>
       <td
         className="eventName"
@@ -290,11 +335,6 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
       </td>
     </tr>
     <tr>
-      <td
-        className="eventEnd"
-      >
-        2:00 AM
-      </td>
       <td
         classname="eventLocation"
       >
@@ -307,9 +347,18 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        className="eventStart"
+        rowspan={2}
       >
-        1:00 AM
+        <div
+          className="eventStart"
+        >
+          1:00 AM
+        </div>
+        <div
+          className="eventEnd"
+        >
+          2:00 AM
+        </div>
       </td>
       <td
         className="eventName"
@@ -320,11 +369,6 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
       </td>
     </tr>
     <tr>
-      <td
-        className="eventEnd"
-      >
-        2:00 AM
-      </td>
       <td
         classname="eventLocation"
       >
@@ -337,9 +381,18 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        className="eventStart"
+        rowspan={2}
       >
-        12:00 AM
+        <div
+          className="eventStart"
+        >
+          12:00 AM
+        </div>
+        <div
+          className="eventEnd"
+        >
+          1:00 AM
+        </div>
       </td>
       <td
         className="eventName"
@@ -350,11 +403,6 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
       </td>
     </tr>
     <tr>
-      <td
-        className="eventEnd"
-      >
-        1:00 AM
-      </td>
       <td
         classname="eventLocation"
       >
@@ -367,9 +415,18 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        className="eventStart"
+        rowspan={2}
       >
-        1:00 AM
+        <div
+          className="eventStart"
+        >
+          1:00 AM
+        </div>
+        <div
+          className="eventEnd"
+        >
+          2:00 AM
+        </div>
       </td>
       <td
         className="eventName"
@@ -380,11 +437,6 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
       </td>
     </tr>
     <tr>
-      <td
-        className="eventEnd"
-      >
-        2:00 AM
-      </td>
       <td
         classname="eventLocation"
       >
@@ -397,9 +449,18 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        className="eventStart"
+        rowspan={2}
       >
-        7:30 AM
+        <div
+          className="eventStart"
+        >
+          7:30 AM
+        </div>
+        <div
+          className="eventEnd"
+        >
+          8:30 AM
+        </div>
       </td>
       <td
         className="eventName"
@@ -410,11 +471,6 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
       </td>
     </tr>
     <tr>
-      <td
-        className="eventEnd"
-      >
-        8:30 AM
-      </td>
       <td
         classname="eventLocation"
       >
@@ -427,9 +483,18 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        className="eventStart"
+        rowspan={2}
       >
-        9:00 AM
+        <div
+          className="eventStart"
+        >
+          9:00 AM
+        </div>
+        <div
+          className="eventEnd"
+        >
+          10:00 AM
+        </div>
       </td>
       <td
         className="eventName"
@@ -441,11 +506,6 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
     </tr>
     <tr>
       <td
-        className="eventEnd"
-      >
-        10:00 AM
-      </td>
-      <td
         classname="eventLocation"
       />
     </tr>
@@ -455,9 +515,18 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        className="eventStart"
+        rowspan={2}
       >
-        1:00 PM
+        <div
+          className="eventStart"
+        >
+          1:00 PM
+        </div>
+        <div
+          className="eventEnd"
+        >
+          3:00 PM
+        </div>
       </td>
       <td
         className="eventName"
@@ -468,11 +537,6 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
       </td>
     </tr>
     <tr>
-      <td
-        className="eventEnd"
-      >
-        3:00 PM
-      </td>
       <td
         classname="eventLocation"
       >

@@ -187,7 +187,8 @@ class EventSchedule extends Component {
           {...css({
             textTransform: "uppercase",
             marginLeft: "16px",
-            "@media(max-width: 760px)": { marginLeft: 0 }
+            "@media(max-width: 760px)": { marginLeft: 0 },
+            fontWeight: 800
           })}
         >
           {moment(this.state.selectedDay, "YYYY-MM-DD").format(

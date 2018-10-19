@@ -40,6 +40,7 @@ exports[`EventSchedule renders correctly 1`] = `
       }
     }
     data-css-9e5503=""
+    data-css-1f3anu=""
   >
     Friday, February 1st, 2019
   </h3>
@@ -100,7 +101,7 @@ exports[`EventSchedule renders correctly 1`] = `
     query="screen and (max-width: 760px)"
     values={Object {}}
   >
-    <EventScheduleFullSizeTable
+    <EventScheduleCompressedTable
       data={
         Array [
           Object {

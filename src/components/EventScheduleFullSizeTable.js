@@ -2,20 +2,40 @@ import React from "react";
 import { css } from "glamor";
 import moment from "moment-timezone";
 
-moment.tz.setDefault("America/Kingston");
-
 const EventScheduleFullSizeTable = (props) => (
   <table
     {...css({
       borderRadius: "16px",
       fontWeight: "500",
       overflow: "hidden",
-      borderCollapse: "collapse",
+      // borderCollapse: "collapse",
+      borderSpacing: 0,
       margin: "14px 0",
       width: "100%",
       "> tbody tr td, > tbody tr th": {
         padding: "12px 32px",
         textAlign: "left"
+      },
+      "> tbody tr:nth-child(2) td": {
+        paddingTop: "24px"
+      },
+      "> tbody tr:last-child td": {
+        paddingBottom: "24px"
+      },
+      "> tbody tr:not(:first-child) td:first-child": {
+        borderLeft: "1px solid #e4e4e4"
+      },
+      "> tbody tr:not(:first-child) td:last-child": {
+        borderRight: "1px solid #e4e4e4"
+      },
+      "> tbody tr:last-child td": {
+        borderBottom: "1px solid #e4e4e4"
+      },
+      "> tbody tr:last-child td:first-child": {
+        borderBottomLeftRadius: "16px"
+      },
+      "> tbody tr:last-child td:last-child": {
+        borderBottomRightRadius: "16px"
       }
     })}
   >

@@ -13,6 +13,12 @@ exports[`IndexPage renders correctly 1`] = `
         },
         Object {
           "href": "https://fonts.googleapis.com/css?family=Encode+Sans:400,500,600,700,800",
+          "href": "https://fonts.googleapis.com/css?family=Encode+Sans:400,500,700,900,100,300",
+          "rel": "stylesheet",
+          "type": "text/css",
+        },
+        Object {
+          "href": "https://fonts.googleapis.com/css?family=Lato:400,700,900,100,300",
           "rel": "stylesheet",
           "type": "text/css",
         },
