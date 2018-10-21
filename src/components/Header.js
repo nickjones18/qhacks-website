@@ -48,7 +48,7 @@ class Header extends Component {
             backgroundColor: "#ffffff",
             opacity: this.state.isMobileMenuVisible ? "1.0" : "0.8",
             zIndex: "3",
-            "@media(min-width:820px)": {
+            "@media(min-width:860px)": {
               backgroundColor: this.state.isAtTheTop
                 ? "rgba(0,0,0,0)"
                 : "#ffffff"
@@ -57,7 +57,7 @@ class Header extends Component {
         >
           <div
             css={{
-              "@media(max-width:820px)": {
+              "@media(max-width:860px)": {
                 display: "grid",
                 gridTemplateColumns: "auto auto"
               }
