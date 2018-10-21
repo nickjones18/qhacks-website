@@ -5,7 +5,7 @@ import { shallow } from "enzyme";
 describe("MobileMenu", () => {
   it("renders correctly", () => {
     expect(
-      shallow(<MobileMenu breadCrumbs={["I", "LOVE", "SnApShOtS"]} />)
+      shallow(<MobileMenu menuItems={["I", "LOVE", "SnApShOtS"]} />)
     ).toMatchSnapshot();
   });
 });

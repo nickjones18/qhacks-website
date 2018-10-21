@@ -4,17 +4,21 @@ exports[`Landing renders correctly 1`] = `
 <div
   css={
     Object {
+      "@media(max-width: 400px)": Object {
+        "maxHeight": "875px",
+        "minHeight": "775px",
+      },
       "background": "url(test-file-stub) no-repeat center center",
       "backgroundSize": "cover",
       "height": "100vh",
-      "maxHeight": "900px",
-      "minHeight": "800px",
+      "maxHeight": "800px",
+      "minHeight": "700px",
       "width": "100%",
     }
   }
 >
   <Header
-    breadCrumbs={
+    menuItems={
       Array [
         "about",
         "speakers",

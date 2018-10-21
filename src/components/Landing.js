@@ -6,7 +6,7 @@ import landingImg from "../assets/img/landingImg.png";
 import ActionButton from "./ActionButton";
 import Header from "./Header";
 
-const breadCrumbs = [
+const menuItems = [
   "about",
   "speakers",
   "schedule",
@@ -24,13 +24,17 @@ const Landing = () => (
     css={{
       width: "100%",
       height: "100vh",
-      minHeight: "800px",
-      maxHeight: "900px",
+      minHeight: "700px",
+      maxHeight: "800px",
       background: `url(${backgroundCubes}) no-repeat center center`,
-      backgroundSize: "cover"
+      backgroundSize: "cover",
+      "@media(max-width: 400px)": {
+        minHeight: "775px",
+        maxHeight: "875px"
+      }
     }}
   >
-    <Header breadCrumbs={breadCrumbs} />
+    <Header menuItems={menuItems} />
     <div
       css={{
         display: "grid",

@@ -64,17 +64,12 @@ const MobileMenu = (props) => (
           }}
         >
           <div>
-            <img
-              src={logo}
-              width="84px"
-              height="43.5px"
-              css={{ paddingBottom: "11px" }}
-            />
+            <img src={logo} css={{ paddingBottom: "11px" }} />
           </div>
           <div css={{ paddingBottom: "52px" }}>
             <img src={word} width="134px" height="34.8px" />
           </div>
-          {props.breadCrumbs.map((i) => (
+          {props.menuItems.map((i) => (
             <div key={i} css={{ paddingBottom: "24px" }}>
               <a href={`#${i}`} onClick={props.toggleMenu}>
                 {i}

@@ -80,9 +80,7 @@ exports[`MobileMenu renders correctly 1`] = `
                 "paddingBottom": "11px",
               }
             }
-            height="43.5px"
             src="test-file-stub"
-            width="84px"
           />
         </div>
         <div

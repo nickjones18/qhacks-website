@@ -45,14 +45,14 @@ const Menu = (props) => {
           css={{
             display: "grid",
             gridColumnGap: "50px",
-            gridTemplateColumns: props.breadCrumbs
+            gridTemplateColumns: props.menuItems
               .map(() => "min-content ")
               .reduce((a, b) => a + b)
           }}
-          items={props.breadCrumbs}
+          items={props.menuItems}
           currentClassName="is-current"
         >
-          {props.breadCrumbs.map((label) => (
+          {props.menuItems.map((label) => (
             <li
               key={label}
               css={{

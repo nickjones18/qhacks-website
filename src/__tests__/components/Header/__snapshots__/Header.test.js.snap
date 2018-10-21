@@ -5,6 +5,9 @@ exports[`Header renders correctly 1`] = `
   <div
     css={
       Object {
+        "@media(min-width:820px)": Object {
+          "backgroundColor": "rgba(0,0,0,0)",
+        },
         "backgroundColor": "#ffffff",
         "opacity": "0.8",
         "position": "fixed",
@@ -26,24 +29,24 @@ exports[`Header renders correctly 1`] = `
       }
     >
       <Menu
-        breadCrumbs={
+        imgCss={false}
+        menuItems={
           Array [
             "b1",
             "b2",
             "b3",
           ]
         }
-        imgCss={false}
       />
       <MobileMenu
-        breadCrumbs={
+        isMenuVisible={false}
+        menuItems={
           Array [
             "b1",
             "b2",
             "b3",
           ]
         }
-        isMenuVisible={false}
         toggleMenu={[Function]}
       />
     </div>
