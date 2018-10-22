@@ -2,6 +2,7 @@
 
 exports[`HackerTestimonials renders correctly 1`] = `
 <div
+  id="testimonials"
   style={
     Object {
       "height": "545px",

@@ -2,9 +2,12 @@
 
 exports[`Landing renders correctly 1`] = `
 <div
-  className="landing"
   css={
     Object {
+      "@media(max-width: 400px)": Object {
+        "maxHeight": "875px",
+        "minHeight": "775px",
+      },
       "background": "url(test-file-stub) no-repeat center center",
       "backgroundSize": "cover",
       "height": "100vh",
@@ -14,15 +17,15 @@ exports[`Landing renders correctly 1`] = `
     }
   }
 >
-  <Menu
-    breadCrumbs={
+  <Header
+    menuItems={
       Array [
-        "ABOUT",
-        "SPEAKERS",
-        "SCHEDULE",
-        "TESTIMONIALS",
-        "SPONSORS",
-        "FAQ",
+        "about",
+        "speakers",
+        "schedule",
+        "testimonials",
+        "sponsors",
+        "faq",
       ]
     }
   />
@@ -46,7 +49,7 @@ exports[`Landing renders correctly 1`] = `
           "height": "100%",
           "paddingLeft": "110px",
           "paddingRight": "50px",
-          "paddingTop": "42px",
+          "paddingTop": "142px",
         }
       }
     >

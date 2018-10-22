@@ -4,15 +4,15 @@ import word from "../assets/img/wordmark.svg";
 import backgroundCubes from "../assets/img/backgroundCubes.svg";
 import landingImg from "../assets/img/landingImg.png";
 import ActionButton from "./ActionButton";
-import Menu from "./Menu";
+import Header from "./Header";
 
-const breadCrumbs = [
-  "ABOUT",
-  "SPEAKERS",
-  "SCHEDULE",
-  "TESTIMONIALS",
-  "SPONSORS",
-  "FAQ"
+const menuItems = [
+  "about",
+  "speakers",
+  "schedule",
+  "testimonials",
+  "sponsors",
+  "faq"
 ];
 
 const loginButtonCSS = {
@@ -21,17 +21,20 @@ const loginButtonCSS = {
 
 const Landing = () => (
   <div
-    className="landing"
     css={{
       width: "100%",
       height: "100vh",
       minHeight: "700px",
       maxHeight: "800px",
       background: `url(${backgroundCubes}) no-repeat center center`,
-      backgroundSize: "cover"
+      backgroundSize: "cover",
+      "@media(max-width: 400px)": {
+        minHeight: "775px",
+        maxHeight: "875px"
+      }
     }}
   >
-    <Menu breadCrumbs={breadCrumbs} />
+    <Header menuItems={menuItems} />
     <div
       css={{
         display: "grid",
@@ -42,7 +45,7 @@ const Landing = () => (
         css={{
           paddingLeft: "110px",
           paddingRight: "50px",
-          paddingTop: "42px",
+          paddingTop: "142px",
           height: "100%",
           "@media(max-width: 1000px)": {
             marginLeft: "auto",

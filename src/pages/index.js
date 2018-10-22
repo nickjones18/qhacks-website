@@ -3,9 +3,8 @@ import Helmet from "react-helmet";
 import "./index.css";
 import favicon from "../assets/img/favicon.ico";
 import Landing from "../components/Landing";
-import BriefSummary from "../components/BriefSummary";
 import MailingListSignup from "../components/MailingListSignup";
-import SellingPoints from "../components/SellingPoints";
+import About from "../components/About";
 import Speakers from "../components/Speakers";
 import EventSchedule from "../components/EventSchedule";
 import FAQs from "../components/FAQs";
@@ -50,8 +49,7 @@ export default () => (
     />
     <Landing />
     <MailingListSignup />
-    <BriefSummary />
-    <SellingPoints />
+    <About />
     <Speakers />
     <EventSchedule />
     <HackerTestimonials />

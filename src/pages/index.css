@@ -126,3 +126,7 @@ strong {
     transform 500ms ease 0ms, box-shadow 500ms ease 0ms !important;
   z-index: 1;
 }
+
+.is-current a {
+  font-weight: 800;
+}

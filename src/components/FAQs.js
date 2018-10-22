@@ -59,7 +59,7 @@ const linkCss = {
 };
 
 const FAQs = () => (
-  <div css={{ backgroundColor: "#ffffff" }}>
+  <div id="faq" css={{ backgroundColor: "#ffffff" }}>
     <div
       css={{
         padding: "110px 180px 114px 180px",

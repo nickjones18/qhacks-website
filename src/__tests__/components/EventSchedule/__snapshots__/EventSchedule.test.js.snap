@@ -13,6 +13,7 @@ exports[`EventSchedule renders correctly 1`] = `
       "width": "85%",
     }
   }
+  id="schedule"
 >
   <h1
     css={
