@@ -17,8 +17,11 @@ class SpeakerCard extends Component {
           css={{
             marginLeft: "auto",
             marginRight: "auto",
-            paddingBottom: "112px",
-            maxWidth: "600px"
+            paddingBottom: "80px",
+            "@media(min-width: 820px)": {
+              paddingBottom: "112px"
+            },
+            maxWidth: "416px"
           }}
         >
           <div
@@ -26,7 +29,8 @@ class SpeakerCard extends Component {
               borderRadius: "8px",
               boxShadow: "0 4px 24px 0 rgba(185, 185, 185, 0.5)",
               marginLeft: "13px",
-              marginRight: "13px"
+              marginRight: "13px",
+              background: "#ffffff"
             }}
           >
             <div
@@ -36,34 +40,48 @@ class SpeakerCard extends Component {
                 borderTopRightRadius: "inherit"
               }}
             >
-              <img
-                src={this.props.image}
-                width="100%"
+              <div
                 css={{
+                  background: `url(${
+                    this.props.image
+                  }) no-repeat center center`,
+                  minHeight: "300px",
+                  backgroundSize: "cover",
                   width: "100%",
-                  marginBottom: "-10px",
                   borderTopLeftRadius: "inherit",
                   borderTopRightRadius: "inherit",
                   transition: "1s",
                   filter: this.state.learnMoreToggled
                     ? "blur(5px)"
                     : "blur(0px)",
-                  marginBottom: this.state.learnMoreToggled ? "-200px" : "0px"
+                  marginBottom: this.state.learnMoreToggled ? "-278px" : "0px"
                 }}
               />
             </div>
-
             <div
               css={{
                 position: "relative",
-                backgroundColor: "#f8f8f8",
                 padding: "16px 24px 24px 24px",
                 lineHeight: "20px",
                 overflow: "hidden"
               }}
             >
-              <h3>{this.props.name}</h3>
-              <h2 css={{ fontWeight: 500, paddingTop: "8px" }}>
+              <h3
+                css={{
+                  textTransform: "uppercase",
+                  fontWeight: "800",
+                  lineHeight: "28px"
+                }}
+              >
+                {this.props.name}
+              </h3>
+              <h2
+                css={{
+                  fontWeight: 500,
+                  paddingTop: "8px",
+                  lineHeight: "23px"
+                }}
+              >
                 {this.props.title}
               </h2>
               <div css={{ textOverflow: "hidden" }}>
@@ -75,8 +93,9 @@ class SpeakerCard extends Component {
                     transition: "1s",
                     marginBottom: this.state.learnMoreToggled
                       ? "0px"
-                      : "-200px",
-                    lineHeight: "20px"
+                      : "-278px",
+                    lineHeight: "1.43",
+                    color: this.state.learnMoreToggled ? "#000000" : "#565656"
                   }}
                 >
                   {this.props.description}

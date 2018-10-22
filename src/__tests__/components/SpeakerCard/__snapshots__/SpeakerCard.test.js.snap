@@ -4,16 +4,20 @@ exports[`SpeakerCard renders correctly 1`] = `
 <div
   css={
     Object {
+      "@media(min-width: 820px)": Object {
+        "paddingBottom": "112px",
+      },
       "marginLeft": "auto",
       "marginRight": "auto",
-      "maxWidth": "600px",
-      "paddingBottom": "112px",
+      "maxWidth": "416px",
+      "paddingBottom": "80px",
     }
   }
 >
   <div
     css={
       Object {
+        "background": "#ffffff",
         "borderRadius": "8px",
         "boxShadow": "0 4px 24px 0 rgba(185, 185, 185, 0.5)",
         "marginLeft": "13px",
@@ -30,25 +34,25 @@ exports[`SpeakerCard renders correctly 1`] = `
         }
       }
     >
-      <img
+      <div
         css={
           Object {
+            "background": "url(coolpic.png) no-repeat center center",
+            "backgroundSize": "cover",
             "borderTopLeftRadius": "inherit",
             "borderTopRightRadius": "inherit",
             "filter": "blur(0px)",
             "marginBottom": "0px",
+            "minHeight": "300px",
             "transition": "1s",
             "width": "100%",
           }
         }
-        src="coolpic.png"
-        width="100%"
       />
     </div>
     <div
       css={
         Object {
-          "backgroundColor": "#f8f8f8",
           "lineHeight": "20px",
           "overflow": "hidden",
           "padding": "16px 24px 24px 24px",
@@ -56,13 +60,22 @@ exports[`SpeakerCard renders correctly 1`] = `
         }
       }
     >
-      <h3>
+      <h3
+        css={
+          Object {
+            "fontWeight": "800",
+            "lineHeight": "28px",
+            "textTransform": "uppercase",
+          }
+        }
+      >
         Matthew Zeiler
       </h3>
       <h2
         css={
           Object {
             "fontWeight": 500,
+            "lineHeight": "23px",
             "paddingTop": "8px",
           }
         }
@@ -79,8 +92,9 @@ exports[`SpeakerCard renders correctly 1`] = `
         <p
           css={
             Object {
-              "lineHeight": "20px",
-              "marginBottom": "-200px",
+              "color": "#565656",
+              "lineHeight": "1.43",
+              "marginBottom": "-278px",
               "paddingBottom": "36px",
               "paddingTop": "24px",
               "textOverflow": "hidden",

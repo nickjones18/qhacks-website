@@ -11,6 +11,10 @@ exports[`Speakers renders correctly 1`] = `
   <h1
     css={
       Object {
+        "@media(max-width: 820px)": Object {
+          "paddingBottom": "24px",
+          "paddingTop": "66px",
+        },
         "paddingBottom": "48px",
         "paddingTop": "112px",
         "textAlign": "center",
@@ -22,11 +26,14 @@ exports[`Speakers renders correctly 1`] = `
   <div
     css={
       Object {
-        "@media(max-width: 920px)": Object {
-          "display": "block",
+        "@media(max-width: 820px)": Object {
+          "display": "none",
         },
         "display": "grid",
         "gridTemplateColumns": "1fr 1fr ",
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "maxWidth": 1000,
       }
     }
   >
@@ -43,6 +50,35 @@ exports[`Speakers renders correctly 1`] = `
       key="Noah Ifergan"
       name="Noah Ifergan"
       title="Founder and CEO of Clarifai"
+    />
+  </div>
+  <div
+    css={
+      Object {
+        "@media(min-width: 820px)": Object {
+          "display": "none",
+        },
+        "paddingBottom": "30px",
+      }
+    }
+  >
+    <SpeakerSlider
+      speakers={
+        Array [
+          Object {
+            "description": "Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and ya.",
+            "image": "test-file-stub",
+            "name": "Vinith Suriyakumar",
+            "title": "Founder and CEO of Clarifai",
+          },
+          Object {
+            "description": "Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and ya.",
+            "image": "test-file-stub",
+            "name": "Noah Ifergan",
+            "title": "Founder and CEO of Clarifai",
+          },
+        ]
+      }
     />
   </div>
 </div>
