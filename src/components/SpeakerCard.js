@@ -69,8 +69,9 @@ class SpeakerCard extends Component {
               <h3
                 css={{
                   textTransform: "uppercase",
-                  fontWeight: "800",
-                  lineHeight: "28px"
+                  fontWeight: 800,
+                  lineHeight: "28px",
+                  color: "#00205b"
                 }}
               >
                 {this.props.name}

@@ -37,13 +37,7 @@ export default () => (
           rel: "stylesheet",
           type: "text/css",
           href:
-            "https://fonts.googleapis.com/css?family=Encode+Sans:400,700,900,100,300"
-        },
-        {
-          rel: "stylesheet",
-          type: "text/css",
-          href:
-            "https://fonts.googleapis.com/css?family=Lato:400,700,900,100,300"
+            "https://fonts.googleapis.com/css?family=Encode+Sans:400,500,600,700,800"
         }
       ]}
     />

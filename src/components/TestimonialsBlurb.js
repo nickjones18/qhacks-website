@@ -9,7 +9,9 @@ const arrowStyle = {
 };
 
 const blurbStyle = {
-  lineHeight: "1.6"
+  lineHeight: "1.6",
+  fontWeight: 500,
+  fontSize: "20px"
 };
 
 const TestimonialsBlurb = (props) => (

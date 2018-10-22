@@ -1,10 +1,10 @@
 html,
 body {
   height: 100%;
-  font-family: "Encode Sans", "Lato", sans-serif;
+  font-family: "Encode Sans", sans-serif;
   font-size: 15px;
-  font-weight: 300;
-  color: #444;
+  font-weight: 400;
+  color: #000;
 }
 
 * {
@@ -21,7 +21,6 @@ h5,
 h6,
 button {
   font-family: "Encode Sans", sans-serif;
-  font-weight: bold;
 }
 
 input {
@@ -32,21 +31,23 @@ h1 {
   font-size: 32px;
   color: #00205b;
   letter-spacing: 0px;
+  font-weight: 700;
 }
 
 h2 {
   font-size: 20px;
   color: #000000;
   letter-spacing: 0px;
+  font-weight: 500;
 }
 
 h3 {
   font-size: 24px;
-  color: #00205b;
+  font-weight: 800;
 }
 
 p {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
 }
 

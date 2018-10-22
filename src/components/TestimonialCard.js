@@ -44,12 +44,14 @@ const TestimonialCard = (props) => (
           {props.item.name}
         </strong>
         <strong>
-          <span style={{ color: "#838383" }}>Project:</span>{" "}
-          {props.item.project}
+          <span style={{ color: "#838383", fontWeight: 600 }}>Project:</span>{" "}
+          <span style={{ color: "#00205b", fontWeight: 600 }}>
+            {props.item.project}
+          </span>
         </strong>
       </div>
     </div>
-    <p style={{ lineHeight: "1.6" }}>{props.item.text}</p>
+    <p style={{ lineHeight: "32px", fontSize: "15px" }}>{props.item.text}</p>
     <img
       src={quotes}
       style={{
