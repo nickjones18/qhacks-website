@@ -40,20 +40,49 @@ Utilize the scripts below in the root of the project to get started:
 
 `npm run format`
 
-**Run the test suite:**
+**Run the entire test suite:**
 
 `npm run test`
 
-**Run the test suite while watching changes:**
+**Run only the Jest tests:**
 
-`npm run test-watch`
+`npm run jest-tests`
 
-**Run the test suite with coverage data being sent to Coveralls:**
+**Run only the Jest tests in watch mode:**
 
-`npm run test-with-coverage`
+`npm run jest-tests-watch`
+
+**Run only the Jest tests and report coverage data to Coveralls:**
+
+`npm run jest-tests-with-coverage`
 
 > NOTE: You likely won't need to do this and it will fail because some
-> environment variables are required.
+> environment variables are required. We use this in our CI environment.
+
+**Run only the Cypress tests with server:**
+
+`npm run cypress-tests`
+
+>NOTE: This will start a server and host the website at the `baseURL` that
+>Cypress requires and shut down the server once all the testing is complete.
+
+**Open the Cypress test runner:**
+
+`npm run cypress-open`
+
+**Run only the Cypress tests without server:**
+
+`npm run cypress-run`
+
+>NOTE: To run this you must have the website being served to the `baseURL` set
+>in the Cypress config.
+
+**Run only the Cypress tests and record data to the Cypress dashboard:**
+
+`npm run cypress-run-record`
+
+> NOTE: You likely won't need to do this and it will fail because some
+> environment variables are required. We use this in our CI environment.
 
 ## Contributing
 
