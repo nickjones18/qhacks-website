@@ -46,6 +46,7 @@ const ActionButton = (props) => {
         ...commonStyles
       }}
       data-cy={props.dataCy}
+      onClick={props.onClick}
     >
       {props.children}
     </button>

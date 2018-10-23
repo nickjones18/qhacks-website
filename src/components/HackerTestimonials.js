@@ -29,12 +29,9 @@ const testimonials = [
 ];
 
 class HackerTestimonials extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      currentTestimonial: 0
-    };
-  }
+  state = {
+    currentTestimonial: 0
+  };
 
   nextTestimonial() {
     this.setState({

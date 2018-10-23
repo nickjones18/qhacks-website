@@ -1,57 +1,74 @@
-import React from "react";
+import React, { Component } from "react";
 import ActionButton from "./ActionButton";
 
-const SignUpForm = (props) => {
-  const commonStyles = {
-    fontSize: props.fontSize ? `${props.fontSize}px` : "16px",
-    borderRadius: "4px",
-    border: "none",
-    margin: "8px",
-    fontWeight: 500
+class SignUpForm extends Component {
+  state = {
+    status: null
   };
 
-  const buttonStyles = {
-    ...commonStyles,
-    marginLeft: "4px"
-  };
-
-  const fixButtonAlignment = props.fontSize
-    ? {
-      paddingBottom: "5px"
+  signUp() {
+    // Simulate a sign up request
+    this.setState({ status: "loading" });
+    const delay = Math.random() * 4000 + 2000;
+    if (Math.random() >= 0.5) {
+      setTimeout(() => this.setState({ status: "success" }), delay);
+    } else {
+      setTimeout(() => this.setState({ status: "failure" }), delay);
     }
-    : {};
+  }
 
-  return (
-    <div
-      css={{
-        textAlign: "center"
-      }}
-    >
-      <input
-        placeholder="Enter your email address"
-        type="text"
-        data-cy={props.dataCyInput}
+  render() {
+    const commonStyles = {
+      fontSize: this.props.fontSize ? `${this.props.fontSize}px` : "18px",
+      borderRadius: "4px",
+      border: "none",
+      margin: "8px"
+    };
+
+    const buttonStyles = {
+      ...commonStyles,
+      marginLeft: "4px"
+    };
+
+    const fixButtonAlignment = this.props.fontSize
+      ? {
+        paddingBottom: "5px"
+      }
+      : {};
+
+    return (
+      <div
         css={{
-          ...commonStyles,
-          marginRight: "4px",
-          width: "300px",
-          minWidth: "50%",
-          paddingLeft: "16px",
-          paddingRight: "16px",
-          height: "48px"
+          textAlign: "center"
         }}
-      />
-      <ActionButton
-        backgroundColor={props.backgroundColor || "white"}
-        foregroundColor={props.foregroundColor || "#00205b"}
-        type="rect"
-        style={{ buttonStyles, ...fixButtonAlignment }}
-        dataCy={props.dataCyButton || "signup-button"}
       >
-        Sign Up
-      </ActionButton>
-    </div>
-  );
-};
+        <input
+          placeholder="Enter your email address"
+          type="text"
+          css={{
+            ...commonStyles,
+            marginRight: "4px",
+            width: "300px",
+            minWidth: "50%",
+            paddingLeft: "16px",
+            paddingRight: "16px",
+            height: "48px"
+          }}
+          data-cy={props.dataCyInput}
+        />
+        <ActionButton
+          backgroundColor={this.props.backgroundColor || "white"}
+          foregroundColor={this.props.foregroundColor || "#00205b"}
+          type="rect"
+          style={{ buttonStyles, ...fixButtonAlignment }}
+          onClick={() => this.signUp()}
+          dataCy={props.dataCyButton || "signup-button"}
+        >
+          {this.state.status || "Sign Up"}
+        </ActionButton>
+      </div>
+    );
+  }
+}
 
 export default SignUpForm;

@@ -31,6 +31,7 @@ exports[`SignUpForm renders correctly 1`] = `
     backgroundColor="white"
     dataCy="signup-button"
     foregroundColor="#00205b"
+    onClick={[Function]}
     style={
       Object {
         "buttonStyles": Object {
