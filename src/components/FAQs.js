@@ -1,4 +1,5 @@
 import React from "react";
+import ContentWrapper from "./ContentWrapper";
 
 const questionsAndAnswers = [
   {
@@ -60,61 +61,66 @@ const linkCss = {
 
 const FAQs = () => (
   <div id="faq" css={{ backgroundColor: "#ffffff" }}>
-    <div
-      css={{
-        padding: "110px 180px 114px 180px",
-        "@media(max-width: 780px)": {
-          paddingLeft: "24px",
-          paddingRight: "24px",
-          paddingTop: "64px"
-        }
-      }}
-    >
-      <h1>Frequently Asked Questions</h1>
+    <ContentWrapper>
       <div
         css={{
-          paddingTop: "36px",
-          display: "grid",
-          gridTemplateColumns: "1fr 1fr",
-          "@media(max-width: 1190px)": {
-            display: "block"
+          padding: "110px 180px 114px 180px",
+          "@media(max-width: 780px)": {
+            paddingLeft: "24px",
+            paddingRight: "24px",
+            paddingTop: "64px"
           }
         }}
       >
-        {questionsAndAnswers.map(({ question, answer }) => (
-          <div
-            key={question}
-            css={{
-              padding: "0px 64px 40px 0px",
-              "@media(max-width: 780px)": {
-                paddingRight: "24px"
-              }
-            }}
-          >
-            <h2
+        <h1>Frequently Asked Questions</h1>
+        <div
+          css={{
+            paddingTop: "36px",
+            display: "grid",
+            gridTemplateColumns: "1fr 1fr",
+            "@media(max-width: 1190px)": {
+              display: "block"
+            }
+          }}
+        >
+          {questionsAndAnswers.map(({ question, answer }) => (
+            <div
+              key={question}
               css={{
-                paddingBottom: "10px",
-                fontWeight: "500"
+                padding: "0px 64px 40px 0px",
+                "@media(max-width: 780px)": {
+                  paddingRight: "24px"
+                }
               }}
             >
-              {question}
+              <h2
+                css={{
+                  paddingBottom: "10px",
+                  fontWeight: "500"
+                }}
+              >
+                {question}
+              </h2>
+              <p
+                css={{ fontSize: "14px", color: "#000000", lineHeight: "20px" }}
+              >
+                {answer}
+              </p>
+            </div>
+          ))}
+          <div css={{ paddingTop: "12px" }}>
+            <h2 css={{ paddingBottom: "10px", fontWeight: "500" }}>
+              Have additional questions?
             </h2>
             <p css={{ fontSize: "14px", color: "#000000", lineHeight: "20px" }}>
-              {answer}
+              Feel free to reach out to us at{" "}
+              <a css={linkCss}>hello@qhacks.io</a> or on{" "}
+              <a css={linkCss}>Facebook</a>
             </p>
           </div>
-        ))}
-        <div css={{ paddingTop: "12px" }}>
-          <h2 css={{ paddingBottom: "10px", fontWeight: "500" }}>
-            Have additional questions?
-          </h2>
-          <p css={{ fontSize: "14px", color: "#000000", lineHeight: "20px" }}>
-            Feel free to reach out to us at <a css={linkCss}>hello@qhacks.io</a>{" "}
-            or on <a css={linkCss}>Facebook</a>
-          </p>
         </div>
       </div>
-    </div>
+    </ContentWrapper>
   </div>
 );
 

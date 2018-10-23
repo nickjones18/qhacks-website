@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Menu from "./Menu";
 import MobileMenu from "./MobileMenu";
+import ContentWrapper from "./ContentWrapper";
 
 let prevScrollY = 0;
 
@@ -55,24 +56,26 @@ class Header extends Component {
             }
           }}
         >
-          <div
-            css={{
-              "@media(max-width:860px)": {
-                display: "grid",
-                gridTemplateColumns: "auto auto"
-              }
-            }}
-          >
-            <Menu
-              menuItems={this.props.menuItems}
-              imgCss={this.state.isLogoVisible}
-            />
-            <MobileMenu
-              menuItems={this.props.menuItems}
-              isMenuVisible={this.state.isMobileMenuVisible}
-              toggleMenu={this.onMobileMenuClicked}
-            />
-          </div>
+          <ContentWrapper>
+            <div
+              css={{
+                "@media(max-width:860px)": {
+                  display: "grid",
+                  gridTemplateColumns: "auto auto"
+                }
+              }}
+            >
+              <Menu
+                menuItems={this.props.menuItems}
+                imgCss={this.state.isLogoVisible}
+              />
+              <MobileMenu
+                menuItems={this.props.menuItems}
+                isMenuVisible={this.state.isMobileMenuVisible}
+                toggleMenu={this.onMobileMenuClicked}
+              />
+            </div>
+          </ContentWrapper>
         </div>
       </div>
     );

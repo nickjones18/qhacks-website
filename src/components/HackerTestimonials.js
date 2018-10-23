@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import TestimonialsBlurb from "./TestimonialsBlurb";
 import TestimonialList from "./TestimonialList.js";
 import placeholderHeadshot from "../assets/img/placeholderHeadshot.jpg";
+import ContentWrapper from "./ContentWrapper";
 
 const testimonials = [
   {
@@ -52,28 +53,30 @@ class HackerTestimonials extends Component {
 
   render() {
     return (
-      <div
-        id="testimonials"
-        style={{
-          height: "545px",
-          width: "100%",
-          overflowX: "hidden",
-          position: "relative"
-        }}
-      >
-        <TestimonialsBlurb
-          nextTestimonial={() => this.nextTestimonial()}
-          prevTestimonial={() => this.prevTestimonial()}
-          firstTestimonial={!this.state.currentTestimonial}
-          lastTestimonial={
-            this.state.currentTestimonial === testimonials.length - 1
-          }
-        />
-        <TestimonialList
-          currentTestimonial={this.state.currentTestimonial}
-          testimonials={testimonials}
-        />
-      </div>
+      <ContentWrapper>
+        <div
+          id="testimonials"
+          style={{
+            height: "545px",
+            width: "100%",
+            overflowX: "hidden",
+            position: "relative"
+          }}
+        >
+          <TestimonialsBlurb
+            nextTestimonial={() => this.nextTestimonial()}
+            prevTestimonial={() => this.prevTestimonial()}
+            firstTestimonial={!this.state.currentTestimonial}
+            lastTestimonial={
+              this.state.currentTestimonial === testimonials.length - 1
+            }
+          />
+          <TestimonialList
+            currentTestimonial={this.state.currentTestimonial}
+            testimonials={testimonials}
+          />
+        </div>
+      </ContentWrapper>
     );
   }
 }
