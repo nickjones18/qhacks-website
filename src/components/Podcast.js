@@ -77,6 +77,7 @@ const Podcast = () => (
             type="rounded"
             foregroundColor="#00205b"
             backgroundColor="#ffffff"
+            dataCy="listen-button"
           >
             Listen
           </ActionButton>

@@ -55,10 +55,11 @@ const Landing = () => (
           }
         }}
       >
-        <img src={logo} width="200px" />
+        <img src={logo} data-cy="qhacks-crown" width="200px" />
         <br />
         <img
           src={word}
+          data-cy="qhacks-wordmark"
           css={{
             paddingTop: "72px",
             paddingBottom: "24px",
@@ -66,10 +67,11 @@ const Landing = () => (
             maxWidth: "300px"
           }}
         />
-        <h2 css={{ color: "#00205b", fontWeight: 600 }}>
+        <h2 data-cy="qhacks-information" css={{ color: "#00205b", fontWeight: 600 }}>
           Queen’s University • February 1-3, 2019
         </h2>
         <h2
+          data-cy="qhacks-tagline"
           css={{
             paddingTop: "72px",
             color: "#575757",
@@ -85,6 +87,7 @@ const Landing = () => (
           foregroundColor="#00205b"
           style={loginButtonCSS}
           type="rounded"
+          dataCy="login-button"
         >
           Login
         </ActionButton>

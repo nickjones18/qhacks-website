@@ -8,6 +8,7 @@ const ActionButton = (props) => {
     paddingRight: "55px",
     height: "48px"
   };
+
   const rectStyles = {
     borderRadius: "4px",
     border: "none",
@@ -15,6 +16,7 @@ const ActionButton = (props) => {
     paddingRight: "25px",
     height: "48px"
   };
+
   let commonStyles = {
     ...props.style,
     textTransform: "uppercase",
@@ -27,6 +29,7 @@ const ActionButton = (props) => {
       color: props.backgroundColor
     }
   };
+
   switch (props.type) {
   case "rounded":
     commonStyles = { ...commonStyles, ...roundedStyles };
@@ -35,11 +38,13 @@ const ActionButton = (props) => {
     commonStyles = { ...commonStyles, ...rectStyles };
     break;
   }
+
   return (
     <button
       css={{
         ...commonStyles
       }}
+      data-cy={props.dataCy}
     >
       {props.children}
     </button>

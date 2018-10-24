@@ -54,6 +54,7 @@ exports[`Landing renders correctly 1`] = `
       }
     >
       <img
+        data-cy="qhacks-crown"
         src="test-file-stub"
         width="200px"
       />
@@ -67,6 +68,7 @@ exports[`Landing renders correctly 1`] = `
             "width": "100vw",
           }
         }
+        data-cy="qhacks-wordmark"
         src="test-file-stub"
       />
       <h2
@@ -76,6 +78,7 @@ exports[`Landing renders correctly 1`] = `
             "fontWeight": 600,
           }
         }
+        data-cy="qhacks-information"
       >
         Queen’s University • February 1-3, 2019
       </h2>
@@ -88,6 +91,7 @@ exports[`Landing renders correctly 1`] = `
             "paddingTop": "72px",
           }
         }
+        data-cy="qhacks-tagline"
       >
         Canada’s largest hardware hackathon. 
         <br />
@@ -95,6 +99,7 @@ exports[`Landing renders correctly 1`] = `
       </h2>
       <ActionButton
         backgroundColor="#ffffff"
+        dataCy="login-button"
         foregroundColor="#00205b"
         style={
           Object {
