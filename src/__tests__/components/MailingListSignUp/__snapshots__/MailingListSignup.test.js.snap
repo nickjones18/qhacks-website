@@ -27,10 +27,14 @@ exports[`MailingListSignup renders correctly 1`] = `
           "textAlign": "center",
         }
       }
+      data-cy="mailing-list-cta"
     >
       Sign up for our mailing list to receive important QHacks announcements!
     </p>
-    <SignUpForm />
+    <SignUpForm
+      dataCyButton="mailing-list-signup-button"
+      dataCyInput="mailing-list-input"
+    />
   </div>
 </div>
 `;

@@ -99,6 +99,7 @@ exports[`Podcast renders correctly 1`] = `
         </p>
         <ActionButton
           backgroundColor="#ffffff"
+          dataCy="listen-button"
           foregroundColor="#00205b"
           type="rounded"
         >
