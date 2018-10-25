@@ -60,6 +60,7 @@ const Landing = () => (
           }}
         >
           <img
+            data-cy="qhacks-crown"
             src={logo}
             width="170px"
             css={{ "@media(max-width: 820px)": { display: "none" } }}
@@ -74,6 +75,7 @@ const Landing = () => (
           />
           <br />
           <img
+            data-cy="qhacks-wordmark"
             src={word}
             css={{
               paddingTop: "72px",
@@ -88,6 +90,7 @@ const Landing = () => (
             }}
           />
           <h2
+            data-cy="qhacks-information"
             css={{
               color: "#00205b",
               fontWeight: 600,
@@ -100,6 +103,7 @@ const Landing = () => (
             Queen’s University • February 1-3, 2019
           </h2>
           <img
+            data-cy="mlh-banner"
             src={banner}
             css={{
               width: "189px",
@@ -107,6 +111,7 @@ const Landing = () => (
             }}
           />
           <h2
+            data-cy="qhacks-tagline"
             css={{
               paddingTop: "40px",
               color: "#575757",
@@ -123,6 +128,7 @@ const Landing = () => (
             Join us for an unforgettable experience.
           </h2>
           <ActionButton
+            dataCy="login-button"
             backgroundColor="#ffffff"
             foregroundColor="#00205b"
             style={loginButtonCSS}

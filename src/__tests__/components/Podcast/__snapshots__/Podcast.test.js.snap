@@ -16,16 +16,16 @@ exports[`Podcast renders correctly 1`] = `
       }
     }
   >
-    <div
-      css={
-        Object {
-          "borderTop": "solid red 10px",
-          "bottom": "314px",
-          "position": "absolute",
-        }
-      }
-    />
     <_default>
+      <div
+        css={
+          Object {
+            "borderTop": "solid red 10px",
+            "bottom": "314px",
+            "position": "absolute",
+          }
+        }
+      />
       <div
         css={
           Object {
@@ -100,6 +100,7 @@ exports[`Podcast renders correctly 1`] = `
           </p>
           <ActionButton
             backgroundColor="#ffffff"
+            dataCy="listen-button"
             foregroundColor="#00205b"
             type="rounded"
           >

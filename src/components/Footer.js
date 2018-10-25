@@ -1,4 +1,5 @@
 import React from "react";
+import moment from "moment";
 import logo from "../assets/img/whiteLogo.svg";
 import wordmark from "../assets/img/whiteWordmark.svg";
 import SignUpForm from "../components/SignUpForm";
@@ -9,13 +10,30 @@ import twitter from "../assets/img/twitter.svg";
 import ContentWrapper from "./ContentWrapper";
 
 const navigateLinks = [
-  { label: "QHacks 2018", url: "https://2018.qhacks.io" },
-  { label: "Local Hack Day", url: "https://localhackday.mlh.io/" },
-  { label: "QHacks Blog", url: "https://medium.com/qhacks" },
-  { label: "QHacks Dashboard", url: "https://app.qhacks.io" },
+  {
+    label: "QHacks 2018",
+    url: "https://2018.qhacks.io",
+    dataCy: "footer-2018-link"
+  },
+  {
+    label: "Local Hack Day",
+    url: "https://localhackday.mlh.io/",
+    dataCy: "footer-lhd-link"
+  },
+  {
+    label: "QHacks Blog",
+    url: "https://medium.com/qhacks",
+    dataCy: "footer-blog-link"
+  },
+  {
+    label: "QHacks Dashboard",
+    url: "https://app.qhacks.io",
+    dataCy: "footer-dashboard-link"
+  },
   {
     label: "MLH Code of Conduct",
-    url: "https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
+    url: "https://static.mlh.io/docs/mlh-code-of-conduct.pdf",
+    dataCy: "footer-mlh-code-of-conduct-link"
   }
 ];
 
@@ -23,22 +41,26 @@ const socialLinks = [
   {
     icon: mail,
     url: "mailto:hello@qhacks.io",
-    label: "hello@qhacks.io"
+    label: "hello@qhacks.io",
+    dataCy: "footer-email-link"
   },
   {
     icon: twitter,
     url: "https://twitter.com/qhacks19",
-    label: "Follow us on Twitter"
+    label: "Follow us on Twitter",
+    dataCy: "footer-twitter-link"
   },
   {
     icon: facebook,
     url: "https://fb.com/qhacks",
-    label: "Like us on Facebook"
+    label: "Like us on Facebook",
+    dataCy: "footer-facebook-link"
   },
   {
     icon: instagram,
     url: "https://instagram.com/qhacks19",
-    label: "Follow us on Instagram"
+    label: "Follow us on Instagram",
+    dataCy: "footer-instagram-link"
   }
 ];
 
@@ -129,22 +151,30 @@ const Footer = () => (
               fontSize={14}
               backgroundColor="#c81c2e"
               foregroundColor="white"
+              dataCy="footer-signup-button"
             />
           </div>
           <div css={{ "@media(max-width: 840px)": { display: "none" } }}>
-            <p css={{ ...finePrint, paddingBottom: "6px" }}>
+            <p
+              data-cy="footer-address"
+              css={{ ...finePrint, paddingBottom: "6px" }}
+            >
               Queen&#39;s University | 99 University Ave, Kingston, ON
             </p>
-            <p css={{ ...finePrint, paddingBottom: "6px" }}>
+            <p
+              data-cy="footer-dev-plug"
+              css={{ ...finePrint, paddingBottom: "6px" }}
+            >
               {"< />"} with ♡ by Queen&#39;s students
             </p>
             <p
+              data-cy="footer-copyright-notice"
               css={{
                 ...finePrint,
                 paddingBottom: "32px"
               }}
             >
-              Copyright © 2018 QHacks
+              Copyright © {moment().year()} QHacks
             </p>
           </div>
         </div>
@@ -175,9 +205,9 @@ const Footer = () => (
               }
             }}
           >
-            {navigateLinks.map(({ label, url }) => (
+            {navigateLinks.map(({ label, url, dataCy }) => (
               <li key={url}>
-                <a href={url}>{`${label} ▸`}</a>
+                <a href={url} data-cy={dataCy}>{`${label} ▸`}</a>
               </li>
             ))}
           </ul>
@@ -216,7 +246,7 @@ const Footer = () => (
               }
             }}
           >
-            {socialLinks.map(({ icon, label, url }) => (
+            {socialLinks.map(({ icon, label, url, dataCy }) => (
               <div
                 key={url}
                 css={{
@@ -259,7 +289,11 @@ const Footer = () => (
                     }}
                   />
                 </a>
-                <a css={{ [smallerScreens]: { display: "none" } }} href={url}>
+                <a
+                  css={{ [smallerScreens]: { display: "none" } }}
+                  href={url}
+                  data-cy={dataCy}
+                >
                   {label}
                 </a>
               </div>
@@ -267,14 +301,23 @@ const Footer = () => (
           </div>
         </div>
         <div css={{ [largerScreens]: { display: "none" } }}>
-          <p css={{ ...finePrint, paddingBottom: "6px" }}>
+          <p
+            data-cy="footer-address"
+            css={{ ...finePrint, paddingBottom: "6px" }}
+          >
             Queen&#39;s University | 99 University Ave, Kingston, ON
           </p>
-          <p css={{ ...finePrint, paddingBottom: "6px" }}>
+          <p
+            data-cy="footer-dev-plug"
+            css={{ ...finePrint, paddingBottom: "6px" }}
+          >
             {"< />"} with ♡ by Queen&#39;s students
           </p>
-          <p css={{ ...finePrint, paddingBottom: "32px" }}>
-            Copyright © 2018 QHacks
+          <p
+            data-cy="footer-copyright-notice"
+            css={{ ...finePrint, paddingBottom: "32px" }}
+          >
+            Copyright © {moment().year()} QHacks
           </p>
         </div>
       </div>

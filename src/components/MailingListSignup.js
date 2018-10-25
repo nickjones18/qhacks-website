@@ -18,6 +18,7 @@ const MailingListSignup = (props) => (
   >
     <div>
       <p
+        data-cy="mailing-list-cta"
         css={{
           fontWeight: "bold",
           marginBottom: "28px",
@@ -28,7 +29,7 @@ const MailingListSignup = (props) => (
       >
         Sign up for our mailing list to receive important QHacks announcements!
       </p>
-      <SignUpForm />
+      <SignUpForm dataCyInput="mailing-list-input" dataCyButton="mailing-list-signup-button" />
     </div>
   </div>
 );

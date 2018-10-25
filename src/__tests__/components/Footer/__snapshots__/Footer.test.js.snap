@@ -99,6 +99,7 @@ exports[`Footer renders correctly 1`] = `
         >
           <SignUpForm
             backgroundColor="#c81c2e"
+            dataCy="footer-signup-button"
             fontSize={14}
             foregroundColor="white"
           />
@@ -120,6 +121,7 @@ exports[`Footer renders correctly 1`] = `
                 "paddingBottom": "6px",
               }
             }
+            data-cy="footer-address"
           >
             Queen's University | 99 University Ave, Kingston, ON
           </p>
@@ -131,6 +133,7 @@ exports[`Footer renders correctly 1`] = `
                 "paddingBottom": "6px",
               }
             }
+            data-cy="footer-dev-plug"
           >
             &lt; /&gt;
              with ♡ by Queen's students
@@ -143,8 +146,11 @@ exports[`Footer renders correctly 1`] = `
                 "paddingBottom": "32px",
               }
             }
+            data-cy="footer-copyright-notice"
           >
-            Copyright © 2018 QHacks
+            Copyright © 
+            2018
+             QHacks
           </p>
         </div>
       </div>
@@ -187,6 +193,7 @@ exports[`Footer renders correctly 1`] = `
             key="https://2018.qhacks.io"
           >
             <a
+              data-cy="footer-2018-link"
               href="https://2018.qhacks.io"
             >
               QHacks 2018 ▸
@@ -196,6 +203,7 @@ exports[`Footer renders correctly 1`] = `
             key="https://localhackday.mlh.io/"
           >
             <a
+              data-cy="footer-lhd-link"
               href="https://localhackday.mlh.io/"
             >
               Local Hack Day ▸
@@ -205,6 +213,7 @@ exports[`Footer renders correctly 1`] = `
             key="https://medium.com/qhacks"
           >
             <a
+              data-cy="footer-blog-link"
               href="https://medium.com/qhacks"
             >
               QHacks Blog ▸
@@ -214,6 +223,7 @@ exports[`Footer renders correctly 1`] = `
             key="https://app.qhacks.io"
           >
             <a
+              data-cy="footer-dashboard-link"
               href="https://app.qhacks.io"
             >
               QHacks Dashboard ▸
@@ -223,6 +233,7 @@ exports[`Footer renders correctly 1`] = `
             key="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
           >
             <a
+              data-cy="footer-mlh-code-of-conduct-link"
               href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
             >
               MLH Code of Conduct ▸
@@ -335,6 +346,7 @@ exports[`Footer renders correctly 1`] = `
                   },
                 }
               }
+              data-cy="footer-email-link"
               href="mailto:hello@qhacks.io"
             >
               hello@qhacks.io
@@ -397,6 +409,7 @@ exports[`Footer renders correctly 1`] = `
                   },
                 }
               }
+              data-cy="footer-twitter-link"
               href="https://twitter.com/qhacks19"
             >
               Follow us on Twitter
@@ -459,6 +472,7 @@ exports[`Footer renders correctly 1`] = `
                   },
                 }
               }
+              data-cy="footer-facebook-link"
               href="https://fb.com/qhacks"
             >
               Like us on Facebook
@@ -521,6 +535,7 @@ exports[`Footer renders correctly 1`] = `
                   },
                 }
               }
+              data-cy="footer-instagram-link"
               href="https://instagram.com/qhacks19"
             >
               Follow us on Instagram
@@ -545,6 +560,7 @@ exports[`Footer renders correctly 1`] = `
               "paddingBottom": "6px",
             }
           }
+          data-cy="footer-address"
         >
           Queen's University | 99 University Ave, Kingston, ON
         </p>
@@ -556,6 +572,7 @@ exports[`Footer renders correctly 1`] = `
               "paddingBottom": "6px",
             }
           }
+          data-cy="footer-dev-plug"
         >
           &lt; /&gt;
            with ♡ by Queen's students
@@ -568,8 +585,11 @@ exports[`Footer renders correctly 1`] = `
               "paddingBottom": "32px",
             }
           }
+          data-cy="footer-copyright-notice"
         >
-          Copyright © 2018 QHacks
+          Copyright © 
+          2018
+           QHacks
         </p>
       </div>
     </div>

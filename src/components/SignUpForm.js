@@ -29,6 +29,7 @@ const SignUpForm = (props) => {
       <input
         placeholder="Enter your email address"
         type="text"
+        data-cy={props.dataCyInput}
         css={{
           ...commonStyles,
           marginRight: "4px",
@@ -44,6 +45,7 @@ const SignUpForm = (props) => {
         foregroundColor={props.foregroundColor || "#00205b"}
         type="rect"
         style={{ buttonStyles, ...fixButtonAlignment }}
+        dataCy={props.dataCyButton || "signup-button"}
       >
         Sign Up
       </ActionButton>

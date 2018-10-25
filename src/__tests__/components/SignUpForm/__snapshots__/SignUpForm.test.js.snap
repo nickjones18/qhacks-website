@@ -28,6 +28,7 @@ exports[`SignUpForm renders correctly 1`] = `
   />
   <ActionButton
     backgroundColor="white"
+    dataCy="signup-button"
     foregroundColor="#00205b"
     style={
       Object {

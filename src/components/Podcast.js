@@ -18,14 +18,14 @@ const Podcast = () => (
         position: "relative"
       }}
     >
-      <div
-        css={{
-          borderTop: "solid red 10px",
-          position: "absolute",
-          bottom: "314px"
-        }}
-      />
       <ContentWrapper>
+        <div
+          css={{
+            borderTop: "solid red 10px",
+            position: "absolute",
+            bottom: "314px"
+          }}
+        />
         <div
           css={{
             position: "relative",
@@ -79,6 +79,7 @@ const Podcast = () => (
               type="rounded"
               foregroundColor="#00205b"
               backgroundColor="#ffffff"
+              dataCy="listen-button"
             >
               Listen
             </ActionButton>
