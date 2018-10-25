@@ -155,7 +155,7 @@ exports[`Footer renders correctly 1`] = `
             }
             data-cy="footer-copyright-notice"
           >
-            Copyright © 
+            Copyright ©
             2018
              QHacks
           </p>
@@ -594,7 +594,7 @@ exports[`Footer renders correctly 1`] = `
           }
           data-cy="footer-copyright-notice"
         >
-          Copyright © 
+          Copyright ©
           2018
            QHacks
         </p>

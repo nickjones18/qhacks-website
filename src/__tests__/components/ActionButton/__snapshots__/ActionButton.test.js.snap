@@ -4,23 +4,27 @@ exports[`ActionButton renders correctly 1`] = `
 <button
   css={
     Object {
-      ":hover": Object {
+      ":hover:not(:disabled)": Object {
         "backgroundColor": "#ffffff",
         "color": "#000000",
         "transition": "0.5s ease",
       },
+      "alignItems": "center",
       "backgroundColor": "#000000",
       "border": "none",
       "borderRadius": "4px",
       "color": "#ffffff",
+      "display": "flex",
       "fontSize": "18px",
       "fontWeight": 700,
       "height": "48px",
+      "justifyContent": "center",
       "margin": "10px",
       "padding": "10px",
       "paddingLeft": "25px",
       "paddingRight": "25px",
       "textTransform": "uppercase",
+      "width": undefined,
     }
   }
 />
@@ -30,23 +34,27 @@ exports[`ActionButton renders correctly 2`] = `
 <button
   css={
     Object {
-      ":hover": Object {
+      ":hover:not(:disabled)": Object {
         "backgroundColor": "#ffffff",
         "color": "#000000",
         "transition": "0.5s ease",
       },
+      "alignItems": "center",
       "backgroundColor": "#000000",
       "border": "solid 2px #ffffff",
       "borderRadius": "28px",
       "color": "#ffffff",
+      "display": "flex",
       "fontSize": "18px",
       "fontWeight": 700,
       "height": "48px",
+      "justifyContent": "center",
       "margin": "10px",
       "padding": "10px",
       "paddingLeft": "55px",
       "paddingRight": "55px",
       "textTransform": "uppercase",
+      "width": undefined,
     }
   }
 />

@@ -24,14 +24,14 @@ describe("Mailing List Signup", () => {
       .should("have.value", "test@test.com");
   });
 
-  it("succesfully adds someone to the mailing list", () => {
-    cy.get("[data-cy=mailing-list-input]").type("test@test.com");
-    cy.get("[data-cy=mailing-list-signup-button]").click();
+  // it("succesfully adds someone to the mailing list", () => {
+  //   cy.get("[data-cy=mailing-list-input]").type("test@test.com");
+  //   cy.get("[data-cy=mailing-list-button]").click();
 
-    // test for the success message
-    // need to figure out how to handle test db
-    // potentially stub but hitting a real server is true E2E testing
-  });
+  //   // test for the success message
+  //   // need to figure out how to handle test db
+  //   // potentially stub but hitting a real server is true E2E testing
+  // });
 
   // continue to test other states:
   // failure from server

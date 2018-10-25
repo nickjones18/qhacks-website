@@ -5,28 +5,31 @@ const ActionButton = (props) => {
     borderRadius: "28px",
     border: `solid 2px ${props.foregroundColor}`,
     paddingLeft: "55px",
-    paddingRight: "55px",
-    height: "48px"
+    paddingRight: "55px"
   };
 
   const rectStyles = {
     borderRadius: "4px",
     border: "none",
     paddingLeft: "25px",
-    paddingRight: "25px",
-    height: "48px"
+    paddingRight: "25px"
   };
 
   let commonStyles = {
     ...props.style,
+    height: "48px",
+    width: props.width,
     textTransform: "uppercase",
     backgroundColor: props.backgroundColor,
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
     color: props.foregroundColor,
     fontSize: "18px",
     fontWeight: 700,
-    ":hover": {
+    ":hover:not(:disabled)": {
       transition: "0.5s ease",
-      backgroundColor: props.foregroundColor,
+      backgroundColor: props.hoverBackgroundColor || props.foregroundColor,
       color: props.backgroundColor
     }
   };
@@ -46,6 +49,7 @@ const ActionButton = (props) => {
         ...commonStyles
       }}
       data-cy={props.dataCy}
+      disabled={props.disabled}
       onClick={props.onClick}
     >
       {props.children}
