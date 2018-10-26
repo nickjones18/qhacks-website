@@ -75,6 +75,7 @@ exports[`Landing renders correctly 1`] = `
         css={
           Object {
             "color": "#00205b",
+            "fontSize": "22px",
             "fontWeight": 600,
           }
         }

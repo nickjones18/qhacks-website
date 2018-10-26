@@ -21,7 +21,7 @@ exports[`MailingListSignup renders correctly 1`] = `
       css={
         Object {
           "fontSize": "22px",
-          "fontWeight": "bold",
+          "fontWeight": 700,
           "lineHeight": "28px",
           "marginBottom": "28px",
           "textAlign": "center",

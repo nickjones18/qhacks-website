@@ -63,7 +63,8 @@ exports[`SpeakerCard renders correctly 1`] = `
       <h3
         css={
           Object {
-            "fontWeight": "800",
+            "color": "#00205b",
+            "fontWeight": 800,
             "lineHeight": "28px",
             "textTransform": "uppercase",
           }

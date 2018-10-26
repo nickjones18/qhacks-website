@@ -46,7 +46,7 @@ class Header extends Component {
             top: this.state.isHeaderVisible ? "0px" : "-100px",
             transition: "0.5s",
             backgroundColor: "#ffffff",
-            opacity: this.state.isMobileMenuVisible ? "1.0" : "0.8",
+            opacity: this.state.isMobileMenuVisible ? "1.0" : "0.95",
             zIndex: "3",
             "@media(min-width:820px)": {
               backgroundColor: this.state.isAtTheTop

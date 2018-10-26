@@ -5,15 +5,16 @@ exports[`Footer renders correctly 1`] = `
   css={
     Object {
       "backgroundColor": "#11213f",
-      "color": "#f1f1f1",
+      "color": "#ffffff",
     }
   }
 >
   <div
     css={
       Object {
-        " h2": Object {
+        " h3": Object {
           "color": "inherit",
+          "fontSize": "20px",
           "textTransform": "uppercase",
         },
         "@media(max-width: 840px)": Object {
@@ -67,9 +68,9 @@ exports[`Footer renders correctly 1`] = `
       >
         QHacks was first held in 2016 with a mission to advocate and incubate the tech community at Queen's University and throughout Canada. Going into our third year, we have been rapidly growing to become one of the most exciting hackathons in North America. Regardless of your experience, QHacks should be a place where you realize your fullest potential.
       </p>
-      <h2>
+      <h3>
         Stay Connected
-      </h2>
+      </h3>
       <p
         css={
           Object {
@@ -166,9 +167,9 @@ exports[`Footer renders correctly 1`] = `
         }
       }
     >
-      <h2>
+      <h3>
         Navigate
-      </h2>
+      </h3>
       <ul
         css={
           Object {
@@ -177,7 +178,7 @@ exports[`Footer renders correctly 1`] = `
                 "color": "#ed253a",
               },
               "color": "inherit",
-              "fontWeight": "bold",
+              "fontWeight": 600,
               "textDecoration": "none",
             },
             ">li": Object {
@@ -251,7 +252,7 @@ exports[`Footer renders correctly 1`] = `
         }
       }
     >
-      <h2
+      <h3
         css={
           Object {
             "@media (max-width: 840px)": Object {
@@ -261,13 +262,13 @@ exports[`Footer renders correctly 1`] = `
         }
       >
         Get in touch
-      </h2>
+      </h3>
       <div
         css={
           Object {
             " a": Object {
               "color": "inherit",
-              "fontWeight": "bold",
+              "fontWeight": 600,
               "textAlign": "left",
               "textDecoration": "none",
             },

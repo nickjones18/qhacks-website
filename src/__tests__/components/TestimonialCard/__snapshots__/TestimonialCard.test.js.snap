@@ -64,20 +64,31 @@ exports[`TestimonialCard0 renders correctly 1`] = `
           style={
             Object {
               "color": "#838383",
+              "fontWeight": 600,
             }
           }
         >
           Project:
         </span>
          
-        Dolores
+        <span
+          style={
+            Object {
+              "color": "#00205b",
+              "fontWeight": 600,
+            }
+          }
+        >
+          Dolores
+        </span>
       </strong>
     </div>
   </div>
   <p
     style={
       Object {
-        "lineHeight": "1.6",
+        "fontSize": "15px",
+        "lineHeight": "32px",
       }
     }
   >
@@ -160,20 +171,31 @@ exports[`TestimonialCard1 renders correctly 1`] = `
           style={
             Object {
               "color": "#838383",
+              "fontWeight": 600,
             }
           }
         >
           Project:
         </span>
          
-        Test1
+        <span
+          style={
+            Object {
+              "color": "#00205b",
+              "fontWeight": 600,
+            }
+          }
+        >
+          Test1
+        </span>
       </strong>
     </div>
   </div>
   <p
     style={
       Object {
-        "lineHeight": "1.6",
+        "fontSize": "15px",
+        "lineHeight": "32px",
       }
     }
   >

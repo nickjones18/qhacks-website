@@ -21,7 +21,8 @@ exports[`SellingPointsIcons renders correctly 1`] = `
     <div
       css={
         Object {
-          "fontWeight": "bold",
+          "fontSize": "24px",
+          "fontWeight": 600,
           "padding": "6px 0",
         }
       }
@@ -29,7 +30,14 @@ exports[`SellingPointsIcons renders correctly 1`] = `
       1800
       +
     </div>
-    <div>
+    <div
+      css={
+        Object {
+          "fontSize": "14px",
+          "fontWeight": 500,
+        }
+      }
+    >
       Applications
     </div>
   </div>
@@ -42,7 +50,8 @@ exports[`SellingPointsIcons renders correctly 1`] = `
     <div
       css={
         Object {
-          "fontWeight": "bold",
+          "fontSize": "24px",
+          "fontWeight": 600,
           "padding": "6px 0",
         }
       }
@@ -50,7 +59,14 @@ exports[`SellingPointsIcons renders correctly 1`] = `
       25
       +
     </div>
-    <div>
+    <div
+      css={
+        Object {
+          "fontSize": "14px",
+          "fontWeight": 500,
+        }
+      }
+    >
       Schools
     </div>
   </div>
@@ -63,7 +79,8 @@ exports[`SellingPointsIcons renders correctly 1`] = `
     <div
       css={
         Object {
-          "fontWeight": "bold",
+          "fontSize": "24px",
+          "fontWeight": 600,
           "padding": "6px 0",
         }
       }
@@ -71,7 +88,14 @@ exports[`SellingPointsIcons renders correctly 1`] = `
       500
       +
     </div>
-    <div>
+    <div
+      css={
+        Object {
+          "fontSize": "14px",
+          "fontWeight": 500,
+        }
+      }
+    >
       Hackers
     </div>
   </div>
