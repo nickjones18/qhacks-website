@@ -17,9 +17,13 @@ exports[`Footer renders correctly 1`] = `
             "color": "inherit",
             "textTransform": "uppercase",
           },
-          "@media(max-width: 840px)": Object {
+          "@media(max-width: 950px)": Object {
             "display": "block",
             "textAlign": "center",
+          },
+          "@media(min-width: 950px)": Object {
+            "marginLeft": "80px",
+            "marginRight": "80px",
           },
           "display": "grid",
           "gridTemplateColumns": "auto auto auto",
@@ -30,8 +34,10 @@ exports[`Footer renders correctly 1`] = `
       <div
         css={
           Object {
-            "marginLeft": "auto",
-            "marginRight": "auto",
+            "@media(max-width: 950px)": Object {
+              "marginLeft": "auto",
+              "marginRight": "auto",
+            },
             "maxWidth": "455px",
           }
         }
@@ -55,13 +61,14 @@ exports[`Footer renders correctly 1`] = `
         <p
           css={
             Object {
-              "@media(max-width: 840px)": Object {
+              "@media(max-width: 950px)": Object {
                 "paddingLeft": "24px",
                 "paddingRight": "24px",
               },
               "fontSize": "12px",
               "lineHeight": "1.67",
               "paddingBottom": "40px",
+              "paddingRight": "20px",
               "paddingTop": "40px",
             }
           }
@@ -86,7 +93,7 @@ exports[`Footer renders correctly 1`] = `
         <div
           css={
             Object {
-              "@media(max-width: 840px)": Object {
+              "@media(max-width: 950px)": Object {
                 "marginLeft": "0px",
               },
               "alignItems": "left",
@@ -157,7 +164,7 @@ exports[`Footer renders correctly 1`] = `
       <div
         css={
           Object {
-            "@media(max-width: 840px)": Object {
+            "@media(max-width: 950px)": Object {
               "paddingBottom": "50px",
               "paddingTop": "0px",
             },
@@ -244,7 +251,7 @@ exports[`Footer renders correctly 1`] = `
       <div
         css={
           Object {
-            "@media(min-width: 840px)": Object {
+            "@media(min-width: 950px)": Object {
               "paddingTop": "80px",
             },
             "marginLeft": "auto",
@@ -275,7 +282,7 @@ exports[`Footer renders correctly 1`] = `
               ">div": Object {
                 "paddingBottom": "18px",
               },
-              "@media(max-width: 840px)": Object {
+              "@media(max-width: 950px)": Object {
                 "gridTemplateColumns": "1fr 1fr 1fr 1fr",
                 "marginLeft": "auto",
                 "marginRight": "auto",
@@ -300,7 +307,7 @@ exports[`Footer renders correctly 1`] = `
                     "color": "#ed253a",
                   },
                 },
-                "@media(max-width: 840px)": Object {
+                "@media(max-width: 950px)": Object {
                   "display": "block",
                   "height": "40px",
                   "marginLeft": "auto",
@@ -323,7 +330,7 @@ exports[`Footer renders correctly 1`] = `
                     ":hover": Object {
                       "backgroundColor": "#ed253a",
                     },
-                    "@media(max-width: 840px)": Object {
+                    "@media(max-width: 950px)": Object {
                       "height": "40px",
                       "width": "40px",
                     },
@@ -341,7 +348,7 @@ exports[`Footer renders correctly 1`] = `
             <a
               css={
                 Object {
-                  "@media(max-width: 840px)": Object {
+                  "@media(max-width: 950px)": Object {
                     "display": "none",
                   },
                 }
@@ -363,7 +370,7 @@ exports[`Footer renders correctly 1`] = `
                     "color": "#ed253a",
                   },
                 },
-                "@media(max-width: 840px)": Object {
+                "@media(max-width: 950px)": Object {
                   "display": "block",
                   "height": "40px",
                   "marginLeft": "auto",
@@ -386,7 +393,7 @@ exports[`Footer renders correctly 1`] = `
                     ":hover": Object {
                       "backgroundColor": "#ed253a",
                     },
-                    "@media(max-width: 840px)": Object {
+                    "@media(max-width: 950px)": Object {
                       "height": "40px",
                       "width": "40px",
                     },
@@ -404,7 +411,7 @@ exports[`Footer renders correctly 1`] = `
             <a
               css={
                 Object {
-                  "@media(max-width: 840px)": Object {
+                  "@media(max-width: 950px)": Object {
                     "display": "none",
                   },
                 }
@@ -426,7 +433,7 @@ exports[`Footer renders correctly 1`] = `
                     "color": "#ed253a",
                   },
                 },
-                "@media(max-width: 840px)": Object {
+                "@media(max-width: 950px)": Object {
                   "display": "block",
                   "height": "40px",
                   "marginLeft": "auto",
@@ -449,7 +456,7 @@ exports[`Footer renders correctly 1`] = `
                     ":hover": Object {
                       "backgroundColor": "#ed253a",
                     },
-                    "@media(max-width: 840px)": Object {
+                    "@media(max-width: 950px)": Object {
                       "height": "40px",
                       "width": "40px",
                     },
@@ -467,7 +474,7 @@ exports[`Footer renders correctly 1`] = `
             <a
               css={
                 Object {
-                  "@media(max-width: 840px)": Object {
+                  "@media(max-width: 950px)": Object {
                     "display": "none",
                   },
                 }
@@ -489,7 +496,7 @@ exports[`Footer renders correctly 1`] = `
                     "color": "#ed253a",
                   },
                 },
-                "@media(max-width: 840px)": Object {
+                "@media(max-width: 950px)": Object {
                   "display": "block",
                   "height": "40px",
                   "marginLeft": "auto",
@@ -512,7 +519,7 @@ exports[`Footer renders correctly 1`] = `
                     ":hover": Object {
                       "backgroundColor": "#ed253a",
                     },
-                    "@media(max-width: 840px)": Object {
+                    "@media(max-width: 950px)": Object {
                       "height": "40px",
                       "width": "40px",
                     },
@@ -530,7 +537,7 @@ exports[`Footer renders correctly 1`] = `
             <a
               css={
                 Object {
-                  "@media(max-width: 840px)": Object {
+                  "@media(max-width: 950px)": Object {
                     "display": "none",
                   },
                 }
@@ -546,7 +553,7 @@ exports[`Footer renders correctly 1`] = `
       <div
         css={
           Object {
-            "@media(min-width: 840px)": Object {
+            "@media(min-width: 950px)": Object {
               "display": "none",
             },
           }

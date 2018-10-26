@@ -70,8 +70,8 @@ const finePrint = {
 };
 
 const [smallerScreens, largerScreens] = [
-  "@media(max-width: 840px)",
-  "@media(min-width: 840px)"
+  "@media(max-width: 950px)",
+  "@media(min-width: 950px)"
 ];
 
 const Footer = () => (
@@ -80,6 +80,10 @@ const Footer = () => (
       <div
         css={{
           display: "grid",
+          [largerScreens]: {
+            marginLeft: "80px",
+            marginRight: "80px"
+          },
           gridTemplateColumns: "auto auto auto",
           paddingTop: "80px",
           " h2": {
@@ -94,8 +98,10 @@ const Footer = () => (
       >
         <div
           css={{
-            marginLeft: "auto",
-            marginRight: "auto",
+            [smallerScreens]: {
+              marginLeft: "auto",
+              marginRight: "auto"
+            },
             maxWidth: "455px"
           }}
         >
@@ -112,6 +118,7 @@ const Footer = () => (
               fontSize: "12px",
               lineHeight: "20px",
               paddingTop: "40px",
+              paddingRight: "20px",
               paddingBottom: "40px",
               lineHeight: "1.67",
               [smallerScreens]: { paddingLeft: "24px", paddingRight: "24px" }

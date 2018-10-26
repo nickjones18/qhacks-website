@@ -14,11 +14,7 @@ const BriefSummary = () => (
     css={{
       width: "100%",
       background: "#f8f8f8",
-      padding: "80px 145px 80px 145px",
-      "@media(max-width: 715px)": {
-        paddingLeft: "20px",
-        paddingRight: "20px"
-      }
+      paddingTop: "80px"
     }}
   >
     <ContentWrapper>
@@ -28,9 +24,17 @@ const BriefSummary = () => (
           display: "grid",
           gridTemplateColumns: "auto auto",
           padding: "80px 55px 80px 55px",
+          margin: "0px 80px 80px 80px",
           borderRadius: "8px",
           boxShadow: "4px 9px 40px 2px rgba(7, 16, 75, 0.1)",
           border: "solid 1px #e8e8e8",
+          "@media(max-width: 820px)": {
+            marginLeft: "20px",
+            marginRight: "20px"
+          },
+          "@media(max-width: 750px)": {
+            padding: "32px 24px 32px 24px"
+          },
           "@media(max-width: 1115px)": {
             display: "block"
           }
@@ -42,7 +46,7 @@ const BriefSummary = () => (
             "@media (max-width: 920px)": { paddingRight: "0px" }
           }}
         >
-          <h1>Dream It. Build It.</h1>
+          <h1 css={{ paddingTop: "2px" }}>Dream It. Build It.</h1>
           <div
             css={{
               display: "grid",

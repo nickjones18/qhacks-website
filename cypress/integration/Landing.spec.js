@@ -40,7 +40,6 @@ describe("Landing", () => {
       expect($btn.text()).to.equal("Login");
 
       $btn.click();
-      console.log($btn);
       // TODO: When Login button gets a link uncomment this
       // cy.url().should('contain', 'https://app.qhacks.io/');
     });
