@@ -32,14 +32,6 @@ exports[`EventSchedule renders correctly 1`] = `
     }
   />
   <h3
-    css={
-      Object {
-        "color": "#00205b",
-        "marginLeft": "16px",
-        "textTransform": "uppercase",
-      }
-    }
-    data-css-9e5503=""
     data-css-1f3anu=""
   >
     Friday, February 1st, 2019
