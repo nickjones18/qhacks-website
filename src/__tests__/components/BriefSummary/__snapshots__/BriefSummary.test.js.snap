@@ -10,6 +10,7 @@ exports[`BriefSummary renders correctly 1`] = `
       },
       "background": "#f8f8f8",
       "padding": "80px 145px 80px 145px",
+      "position": "relative",
       "width": "100%",
     }
   }
@@ -109,5 +110,18 @@ exports[`BriefSummary renders correctly 1`] = `
       />
     </div>
   </div>
+  <img
+    src="test-file-stub"
+    style={
+      Object {
+        "bottom": "-140px",
+        "display": "block",
+        "height": "196px",
+        "position": "absolute",
+        "right": "40px",
+        "width": "275px",
+      }
+    }
+  />
 </div>
 `;

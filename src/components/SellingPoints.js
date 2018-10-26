@@ -8,6 +8,7 @@ import qhacksSellingPointTwo from "../assets/img/qhacksSellingPointTwo.jpg";
 import applications from "../assets/img/applications.svg";
 import challenges from "../assets/img/challenges.svg";
 import SellingPointsIcons from "./SellingPointsIcons.js";
+import cubes2 from "../assets/img/cubes-2.png";
 
 const twoColumnStyle = {
   display: "flex",
@@ -42,7 +43,7 @@ const imgStyle = {
 };
 
 const SellingPoints = () => (
-  <div css={{ padding: "143px 0" }}>
+  <div css={{ padding: "143px 0", position: "relative" }}>
     <div
       css={{
         ...twoColumnStyle,
@@ -126,6 +127,18 @@ const SellingPoints = () => (
         />
       </div>
     </div>
+    <img
+      src={cubes2}
+      style={{
+        width: "573px",
+        height: "361px",
+        position: "absolute",
+        bottom: "-230px",
+        left: "-80px",
+        zIndex: 3,
+        display: "block"
+      }}
+    />
   </div>
 );
 

@@ -1,5 +1,6 @@
 import React from "react";
 import { css } from "glamor";
+import cubes1 from "../assets/img/cubes-1.png";
 
 const caretCSS = (backgroundColor) =>
   css({
@@ -11,6 +12,7 @@ const caretCSS = (backgroundColor) =>
 const BriefSummary = () => (
   <div
     css={{
+      position: "relative",
       width: "100%",
       background: "#f8f8f8",
       padding: "80px 145px 80px 145px",
@@ -96,6 +98,17 @@ const BriefSummary = () => (
         />
       </div>
     </div>
+    <img
+      src={cubes1}
+      style={{
+        width: "275px",
+        height: "196px",
+        position: "absolute",
+        bottom: "-140px",
+        right: "40px",
+        display: "block"
+      }}
+    />
   </div>
 );
 

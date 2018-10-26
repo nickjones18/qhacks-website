@@ -29,7 +29,10 @@ const MailingListSignup = (props) => (
       >
         Sign up for our mailing list to receive important QHacks announcements!
       </p>
-      <SignUpForm dataCyInput="mailing-list-input" dataCyButton="mailing-list-signup-button" />
+      <SignUpForm
+        dataCyInput="mailing-list-input"
+        dataCyButton="mailing-list-signup-button"
+      />
     </div>
   </div>
 );

@@ -2,12 +2,13 @@
 
 exports[`Speakers renders correctly 1`] = `
 <div
-  css={
+  id="speakers"
+  style={
     Object {
       "backgroundColor": "#f8f8f8",
+      "position": "relative",
     }
   }
-  id="speakers"
 >
   <h1
     css={
@@ -82,5 +83,18 @@ exports[`Speakers renders correctly 1`] = `
       }
     />
   </div>
+  <img
+    src="test-file-stub"
+    style={
+      Object {
+        "bottom": "-210px",
+        "display": "block",
+        "height": "289px",
+        "position": "absolute",
+        "right": "62px",
+        "width": "235px",
+      }
+    }
+  />
 </div>
 `;
