@@ -2,48 +2,93 @@
 
 exports[`HackerTestimonials renders correctly 1`] = `
 <_default>
-  <div
-    id="testimonials"
-    style={
-      Object {
-        "height": "545px",
-        "overflowX": "hidden",
-        "position": "relative",
-        "width": "100%",
-      }
-    }
+  <MediaQuery
+    query="screen and (min-width: 1000px)"
+    values={Object {}}
   >
-    <TestimonialsBlurb
-      firstTestimonial={true}
-      lastTestimonial={false}
-      nextTestimonial={[Function]}
-      prevTestimonial={[Function]}
-    />
-    <TestimonialList
-      currentTestimonial={0}
-      testimonials={
-        Array [
-          Object {
-            "image": "test-file-stub",
-            "name": "Robert Saunders",
-            "project": "Dolores",
-            "text": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.",
-          },
-          Object {
-            "image": "test-file-stub",
-            "name": "Ross Hill",
-            "project": "Dolores",
-            "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.",
-          },
-          Object {
-            "image": "test-file-stub",
-            "name": "Joey Tepperman",
-            "project": "Dolores",
-            "text": "Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.",
-          },
-        ]
+    <div
+      id="testimonials"
+      style={
+        Object {
+          "height": "575px",
+          "position": "relative",
+        }
       }
-    />
-  </div>
+    >
+      <TestimonialsBlurb
+        firstTestimonial={true}
+        lastTestimonial={false}
+        nextTestimonial={[Function]}
+        prevTestimonial={[Function]}
+        text="See what past hackers thought about the event! Lorem ipsum dolor sit amet, consectetur."
+      />
+      <TestimonialList
+        currentTestimonial={0}
+        testimonials={
+          Array [
+            Object {
+              "image": "test-file-stub",
+              "name": "Robert Saunders",
+              "project": "Dolores",
+              "text": "Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare. Phasellus at semper turpis. Nunc eu tellus tortor. Cras ullamcorper bibendum bibendum. ",
+            },
+            Object {
+              "image": "test-file-stub",
+              "name": "Ross Hill",
+              "project": "Dolores",
+              "text": "Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare. Phasellus at semper turpis. Nunc eu tellus tortor. Cras ullamcorper bibendum bibendum. ",
+            },
+            Object {
+              "image": "test-file-stub",
+              "name": "Joey Tepperman",
+              "project": "Dolores",
+              "text": "Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare. Phasellus at semper turpis. Nunc eu tellus tortor. Cras ullamcorper bibendum bibendum. ",
+            },
+          ]
+        }
+      />
+    </div>
+  </MediaQuery>
+  <MediaQuery
+    query="screen and (max-width: 1000px)"
+    values={Object {}}
+  >
+    <div
+      style={
+        Object {
+          "margin": "0 5% 80px 5%",
+        }
+      }
+    >
+      <TestimonialsBlurbCompressed
+        text="See what past hackers thought about the event! Lorem ipsum dolor sit amet, consectetur."
+      />
+      <TestimonialListCompressed
+        currentTestimonial={0}
+        testimonials={
+          Array [
+            Object {
+              "image": "test-file-stub",
+              "name": "Robert Saunders",
+              "project": "Dolores",
+              "text": "Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare. Phasellus at semper turpis. Nunc eu tellus tortor. Cras ullamcorper bibendum bibendum. ",
+            },
+            Object {
+              "image": "test-file-stub",
+              "name": "Ross Hill",
+              "project": "Dolores",
+              "text": "Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare. Phasellus at semper turpis. Nunc eu tellus tortor. Cras ullamcorper bibendum bibendum. ",
+            },
+            Object {
+              "image": "test-file-stub",
+              "name": "Joey Tepperman",
+              "project": "Dolores",
+              "text": "Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare. Phasellus at semper turpis. Nunc eu tellus tortor. Cras ullamcorper bibendum bibendum. ",
+            },
+          ]
+        }
+      />
+    </div>
+  </MediaQuery>
 </_default>
 `;

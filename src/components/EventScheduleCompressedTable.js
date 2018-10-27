@@ -42,7 +42,7 @@ const EventScheduleCompressedTable = (props) => (
     {props.data.map((item) => (
       <tbody key={`${item.eventName} ${item.startDate}`}>
         <tr>
-          <td rowspan={2}>
+          <td rowSpan={2}>
             <div className="eventStart">
               {moment(item.startDate).format("h:mm\xa0A")}
             </div>
@@ -55,7 +55,7 @@ const EventScheduleCompressedTable = (props) => (
           </td>
         </tr>
         <tr>
-          <td classname="eventLocation">{item.location}</td>
+          <td className="eventLocation">{item.location}</td>
         </tr>
       </tbody>
     ))}

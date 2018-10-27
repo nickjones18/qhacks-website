@@ -27,7 +27,6 @@ const TestimonialList = (props) => {
     >
       <div
         style={{
-          overflowX: "hidden",
           display: "flex",
           whiteSpace: "nowrap"
         }}

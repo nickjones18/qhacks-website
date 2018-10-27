@@ -1,8 +1,11 @@
 import React, { Component } from "react";
 import TestimonialsBlurb from "./TestimonialsBlurb";
+import TestimonialsBlurbCompressed from "./TestimonialsBlurbCompressed";
 import TestimonialList from "./TestimonialList.js";
+import TestimonialListCompressed from "./TestimonialListCompressed.js";
 import placeholderHeadshot from "../assets/img/placeholderHeadshot.jpg";
 import ContentWrapper from "./ContentWrapper";
+import MediaQuery from "react-responsive";
 
 const testimonials = [
   {
@@ -10,21 +13,21 @@ const testimonials = [
     project: "Dolores",
     image: placeholderHeadshot,
     text:
-      "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment."
+      "Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare. Phasellus at semper turpis. Nunc eu tellus tortor. Cras ullamcorper bibendum bibendum. "
   },
   {
     name: "Ross Hill",
     project: "Dolores",
     image: placeholderHeadshot,
     text:
-      "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring."
+      "Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare. Phasellus at semper turpis. Nunc eu tellus tortor. Cras ullamcorper bibendum bibendum. "
   },
   {
     name: "Joey Tepperman",
     project: "Dolores",
     image: placeholderHeadshot,
     text:
-      "Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line."
+      "Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare. Phasellus at semper turpis. Nunc eu tellus tortor. Cras ullamcorper bibendum bibendum. "
   }
 ];
 
@@ -52,30 +55,38 @@ class HackerTestimonials extends Component {
   }
 
   render() {
+    const blurb = `See what past hackers thought about the event! Lorem ipsum dolor sit amet, consectetur.`;
     return (
       <ContentWrapper>
-        <div
-          id="testimonials"
-          style={{
-            height: "545px",
-            width: "100%",
-            overflowX: "hidden",
-            position: "relative"
-          }}
-        >
-          <TestimonialsBlurb
-            nextTestimonial={() => this.nextTestimonial()}
-            prevTestimonial={() => this.prevTestimonial()}
-            firstTestimonial={!this.state.currentTestimonial}
-            lastTestimonial={
-              this.state.currentTestimonial === testimonials.length - 1
-            }
-          />
-          <TestimonialList
-            currentTestimonial={this.state.currentTestimonial}
-            testimonials={testimonials}
-          />
-        </div>
+        <MediaQuery query="screen and (min-width: 1000px)">
+          <div
+            id="testimonials"
+            style={{ height: "575px", position: "relative" }}
+          >
+            <TestimonialsBlurb
+              nextTestimonial={() => this.nextTestimonial()}
+              prevTestimonial={() => this.prevTestimonial()}
+              firstTestimonial={!this.state.currentTestimonial}
+              lastTestimonial={
+                this.state.currentTestimonial === testimonials.length - 1
+              }
+              text={blurb}
+            />
+            <TestimonialList
+              currentTestimonial={this.state.currentTestimonial}
+              testimonials={testimonials}
+            />
+          </div>
+        </MediaQuery>
+        <MediaQuery query="screen and (max-width: 1000px)">
+          <div style={{ margin: "0 5% 80px 5%" }}>
+            <TestimonialsBlurbCompressed text={blurb} />
+            <TestimonialListCompressed
+              currentTestimonial={this.state.currentTestimonial}
+              testimonials={testimonials}
+            />
+          </div>
+        </MediaQuery>
       </ContentWrapper>
     );
   }
