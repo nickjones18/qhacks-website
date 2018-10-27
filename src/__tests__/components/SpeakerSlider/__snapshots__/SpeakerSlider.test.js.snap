@@ -4,7 +4,9 @@ exports[`SpeakerSlider renders correctly 1`] = `
 <div
   css={
     Object {
+      "position": "relative",
       "width": "100%",
+      "zIndex": 3,
     }
   }
 >

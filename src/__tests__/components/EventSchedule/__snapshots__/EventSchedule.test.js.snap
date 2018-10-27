@@ -15,7 +15,9 @@ exports[`EventSchedule renders correctly 1`] = `
   <h1
     css={
       Object {
+        "position": "relative",
         "textAlign": "center",
+        "zIndex": 2,
       }
     }
   >

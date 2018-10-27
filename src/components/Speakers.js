@@ -79,7 +79,7 @@ const Speakers = () => (
         zIndex: "1",
         width: "235px",
         height: "289px",
-        position: "relative",
+        position: "absolute",
         bottom: "-210px",
         right: "62px",
         display: "block"

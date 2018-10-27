@@ -94,7 +94,7 @@ exports[`Speakers renders correctly 1`] = `
         "bottom": "-210px",
         "display": "block",
         "height": "289px",
-        "position": "relative",
+        "position": "absolute",
         "right": "62px",
         "width": "235px",
         "zIndex": "1",

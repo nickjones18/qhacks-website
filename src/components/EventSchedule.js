@@ -174,7 +174,9 @@ class EventSchedule extends Component {
       >
         <h1
           css={{
-            textAlign: "center"
+            textAlign: "center",
+            position: "relative",
+            zIndex: 2
           }}
         >
           Event Schedule

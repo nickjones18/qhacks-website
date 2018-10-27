@@ -34,7 +34,7 @@ exports[`MobileMenu renders correctly 1`] = `
         "position": "fixed",
         "top": "0px",
         "width": "100vw",
-        "zIndex": "4",
+        "zIndex": "5",
       }
     }
   >
