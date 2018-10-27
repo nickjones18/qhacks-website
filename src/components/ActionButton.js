@@ -23,6 +23,7 @@ const ActionButton = (props) => {
     backgroundColor: props.backgroundColor,
     color: props.foregroundColor,
     fontSize: "18px",
+    fontWeight: 700,
     ":hover": {
       transition: "0.5s ease",
       backgroundColor: props.foregroundColor,

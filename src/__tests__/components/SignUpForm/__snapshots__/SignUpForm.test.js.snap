@@ -13,7 +13,8 @@ exports[`SignUpForm renders correctly 1`] = `
       Object {
         "border": "none",
         "borderRadius": "4px",
-        "fontSize": "18px",
+        "fontSize": "16px",
+        "fontWeight": 500,
         "height": "48px",
         "margin": "8px",
         "marginRight": "4px",
@@ -35,7 +36,8 @@ exports[`SignUpForm renders correctly 1`] = `
         "buttonStyles": Object {
           "border": "none",
           "borderRadius": "4px",
-          "fontSize": "18px",
+          "fontSize": "16px",
+          "fontWeight": 500,
           "margin": "8px",
           "marginLeft": "4px",
         },

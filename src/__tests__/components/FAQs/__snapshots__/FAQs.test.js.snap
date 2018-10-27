@@ -397,7 +397,7 @@ exports[`FAQs renders correctly 1`] = `
             css={
               Object {
                 "color": "#c81c2e",
-                "fontWeight": "500",
+                "fontWeight": "400",
                 "textDecoration": "underline",
               }
             }
@@ -410,7 +410,7 @@ exports[`FAQs renders correctly 1`] = `
             css={
               Object {
                 "color": "#c81c2e",
-                "fontWeight": "500",
+                "fontWeight": "400",
                 "textDecoration": "underline",
               }
             }

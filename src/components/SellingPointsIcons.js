@@ -15,13 +15,21 @@ const SellingPointsIcons = (props) => (
         <img src={item.icon} />
         <div
           css={{
-            fontWeight: "bold",
+            fontWeight: 600,
+            fontSize: "24px",
             padding: "6px 0"
           }}
         >
           {item.number}+
         </div>
-        <div>{item.text}</div>
+        <div
+          css={{
+            fontWeight: 500,
+            fontSize: "14px"
+          }}
+        >
+          {item.text}
+        </div>
       </div>
     ))}
   </div>

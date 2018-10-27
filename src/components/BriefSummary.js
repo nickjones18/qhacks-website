@@ -55,7 +55,7 @@ const BriefSummary = () => (
           <div {...caretCSS("#c81c2e")} />
           <div {...caretCSS("#fedb01")} />
         </div>
-        <p css={{ lineHeight: "24px" }}>
+        <p css={{ lineHeight: "24px", fontColor: "#000000" }}>
           QHacks 2018 is back for another year of collaboration, ideation, and
           creativity! More than 500 students from across North America will come
           together on February 2nd-4th for a weekend of awesome hacking. Attend

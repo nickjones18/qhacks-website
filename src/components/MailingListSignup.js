@@ -20,7 +20,7 @@ const MailingListSignup = (props) => (
       <p
         data-cy="mailing-list-cta"
         css={{
-          fontWeight: "bold",
+          fontWeight: 700,
           marginBottom: "28px",
           fontSize: "22px",
           lineHeight: "28px",

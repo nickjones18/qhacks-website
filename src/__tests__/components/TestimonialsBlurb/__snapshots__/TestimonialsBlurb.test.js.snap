@@ -36,6 +36,8 @@ exports[`TestimonialsBlurb renders correctly 1`] = `
     <p
       style={
         Object {
+          "fontSize": "20px",
+          "fontWeight": 500,
           "lineHeight": "1.6",
         }
       }
@@ -45,6 +47,8 @@ exports[`TestimonialsBlurb renders correctly 1`] = `
     <p
       style={
         Object {
+          "fontSize": "20px",
+          "fontWeight": 500,
           "lineHeight": "1.6",
         }
       }
