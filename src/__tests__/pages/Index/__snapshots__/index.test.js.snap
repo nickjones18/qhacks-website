@@ -36,14 +36,16 @@ exports[`IndexPage renders correctly 1`] = `
     }
     title="QHacks | Queen's University | Winter 2019"
   />
-  <Landing />
-  <MailingListSignup />
-  <About />
-  <Speakers />
-  <EventSchedule />
-  <HackerTestimonials />
-  <FAQs />
-  <Podcast />
-  <Footer />
+  <body>
+    <Landing />
+    <MailingListSignup />
+    <About />
+    <Speakers />
+    <EventSchedule />
+    <HackerTestimonials />
+    <FAQs />
+    <Podcast />
+    <Footer />
+  </body>
 </div>
 `;

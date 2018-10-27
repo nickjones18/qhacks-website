@@ -35,6 +35,9 @@ class Header extends Component {
 
   onMobileMenuClicked = () => {
     this.setState({ isMobileMenuVisible: !this.state.isMobileMenuVisible });
+    document.body.style.overflow = this.state.isMobileMenuVisible
+      ? ""
+      : "hidden";
   };
 
   render() {

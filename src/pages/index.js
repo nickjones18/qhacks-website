@@ -41,14 +41,16 @@ export default () => (
         }
       ]}
     />
-    <Landing />
-    <MailingListSignup />
-    <About />
-    <Speakers />
-    <EventSchedule />
-    <HackerTestimonials />
-    <FAQs />
-    <Podcast />
-    <Footer />
+    <body>
+      <Landing />
+      <MailingListSignup />
+      <About />
+      <Speakers />
+      <EventSchedule />
+      <HackerTestimonials />
+      <FAQs />
+      <Podcast />
+      <Footer />
+    </body>
   </div>
 );
