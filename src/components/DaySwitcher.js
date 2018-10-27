@@ -26,7 +26,7 @@ class DaySwitcher extends Component {
       backgroundColor: "#C81C2E",
       borderRadius: "44px",
       width: `${sliderWidth}%`,
-      zIndex: 1,
+      zIndex: 2,
       transition: "left 0.8s ease"
     };
 
@@ -40,6 +40,7 @@ class DaySwitcher extends Component {
       backgroundColor: "#F6F6F6",
       height: "44px",
       position: "relative",
+      zIndex: 2,
       border: "1px solid #e4e4e4",
       borderRadius: "44px",
       "> button.dayItem": {
@@ -51,7 +52,7 @@ class DaySwitcher extends Component {
         background: "none",
         border: "none",
         fontSize: "18px",
-        zIndex: 2,
+        zIndex: 3,
         transition: "color 1s ease"
       },
       "> button.dayItem.selectedDay": {

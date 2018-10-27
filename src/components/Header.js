@@ -51,7 +51,7 @@ class Header extends Component {
             transition: "0.5s",
             backgroundColor: "#ffffff",
             opacity: this.state.isMobileMenuVisible ? "1.0" : "0.95",
-            zIndex: "3",
+            zIndex: "5",
             "@media(min-width:860px)": {
               backgroundColor: this.state.isAtTheTop
                 ? "rgba(0,0,0,0)"

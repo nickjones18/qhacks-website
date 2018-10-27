@@ -18,6 +18,8 @@ class SpeakerCard extends Component {
             marginLeft: "auto",
             marginRight: "auto",
             paddingBottom: "80px",
+            position: "relative",
+            zIndex: 3,
             "@media(min-width: 820px)": {
               paddingBottom: "112px"
             },

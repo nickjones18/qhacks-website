@@ -31,7 +31,7 @@ const MobileMenu = (props) => (
         overflow: "hidden",
         top: "0px",
         left: "0px",
-        zIndex: "4",
+        zIndex: "5",
         background: "#11213f"
       }}
     >

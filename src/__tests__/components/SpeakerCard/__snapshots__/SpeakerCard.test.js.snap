@@ -11,6 +11,8 @@ exports[`SpeakerCard renders correctly 1`] = `
       "marginRight": "auto",
       "maxWidth": "416px",
       "paddingBottom": "80px",
+      "position": "relative",
+      "zIndex": 3,
     }
   }
 >

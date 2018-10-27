@@ -13,7 +13,7 @@ import HackerTestimonials from "../components/HackerTestimonials";
 import Footer from "../components/Footer";
 
 export default () => (
-  <div>
+  <div css={{ overflowX: "hidden" }}>
     <Helmet
       title="QHacks | Queen's University | Winter 2019"
       meta={[

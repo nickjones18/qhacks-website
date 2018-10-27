@@ -2,7 +2,7 @@
 
 exports[`DaySwitcher renders correctly 1`] = `
 <div
-  data-css-zb9lh2=""
+  data-css-11lhp2j=""
 >
   <button
     className="selectedDay dayItem"
@@ -39,7 +39,7 @@ exports[`DaySwitcher renders correctly 1`] = `
         "top": 0,
         "transition": "left 0.8s ease",
         "width": "33.333%",
-        "zIndex": 1,
+        "zIndex": 2,
       }
     }
     role="none presentation"

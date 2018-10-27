@@ -35,6 +35,8 @@ const Speakers = () => (
         paddingTop: "112px",
         paddingBottom: "48px",
         textAlign: "center",
+        position: "relative",
+        zIndex: "3",
         "@media(max-width: 820px)": {
           paddingTop: "66px",
           paddingBottom: "24px"
@@ -47,6 +49,8 @@ const Speakers = () => (
     <div
       css={{
         display: "grid",
+        position: "relative",
+        zIndex: 3,
         maxWidth: speakers.length * 500,
         marginLeft: "auto",
         marginRight: "auto",
@@ -72,6 +76,7 @@ const Speakers = () => (
     <img
       src={cubes3}
       style={{
+        zIndex: "1",
         width: "235px",
         height: "289px",
         position: "absolute",

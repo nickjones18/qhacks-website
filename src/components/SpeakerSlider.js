@@ -35,7 +35,7 @@ class SpeakerSlider extends Component {
     };
 
     return (
-      <div css={{ width: "100%" }}>
+      <div css={{ width: "100%", position: "relative", zIndex: 3 }}>
         <SpeakerSliderDots
           speakers={this.props.speakers}
           currentIndex={this.state.currentIndex}

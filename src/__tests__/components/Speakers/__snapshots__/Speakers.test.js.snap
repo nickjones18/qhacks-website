@@ -19,7 +19,9 @@ exports[`Speakers renders correctly 1`] = `
         },
         "paddingBottom": "48px",
         "paddingTop": "112px",
+        "position": "relative",
         "textAlign": "center",
+        "zIndex": "3",
       }
     }
   >
@@ -36,6 +38,8 @@ exports[`Speakers renders correctly 1`] = `
         "marginLeft": "auto",
         "marginRight": "auto",
         "maxWidth": 1000,
+        "position": "relative",
+        "zIndex": 3,
       }
     }
   >
@@ -93,6 +97,7 @@ exports[`Speakers renders correctly 1`] = `
         "position": "absolute",
         "right": "62px",
         "width": "235px",
+        "zIndex": "1",
       }
     }
   />
