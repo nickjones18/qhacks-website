@@ -1,6 +1,7 @@
 import React from "react";
 import { css } from "glamor";
 import ContentWrapper from "./ContentWrapper";
+import cubes1 from "../assets/img/cubes-1.png";
 
 const caretCSS = (backgroundColor) =>
   css({
@@ -12,6 +13,7 @@ const caretCSS = (backgroundColor) =>
 const BriefSummary = () => (
   <div
     css={{
+      position: "relative",
       width: "100%",
       background: "#f8f8f8",
       paddingTop: "80px"
@@ -59,7 +61,7 @@ const BriefSummary = () => (
             <div {...caretCSS("#c81c2e")} />
             <div {...caretCSS("#fedb01")} />
           </div>
-          <p css={{ lineHeight: "24px" }}>
+          <p css={{ lineHeight: "24px", fontColor: "#000000" }}>
             QHacks 2018 is back for another year of collaboration, ideation, and
             creativity! More than 500 students from across North America will
             come together on February 2nd-4th for a weekend of awesome hacking.
@@ -102,6 +104,17 @@ const BriefSummary = () => (
           />
         </div>
       </div>
+      <img
+        src={cubes1}
+        style={{
+          width: "275px",
+          height: "196px",
+          position: "absolute",
+          bottom: "-140px",
+          right: "40px",
+          display: "block"
+        }}
+      />
     </ContentWrapper>
   </div>
 );

@@ -6,6 +6,7 @@ exports[`BriefSummary renders correctly 1`] = `
     Object {
       "background": "#f8f8f8",
       "paddingTop": "80px",
+      "position": "relative",
       "width": "100%",
     }
   }
@@ -77,6 +78,7 @@ exports[`BriefSummary renders correctly 1`] = `
         <p
           css={
             Object {
+              "fontColor": "#000000",
               "lineHeight": "24px",
             }
           }
@@ -120,6 +122,19 @@ exports[`BriefSummary renders correctly 1`] = `
         />
       </div>
     </div>
+    <img
+      src="test-file-stub"
+      style={
+        Object {
+          "bottom": "-140px",
+          "display": "block",
+          "height": "196px",
+          "position": "absolute",
+          "right": "40px",
+          "width": "275px",
+        }
+      }
+    />
   </_default>
 </div>
 `;

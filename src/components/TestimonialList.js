@@ -3,9 +3,7 @@ import { TransitionGroup, CSSTransition } from "react-transition-group";
 import TestimonialCard from "./TestimonialCard";
 
 const TestimonialList = (props) => {
-  const testimonials = props.testimonials.slice(
-    props.currentTestimonial
-  );
+  const testimonials = props.testimonials.slice(props.currentTestimonial);
   const list = testimonials.map((item, i) => (
     <CSSTransition
       key={`${item.name} ${item.project}`}

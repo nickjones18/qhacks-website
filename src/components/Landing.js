@@ -94,6 +94,7 @@ const Landing = () => (
             css={{
               color: "#00205b",
               fontWeight: 600,
+              fontSize: "22px",
               paddingBottom: "40px",
               "@media(max-width: 820px)": {
                 paddingBottom: "24px"

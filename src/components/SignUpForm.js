@@ -3,10 +3,11 @@ import ActionButton from "./ActionButton";
 
 const SignUpForm = (props) => {
   const commonStyles = {
-    fontSize: props.fontSize ? `${props.fontSize}px` : "18px",
+    fontSize: props.fontSize ? `${props.fontSize}px` : "16px",
     borderRadius: "4px",
     border: "none",
-    margin: "8px"
+    margin: "8px",
+    fontWeight: 500
   };
 
   const buttonStyles = {

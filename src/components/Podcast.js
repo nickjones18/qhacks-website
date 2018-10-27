@@ -62,7 +62,13 @@ const Podcast = () => (
             <h1 css={{ paddingBottom: "24px", paddingTop: "10px" }}>
               Listen to our podcast!
             </h1>
-            <p css={{ lineHeight: "1.5", paddingBottom: "40px" }}>
+            <p
+              css={{
+                lineHeight: "1.5",
+                paddingBottom: "40px",
+                fontWeight: "500"
+              }}
+            >
               Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras
               ullamcorper bibendum bibendum. Duis tincidunt urna non pretium
               porta. Nam condimentum vitae ligula vel ornare.

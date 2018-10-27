@@ -193,7 +193,13 @@ class EventSchedule extends Component {
           days={eventDays}
           changeDay={(day) => this.changeDay(day)}
         />
-        <h3 css={{ textTransform: "uppercase", marginLeft: "16px" }}>
+        <h3
+          css={{
+            color: "#00205b",
+            textTransform: "uppercase",
+            marginLeft: "16px"
+          }}
+        >
           {moment(this.state.selectedDay, "YYYY-MM-DD").format(
             "dddd, MMMM Do, YYYY"
           )}

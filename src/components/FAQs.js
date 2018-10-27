@@ -56,7 +56,7 @@ const questionsAndAnswers = [
 const linkCss = {
   textDecoration: "underline",
   color: "#c81c2e",
-  fontWeight: "500"
+  fontWeight: "400"
 };
 
 const FAQs = () => (

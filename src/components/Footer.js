@@ -75,7 +75,7 @@ const [smallerScreens, largerScreens] = [
 ];
 
 const Footer = () => (
-  <div css={{ backgroundColor: "#11213f", color: "#f1f1f1" }}>
+  <div css={{ backgroundColor: "#11213f", color: "#ffffff" }}>
     <ContentWrapper>
       <div
         css={{
@@ -86,7 +86,7 @@ const Footer = () => (
           },
           gridTemplateColumns: "auto auto auto",
           paddingTop: "80px",
-          " h2": {
+          " h3": {
             color: "inherit",
             textTransform: "uppercase"
           },
@@ -131,7 +131,7 @@ const Footer = () => (
             Regardless of your experience, QHacks should be a place where you
             realize your fullest potential.
           </p>
-          <h2>Stay Connected</h2>
+          <h3>Stay Connected</h3>
           <p
             css={{
               fontSize: "12px",
@@ -196,7 +196,7 @@ const Footer = () => (
             }
           }}
         >
-          <h2>Navigate</h2>
+          <h3>Navigate</h3>
           <ul
             css={{
               paddingTop: "30px",
@@ -204,7 +204,7 @@ const Footer = () => (
               ">li": { paddingBottom: "23px" },
               " a": {
                 color: "inherit",
-                fontWeight: "bold",
+                fontWeight: 600,
                 textDecoration: "none",
                 ":hover": {
                   color: "#ed253a"
@@ -228,9 +228,9 @@ const Footer = () => (
             }
           }}
         >
-          <h2 css={{ "@media (max-width: 840px)": { display: "none" } }}>
+          <h3 css={{ "@media (max-width: 840px)": { display: "none" } }}>
             Get in touch
-          </h2>
+          </h3>
           <div
             css={{
               paddingTop: "30px",
