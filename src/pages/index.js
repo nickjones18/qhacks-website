@@ -11,6 +11,7 @@ import FAQs from "../components/FAQs";
 import Podcast from "../components/Podcast";
 import HackerTestimonials from "../components/HackerTestimonials";
 import Footer from "../components/Footer";
+import Sponsors from "../components/Sponsors";
 
 export default () => (
   <div css={{ overflowX: "hidden" }}>
@@ -48,6 +49,7 @@ export default () => (
       <Speakers />
       <EventSchedule />
       <HackerTestimonials />
+      <Sponsors />
       <FAQs />
       <Podcast />
       <Footer />

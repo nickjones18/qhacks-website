@@ -1,5 +1,5 @@
-describe('FAQs', () => {
+describe("FAQs", () => {
   beforeEach(() => {
-    cy.visit('/');
+    cy.visit("/#faq");
   });
 });

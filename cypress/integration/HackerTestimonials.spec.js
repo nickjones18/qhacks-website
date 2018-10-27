@@ -1,5 +1,5 @@
-describe('Hacker Testimonials', () => {
+describe("Hacker Testimonials", () => {
   beforeEach(() => {
-    cy.visit('/');
+    cy.visit("/#testimonials");
   });
 });

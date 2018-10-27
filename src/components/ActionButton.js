@@ -33,10 +33,10 @@ const ActionButton = (props) => {
 
   switch (props.type) {
   case "rounded":
-    commonStyles = { ...commonStyles, ...roundedStyles };
+    commonStyles = { ...roundedStyles, ...commonStyles };
     break;
   case "rect":
-    commonStyles = { ...commonStyles, ...rectStyles };
+    commonStyles = { ...rectStyles, ...commonStyles };
     break;
   }
 
