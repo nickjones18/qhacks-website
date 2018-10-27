@@ -1,5 +1,5 @@
 import React from "react";
-import moment from 'moment';
+import moment from "moment";
 import logo from "../assets/img/whiteLogo.svg";
 import wordmark from "../assets/img/whiteWordmark.svg";
 import SignUpForm from "../components/SignUpForm";
@@ -153,10 +153,16 @@ const Footer = () => (
           />
         </div>
         <div css={{ "@media(max-width: 840px)": { display: "none" } }}>
-          <p data-cy="footer-address" css={{ ...finePrint, paddingBottom: "6px" }}>
+          <p
+            data-cy="footer-address"
+            css={{ ...finePrint, paddingBottom: "6px" }}
+          >
             Queen&#39;s University | 99 University Ave, Kingston, ON
           </p>
-          <p data-cy="footer-dev-plug" css={{ ...finePrint, paddingBottom: "6px" }}>
+          <p
+            data-cy="footer-dev-plug"
+            css={{ ...finePrint, paddingBottom: "6px" }}
+          >
             {"< />"} with ♡ by Queen&#39;s students
           </p>
           <p
@@ -281,7 +287,11 @@ const Footer = () => (
                   }}
                 />
               </a>
-              <a css={{ [smallerScreens]: { display: "none" } }} href={url} data-cy={dataCy}>
+              <a
+                css={{ [smallerScreens]: { display: "none" } }}
+                href={url}
+                data-cy={dataCy}
+              >
                 {label}
               </a>
             </div>
@@ -289,13 +299,22 @@ const Footer = () => (
         </div>
       </div>
       <div css={{ [largerScreens]: { display: "none" } }}>
-        <p data-cy="footer-address" css={{ ...finePrint, paddingBottom: "6px" }}>
+        <p
+          data-cy="footer-address"
+          css={{ ...finePrint, paddingBottom: "6px" }}
+        >
           Queen&#39;s University | 99 University Ave, Kingston, ON
         </p>
-        <p data-cy="footer-dev-plug" css={{ ...finePrint, paddingBottom: "6px" }}>
+        <p
+          data-cy="footer-dev-plug"
+          css={{ ...finePrint, paddingBottom: "6px" }}
+        >
           {"< />"} with ♡ by Queen&#39;s students
         </p>
-        <p data-cy="footer-copyright-notice" css={{ ...finePrint, paddingBottom: "32px" }}>
+        <p
+          data-cy="footer-copyright-notice"
+          css={{ ...finePrint, paddingBottom: "32px" }}
+        >
           Copyright © {moment().year()} QHacks
         </p>
       </div>

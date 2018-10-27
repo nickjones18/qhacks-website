@@ -2,6 +2,7 @@ import React from "react";
 import SpeakerCard from "./SpeakerCard";
 import SpeakerSlider from "./SpeakerSlider";
 import musk from "../assets/img/musk.png";
+import cubes3 from "../assets/img/cubes-3.png";
 
 //TODO: Update this with real speakers
 const speakers = [
@@ -23,8 +24,9 @@ const speakers = [
 
 const Speakers = () => (
   <div
-    css={{
-      backgroundColor: "#f8f8f8"
+    style={{
+      backgroundColor: "#f8f8f8",
+      position: "relative"
     }}
     id="speakers"
   >
@@ -67,6 +69,17 @@ const Speakers = () => (
     >
       <SpeakerSlider speakers={speakers} />
     </div>
+    <img
+      src={cubes3}
+      style={{
+        width: "235px",
+        height: "289px",
+        position: "absolute",
+        bottom: "-210px",
+        right: "62px",
+        display: "block"
+      }}
+    />
   </div>
 );
 

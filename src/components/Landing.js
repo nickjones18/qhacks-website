@@ -67,7 +67,10 @@ const Landing = () => (
             maxWidth: "300px"
           }}
         />
-        <h2 data-cy="qhacks-information" css={{ color: "#00205b", fontWeight: 600 }}>
+        <h2
+          data-cy="qhacks-information"
+          css={{ color: "#00205b", fontWeight: 600 }}
+        >
           Queen’s University • February 1-3, 2019
         </h2>
         <h2
