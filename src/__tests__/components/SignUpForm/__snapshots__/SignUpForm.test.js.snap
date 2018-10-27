@@ -12,17 +12,9 @@ exports[`SignUpForm renders correctly 1`] = `
   <div
     style={
       Object {
-        "border": "none",
-        "borderRadius": "4px",
-        "fontSize": "16px",
-        "fontWeight": 500,
-        "height": "48px",
-        "margin": "8px",
-        "marginRight": "4px",
-        "minWidth": "50%",
-        "paddingLeft": "16px",
-        "paddingRight": "16px",
-        "width": "300px",
+        "alignItems": "center",
+        "display": "flex",
+        "justifyContent": "center",
       }
     }
   >
@@ -34,11 +26,36 @@ exports[`SignUpForm renders correctly 1`] = `
         Object {
           "border": "none",
           "borderRadius": "4px",
+          "flex": "1",
           "fontSize": "16px",
-          "fontWeight": 500,
-          "margin": "8px",
-          "marginLeft": "4px",
-        },
+          "height": "48px",
+          "lineHeight": "48px",
+          "margin": "0 8px 0 0",
+          "padding": "0 16px",
+        }
+      }
+      type="email"
+      value=""
+    />
+    <ActionButton
+      backgroundColor="white"
+      data-cy="signup-button"
+      disabled={false}
+      foregroundColor="black"
+      onClick={[Function]}
+      type="rect"
+      width="130px"
+    >
+      Sign Up
+    </ActionButton>
+  </div>
+  <p
+    style={
+      Object {
+        "fontWeight": "500",
+        "height": "22px",
+        "lineHeight": "22px",
+        "marginTop": "8px",
       }
     }
   />

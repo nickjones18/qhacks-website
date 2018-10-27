@@ -94,6 +94,7 @@ class SignUpForm extends Component {
               lineHeight: "48px",
               borderRadius: "4px",
               border: "none",
+              fontSize: "16px",
               margin: "0 8px 0 0"
             }}
             data-cy={this.props.dataCyInput || "signup-input"}
