@@ -5,109 +5,101 @@ exports[`Podcast renders correctly 1`] = `
   <div
     css={
       Object {
-        "@media (max-width: 780px)": Object {
-          "padding": "0px 16px 160px 16px",
-        },
         "paddingBottom": "133px",
-        "paddingLeft": "145px",
-        "paddingRight": "145px",
         "position": "relative",
         "width": "100%",
       }
     }
   >
-    <div
-      css={
-        Object {
-          "borderTop": "solid red 10px",
-          "bottom": "314px",
-          "position": "absolute",
-        }
-      }
-    />
-    <div
-      css={
-        Object {
-          "@media (max-width: 1128px)": Object {
-            "display": "block",
-          },
-          "backgroundColor": "#ffffff",
-          "border": "solid 1px #e8e8e8",
-          "borderRadius": "8px",
-          "boxShadow": "4px 9px 40px 2px rgba(7, 16, 75, 0.1)",
-          "display": "grid",
-          "gridTemplateColumns": "min-content auto",
-          "padding": "40px 28px 40px 28px",
-          "position": "relative",
-          "width": "100%",
-        }
-      }
-    >
+    <_default>
       <div
         css={
           Object {
             "@media (max-width: 1128px)": Object {
-              "textAlign": "center",
+              "display": "block",
             },
-            "paddingLeft": "72px",
+            "@media (max-width: 780px)": Object {
+              "margin": "0px 16px 160px 16px",
+            },
+            "backgroundColor": "#ffffff",
+            "border": "solid 1px #e8e8e8",
+            "borderRadius": "8px",
+            "boxShadow": "4px 9px 40px 2px rgba(7, 16, 75, 0.1)",
+            "display": "grid",
+            "gridTemplateColumns": "min-content auto",
+            "marginLeft": "80px",
+            "marginRight": "80px",
+            "padding": "40px 28px 40px 28px",
+            "position": "relative",
           }
         }
       >
-        <img
+        <div
           css={
             Object {
               "@media (max-width: 1128px)": Object {
-                "width": "100%",
+                "textAlign": "center",
               },
-              "maxWidth": "290px",
+              "paddingLeft": "72px",
             }
           }
-          src="test-file-stub"
-        />
-      </div>
-      <div
-        css={
-          Object {
-            "@media (max-width: 1128px)": Object {
-              "paddingLeft": "0px",
-              "paddingTop": "46px",
-            },
-            "paddingLeft": "64px",
-            "textAlign": "left",
-          }
-        }
-      >
-        <h1
+        >
+          <img
+            css={
+              Object {
+                "@media (max-width: 1128px)": Object {
+                  "width": "100%",
+                },
+                "maxWidth": "290px",
+              }
+            }
+            src="test-file-stub"
+          />
+        </div>
+        <div
           css={
             Object {
-              "paddingBottom": "24px",
-              "paddingTop": "10px",
+              "@media (max-width: 1128px)": Object {
+                "paddingLeft": "0px",
+                "paddingTop": "46px",
+              },
+              "paddingLeft": "64px",
+              "textAlign": "left",
             }
           }
         >
-          Listen to our podcast!
-        </h1>
-        <p
-          css={
-            Object {
-              "fontWeight": "500",
-              "lineHeight": "1.5",
-              "paddingBottom": "40px",
+          <h1
+            css={
+              Object {
+                "paddingBottom": "24px",
+                "paddingTop": "10px",
+              }
             }
-          }
-        >
-          Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare.
-        </p>
-        <ActionButton
-          backgroundColor="#ffffff"
-          dataCy="listen-button"
-          foregroundColor="#00205b"
-          type="rounded"
-        >
-          Listen
-        </ActionButton>
+          >
+            Listen to our podcast!
+          </h1>
+          <p
+            css={
+              Object {
+                "fontWeight": "500",
+                "lineHeight": "1.5",
+                "paddingBottom": "40px",
+              }
+            }
+          >
+            Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare.
+          </p>
+          <ActionButton
+            backgroundColor="#ffffff"
+            dataCy="listen-button"
+            foregroundColor="#00205b"
+            type="rounded"
+          >
+            Listen
+          </ActionButton>
+        </div>
       </div>
-    </div>
+    </_default>
   </div>
   <div
     css={

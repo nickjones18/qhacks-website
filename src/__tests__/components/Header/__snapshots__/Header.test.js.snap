@@ -5,7 +5,7 @@ exports[`Header renders correctly 1`] = `
   <div
     css={
       Object {
-        "@media(min-width:820px)": Object {
+        "@media(min-width:860px)": Object {
           "backgroundColor": "rgba(0,0,0,0)",
         },
         "backgroundColor": "#ffffff",
@@ -18,38 +18,40 @@ exports[`Header renders correctly 1`] = `
       }
     }
   >
-    <div
-      css={
-        Object {
-          "@media(max-width:820px)": Object {
-            "display": "grid",
-            "gridTemplateColumns": "auto auto",
-          },
+    <_default>
+      <div
+        css={
+          Object {
+            "@media(max-width:860px)": Object {
+              "display": "grid",
+              "gridTemplateColumns": "auto auto",
+            },
+          }
         }
-      }
-    >
-      <Menu
-        imgCss={false}
-        menuItems={
-          Array [
-            "b1",
-            "b2",
-            "b3",
-          ]
-        }
-      />
-      <MobileMenu
-        isMenuVisible={false}
-        menuItems={
-          Array [
-            "b1",
-            "b2",
-            "b3",
-          ]
-        }
-        toggleMenu={[Function]}
-      />
-    </div>
+      >
+        <Menu
+          imgCss={false}
+          menuItems={
+            Array [
+              "b1",
+              "b2",
+              "b3",
+            ]
+          }
+        />
+        <MobileMenu
+          isMenuVisible={false}
+          menuItems={
+            Array [
+              "b1",
+              "b2",
+              "b3",
+            ]
+          }
+          toggleMenu={[Function]}
+        />
+      </div>
+    </_default>
   </div>
 </div>
 `;

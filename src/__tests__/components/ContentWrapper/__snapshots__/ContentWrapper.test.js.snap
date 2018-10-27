@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentWrapper renders correctly 1`] = `
+<div
+  css={
+    Object {
+      "height": "100%",
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": "1400px",
+    }
+  }
+/>
+`;
