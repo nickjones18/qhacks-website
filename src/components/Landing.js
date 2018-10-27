@@ -3,7 +3,7 @@ import logo from "../assets/img/colored.svg";
 import word from "../assets/img/wordmark.svg";
 import banner from "../assets/img/mlhLogo.svg";
 import backgroundCubes from "../assets/img/backgroundCubes.svg";
-import landingImg from "../assets/img/landingImg.png";
+import landingImg from "../assets/img/landingImg.svg";
 import ActionButton from "./ActionButton";
 import Header from "./Header";
 import ContentWrapper from "./ContentWrapper";
@@ -40,7 +40,7 @@ const Landing = () => (
       <div
         css={{
           display: "grid",
-          gridTemplateColumns: "auto auto",
+          gridTemplateColumns: "auto 1fr",
           "@media(max-width: 820px)": {
             textAlign: "center",
             display: "block"
