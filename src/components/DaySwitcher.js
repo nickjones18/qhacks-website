@@ -34,14 +34,15 @@ class DaySwitcher extends Component {
       display: "grid",
       gridTemplateColumns: `repeat(${this.props.days.length}, 1fr)`,
       width: "66%",
+      "@media screen and (max-width: 760px)": { width: "100%" },
       maxWidth: "600px",
       margin: "20px auto 35px auto",
       backgroundColor: "#F6F6F6",
       height: "44px",
       position: "relative",
+      border: "1px solid #e4e4e4",
       borderRadius: "44px",
-      "> button": {
-        listStyleType: "none",
+      "> button.dayItem": {
         textAlign: "center",
         lineHeight: "44px",
         textTransform: "uppercase",
@@ -49,14 +50,15 @@ class DaySwitcher extends Component {
         cursor: "pointer",
         background: "none",
         border: "none",
-        fontSize: "18px"
-      },
-      "> button.dayItem": {
+        fontSize: "18px",
         zIndex: 2,
         transition: "color 1s ease"
       },
       "> button.dayItem.selectedDay": {
         color: "white"
+      },
+      "> button.dayItem:not(.selectedDay)": {
+        color: "#4d4d4d"
       },
       "> button.dayItem:not(.selectedDay):hover": {
         color: "#C81C2E"

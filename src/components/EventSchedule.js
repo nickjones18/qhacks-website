@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import moment from "moment-timezone";
-import { css } from "glamor";
 import DaySwitcher from "./DaySwitcher";
+import MediaQuery from "react-responsive";
+import EventScheduleFullSizeTable from "./EventScheduleFullSizeTable";
+import EventScheduleCompressedTable from "./EventScheduleCompressedTable";
+import { css } from "glamor";
 
 moment.tz.setDefault("America/Kingston");
 
@@ -157,17 +160,7 @@ class EventSchedule extends Component {
         moment(item.startDate).format("YYYY-MM-DD") === this.state.selectedDay
     );
 
-    const rows = this.addDurations(eventsOnSelectedDay).map((item) => (
-      <tr
-        css={{ backgroundColor: "#F6F6F6" }}
-        key={`${item.eventName} ${item.startDate}`}
-      >
-        <td>{moment(item.startDate).format("h:mm\xa0A")}</td>
-        <td>{item.duration}</td>
-        <td>{item.eventName}</td>
-        <td>{item.location}</td>
-      </tr>
-    ));
+    const data = this.addDurations(eventsOnSelectedDay);
 
     return (
       <div
@@ -176,10 +169,7 @@ class EventSchedule extends Component {
           padding: "110px 0",
           margin: "0 auto",
           maxWidth: "1076px",
-          width: "85%",
-          "@media(max-width: 700px)": {
-            width: "100%"
-          }
+          width: "85%"
         }}
       >
         <h1
@@ -194,50 +184,23 @@ class EventSchedule extends Component {
           changeDay={(day) => this.changeDay(day)}
         />
         <h3
-          css={{
-            color: "#00205b",
+          {...css({
             textTransform: "uppercase",
-            marginLeft: "16px"
-          }}
+            marginLeft: "16px",
+            "@media(max-width: 760px)": { marginLeft: 0 },
+            fontWeight: 800
+          })}
         >
           {moment(this.state.selectedDay, "YYYY-MM-DD").format(
             "dddd, MMMM Do, YYYY"
           )}
         </h3>
-        <table
-          {...css({
-            borderRadius: "16px",
-            fontWeight: "500",
-            overflow: "hidden",
-            borderCollapse: "collapse",
-            margin: "14px 0",
-            width: "100%",
-            "> tbody tr td, > tbody tr th": {
-              "@media(min-width: 700px)": {
-                padding: "12px 32px"
-              },
-              "@media(max-width: 700px)": {
-                padding: "6px"
-              },
-              textAlign: "left"
-            }
-          })}
-        >
-          <tbody>
-            <tr
-              css={{
-                backgroundColor: "#C81C2E",
-                color: "white"
-              }}
-            >
-              <th>Time</th>
-              <th>Duration</th>
-              <th>Event</th>
-              <th>Location</th>
-            </tr>
-            {rows}
-          </tbody>
-        </table>
+        <MediaQuery query="screen and (min-width: 760px)">
+          <EventScheduleFullSizeTable data={data} />
+        </MediaQuery>
+        <MediaQuery query="screen and (max-width: 760px)">
+          <EventScheduleCompressedTable data={data} />
+        </MediaQuery>
       </div>
     );
   }
