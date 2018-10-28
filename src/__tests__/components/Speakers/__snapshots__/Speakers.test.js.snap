@@ -15,7 +15,7 @@ exports[`Speakers renders correctly 1`] = `
       Object {
         "@media(max-width: 820px)": Object {
           "paddingBottom": "24px",
-          "paddingTop": "66px",
+          "paddingTop": "200px",
         },
         "paddingBottom": "48px",
         "paddingTop": "112px",
@@ -88,9 +88,11 @@ exports[`Speakers renders correctly 1`] = `
     />
   </div>
   <img
-    src="test-file-stub"
-    style={
+    css={
       Object {
+        "@media(max-width: 1000px)": Object {
+          "display": "none",
+        },
         "bottom": "-210px",
         "display": "block",
         "height": "289px",
@@ -100,6 +102,7 @@ exports[`Speakers renders correctly 1`] = `
         "zIndex": "1",
       }
     }
+    src="test-file-stub"
   />
 </div>
 `;

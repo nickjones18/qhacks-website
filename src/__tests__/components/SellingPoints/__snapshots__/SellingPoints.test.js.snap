@@ -160,18 +160,24 @@ exports[`SellingPoints renders correctly 1`] = `
     </div>
   </div>
   <img
-    src="test-file-stub"
-    style={
+    css={
       Object {
-        "bottom": "-230px",
+        "@media(max-width: 1200px)": Object {
+          "bottom": "-140px",
+          "height": "220px",
+          "left": "-45px",
+          "width": "358px",
+        },
+        "bottom": "-220px",
         "display": "block",
         "height": "361px",
-        "left": "-80px",
+        "left": "-100px",
         "position": "absolute",
-        "width": "573px",
+        "width": "588px",
         "zIndex": 3,
       }
     }
+    src="test-file-stub"
   />
 </div>
 `;

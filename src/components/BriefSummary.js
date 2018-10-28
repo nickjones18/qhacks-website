@@ -16,7 +16,8 @@ const BriefSummary = () => (
       position: "relative",
       width: "100%",
       background: "#f8f8f8",
-      paddingTop: "80px"
+      paddingTop: "80px",
+      paddingBottom: "80px"
     }}
   >
     <ContentWrapper>
@@ -26,7 +27,7 @@ const BriefSummary = () => (
           display: "grid",
           gridTemplateColumns: "auto auto",
           padding: "80px 55px 80px 55px",
-          margin: "0px 80px 80px 80px",
+          margin: "0 80px 0 80px",
           borderRadius: "8px",
           boxShadow: "4px 9px 40px 2px rgba(7, 16, 75, 0.1)",
           border: "solid 1px #e8e8e8",
@@ -106,13 +107,17 @@ const BriefSummary = () => (
       </div>
       <img
         src={cubes1}
-        style={{
+        css={{
           width: "275px",
           height: "196px",
+          "@media(max-width: 1000px)": {
+            width: "165",
+            height: "118",
+            bottom: "-70px"
+          },
           position: "absolute",
           bottom: "-140px",
-          right: "40px",
-          display: "block"
+          right: "40px"
         }}
       />
     </ContentWrapper>

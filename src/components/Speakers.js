@@ -38,7 +38,7 @@ const Speakers = () => (
         position: "relative",
         zIndex: "3",
         "@media(max-width: 820px)": {
-          paddingTop: "66px",
+          paddingTop: "200px",
           paddingBottom: "24px"
         }
       }}
@@ -75,14 +75,17 @@ const Speakers = () => (
     </div>
     <img
       src={cubes3}
-      style={{
+      css={{
         zIndex: "1",
         width: "235px",
         height: "289px",
         position: "absolute",
         bottom: "-210px",
         right: "62px",
-        display: "block"
+        display: "block",
+        "@media(max-width: 1000px)": {
+          display: "none"
+        }
       }}
     />
   </div>
