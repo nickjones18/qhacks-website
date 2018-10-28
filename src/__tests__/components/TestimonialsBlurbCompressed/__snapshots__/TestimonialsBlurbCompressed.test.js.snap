@@ -59,7 +59,7 @@ exports[`TestimonialsBlurb renders correctly 1`] = `
             "border": "none",
             "height": "20px",
             "marginRight": "64px",
-            "opacity": 0.2,
+            "opacity": 1,
             "width": "40px",
           }
         }

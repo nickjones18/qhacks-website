@@ -9,7 +9,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        rowspan={2}
+        rowSpan={2}
       >
         <div
           className="eventStart"
@@ -32,7 +32,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
     </tr>
     <tr>
       <td
-        classname="eventLocation"
+        className="eventLocation"
       >
         Kingston Hall
       </td>
@@ -43,7 +43,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        rowspan={2}
+        rowSpan={2}
       >
         <div
           className="eventStart"
@@ -66,7 +66,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
     </tr>
     <tr>
       <td
-        classname="eventLocation"
+        className="eventLocation"
       >
         Kingston Hall
       </td>
@@ -77,7 +77,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        rowspan={2}
+        rowSpan={2}
       >
         <div
           className="eventStart"
@@ -100,7 +100,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
     </tr>
     <tr>
       <td
-        classname="eventLocation"
+        className="eventLocation"
       >
         Kingston Hall
       </td>
@@ -111,7 +111,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        rowspan={2}
+        rowSpan={2}
       >
         <div
           className="eventStart"
@@ -134,7 +134,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
     </tr>
     <tr>
       <td
-        classname="eventLocation"
+        className="eventLocation"
       >
         BioSci Auditorium
       </td>
@@ -145,7 +145,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        rowspan={2}
+        rowSpan={2}
       >
         <div
           className="eventStart"
@@ -168,7 +168,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
     </tr>
     <tr>
       <td
-        classname="eventLocation"
+        className="eventLocation"
       />
     </tr>
   </tbody>
@@ -177,7 +177,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        rowspan={2}
+        rowSpan={2}
       >
         <div
           className="eventStart"
@@ -200,7 +200,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
     </tr>
     <tr>
       <td
-        classname="eventLocation"
+        className="eventLocation"
       >
         Walter Light Hall - Room 210
       </td>
@@ -211,7 +211,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        rowspan={2}
+        rowSpan={2}
       >
         <div
           className="eventStart"
@@ -234,7 +234,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
     </tr>
     <tr>
       <td
-        classname="eventLocation"
+        className="eventLocation"
       >
         Walter Light Hall Atrium
       </td>
@@ -245,7 +245,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        rowspan={2}
+        rowSpan={2}
       >
         <div
           className="eventStart"
@@ -268,7 +268,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
     </tr>
     <tr>
       <td
-        classname="eventLocation"
+        className="eventLocation"
       >
         Goodwin Hall - Room 254
       </td>
@@ -279,7 +279,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        rowspan={2}
+        rowSpan={2}
       >
         <div
           className="eventStart"
@@ -302,7 +302,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
     </tr>
     <tr>
       <td
-        classname="eventLocation"
+        className="eventLocation"
       >
         Walter Light Hall - Room 210
       </td>
@@ -313,7 +313,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        rowspan={2}
+        rowSpan={2}
       >
         <div
           className="eventStart"
@@ -336,7 +336,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
     </tr>
     <tr>
       <td
-        classname="eventLocation"
+        className="eventLocation"
       >
         ILC Design Bay
       </td>
@@ -347,7 +347,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        rowspan={2}
+        rowSpan={2}
       >
         <div
           className="eventStart"
@@ -370,7 +370,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
     </tr>
     <tr>
       <td
-        classname="eventLocation"
+        className="eventLocation"
       >
         Walter Light Hall - Room 210
       </td>
@@ -381,7 +381,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        rowspan={2}
+        rowSpan={2}
       >
         <div
           className="eventStart"
@@ -404,7 +404,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
     </tr>
     <tr>
       <td
-        classname="eventLocation"
+        className="eventLocation"
       >
         Walter Light Hall Auditorium
       </td>
@@ -415,7 +415,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        rowspan={2}
+        rowSpan={2}
       >
         <div
           className="eventStart"
@@ -438,7 +438,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
     </tr>
     <tr>
       <td
-        classname="eventLocation"
+        className="eventLocation"
       >
         ILC - Room 119
       </td>
@@ -449,7 +449,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        rowspan={2}
+        rowSpan={2}
       >
         <div
           className="eventStart"
@@ -472,7 +472,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
     </tr>
     <tr>
       <td
-        classname="eventLocation"
+        className="eventLocation"
       >
         ILC - Room 109
       </td>
@@ -483,7 +483,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        rowspan={2}
+        rowSpan={2}
       >
         <div
           className="eventStart"
@@ -506,7 +506,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
     </tr>
     <tr>
       <td
-        classname="eventLocation"
+        className="eventLocation"
       />
     </tr>
   </tbody>
@@ -515,7 +515,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
   >
     <tr>
       <td
-        rowspan={2}
+        rowSpan={2}
       >
         <div
           className="eventStart"
@@ -538,7 +538,7 @@ exports[`EventScheduleCompressedTable renders correctly 1`] = `
     </tr>
     <tr>
       <td
-        classname="eventLocation"
+        className="eventLocation"
       >
         Kingston Hall
       </td>

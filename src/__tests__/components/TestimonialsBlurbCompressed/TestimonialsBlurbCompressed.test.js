@@ -4,14 +4,6 @@ import { shallow } from "enzyme";
 
 describe("TestimonialsBlurb", () => {
   it("renders correctly", () => {
-    expect(
-      shallow(
-        <TestimonialsBlurb
-          text="hello"
-          firstTestimonial={true}
-          lastTestimonial={false}
-        />
-      )
-    ).toMatchSnapshot();
+    expect(shallow(<TestimonialsBlurb text="hello" />)).toMatchSnapshot();
   });
 });

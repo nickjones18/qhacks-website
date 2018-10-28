@@ -18,7 +18,6 @@ exports[`TestimonialList renders correctly 1`] = `
     style={
       Object {
         "display": "flex",
-        "overflowX": "hidden",
         "whiteSpace": "nowrap",
       }
     }

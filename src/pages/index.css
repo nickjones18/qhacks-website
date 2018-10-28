@@ -72,6 +72,10 @@ input:focus {
   outline: 1px dotted rgb(49, 54, 59);
 }
 
+div:focus {
+  outline: 0;
+}
+
 button::-moz-focus-inner {
   padding: 0;
   border: 0;
