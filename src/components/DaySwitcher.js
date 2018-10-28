@@ -2,12 +2,9 @@ import React, { Component } from "react";
 import { css } from "glamor";
 
 class DaySwitcher extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      selectedDay: 0
-    };
-  }
+  state = {
+    selectedDay: 0
+  };
 
   changeDay(day, index) {
     this.props.changeDay(day);

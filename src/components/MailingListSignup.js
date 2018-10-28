@@ -31,7 +31,9 @@ const MailingListSignup = (props) => (
       </p>
       <SignUpForm
         dataCyInput="mailing-list-input"
-        dataCyButton="mailing-list-signup-button"
+        dataCyButton="mailing-list-button"
+        hoverBackgroundColor="#00205b"
+        center={true}
       />
     </div>
   </div>

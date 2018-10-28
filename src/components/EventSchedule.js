@@ -130,12 +130,9 @@ eventDays.sort((a, b) => {
 });
 
 class EventSchedule extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      selectedDay: eventDays[0]
-    };
-  }
+  state = {
+    selectedDay: eventDays[0]
+  };
 
   addDurations(events) {
     return events.map((item) => {

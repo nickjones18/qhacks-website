@@ -32,8 +32,10 @@ exports[`MailingListSignup renders correctly 1`] = `
       Sign up for our mailing list to receive important QHacks announcements!
     </p>
     <SignUpForm
-      dataCyButton="mailing-list-signup-button"
+      center={true}
+      dataCyButton="mailing-list-button"
       dataCyInput="mailing-list-input"
+      hoverBackgroundColor="#00205b"
     />
   </div>
 </div>
