@@ -4,7 +4,7 @@ exports[`SignUpForm renders correctly 1`] = `
 <div
   style={
     Object {
-      "margin": "0",
+      "margin": "12px 0 0 8px",
       "width": "530px",
     }
   }
