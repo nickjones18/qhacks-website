@@ -57,37 +57,46 @@ class HackerTestimonials extends Component {
   render() {
     const blurb = `See what past hackers thought about the event! Lorem ipsum dolor sit amet, consectetur.`;
     return (
-      <ContentWrapper>
-        <MediaQuery query="screen and (min-width: 1000px)">
-          <div
-            id="testimonials"
-            style={{ height: "575px", position: "relative" }}
-          >
-            <TestimonialsBlurb
-              nextTestimonial={() => this.nextTestimonial()}
-              prevTestimonial={() => this.prevTestimonial()}
-              firstTestimonial={!this.state.currentTestimonial}
-              lastTestimonial={
-                this.state.currentTestimonial === testimonials.length - 1
-              }
-              text={blurb}
-            />
-            <TestimonialList
-              currentTestimonial={this.state.currentTestimonial}
-              testimonials={testimonials}
-            />
-          </div>
-        </MediaQuery>
-        <MediaQuery query="screen and (max-width: 1000px)">
-          <div style={{ margin: "0 5% 80px 5%" }}>
-            <TestimonialsBlurbCompressed text={blurb} />
-            <TestimonialListCompressed
-              currentTestimonial={this.state.currentTestimonial}
-              testimonials={testimonials}
-            />
-          </div>
-        </MediaQuery>
-      </ContentWrapper>
+      <div
+        style={{
+          overflowX: "hidden"
+        }}
+      >
+        <ContentWrapper>
+          <MediaQuery query="screen and (min-width: 1000px)">
+            <div
+              id="testimonials"
+              style={{
+                height: "575px",
+                position: "relative"
+              }}
+            >
+              <TestimonialsBlurb
+                nextTestimonial={() => this.nextTestimonial()}
+                prevTestimonial={() => this.prevTestimonial()}
+                firstTestimonial={!this.state.currentTestimonial}
+                lastTestimonial={
+                  this.state.currentTestimonial === testimonials.length - 1
+                }
+                text={blurb}
+              />
+              <TestimonialList
+                currentTestimonial={this.state.currentTestimonial}
+                testimonials={testimonials}
+              />
+            </div>
+          </MediaQuery>
+          <MediaQuery query="screen and (max-width: 1000px)">
+            <div style={{ margin: "0 5% 80px 5%" }}>
+              <TestimonialsBlurbCompressed text={blurb} />
+              <TestimonialListCompressed
+                currentTestimonial={this.state.currentTestimonial}
+                testimonials={testimonials}
+              />
+            </div>
+          </MediaQuery>
+        </ContentWrapper>
+      </div>
     );
   }
 }

@@ -1,94 +1,102 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`HackerTestimonials renders correctly 1`] = `
-<_default>
-  <MediaQuery
-    query="screen and (min-width: 1000px)"
-    values={Object {}}
-  >
-    <div
-      id="testimonials"
-      style={
-        Object {
-          "height": "575px",
-          "position": "relative",
-        }
-      }
+<div
+  style={
+    Object {
+      "overflowX": "hidden",
+    }
+  }
+>
+  <_default>
+    <MediaQuery
+      query="screen and (min-width: 1000px)"
+      values={Object {}}
     >
-      <TestimonialsBlurb
-        firstTestimonial={true}
-        lastTestimonial={false}
-        nextTestimonial={[Function]}
-        prevTestimonial={[Function]}
-        text="See what past hackers thought about the event! Lorem ipsum dolor sit amet, consectetur."
-      />
-      <TestimonialList
-        currentTestimonial={0}
-        testimonials={
-          Array [
-            Object {
-              "image": "test-file-stub",
-              "name": "Robert Saunders",
-              "project": "Dolores",
-              "text": "Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare. Phasellus at semper turpis. Nunc eu tellus tortor. Cras ullamcorper bibendum bibendum. ",
-            },
-            Object {
-              "image": "test-file-stub",
-              "name": "Ross Hill",
-              "project": "Dolores",
-              "text": "Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare. Phasellus at semper turpis. Nunc eu tellus tortor. Cras ullamcorper bibendum bibendum. ",
-            },
-            Object {
-              "image": "test-file-stub",
-              "name": "Joey Tepperman",
-              "project": "Dolores",
-              "text": "Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare. Phasellus at semper turpis. Nunc eu tellus tortor. Cras ullamcorper bibendum bibendum. ",
-            },
-          ]
+      <div
+        id="testimonials"
+        style={
+          Object {
+            "height": "575px",
+            "position": "relative",
+          }
         }
-      />
-    </div>
-  </MediaQuery>
-  <MediaQuery
-    query="screen and (max-width: 1000px)"
-    values={Object {}}
-  >
-    <div
-      style={
-        Object {
-          "margin": "0 5% 80px 5%",
-        }
-      }
+      >
+        <TestimonialsBlurb
+          firstTestimonial={true}
+          lastTestimonial={false}
+          nextTestimonial={[Function]}
+          prevTestimonial={[Function]}
+          text="See what past hackers thought about the event! Lorem ipsum dolor sit amet, consectetur."
+        />
+        <TestimonialList
+          currentTestimonial={0}
+          testimonials={
+            Array [
+              Object {
+                "image": "test-file-stub",
+                "name": "Robert Saunders",
+                "project": "Dolores",
+                "text": "Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare. Phasellus at semper turpis. Nunc eu tellus tortor. Cras ullamcorper bibendum bibendum. ",
+              },
+              Object {
+                "image": "test-file-stub",
+                "name": "Ross Hill",
+                "project": "Dolores",
+                "text": "Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare. Phasellus at semper turpis. Nunc eu tellus tortor. Cras ullamcorper bibendum bibendum. ",
+              },
+              Object {
+                "image": "test-file-stub",
+                "name": "Joey Tepperman",
+                "project": "Dolores",
+                "text": "Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare. Phasellus at semper turpis. Nunc eu tellus tortor. Cras ullamcorper bibendum bibendum. ",
+              },
+            ]
+          }
+        />
+      </div>
+    </MediaQuery>
+    <MediaQuery
+      query="screen and (max-width: 1000px)"
+      values={Object {}}
     >
-      <TestimonialsBlurbCompressed
-        text="See what past hackers thought about the event! Lorem ipsum dolor sit amet, consectetur."
-      />
-      <TestimonialListCompressed
-        currentTestimonial={0}
-        testimonials={
-          Array [
-            Object {
-              "image": "test-file-stub",
-              "name": "Robert Saunders",
-              "project": "Dolores",
-              "text": "Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare. Phasellus at semper turpis. Nunc eu tellus tortor. Cras ullamcorper bibendum bibendum. ",
-            },
-            Object {
-              "image": "test-file-stub",
-              "name": "Ross Hill",
-              "project": "Dolores",
-              "text": "Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare. Phasellus at semper turpis. Nunc eu tellus tortor. Cras ullamcorper bibendum bibendum. ",
-            },
-            Object {
-              "image": "test-file-stub",
-              "name": "Joey Tepperman",
-              "project": "Dolores",
-              "text": "Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare. Phasellus at semper turpis. Nunc eu tellus tortor. Cras ullamcorper bibendum bibendum. ",
-            },
-          ]
+      <div
+        style={
+          Object {
+            "margin": "0 5% 80px 5%",
+          }
         }
-      />
-    </div>
-  </MediaQuery>
-</_default>
+      >
+        <TestimonialsBlurbCompressed
+          text="See what past hackers thought about the event! Lorem ipsum dolor sit amet, consectetur."
+        />
+        <TestimonialListCompressed
+          currentTestimonial={0}
+          testimonials={
+            Array [
+              Object {
+                "image": "test-file-stub",
+                "name": "Robert Saunders",
+                "project": "Dolores",
+                "text": "Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare. Phasellus at semper turpis. Nunc eu tellus tortor. Cras ullamcorper bibendum bibendum. ",
+              },
+              Object {
+                "image": "test-file-stub",
+                "name": "Ross Hill",
+                "project": "Dolores",
+                "text": "Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare. Phasellus at semper turpis. Nunc eu tellus tortor. Cras ullamcorper bibendum bibendum. ",
+              },
+              Object {
+                "image": "test-file-stub",
+                "name": "Joey Tepperman",
+                "project": "Dolores",
+                "text": "Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare. Phasellus at semper turpis. Nunc eu tellus tortor. Cras ullamcorper bibendum bibendum. ",
+              },
+            ]
+          }
+        />
+      </div>
+    </MediaQuery>
+  </_default>
+</div>
 `;
