@@ -23,10 +23,7 @@ const flexChildStyle = {
   flex: 1,
   textAlign: "center",
   minWidth: "300px",
-  margin: "0 28px 32px 28px"
-};
-
-const detailsStyle = {
+  margin: "0 28px 32px 28px",
   maxWidth: "510px"
 };
 
@@ -39,7 +36,8 @@ const blurbStyle = {
 
 const imgStyle = {
   maxHeight: "320px",
-  maxWidth: "475px"
+  maxWidth: "475px",
+  width: "100%"
 };
 
 const SellingPoints = () => (
@@ -50,7 +48,7 @@ const SellingPoints = () => (
         flexWrap: "wrap"
       }}
     >
-      <div css={{ ...flexChildStyle, ...detailsStyle }}>
+      <div css={flexChildStyle}>
         <h1>Grow Your Network.</h1>
         <p css={blurbStyle}>
           QHacks was first held in 2016 with a mission to advocate and incubate
@@ -80,10 +78,9 @@ const SellingPoints = () => (
           ]}
         />
       </div>
-      <img
-        src={qhacksSellingPointOne}
-        css={{ ...flexChildStyle, ...imgStyle }}
-      />
+      <div css={flexChildStyle}>
+        <img src={qhacksSellingPointOne} css={imgStyle} />
+      </div>
     </div>
     <div
       css={{
@@ -92,11 +89,10 @@ const SellingPoints = () => (
         marginBottom: 0
       }}
     >
-      <img
-        src={qhacksSellingPointTwo}
-        css={{ ...flexChildStyle, ...imgStyle }}
-      />
-      <div css={{ ...flexChildStyle, ...detailsStyle }}>
+      <div css={flexChildStyle}>
+        <img src={qhacksSellingPointTwo} css={imgStyle} />
+      </div>
+      <div css={flexChildStyle}>
         <h1>Showcase to Experts.</h1>
         <p css={blurbStyle}>
           This year, we have a colourful array of mentors, speakers, sponsors
