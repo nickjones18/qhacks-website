@@ -161,7 +161,7 @@ const Footer = () => (
               dataCy="footer-signup-button"
             />
           </div>
-          <div css={{ "@media(max-width: 840px)": { display: "none" } }}>
+          <div css={{ [smallerScreens]: { display: "none" } }}>
             <p
               data-cy="footer-address"
               css={{ ...finePrint, paddingBottom: "6px" }}
@@ -228,9 +228,7 @@ const Footer = () => (
             }
           }}
         >
-          <h3 css={{ "@media (max-width: 840px)": { display: "none" } }}>
-            Get in touch
-          </h3>
+          <h3 css={{ [smallerScreens]: { display: "none" } }}>Get in touch</h3>
           <div
             css={{
               paddingTop: "30px",

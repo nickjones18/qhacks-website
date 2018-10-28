@@ -114,7 +114,7 @@ exports[`Footer renders correctly 1`] = `
         <div
           css={
             Object {
-              "@media(max-width: 840px)": Object {
+              "@media(max-width: 950px)": Object {
                 "display": "none",
               },
             }
@@ -262,7 +262,7 @@ exports[`Footer renders correctly 1`] = `
         <h3
           css={
             Object {
-              "@media (max-width: 840px)": Object {
+              "@media(max-width: 950px)": Object {
                 "display": "none",
               },
             }
