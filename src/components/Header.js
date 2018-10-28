@@ -33,7 +33,14 @@ class Header extends Component {
     };
   }
 
+  disableScrolling = (e) => e.preventDefault();
+
+  enableScrolling = () => true;
+
   onMobileMenuClicked = () => {
+    document.ontouchmove = this.state.isMobileMenuVisible
+      ? this.enableScrolling
+      : this.disableScrolling;
     this.setState({ isMobileMenuVisible: !this.state.isMobileMenuVisible });
     document.body.style.overflow = this.state.isMobileMenuVisible
       ? ""
