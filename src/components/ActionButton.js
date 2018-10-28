@@ -46,7 +46,8 @@ const ActionButton = (props) => {
   return (
     <button
       css={{
-        ...commonStyles
+        ...commonStyles,
+        ...props.style
       }}
       data-cy={props.dataCy}
       disabled={props.disabled}

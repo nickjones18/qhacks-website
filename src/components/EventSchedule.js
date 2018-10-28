@@ -164,7 +164,7 @@ class EventSchedule extends Component {
       <div
         id="schedule"
         css={{
-          padding: "110px 0",
+          padding: "110px 0 50px 0",
           margin: "0 auto",
           maxWidth: "1076px",
           width: "85%"
@@ -186,6 +186,7 @@ class EventSchedule extends Component {
         <h3
           {...css({
             textTransform: "uppercase",
+            color: "#00205b",
             marginLeft: "16px",
             "@media(max-width: 760px)": { marginLeft: 0 },
             fontWeight: 800

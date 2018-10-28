@@ -105,6 +105,13 @@ exports[`Podcast renders correctly 1`] = `
             backgroundColor="#ffffff"
             dataCy="listen-button"
             foregroundColor="#00205b"
+            style={
+              Object {
+                "@media (max-width: 1128px)": Object {
+                  "margin": "0 auto",
+                },
+              }
+            }
             type="rounded"
           >
             Listen

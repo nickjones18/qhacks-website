@@ -27,13 +27,15 @@ const Podcast = () => (
             border: "solid 1px #e8e8e8",
             display: "grid",
             gridTemplateColumns: "min-content auto",
-            marginLeft: "80px",
-            marginRight: "80px",
+            marginLeft: "145px",
+            marginRight: "145px",
             "@media (max-width: 780px)": {
               margin: "0px 16px 160px 16px"
             },
             "@media (max-width: 1128px)": { display: "block" },
-            padding: "40px 28px 40px 28px"
+            padding: "40px 28px 40px 28px",
+            marginLeft: "80px",
+            marginRight: "80px"
           }}
         >
           <div
@@ -81,6 +83,11 @@ const Podcast = () => (
               porta. Nam condimentum vitae ligula vel ornare.
             </p>
             <ActionButton
+              style={{
+                "@media (max-width: 1128px)": {
+                  margin: "0 auto"
+                }
+              }}
               type="rounded"
               foregroundColor="#00205b"
               backgroundColor="#ffffff"

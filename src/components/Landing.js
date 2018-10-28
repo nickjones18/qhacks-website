@@ -20,16 +20,20 @@ const menuItems = [
 ];
 
 const loginButtonCSS = {
-  marginTop: "24px"
+  margin: "24px 0 150px 0",
+  "@media(max-width: 820px)": {
+    margin: "24px auto"
+  }
 };
 
 const Landing = () => (
   <div
     css={{
       width: "100%",
-      height: "100vh",
       minHeight: "700px",
-      maxHeight: "850px",
+      "@media(min-width: 1200px)": {
+        maxHeight: "850px"
+      },
       background: `url(${backgroundCubes}) no-repeat center center`,
       backgroundSize: "cover",
       "@media(max-width: 600px)": {
@@ -45,20 +49,28 @@ const Landing = () => (
           gridTemplateColumns: "auto 1fr",
           "@media(max-width: 820px)": {
             textAlign: "center",
-            display: "block"
+            display: "block",
+            paddingTop: "120px"
           }
         }}
       >
         <div
           css={{
-            "@media(min-width: 820px)": {
-              marginLeft: "80px",
+            "@media(min-width: 1200px)": {
+              marginLeft: "110px",
               paddingRight: "50px",
               paddingLeft: "0px"
             },
-            paddingLeft: "42px",
-            paddingRight: "42px",
-            paddingTop: "110px"
+            "@media (min-width: 820px) and (max-width: 1200px)": {
+              marginLeft: "10%",
+              paddingRight: "50px",
+              paddingLeft: "0px"
+            },
+            "@media(min-width: 820px)": {
+              paddingLeft: "42px",
+              paddingRight: "42px",
+              paddingTop: "110px"
+            }
           }}
         >
           <img
@@ -149,7 +161,10 @@ const Landing = () => (
             position: "relative",
             paddingTop: "110px",
             textAlign: "right",
-            marginRight: "80px"
+            marginRight: "80px",
+            "@media(max-width: 820px)": {
+              display: "none"
+            }
           }}
         >
           <img
@@ -157,9 +172,9 @@ const Landing = () => (
             css={{
               width: "100%",
               maxWidth: "750px",
-              "@media(max-width: 820px)": {
-                display: "none"
-              }
+              position: "relative",
+              top: "50%",
+              transform: "translateY(-50%)"
             }}
             alt="QHacks Illustration"
           />

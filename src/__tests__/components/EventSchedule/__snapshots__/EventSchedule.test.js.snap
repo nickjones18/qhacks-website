@@ -6,7 +6,7 @@ exports[`EventSchedule renders correctly 1`] = `
     Object {
       "margin": "0 auto",
       "maxWidth": "1076px",
-      "padding": "110px 0",
+      "padding": "110px 0 50px 0",
       "width": "85%",
     }
   }
@@ -34,7 +34,7 @@ exports[`EventSchedule renders correctly 1`] = `
     }
   />
   <h3
-    data-css-1f3anu=""
+    data-css-1cm0ws5=""
   >
     Friday, February 1st, 2019
   </h3>

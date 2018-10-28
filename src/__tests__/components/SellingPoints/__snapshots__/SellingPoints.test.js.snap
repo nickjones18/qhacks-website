@@ -18,15 +18,18 @@ exports[`SellingPoints renders correctly 1`] = `
         "justifyContent": "center",
         "margin": "0 auto",
         "marginBottom": "48px",
-        "padding": "0 3%",
+        "padding": "0",
       }
     }
   >
     <div
       css={
         Object {
+          "@media(max-width: 820px)": Object {
+            "margin": "16px",
+          },
           "flex": 1,
-          "margin": "0 28px 32px 28px",
+          "margin": "0 28px 28px 28px",
           "maxWidth": "510px",
           "minWidth": "300px",
           "textAlign": "center",
@@ -73,9 +76,13 @@ exports[`SellingPoints renders correctly 1`] = `
     <div
       css={
         Object {
+          "@media(max-width: 820px)": Object {
+            "margin": "16px",
+          },
           "flex": 1,
-          "margin": "0 28px 32px 28px",
-          "maxWidth": "510px",
+          "margin": "0 28px 28px 28px",
+          "maxHeight": "320px",
+          "maxWidth": "475px",
           "minWidth": "300px",
           "textAlign": "center",
         }
@@ -114,16 +121,20 @@ exports[`SellingPoints renders correctly 1`] = `
         "justifyContent": "center",
         "margin": "0 auto",
         "marginBottom": 0,
-        "padding": "0 3%",
+        "padding": "0",
       }
     }
   >
     <div
       css={
         Object {
+          "@media(max-width: 820px)": Object {
+            "margin": "16px",
+          },
           "flex": 1,
-          "margin": "0 28px 32px 28px",
-          "maxWidth": "510px",
+          "margin": "0 28px 28px 28px",
+          "maxHeight": "320px",
+          "maxWidth": "475px",
           "minWidth": "300px",
           "textAlign": "center",
         }
@@ -155,8 +166,11 @@ exports[`SellingPoints renders correctly 1`] = `
     <div
       css={
         Object {
+          "@media(max-width: 820px)": Object {
+            "margin": "16px",
+          },
           "flex": 1,
-          "margin": "0 28px 32px 28px",
+          "margin": "0 28px 28px 28px",
           "maxWidth": "510px",
           "minWidth": "300px",
           "textAlign": "center",

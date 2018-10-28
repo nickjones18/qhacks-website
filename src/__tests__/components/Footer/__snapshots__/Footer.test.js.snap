@@ -17,13 +17,17 @@ exports[`Footer renders correctly 1`] = `
             "color": "inherit",
             "textTransform": "uppercase",
           },
+          "@media (min-width: 950px) and (max-width: 1200px)": Object {
+            "marginLeft": "80px",
+            "marginRight": "80px",
+          },
           "@media(max-width: 950px)": Object {
             "display": "block",
             "textAlign": "center",
           },
-          "@media(min-width: 950px)": Object {
-            "marginLeft": "80px",
-            "marginRight": "80px",
+          "@media(min-width: 1200px)": Object {
+            "marginLeft": "183px",
+            "marginRight": "183px",
           },
           "display": "grid",
           "gridTemplateColumns": "auto auto auto",
@@ -106,12 +110,29 @@ exports[`Footer renders correctly 1`] = `
             }
           }
         >
-          <SignUpForm
-            backgroundColor="#c81c2e"
-            dataCy="footer-signup-button"
-            fontSize={14}
-            foregroundColor="white"
-          />
+          <MediaQuery
+            query="screen and (max-width: 950px)"
+            values={Object {}}
+          >
+            <SignUpForm
+              backgroundColor="#c81c2e"
+              center={true}
+              dataCy="footer-signup-button"
+              fontSize={14}
+              foregroundColor="white"
+            />
+          </MediaQuery>
+          <MediaQuery
+            query="screen and (min-width: 950px)"
+            values={Object {}}
+          >
+            <SignUpForm
+              backgroundColor="#c81c2e"
+              dataCy="footer-signup-button"
+              fontSize={14}
+              foregroundColor="white"
+            />
+          </MediaQuery>
         </div>
         <div
           css={
@@ -253,7 +274,10 @@ exports[`Footer renders correctly 1`] = `
       <div
         css={
           Object {
-            "@media(min-width: 950px)": Object {
+            "@media (min-width: 950px) and (max-width: 1200px)": Object {
+              "paddingTop": "80px",
+            },
+            "@media(min-width: 1200px)": Object {
               "paddingTop": "80px",
             },
             "marginLeft": "auto",
@@ -555,7 +579,10 @@ exports[`Footer renders correctly 1`] = `
       <div
         css={
           Object {
-            "@media(min-width: 950px)": Object {
+            "@media (min-width: 950px) and (max-width: 1200px)": Object {
+              "display": "none",
+            },
+            "@media(min-width: 1200px)": Object {
               "display": "none",
             },
           }

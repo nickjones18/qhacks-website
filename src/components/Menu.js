@@ -46,7 +46,7 @@ const Menu = (props) => {
         <ScrollSpy
           css={{
             display: "grid",
-            gridColumnGap: "50px",
+            gridColumnGap: "40px",
             gridTemplateColumns: props.menuItems
               .map(() => "min-content ")
               .reduce((a, b) => a + b)

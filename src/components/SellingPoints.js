@@ -21,14 +21,20 @@ const twoColumnStyle = {
   alignItems: "center",
   margin: "0 auto",
   marginBottom: "48px",
-  padding: "0 3%"
+  padding: "0"
 };
 
 const flexChildStyle = {
   flex: 1,
   textAlign: "center",
   minWidth: "300px",
-  margin: "0 28px 32px 28px",
+  margin: "0 28px 28px 28px",
+  "@media(max-width: 820px)": {
+    margin: "16px"
+  }
+};
+
+const detailsStyle = {
   maxWidth: "510px"
 };
 
