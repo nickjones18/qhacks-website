@@ -79,7 +79,7 @@ const [smallScreens, mediumScreens, largeScreens] = [
 ];
 
 const Footer = () => (
-  <div css={{ backgroundColor: "#11213f", color: "#ffffff" }}>
+  <footer css={{ backgroundColor: "#11213f", color: "#ffffff" }}>
     <ContentWrapper>
       <div
         css={{
@@ -351,7 +351,7 @@ const Footer = () => (
         </div>
       </div>
     </ContentWrapper>
-  </div>
+  </footer>
 );
 
 export default Footer;

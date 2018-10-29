@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`MailingListSignup renders correctly 1`] = `
-<div
+<section
   css={
     Object {
       "alignItems": "center",
@@ -40,5 +40,5 @@ exports[`MailingListSignup renders correctly 1`] = `
       hoverBackgroundColor="#00205b"
     />
   </_default>
-</div>
+</section>
 `;

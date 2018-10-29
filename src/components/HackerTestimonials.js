@@ -56,7 +56,7 @@ class HackerTestimonials extends Component {
   render() {
     const blurb = `See what past hackers thought about the event! Lorem ipsum dolor sit amet, consectetur.`;
     return (
-      <div
+      <section
         style={{
           overflowX: "hidden"
         }}
@@ -95,7 +95,7 @@ class HackerTestimonials extends Component {
             </div>
           </MediaQuery>
         </ContentWrapper>
-      </div>
+      </section>
     );
   }
 }

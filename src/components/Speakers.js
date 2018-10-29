@@ -26,7 +26,7 @@ const speakers = [
 ];
 
 const Speakers = () => (
-  <div
+  <section
     style={{
       backgroundColor: "#f8f8f8",
       position: "relative"

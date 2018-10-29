@@ -21,7 +21,7 @@ import qic from "../assets/img/sponsors/qic.svg";
 import td from "../assets/img/sponsors/td.svg";
 
 const Sponsors = () => (
-  <div
+  <section
     id="sponsors"
     css={{
       backgroundColor: "#f8f8f8",
@@ -268,7 +268,7 @@ const Sponsors = () => (
         </div>
       </div>
     </ContentWrapper>
-  </div>
+  </section>
 );
 
 export default Sponsors;

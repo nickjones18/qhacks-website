@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Podcast renders correctly 1`] = `
-<div>
+<section>
   <div
     css={
       Object {
@@ -128,5 +128,5 @@ exports[`Podcast renders correctly 1`] = `
       }
     }
   />
-</div>
+</section>
 `;

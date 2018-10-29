@@ -2,7 +2,7 @@
 
 exports[`EventSchedule renders correctly 1`] = `
 <_default>
-  <div
+  <section
     css={
       Object {
         "margin": "0 auto",
@@ -143,6 +143,6 @@ exports[`EventSchedule renders correctly 1`] = `
         }
       />
     </MediaQuery>
-  </div>
+  </section>
 </_default>
 `;

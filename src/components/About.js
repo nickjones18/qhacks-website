@@ -4,10 +4,10 @@ import BriefSummary from "./BriefSummary";
 import SellingPoints from "./SellingPoints";
 
 const About = () => (
-  <div id="about">
+  <section id="about">
     <BriefSummary />
     <SellingPoints />
-  </div>
+  </section>
 );
 
 export default About;

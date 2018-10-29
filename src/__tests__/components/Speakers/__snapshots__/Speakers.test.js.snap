@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Speakers renders correctly 1`] = `
-<div
+<section
   id="speakers"
   style={
     Object {
@@ -110,6 +110,7 @@ exports[`Speakers renders correctly 1`] = `
         "zIndex": "1",
       }
     }
+<<<<<<< 0aab477cd050c2329faeca878ece0454499fa34c
   >
     <source
       srcset="test-file-stub"
@@ -125,4 +126,9 @@ exports[`Speakers renders correctly 1`] = `
     />
   </picture>
 </div>
+=======
+    src="test-file-stub"
+  />
+</section>
+>>>>>>> Implement Robert's Semantic HTML changes from #164
 `;

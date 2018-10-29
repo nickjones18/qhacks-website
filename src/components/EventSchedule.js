@@ -163,7 +163,7 @@ class EventSchedule extends Component {
 
     return (
       <ContentWrapper>
-        <div
+        <section
           id="schedule"
           css={{
             padding: "110px 0 50px 0",
@@ -202,7 +202,7 @@ class EventSchedule extends Component {
           <MediaQuery query="screen and (max-width: 760px)">
             <EventScheduleCompressedTable data={data} />
           </MediaQuery>
-        </div>
+        </section>
       </ContentWrapper>
     );
   }

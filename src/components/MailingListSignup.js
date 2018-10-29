@@ -5,7 +5,7 @@ import ContentWrapper from "./ContentWrapper";
 import circuits from "../assets/img/backgrounds/circuitsRed.png";
 
 const MailingListSignup = (props) => (
-  <div
+  <section
     css={{
       width: "100%",
       color: "white",
@@ -40,7 +40,7 @@ const MailingListSignup = (props) => (
         center={true}
       />
     </ContentWrapper>
-  </div>
+  </section>
 );
 
 export default MailingListSignup;

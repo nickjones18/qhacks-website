@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`HackerTestimonials renders correctly 1`] = `
-<div
+<section
   style={
     Object {
       "overflowX": "hidden",
@@ -98,5 +98,5 @@ exports[`HackerTestimonials renders correctly 1`] = `
       </div>
     </MediaQuery>
   </_default>
-</div>
+</section>
 `;

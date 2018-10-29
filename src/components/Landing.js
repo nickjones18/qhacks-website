@@ -42,7 +42,7 @@ const Landing = () => (
   >
     <Header menuItems={menuItems} />
     <ContentWrapper>
-      <div
+      <section
         css={{
           display: "grid",
           paddingTop: "115px",
@@ -170,7 +170,7 @@ const Landing = () => (
             alt="QHacks Illustration"
           />
         </div>
-      </div>
+      </section>
     </ContentWrapper>
   </div>
 );

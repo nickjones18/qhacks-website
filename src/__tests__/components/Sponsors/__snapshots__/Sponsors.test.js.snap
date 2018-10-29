@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Sponsors renders correctly 1`] = `
-<div
+<section
   css={
     Object {
       " img": Object {
@@ -584,5 +584,5 @@ exports[`Sponsors renders correctly 1`] = `
       </div>
     </div>
   </_default>
-</div>
+</section>
 `;

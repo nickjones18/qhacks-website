@@ -29,7 +29,7 @@ exports[`Landing renders correctly 1`] = `
     }
   />
   <_default>
-    <div
+    <section
       css={
         Object {
           "@media(max-width: 820px)": Object {
@@ -193,7 +193,7 @@ exports[`Landing renders correctly 1`] = `
           src="test-file-stub"
         />
       </div>
-    </div>
+    </section>
   </_default>
 </div>
 `;

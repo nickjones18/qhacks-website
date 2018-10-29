@@ -8,7 +8,7 @@ import podcastwebp from "../assets/img/icons/podcastIcon.webp";
 import podcastpng from "../assets/img/icons/podcastIcon.png";
 
 const Podcast = () => (
-  <div>
+  <section>
     <div
       css={{
         paddingBottom: "133px",
@@ -103,7 +103,7 @@ const Podcast = () => (
         borderTop: "solid #dbdbdb 3px"
       }}
     />
-  </div>
+  </section>
 );
 
 export default Podcast;

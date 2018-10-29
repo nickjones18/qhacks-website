@@ -60,7 +60,7 @@ const linkCss = {
 };
 
 const FAQs = () => (
-  <div id="faq" css={{ backgroundColor: "#ffffff" }}>
+  <section id="faq" css={{ backgroundColor: "#ffffff" }}>
     <ContentWrapper>
       <div
         css={{
@@ -119,7 +119,7 @@ const FAQs = () => (
         </div>
       </div>
     </ContentWrapper>
-  </div>
+  </section>
 );
 
 export default FAQs;
