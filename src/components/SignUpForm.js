@@ -3,6 +3,9 @@ import ActionButton from "./ActionButton";
 import circleCheck from "../assets/img/circleCheck.svg";
 import circleTimes from "../assets/img/circleTimes.svg";
 import spinner from "../assets/img/spinner.svg";
+import circleCheckWhite from "../assets/img/circleCheck-white.svg";
+import circleTimesWhite from "../assets/img/circleTimes-white.svg";
+import spinnerWhite from "../assets/img/spinner-white.svg";
 
 class SignUpForm extends Component {
   state = {
@@ -44,11 +47,16 @@ class SignUpForm extends Component {
 
   render() {
     let buttonContent = "";
+    const whiteIcons =
+      this.props.foregroundColor &&
+      ["#fff", "#ffffff", "white"].includes(
+        this.props.foregroundColor.toLowerCase()
+      );
     switch (this.state.status) {
     case "loading": {
       buttonContent = (
         <img
-          src={spinner}
+          src={whiteIcons ? spinnerWhite : spinner}
           style={{
             animation: "spin 2s infinite linear"
           }}
@@ -57,11 +65,15 @@ class SignUpForm extends Component {
       break;
     }
     case "success": {
-      buttonContent = <img src={circleCheck} />;
+      buttonContent = (
+        <img src={whiteIcons ? circleCheckWhite : circleCheck} />
+      );
       break;
     }
     case "failure": {
-      buttonContent = <img src={circleTimes} />;
+      buttonContent = (
+        <img src={whiteIcons ? circleTimesWhite : circleTimes} />
+      );
       break;
     }
     default: {
