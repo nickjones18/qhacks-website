@@ -12,7 +12,7 @@ const SpeakerSliderDots = (props) => (
         .reduce((a, b) => a + b),
       paddingBottom: "16px",
       ">div": {
-        transition: "1s",
+        transition: "0.5s",
         borderRadius: "50%",
         marginLeft: "auto",
         marginRight: "auto",
@@ -23,6 +23,7 @@ const SpeakerSliderDots = (props) => (
   >
     {props.speakers.map((_, i) => (
       <div
+        onClick={props.onClick(i)}
         key={i}
         css={{
           backgroundColor: i === props.currentIndex ? "#00205b" : "#aeb7c8"

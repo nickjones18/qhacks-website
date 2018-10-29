@@ -10,27 +10,23 @@ class SpeakerSlider extends Component {
     super(props);
   }
 
-  handleSwipe = (direction) => {
-    const increment = direction === "left" ? 1 : -1;
-    if (
-      this.state.currentIndex + increment >= 0 &&
-      this.state.currentIndex + increment < this.props.speakers.length
-    ) {
-      this.setState({ currentIndex: this.state.currentIndex + increment });
-    }
-  };
+  handleChange = (currentIndex) => this.setState({ currentIndex });
 
   componentWillMount() {
     this.setState({ currentIndex: 0 });
   }
+
+  onSpeakerSliderDotsClicked = (num) => () => {
+    this.slider.slickGoTo(num);
+  };
 
   render() {
     const settings = {
       dots: false,
       arrows: false,
       infinite: false,
-      onSwipe: (direction) => {
-        this.handleSwipe(direction);
+      afterChange: (direction) => {
+        this.handleChange(direction);
       }
     };
 
@@ -39,8 +35,9 @@ class SpeakerSlider extends Component {
         <SpeakerSliderDots
           speakers={this.props.speakers}
           currentIndex={this.state.currentIndex}
+          onClick={this.onSpeakerSliderDotsClicked}
         />
-        <Slider {...settings}>
+        <Slider {...settings} ref={(slider) => (this.slider = slider)}>
           {this.props.speakers.map((speaker) => (
             <SpeakerCard {...speaker} key={speaker.name} />
           ))}
