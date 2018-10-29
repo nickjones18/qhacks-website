@@ -22,7 +22,9 @@ const speakers = [
 describe("SpeakerSliderDots", () => {
   it("renders correctly", () => {
     expect(
-      shallow(<SpeakerSliderDots speakers={speakers} />)
+      shallow(
+        <SpeakerSliderDots speakers={speakers} onClick={(num) => () => {}} />
+      )
     ).toMatchSnapshot();
   });
 });

@@ -9,7 +9,7 @@ exports[`SpeakerSliderDots renders correctly 1`] = `
         "height": "6px",
         "marginLeft": "auto",
         "marginRight": "auto",
-        "transition": "1s",
+        "transition": "0.5s",
         "width": "6px",
       },
       "display": "grid",
@@ -28,6 +28,7 @@ exports[`SpeakerSliderDots renders correctly 1`] = `
       }
     }
     key="0"
+    onClick={[Function]}
   />
   <div
     css={
@@ -36,6 +37,7 @@ exports[`SpeakerSliderDots renders correctly 1`] = `
       }
     }
     key="1"
+    onClick={[Function]}
   />
 </div>
 `;
