@@ -38,9 +38,6 @@ class Header extends Component {
   enableScrolling = () => true;
 
   onMobileMenuClicked = () => {
-    document.ontouchmove = this.state.isMobileMenuVisible
-      ? this.enableScrolling
-      : this.disableScrolling;
     this.setState({ isMobileMenuVisible: !this.state.isMobileMenuVisible });
     document.body.style.overflow = this.state.isMobileMenuVisible
       ? ""
@@ -48,6 +45,13 @@ class Header extends Component {
   };
 
   render() {
+    // Throws an error during build command
+    try {
+      document.ontouchmove = this.state.isMobileMenuVisible
+        ? this.disableScrolling
+        : this.enableScrolling;
+    } catch (e) {}
+
     return (
       <div>
         <div
