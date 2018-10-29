@@ -360,6 +360,7 @@ exports[`Sponsors renders correctly 1`] = `
         foregroundColor="#c81c2e"
         style={
           Object {
+            "margin": "0 auto",
             "paddingLeft": "40px",
             "paddingRight": "40px",
           }
