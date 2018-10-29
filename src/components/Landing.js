@@ -1,12 +1,14 @@
 import React from "react";
-import logo from "../assets/img/colored.svg";
-import word from "../assets/img/wordmark.svg";
-import banner from "../assets/img/mlhLogo.svg";
-import backgroundCubes from "../assets/img/backgroundCubes.svg";
-import landingImg from "../assets/img/landingImg.svg";
-import ActionButton from "./ActionButton";
+
 import Header from "./Header";
+import ActionButton from "./ActionButton";
 import ContentWrapper from "./ContentWrapper";
+
+import banner from "../assets/img/sponsors/mlh.svg";
+import landingImg from "../assets/img/icons/landingImg.svg";
+import logo from "../assets/img/logo/qhacksCrown-colored.svg";
+import word from "../assets/img/logo/qhacksWordmark-colored.svg";
+import backgroundCubes from "../assets/img/icons/backgroundCubes.svg";
 
 const menuItems = [
   "about",

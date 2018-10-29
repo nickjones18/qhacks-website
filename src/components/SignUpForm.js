@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import ActionButton from "./ActionButton";
-import circleCheck from "../assets/img/circleCheck.svg";
-import circleTimes from "../assets/img/circleTimes.svg";
-import spinner from "../assets/img/spinner.svg";
-import circleCheckWhite from "../assets/img/circleCheck-white.svg";
-import circleTimesWhite from "../assets/img/circleTimes-white.svg";
-import spinnerWhite from "../assets/img/spinner-white.svg";
+
+import circleCheckWhite from "../assets/img/icons/circleSuccess-white.svg";
+import circleTimesWhite from "../assets/img/icons/circleError-white.svg";
+import circleCheck from "../assets/img/icons/circleSuccess-green.svg";
+import circleTimes from "../assets/img/icons/circleError-red.svg";
+import spinnerWhite from "../assets/img/icons/spinner-white.svg";
+import spinner from "../assets/img/icons/spinner-black.svg";
 
 class SignUpForm extends Component {
   state = {

@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import Menu from "./Menu";
-import MobileMenu from "./MobileMenu";
+
 import ContentWrapper from "./ContentWrapper";
+import MobileMenu from "./MobileMenu";
+import Menu from "./Menu";
 
 let prevScrollY = 0;
 

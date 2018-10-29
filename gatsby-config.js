@@ -15,7 +15,7 @@ module.exports = {
         background_color: "#00205b",
         theme_color: "#c81c2e",
         display: "minimal-ui",
-        icon: "src/assets/img/qhacksIcon.png"
+        icon: "src/assets/img/logo/qhacksAppIcon.png"
       }
     },
     "gatsby-plugin-offline"

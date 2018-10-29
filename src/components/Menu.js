@@ -1,6 +1,7 @@
 import React from "react";
 import ScrollSpy from "react-scrollspy";
-import colored from "../assets/img/colored.svg";
+
+import colored from "../assets/img/logo/qhacksCrown-colored.svg";
 
 const Menu = (props) => {
   return (

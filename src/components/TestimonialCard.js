@@ -1,5 +1,6 @@
 import React from "react";
-import quotes from "../assets/img/quotes.svg";
+
+import quotes from "../assets/img/icons/quotesIcon.svg";
 
 const TestimonialCard = (props) => (
   <div

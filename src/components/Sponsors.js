@@ -1,22 +1,24 @@
 import React from "react";
-import ActionButton from "./ActionButton";
+
 import SponsorLink from "./SponsorLink";
-import tucows from "../assets/img/tucows.svg";
-import kds from "../assets/img/kingsDistributed.svg";
-import sunlife from "../assets/img/sunlife.svg";
-import consensys from "../assets/img/consensys.svg";
-import loopio from "../assets/img/loopio.svg";
-import ratehub from "../assets/img/ratehub.svg";
-import scotiabank from "../assets/img/scotiabank.svg";
-import td from "../assets/img/td.svg";
-import balsamiq from "../assets/img/balsamiq.svg";
-import launchAcademy from "../assets/img/launchAcademy.svg";
-import ritual from "../assets/img/ritual.svg";
-import wakeups from "../assets/img/wakeups.svg";
-import wolfram from "../assets/img/wolfram.svg";
-import sketch from "../assets/img/sketch.svg";
-import qic from "../assets/img/qic.svg";
-import mmie from "../assets/img/mmie.svg";
+import ActionButton from "./ActionButton";
+
+import launchAcademy from "../assets/img/sponsors/launchAcademy.svg";
+import scotiabank from "../assets/img/sponsors/scotiabank.svg";
+import kds from "../assets/img/sponsors/kingsDistributed.svg";
+import consensys from "../assets/img/sponsors/consensys.svg";
+import balsamiq from "../assets/img/sponsors/balsamiq.svg";
+import wakeups from "../assets/img/sponsors/wakeups.svg";
+import wolfram from "../assets/img/sponsors/wolfram.svg";
+import sunlife from "../assets/img/sponsors/sunlife.svg";
+import ratehub from "../assets/img/sponsors/ratehub.svg";
+import tucows from "../assets/img/sponsors/tucows.svg";
+import loopio from "../assets/img/sponsors/loopio.svg";
+import ritual from "../assets/img/sponsors/ritual.svg";
+import sketch from "../assets/img/sponsors/sketch.svg";
+import mmie from "../assets/img/sponsors/mmie.svg";
+import qic from "../assets/img/sponsors/qic.svg";
+import td from "../assets/img/sponsors/td.svg";
 
 const Sponsors = () => (
   <div

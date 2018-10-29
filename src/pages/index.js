@@ -13,7 +13,7 @@ import EventSchedule from "../components/EventSchedule";
 import MailingListSignup from "../components/MailingListSignup";
 import HackerTestimonials from "../components/HackerTestimonials";
 
-import favicon from "../assets/img/favicon.ico";
+import favicon from "../assets/img/icons/favicon.ico";
 
 export default () => (
   <div css={{ overflowX: "hidden" }}>

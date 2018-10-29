@@ -1,13 +1,15 @@
 import React from "react";
 import moment from "moment";
-import logo from "../assets/img/whiteLogo.svg";
-import wordmark from "../assets/img/whiteWordmark.svg";
-import SignUpForm from "../components/SignUpForm";
-import facebook from "../assets/img/facebook.svg";
-import instagram from "../assets/img/instagram.svg";
-import mail from "../assets/img/mail.svg";
-import twitter from "../assets/img/twitter.svg";
+
 import ContentWrapper from "./ContentWrapper";
+import SignUpForm from "../components/SignUpForm";
+
+import mail from "../assets/img/icons/socialMail.svg";
+import twitter from "../assets/img/icons/socialTwitter.svg";
+import logo from "../assets/img/logo/qhacksCrown-white.svg";
+import facebook from "../assets/img/icons/socialFacebook.svg";
+import instagram from "../assets/img/icons/socialInstagram.svg";
+import wordmark from "../assets/img/logo/qhacksWordmark-white.svg";
 
 const navigateLinks = [
   {

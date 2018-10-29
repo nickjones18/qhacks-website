@@ -1,8 +1,10 @@
 import React from "react";
-import circuits from "../assets/img/circuitsGrey.png";
-import podcast from "../assets/img/podcast.png";
+
 import ActionButton from "./ActionButton";
 import ContentWrapper from "./ContentWrapper";
+
+import podcast from "../assets/img/icons/podcastIcon.webp";
+import circuits from "../assets/img/backgrounds/circuitsGrey.webp";
 
 const Podcast = () => (
   <div>

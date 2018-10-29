@@ -1,9 +1,10 @@
 import React from "react";
-import hamburger from "../assets/img/hamburger.svg";
-import menuClose from "../assets/img/menuClose.svg";
-import logo from "../assets/img/whiteLogo.svg";
-import word from "../assets/img/whiteWordmark.svg";
-import cubes from "../assets/img/mobileMenuCubes.png";
+
+import hamburger from "../assets/img/icons/mobileMenuOpen.svg";
+import menuClose from "../assets/img/icons/mobileMenuClose.svg";
+import word from "../assets/img/logo/qhacksWordmark-white.svg";
+import logo from "../assets/img/logo/qhacksCrown-white.svg";
+import cubes from "../assets/img/icons/mobileMenuCubes.webp";
 
 const MobileMenu = (props) => (
   <div

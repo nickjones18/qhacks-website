@@ -1,6 +1,7 @@
 import React from "react";
-import leftArrow from "../assets/img/leftArrow.svg";
-import rightArrow from "../assets/img/rightArrow.svg";
+
+import leftArrow from "../assets/img/icons/leftArrow.svg";
+import rightArrow from "../assets/img/icons/rightArrow.svg";
 
 const TestimonialsBlurb = (props) => {
   const arrowStyle = {

@@ -1,7 +1,9 @@
 import React from "react";
 import { css } from "glamor";
+
 import ContentWrapper from "./ContentWrapper";
-import cubes1 from "../assets/img/cubes-1.png";
+
+import cubes1 from "../assets/img/icons/cubes-1.webp";
 
 const caretCSS = (backgroundColor) =>
   css({
