@@ -20,7 +20,7 @@
   "scripts": {
     "build": "NODE_ENV=production gatsby build",
     "develop": "gatsby develop",
-    "style": "eslint --quiet src/**/*.js",
+    "style": "eslint src/**/*.js",
     "format": "prettier --write 'src/**/*.js'",
     "test": "npm run jest-tests && npm run cypress-tests",
     "jest-tests": "jest",
@@ -70,6 +70,7 @@
     "enzyme-to-json": "^3.3.4",
     "eslint": "^5.4.0",
     "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.11.1",
     "husky": "^0.14.3",
     "identity-obj-proxy": "^3.0.0",
