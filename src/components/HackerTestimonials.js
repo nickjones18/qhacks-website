@@ -86,7 +86,7 @@ class HackerTestimonials extends Component {
             </div>
           </MediaQuery>
           <MediaQuery query="screen and (max-width: 1000px)">
-            <div style={{ margin: "0 5% 80px 5%" }}>
+            <div style={{ margin: "0 0 80px 0" }}>
               <TestimonialsBlurbCompressed text={blurb} />
               <TestimonialListCompressed
                 currentTestimonial={this.state.currentTestimonial}

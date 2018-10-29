@@ -30,10 +30,9 @@ const Landing = () => (
   <div
     css={{
       width: "100%",
-      minHeight: "700px",
-      "@media(min-width: 1200px)": {
-        maxHeight: "850px"
-      },
+      height: "100vh",
+      minHeight: "790px",
+      maxHeight: "790px",
       background: `url(${backgroundCubes}) no-repeat center center`,
       backgroundSize: "cover",
       "@media(max-width: 600px)": {
@@ -46,30 +45,24 @@ const Landing = () => (
       <div
         css={{
           display: "grid",
+          paddingTop: "115px",
           gridTemplateColumns: "auto 1fr",
           "@media(max-width: 820px)": {
             textAlign: "center",
-            display: "block",
-            paddingTop: "120px"
+            display: "block"
           }
         }}
       >
         <div
           css={{
             "@media(min-width: 1200px)": {
-              marginLeft: "110px",
-              paddingRight: "50px",
-              paddingLeft: "0px"
+              paddingRight: "50px"
             },
             "@media (min-width: 820px) and (max-width: 1200px)": {
-              marginLeft: "10%",
-              paddingRight: "50px",
-              paddingLeft: "0px"
+              paddingRight: "50px"
             },
             "@media(min-width: 820px)": {
-              paddingLeft: "42px",
-              paddingRight: "42px",
-              paddingTop: "110px"
+              paddingRight: "42px"
             }
           }}
         >
@@ -159,9 +152,9 @@ const Landing = () => (
         <div
           css={{
             position: "relative",
-            paddingTop: "110px",
             textAlign: "right",
-            marginRight: "80px",
+            display: "flex",
+            alignItems: "center",
             "@media(max-width: 820px)": {
               display: "none"
             }
@@ -172,9 +165,7 @@ const Landing = () => (
             css={{
               width: "100%",
               maxWidth: "750px",
-              position: "relative",
-              top: "50%",
-              transform: "translateY(-50%)"
+              display: "block"
             }}
             alt="QHacks Illustration"
           />

@@ -7,12 +7,11 @@ exports[`Landing renders correctly 1`] = `
       "@media(max-width: 600px)": Object {
         "minHeight": "750px",
       },
-      "@media(min-width: 1200px)": Object {
-        "maxHeight": "850px",
-      },
       "background": "url(test-file-stub) no-repeat center center",
       "backgroundSize": "cover",
-      "minHeight": "700px",
+      "height": "100vh",
+      "maxHeight": "790px",
+      "minHeight": "790px",
       "width": "100%",
     }
   }
@@ -35,11 +34,11 @@ exports[`Landing renders correctly 1`] = `
         Object {
           "@media(max-width: 820px)": Object {
             "display": "block",
-            "paddingTop": "120px",
             "textAlign": "center",
           },
           "display": "grid",
           "gridTemplateColumns": "auto 1fr",
+          "paddingTop": "115px",
         }
       }
     >
@@ -47,19 +46,13 @@ exports[`Landing renders correctly 1`] = `
         css={
           Object {
             "@media (min-width: 820px) and (max-width: 1200px)": Object {
-              "marginLeft": "10%",
-              "paddingLeft": "0px",
               "paddingRight": "50px",
             },
             "@media(min-width: 1200px)": Object {
-              "marginLeft": "110px",
-              "paddingLeft": "0px",
               "paddingRight": "50px",
             },
             "@media(min-width: 820px)": Object {
-              "paddingLeft": "42px",
               "paddingRight": "42px",
-              "paddingTop": "110px",
             },
           }
         }
@@ -181,8 +174,8 @@ exports[`Landing renders correctly 1`] = `
             "@media(max-width: 820px)": Object {
               "display": "none",
             },
-            "marginRight": "80px",
-            "paddingTop": "110px",
+            "alignItems": "center",
+            "display": "flex",
             "position": "relative",
             "textAlign": "right",
           }
@@ -192,10 +185,8 @@ exports[`Landing renders correctly 1`] = `
           alt="QHacks Illustration"
           css={
             Object {
+              "display": "block",
               "maxWidth": "750px",
-              "position": "relative",
-              "top": "50%",
-              "transform": "translateY(-50%)",
               "width": "100%",
             }
           }

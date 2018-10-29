@@ -27,15 +27,8 @@ const Podcast = () => (
             border: "solid 1px #e8e8e8",
             display: "grid",
             gridTemplateColumns: "min-content auto",
-            marginLeft: "145px",
-            marginRight: "145px",
-            "@media (max-width: 780px)": {
-              margin: "0px 16px 160px 16px"
-            },
             "@media (max-width: 1128px)": { display: "block" },
-            padding: "40px 28px 40px 28px",
-            marginLeft: "80px",
-            marginRight: "80px"
+            padding: "40px 28px 40px 28px"
           }}
         >
           <div

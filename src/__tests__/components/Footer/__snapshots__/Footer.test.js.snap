@@ -17,17 +17,9 @@ exports[`Footer renders correctly 1`] = `
             "color": "inherit",
             "textTransform": "uppercase",
           },
-          "@media (min-width: 950px) and (max-width: 1200px)": Object {
-            "marginLeft": "80px",
-            "marginRight": "80px",
-          },
           "@media(max-width: 950px)": Object {
             "display": "block",
             "textAlign": "center",
-          },
-          "@media(min-width: 1200px)": Object {
-            "marginLeft": "183px",
-            "marginRight": "183px",
           },
           "display": "grid",
           "gridTemplateColumns": "auto auto auto",

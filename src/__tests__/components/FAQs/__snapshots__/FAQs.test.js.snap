@@ -14,11 +14,9 @@ exports[`FAQs renders correctly 1`] = `
       css={
         Object {
           "@media(max-width: 780px)": Object {
-            "paddingLeft": "24px",
-            "paddingRight": "24px",
             "paddingTop": "64px",
           },
-          "padding": "110px 180px 114px 180px",
+          "padding": "110px 40px 114px 40px",
         }
       }
     >

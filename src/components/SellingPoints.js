@@ -20,21 +20,14 @@ const twoColumnStyle = {
   justifyContent: "center",
   alignItems: "center",
   margin: "0 auto",
-  marginBottom: "48px",
-  padding: "0"
+  marginBottom: "48px"
 };
 
 const flexChildStyle = {
   flex: 1,
   textAlign: "center",
   minWidth: "300px",
-  margin: "0 28px 28px 28px",
-  "@media(max-width: 820px)": {
-    margin: "16px"
-  }
-};
-
-const detailsStyle = {
+  margin: "0 28px 32px 28px",
   maxWidth: "510px"
 };
 
@@ -142,27 +135,26 @@ const SellingPoints = () => (
         />
       </div>
     </div>
-    <picture css={{
-      width: "588px",
-      height: "361px",
-      position: "absolute",
-      bottom: "-220px",
-      left: "-100px",
-      zIndex: 3,
-      display: "block",
-      "@media(max-width: 1200px)": {
-        width: "358px",
-        height: "220px",
-        bottom: "-140px",
-        left: "-45px"
-      }
-    }}>
+    <picture
+      css={{
+        width: "588px",
+        height: "361px",
+        position: "absolute",
+        bottom: "-220px",
+        left: "-100px",
+        zIndex: 3,
+        display: "block",
+        "@media(max-width: 1200px)": {
+          width: "358px",
+          height: "220px",
+          bottom: "-140px",
+          left: "-45px"
+        }
+      }}
+    >
       <source srcset={cubes2webp} type="image/webp" />
       <source srcset={cubes2png} type="image/png" />
-      <img
-        src={cubes2png}
-        alt="Floating cubes"
-      />
+      <img src={cubes2png} alt="Floating cubes" />
     </picture>
   </div>
 );

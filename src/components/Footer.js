@@ -84,14 +84,6 @@ const Footer = () => (
       <div
         css={{
           display: "grid",
-          [largeScreens]: {
-            marginLeft: "183px",
-            marginRight: "183px"
-          },
-          [mediumScreens]: {
-            marginLeft: "80px",
-            marginRight: "80px"
-          },
           gridTemplateColumns: "auto auto auto",
           paddingTop: "80px",
           " h3": {

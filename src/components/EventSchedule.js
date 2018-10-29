@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import MediaQuery from "react-responsive";
 import moment from "moment-timezone";
 import { css } from "glamor";
+import ContentWrapper from "./ContentWrapper";
 
 import EventScheduleCompressedTable from "./EventScheduleCompressedTable";
 import EventScheduleFullSizeTable from "./EventScheduleFullSizeTable";
@@ -161,48 +162,48 @@ class EventSchedule extends Component {
     const data = this.addDurations(eventsOnSelectedDay);
 
     return (
-      <div
-        id="schedule"
-        css={{
-          padding: "110px 0 50px 0",
-          margin: "0 auto",
-          maxWidth: "1076px",
-          width: "85%"
-        }}
-      >
-        <h1
+      <ContentWrapper>
+        <div
+          id="schedule"
           css={{
-            textAlign: "center",
-            position: "relative",
-            zIndex: 2
+            padding: "110px 0 50px 0",
+            margin: "0 auto"
           }}
         >
-          Event Schedule
-        </h1>
-        <DaySwitcher
-          days={eventDays}
-          changeDay={(day) => this.changeDay(day)}
-        />
-        <h3
-          {...css({
-            textTransform: "uppercase",
-            color: "#00205b",
-            marginLeft: "16px",
-            "@media(max-width: 760px)": { marginLeft: 0 },
-            fontWeight: 800
-          })}
-        >
-          {moment(this.state.selectedDay, "YYYY-MM-DD").format(
-            "dddd, MMMM Do, YYYY"
-          )}
-        </h3>
-        <MediaQuery query="screen and (min-width: 760px)">
-          <EventScheduleFullSizeTable data={data} />
-        </MediaQuery>
-        <MediaQuery query="screen and (max-width: 760px)">
-          <EventScheduleCompressedTable data={data} />
-        </MediaQuery>
-      </div>
+          <h1
+            css={{
+              textAlign: "center",
+              position: "relative",
+              zIndex: 2
+            }}
+          >
+            Event Schedule
+          </h1>
+          <DaySwitcher
+            days={eventDays}
+            changeDay={(day) => this.changeDay(day)}
+          />
+          <h3
+            {...css({
+              textTransform: "uppercase",
+              color: "#00205b",
+              marginLeft: "16px",
+              "@media(max-width: 760px)": { marginLeft: 0 },
+              fontWeight: 800
+            })}
+          >
+            {moment(this.state.selectedDay, "YYYY-MM-DD").format(
+              "dddd, MMMM Do, YYYY"
+            )}
+          </h3>
+          <MediaQuery query="screen and (min-width: 760px)">
+            <EventScheduleFullSizeTable data={data} />
+          </MediaQuery>
+          <MediaQuery query="screen and (max-width: 760px)">
+            <EventScheduleCompressedTable data={data} />
+          </MediaQuery>
+        </div>
+      </ContentWrapper>
     );
   }
 }

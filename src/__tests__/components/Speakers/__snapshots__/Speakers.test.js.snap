@@ -10,84 +10,92 @@ exports[`Speakers renders correctly 1`] = `
     }
   }
 >
-  <h1
-    css={
-      Object {
-        "@media(max-width: 820px)": Object {
-          "paddingBottom": "24px",
-          "paddingTop": "200px",
-        },
-        "paddingBottom": "48px",
-        "paddingTop": "112px",
-        "position": "relative",
-        "textAlign": "center",
-        "zIndex": "3",
-      }
-    }
-  >
-    Fireside Chat Speakers
-  </h1>
-  <div
-    css={
-      Object {
-        "@media(max-width: 820px)": Object {
-          "display": "none",
-        },
-        "display": "grid",
-        "gridTemplateColumns": "1fr 1fr ",
-        "marginLeft": "auto",
-        "marginRight": "auto",
-        "maxWidth": 1000,
-        "position": "relative",
-        "zIndex": 3,
-      }
-    }
-  >
-    <SpeakerCard
-      description="Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and ya."
-      image="test-file-stub"
-      key="Vinith Suriyakumar"
-      name="Vinith Suriyakumar"
-      title="Founder and CEO of Clarifai"
-    />
-    <SpeakerCard
-      description="Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and ya."
-      image="test-file-stub"
-      key="Noah Ifergan"
-      name="Noah Ifergan"
-      title="Founder and CEO of Clarifai"
-    />
-  </div>
-  <div
-    css={
-      Object {
-        "@media(min-width: 820px)": Object {
-          "display": "none",
-        },
-        "paddingBottom": "30px",
-      }
-    }
-  >
-    <SpeakerSlider
-      speakers={
-        Array [
-          Object {
-            "description": "Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and ya.",
-            "image": "test-file-stub",
-            "name": "Vinith Suriyakumar",
-            "title": "Founder and CEO of Clarifai",
+  <_default>
+    <h1
+      css={
+        Object {
+          "@media(max-width: 820px)": Object {
+            "paddingBottom": "24px",
+            "paddingTop": "200px",
           },
-          Object {
-            "description": "Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and ya.",
-            "image": "test-file-stub",
-            "name": "Noah Ifergan",
-            "title": "Founder and CEO of Clarifai",
-          },
-        ]
+          "paddingBottom": "48px",
+          "paddingTop": "112px",
+          "position": "relative",
+          "textAlign": "center",
+          "zIndex": "3",
+        }
       }
+    >
+      Fireside Chat Speakers
+    </h1>
+    <div
+      css={
+        Object {
+          "@media(max-width: 820px)": Object {
+            "display": "none",
+          },
+          "display": "grid",
+          "gridTemplateColumns": "1fr 1fr ",
+          "marginLeft": "auto",
+          "marginRight": "auto",
+          "maxWidth": 1000,
+          "position": "relative",
+          "zIndex": 3,
+        }
+      }
+    >
+      <SpeakerCard
+        description="Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and ya."
+        image="test-file-stub"
+        key="Vinith Suriyakumar"
+        name="Vinith Suriyakumar"
+        title="Founder and CEO of Clarifai"
+      />
+      <SpeakerCard
+        description="Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and ya."
+        image="test-file-stub"
+        key="Noah Ifergan"
+        name="Noah Ifergan"
+        title="Founder and CEO of Clarifai"
+      />
+    </div>
+    <div
+      css={
+        Object {
+          "@media(min-width: 820px)": Object {
+            "display": "none",
+          },
+          "paddingBottom": "30px",
+        }
+      }
+<<<<<<< 60ed2c2e4702db6e5e6d893c56f7943ab65f7bef
     />
   </div>
   <picture
+=======
+    >
+      <SpeakerSlider
+        speakers={
+          Array [
+            Object {
+              "description": "Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and ya.",
+              "image": "test-file-stub",
+              "name": "Vinith Suriyakumar",
+              "title": "Founder and CEO of Clarifai",
+            },
+            Object {
+              "description": "Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and ya.",
+              "image": "test-file-stub",
+              "name": "Noah Ifergan",
+              "title": "Founder and CEO of Clarifai",
+            },
+          ]
+        }
+      />
+    </div>
+  </_default>
+  <img
+>>>>>>> Use ContentWrapper for all top-level components
     css={
       Object {
         "@media(max-width: 1000px)": Object {

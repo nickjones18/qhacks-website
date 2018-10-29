@@ -64,10 +64,8 @@ const FAQs = () => (
     <ContentWrapper>
       <div
         css={{
-          padding: "110px 180px 114px 180px",
+          padding: "110px 40px 114px 40px",
           "@media(max-width: 780px)": {
-            paddingLeft: "24px",
-            paddingRight: "24px",
             paddingTop: "64px"
           }
         }}

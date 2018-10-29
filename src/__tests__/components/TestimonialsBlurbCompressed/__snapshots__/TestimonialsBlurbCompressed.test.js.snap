@@ -9,7 +9,6 @@ exports[`TestimonialsBlurb renders correctly 1`] = `
       "height": "100%",
       "justifyContent": "right",
       "left": 0,
-      "paddingLeft": "180px",
       "position": "absolute",
       "top": 0,
       "width": "50%",
@@ -20,7 +19,6 @@ exports[`TestimonialsBlurb renders correctly 1`] = `
     style={
       Object {
         "marginRight": "64px",
-        "width": "455px",
       }
     }
   >

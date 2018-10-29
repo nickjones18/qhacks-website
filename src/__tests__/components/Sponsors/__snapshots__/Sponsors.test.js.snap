@@ -16,102 +16,177 @@ exports[`Sponsors renders correctly 1`] = `
   }
   id="sponsors"
 >
-  <div
-    css={
-      Object {
-        "@media(max-width: 850px)": Object {
-          " >div": Object {
-            "gridTemplateColumns": "1fr",
-          },
-          "paddingLeft": "20px",
-          "paddingRight": "20px",
-        },
-        "marginLeft": "auto",
-        "marginRight": "auto",
-        "maxWidth": "1000px",
-        "paddingTop": "80px",
-        "textAlign": "center",
-      }
-    }
-  >
-    <h1>
-      Sponsors
-    </h1>
+  <_default>
     <div
       css={
         Object {
-          "display": "block",
-          "paddingTop": "56px",
+          "@media(max-width: 850px)": Object {
+            " >div": Object {
+              "gridTemplateColumns": "1fr",
+            },
+          },
+          "marginLeft": "auto",
+          "marginRight": "auto",
+          "paddingTop": "80px",
+          "textAlign": "center",
         }
       }
     >
-      <_default
-        url="https://tucows.com"
+      <h1>
+        Sponsors
+      </h1>
+      <div
+        css={
+          Object {
+            "display": "block",
+            "paddingTop": "56px",
+          }
+        }
       >
+<<<<<<< 60ed2c2e4702db6e5e6d893c56f7943ab65f7bef
         <img
           alt="Tucows Logo"
           css={
             Object {
               "width": "70%",
+=======
+        <_default
+          url="https://tucows.com"
+        >
+          <img
+            css={
+              Object {
+                "width": "70%",
+              }
+>>>>>>> Use ContentWrapper for all top-level components
             }
+            data-cy="test-sponsor-image"
+            src="test-file-stub"
+          />
+        </_default>
+      </div>
+      <div
+        css={
+          Object {
+            "display": "grid",
+            "gridTemplateColumns": "1fr 1fr",
+            "paddingTop": "50px",
           }
-          data-cy="test-sponsor-image"
-          src="test-file-stub"
-        />
-      </_default>
-    </div>
-    <div
-      css={
-        Object {
-          "display": "grid",
-          "gridTemplateColumns": "1fr 1fr",
-          "paddingTop": "50px",
         }
-      }
-    >
-      <_default
-        url="https://kingsds.network"
       >
+<<<<<<< 60ed2c2e4702db6e5e6d893c56f7943ab65f7bef
         <img
           alt="Kings Distributed Systems Logo"
           css={
             Object {
               "width": "80%",
+=======
+        <_default
+          url="https://kingsds.network"
+        >
+          <img
+            css={
+              Object {
+                "width": "80%",
+              }
+>>>>>>> Use ContentWrapper for all top-level components
             }
+            src="test-file-stub"
+          />
+        </_default>
+        <_default
+          url="https://sunlife.ca"
+        >
+          <div
+            css={
+              Object {
+                "padding": "20px",
+                "position": "relative",
+              }
+            }
+          >
+            <img
+              css={
+                Object {
+                  "width": "100%",
+                }
+              }
+              src="test-file-stub"
+            />
+          </div>
+        </_default>
+      </div>
+      <div
+        css={
+          Object {
+            "paddingTop": "75px",
           }
-          src="test-file-stub"
-        />
-      </_default>
-      <_default
-        url="https://sunlife.ca"
+        }
       >
         <div
           css={
             Object {
-              "padding": "20px",
-              "position": "relative",
+              "@media(max-width: 850px)": Object {
+                "gridTemplateColumns": "1fr",
+              },
+              "display": "grid",
+              "gridTemplateColumns": "1fr 1fr 1fr",
             }
           }
         >
+<<<<<<< 60ed2c2e4702db6e5e6d893c56f7943ab65f7bef
           <img
             alt="SunLife Financial Logo"
+=======
+          <div
+>>>>>>> Use ContentWrapper for all top-level components
             css={
               Object {
                 "width": "100%",
               }
             }
-            src="test-file-stub"
-          />
+          >
+            <_default
+              url="https://consensys.net/"
+            >
+              <img
+                css={
+                  Object {
+                    "width": "100%",
+                  }
+                }
+                src="test-file-stub"
+              />
+            </_default>
+          </div>
+          <_default
+            url="https://td.ca"
+          >
+            <img
+              css={
+                Object {
+                  "width": "45%",
+                }
+              }
+              src="test-file-stub"
+            />
+          </_default>
+          <div>
+            <_default
+              url="https://ratehub.ca"
+            >
+              <img
+                css={
+                  Object {
+                    "width": "100%",
+                  }
+                }
+                src="test-file-stub"
+              />
+            </_default>
+          </div>
         </div>
-      </_default>
-    </div>
-    <div
-      css={
-        Object {
-          "paddingTop": "75px",
-        }
-      }
-    >
+      </div>
       <div
         css={
           Object {
@@ -119,22 +194,18 @@ exports[`Sponsors renders correctly 1`] = `
               "gridTemplateColumns": "1fr",
             },
             "display": "grid",
-            "gridTemplateColumns": "1fr 1fr 1fr",
+            "gridTemplateColumns": "1fr 1fr",
+            "marginLeft": "auto",
+            "marginRight": "auto",
+            "width": "80%",
           }
         }
       >
-        <div
-          css={
-            Object {
-              "width": "100%",
-            }
-          }
-        >
+        <div>
           <_default
-            url="https://consensys.net/"
+            url="https://scotiabank.ca"
           >
             <img
-              alt="Consensys Logo"
               css={
                 Object {
                   "width": "100%",
@@ -144,19 +215,61 @@ exports[`Sponsors renders correctly 1`] = `
             />
           </_default>
         </div>
+        <div
+          css={
+            Object {
+              " img": Object {
+                "width": "65%",
+              },
+            }
+          }
+        >
+          <_default
+            url="https://loopio.com"
+          >
+            <img
+<<<<<<< 60ed2c2e4702db6e5e6d893c56f7943ab65f7bef
+              alt="Consensys Logo"
+              css={
+                Object {
+                  "width": "100%",
+                }
+              }
+=======
+>>>>>>> Use ContentWrapper for all top-level components
+              src="test-file-stub"
+            />
+          </_default>
+        </div>
+      </div>
+      <div
+        css={
+          Object {
+            "@media(max-width: 850px)": Object {
+              "marginLeft": "auto",
+              "marginRight": "auto",
+              "width": "50%",
+            },
+            "display": "grid",
+            "gridTemplateColumns": "1fr 1fr 1fr 1fr",
+            "paddingTop": "50px",
+          }
+        }
+      >
         <_default
-          url="https://td.ca"
+          url="https://balsamiq.com"
         >
           <img
             alt="TD Logo"
             css={
               Object {
-                "width": "45%",
+                "width": "80%",
               }
             }
             src="test-file-stub"
           />
         </_default>
+<<<<<<< 60ed2c2e4702db6e5e6d893c56f7943ab65f7bef
         <div>
           <_default
             url="https://ratehub.ca"
@@ -167,30 +280,22 @@ exports[`Sponsors renders correctly 1`] = `
                 Object {
                   "width": "100%",
                 }
-              }
-              src="test-file-stub"
-            />
-          </_default>
-        </div>
-      </div>
-    </div>
-    <div
-      css={
-        Object {
-          "@media(max-width: 850px)": Object {
-            "gridTemplateColumns": "1fr",
-          },
-          "display": "grid",
-          "gridTemplateColumns": "1fr 1fr",
-          "marginLeft": "auto",
-          "marginRight": "auto",
-          "width": "80%",
-        }
-      }
-    >
-      <div>
+=======
         <_default
-          url="https://scotiabank.ca"
+          url="https://wolfram.com/language/"
+        >
+          <img
+            css={
+              Object {
+                "width": "80%",
+>>>>>>> Use ContentWrapper for all top-level components
+              }
+            }
+            src="test-file-stub"
+          />
+        </_default>
+        <_default
+          url="https://ritual.co"
         >
           <img
             alt="Scotiabank Logo"
@@ -202,33 +307,32 @@ exports[`Sponsors renders correctly 1`] = `
             src="test-file-stub"
           />
         </_default>
-      </div>
-      <div
-        css={
-          Object {
-            " img": Object {
-              "width": "65%",
-            },
-          }
-        }
-      >
         <_default
-          url="https://loopio.com"
+          url="https://wake-ups.com"
         >
           <img
+<<<<<<< 60ed2c2e4702db6e5e6d893c56f7943ab65f7bef
             alt="Loopio Logo"
+=======
+            css={
+              Object {
+                "width": "50%",
+              }
+            }
+>>>>>>> Use ContentWrapper for all top-level components
             src="test-file-stub"
           />
         </_default>
       </div>
-    </div>
-    <div
-      css={
-        Object {
-          "@media(max-width: 850px)": Object {
+      <div
+        css={
+          Object {
+            "display": "grid",
+            "gridTemplateColumns": "1fr 1fr",
             "marginLeft": "auto",
             "marginRight": "auto",
             "width": "50%",
+<<<<<<< 60ed2c2e4702db6e5e6d893c56f7943ab65f7bef
           },
           "display": "grid",
           "gridTemplateColumns": "1fr 1fr 1fr 1fr",
@@ -245,13 +349,12 @@ exports[`Sponsors renders correctly 1`] = `
             Object {
               "width": "80%",
             }
+=======
+>>>>>>> Use ContentWrapper for all top-level components
           }
-          src="test-file-stub"
-        />
-      </_default>
-      <_default
-        url="https://wolfram.com/language/"
+        }
       >
+<<<<<<< 60ed2c2e4702db6e5e6d893c56f7943ab65f7bef
         <img
           alt="Wolfram Logo"
           css={
@@ -270,21 +373,53 @@ exports[`Sponsors renders correctly 1`] = `
           css={
             Object {
               "width": "100%",
+=======
+        <_default
+          url="https://sketchapp.com"
+        >
+          <img
+            css={
+              Object {
+                "width": "100%",
+              }
             }
+            src="test-file-stub"
+          />
+        </_default>
+        <_default
+          url="https://www.launchacademy.ca/"
+        >
+          <img
+            css={
+              Object {
+                "width": "100%",
+              }
+>>>>>>> Use ContentWrapper for all top-level components
+            }
+            src="test-file-stub"
+          />
+        </_default>
+      </div>
+      <div
+        css={
+          Object {
+            "paddingBottom": "100px",
+            "paddingTop": "100px",
           }
-          src="test-file-stub"
-        />
-      </_default>
-      <_default
-        url="https://wake-ups.com"
+        }
       >
+<<<<<<< 60ed2c2e4702db6e5e6d893c56f7943ab65f7bef
         <img
           alt="Wakeups Logo"
+=======
+        <h1
+>>>>>>> Use ContentWrapper for all top-level components
           css={
             Object {
-              "width": "50%",
+              "paddingBottom": "48px",
             }
           }
+<<<<<<< 60ed2c2e4702db6e5e6d893c56f7943ab65f7bef
           src="test-file-stub"
         />
       </_default>
@@ -305,11 +440,27 @@ exports[`Sponsors renders correctly 1`] = `
       >
         <img
           alt="Sketch Logo"
+=======
+        >
+          Our Partners
+        </h1>
+        <p
+>>>>>>> Use ContentWrapper for all top-level components
           css={
             Object {
-              "width": "100%",
+              ">a": Object {
+                ":hover": Object {
+                  "textDecoration": "none",
+                },
+                "color": "#c81c2e",
+                "textDecoration": "underline",
+              },
+              "color": "#c81c2e",
+              "fontWeight": "bold",
+              "paddingBottom": "24px",
             }
           }
+<<<<<<< 60ed2c2e4702db6e5e6d893c56f7943ab65f7bef
           src="test-file-stub"
         />
       </_default>
@@ -319,53 +470,46 @@ exports[`Sponsors renders correctly 1`] = `
         <img
           alt="Launch Academy Logo"
           css={
+=======
+        >
+          Interested in partnering? Contact us at
+           
+          <a
+            data-cy="partners-email-prompt"
+            href="mailto:partnership@qhacks.io"
+          >
+            partnership@qhacks.io
+          </a>
+        </p>
+        <ActionButton
+          backgroundColor="#f8f8f8"
+          foregroundColor="#c81c2e"
+          style={
+>>>>>>> Use ContentWrapper for all top-level components
             Object {
-              "width": "100%",
+              "margin": "0 auto",
+              "paddingLeft": "40px",
+              "paddingRight": "40px",
             }
           }
-          src="test-file-stub"
-        />
-      </_default>
-    </div>
-    <div
-      css={
-        Object {
-          "paddingBottom": "100px",
-          "paddingTop": "100px",
-        }
-      }
-    >
-      <h1
-        css={
-          Object {
-            "paddingBottom": "48px",
-          }
-        }
-      >
-        Our Partners
-      </h1>
-      <p
-        css={
-          Object {
-            ">a": Object {
-              ":hover": Object {
-                "textDecoration": "none",
-              },
-              "color": "#c81c2e",
-              "textDecoration": "underline",
-            },
-            "color": "#c81c2e",
-            "fontWeight": "bold",
-            "paddingBottom": "24px",
-          }
-        }
-      >
-        Interested in partnering? Contact us at
-         
-        <a
-          data-cy="partners-email-prompt"
-          href="mailto:partnership@qhacks.io"
+          type="rounded"
         >
+          Become a partner
+        </ActionButton>
+      </div>
+      <div
+        css={
+          Object {
+            "display": "grid",
+            "gridTemplateColumns": "1fr 1fr",
+            "paddingBottom": "100px",
+          }
+        }
+      >
+        <_default
+          url="https://queensu.ca/innovationcentre/"
+        >
+<<<<<<< 60ed2c2e4702db6e5e6d893c56f7943ab65f7bef
           partnership@qhacks.io
         </a>
       </p>
@@ -414,12 +558,31 @@ exports[`Sponsors renders correctly 1`] = `
           css={
             Object {
               "width": "100%",
+=======
+          <img
+            css={
+              Object {
+                "width": "100%",
+              }
             }
-          }
-          src="test-file-stub"
-        />
-      </_default>
+            src="test-file-stub"
+          />
+        </_default>
+        <_default
+          url="https://smith.queensu.ca/grad_studies/mei/"
+        >
+          <img
+            css={
+              Object {
+                "width": "100%",
+              }
+>>>>>>> Use ContentWrapper for all top-level components
+            }
+            src="test-file-stub"
+          />
+        </_default>
+      </div>
     </div>
-  </div>
+  </_default>
 </div>
 `;

@@ -2,64 +2,37 @@
 
 exports[`SellingPoints renders correctly 1`] = `
 <div
-  css={
+  style={
     Object {
-      "padding": "143px 0",
       "position": "relative",
     }
   }
 >
-  <div
-    css={
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "flexWrap": "wrap",
-        "justifyContent": "center",
-        "margin": "0 auto",
-        "marginBottom": "48px",
-        "padding": "0",
-      }
-    }
-  >
+  <_default>
     <div
-      css={
+      style={
         Object {
-          "@media(max-width: 820px)": Object {
-            "margin": "16px",
-          },
-          "flex": 1,
-          "margin": "0 28px 28px 28px",
-          "maxWidth": "510px",
-          "minWidth": "300px",
-          "textAlign": "center",
+          "margin": "0 -28px",
+          "padding": "143px 0",
         }
       }
     >
-      <h1>
-        Grow Your Network.
-      </h1>
-      <p
+      <div
         css={
           Object {
-            "fontSize": "15px",
-            "lineHeight": "24px",
-            "margin": "32px auto",
-            "maxWidth": "500px",
+            "alignItems": "center",
+            "display": "flex",
+            "flexWrap": "wrap",
+            "justifyContent": "center",
+            "margin": "0 auto",
+            "marginBottom": "48px",
           }
         }
       >
-        QHacks was first held in 2016 with a mission to advocate and incubate the tech community at Queen's University and throughout Canada. Going into our third year we have been aggressively growing to become one of the highest quality and exciting hackathons in North America. Over the weekend, immerse yourself in the tech community and meet new people!
-      </p>
-      <SellingPointsIcons
-        list={
-          Array [
+        <div
+          css={
             Object {
-              "icon": "test-file-stub",
-              "number": 1800,
-              "text": "Applications",
-            },
-            Object {
+<<<<<<< 60ed2c2e4702db6e5e6d893c56f7943ab65f7bef
               "icon": "test-file-stub",
               "number": 25,
               "text": "Schools",
@@ -181,41 +154,167 @@ exports[`SellingPoints renders correctly 1`] = `
         Showcase to Experts.
       </h1>
       <p
+=======
+              "flex": 1,
+              "margin": "0 28px 32px 28px",
+              "maxWidth": "510px",
+              "minWidth": "300px",
+              "textAlign": "center",
+            }
+          }
+        >
+          <h1>
+            Grow Your Network.
+          </h1>
+          <p
+            css={
+              Object {
+                "fontSize": "15px",
+                "lineHeight": "24px",
+                "margin": "32px auto",
+                "maxWidth": "500px",
+              }
+            }
+          >
+            QHacks was first held in 2016 with a mission to advocate and incubate the tech community at Queen's University and throughout Canada. Going into our third year we have been aggressively growing to become one of the highest quality and exciting hackathons in North America. Over the weekend, immerse yourself in the tech community and meet new people!
+          </p>
+          <SellingPointsIcons
+            list={
+              Array [
+                Object {
+                  "icon": "test-file-stub",
+                  "number": 1800,
+                  "text": "Applications",
+                },
+                Object {
+                  "icon": "test-file-stub",
+                  "number": 25,
+                  "text": "Schools",
+                },
+                Object {
+                  "icon": "test-file-stub",
+                  "number": 500,
+                  "text": "Hackers",
+                },
+              ]
+            }
+          />
+        </div>
+        <div
+          css={
+            Object {
+              "flex": 1,
+              "margin": "0 28px 32px 28px",
+              "maxWidth": "510px",
+              "minWidth": "300px",
+              "textAlign": "center",
+            }
+          }
+        >
+          <img
+            css={
+              Object {
+                "maxHeight": "320px",
+                "maxWidth": "475px",
+                "width": "100%",
+              }
+            }
+            src="test-file-stub"
+          />
+        </div>
+      </div>
+      <div
+>>>>>>> Use ContentWrapper for all top-level components
         css={
           Object {
-            "fontSize": "15px",
-            "lineHeight": "24px",
-            "margin": "32px auto",
-            "maxWidth": "500px",
+            "alignItems": "center",
+            "display": "flex",
+            "flexWrap": "wrap-reverse",
+            "justifyContent": "center",
+            "margin": "0 auto",
+            "marginBottom": 0,
           }
         }
       >
-        This year, we have a colourful array of mentors, speakers, sponsors and other industry professionals. Chat one-on one with the likes of Microsoft, Telus, RBC and other big names with a sprinkling of those smaller tech startups we all love. Looking for some inspiration? Stuck on a roadblock? Did your stepper motor malfunction? Not to worry, there will always be a helping hand at the ready.
-      </p>
-      <SellingPointsIcons
-        list={
-          Array [
+        <div
+          css={
             Object {
-              "icon": "test-file-stub",
-              "number": 40,
-              "text": "Mentors",
-            },
+              "flex": 1,
+              "margin": "0 28px 32px 28px",
+              "maxWidth": "510px",
+              "minWidth": "300px",
+              "textAlign": "center",
+            }
+          }
+        >
+          <img
+            css={
+              Object {
+                "maxHeight": "320px",
+                "maxWidth": "475px",
+                "width": "100%",
+              }
+            }
+            src="test-file-stub"
+          />
+        </div>
+        <div
+          css={
             Object {
-              "icon": "test-file-stub",
-              "number": 20,
-              "text": "Judges",
-            },
-            Object {
-              "icon": "test-file-stub",
-              "number": 15,
-              "text": "Challenges",
-            },
-          ]
-        }
-      />
+              "flex": 1,
+              "margin": "0 28px 32px 28px",
+              "maxWidth": "510px",
+              "minWidth": "300px",
+              "textAlign": "center",
+            }
+          }
+        >
+          <h1>
+            Showcase to Experts.
+          </h1>
+          <p
+            css={
+              Object {
+                "fontSize": "15px",
+                "lineHeight": "24px",
+                "margin": "32px auto",
+                "maxWidth": "500px",
+              }
+            }
+          >
+            This year, we have a colourful array of mentors, speakers, sponsors and other industry professionals. Chat one-on one with the likes of Microsoft, Telus, RBC and other big names with a sprinkling of those smaller tech startups we all love. Looking for some inspiration? Stuck on a roadblock? Did your stepper motor malfunction? Not to worry, there will always be a helping hand at the ready.
+          </p>
+          <SellingPointsIcons
+            list={
+              Array [
+                Object {
+                  "icon": "test-file-stub",
+                  "number": 40,
+                  "text": "Mentors",
+                },
+                Object {
+                  "icon": "test-file-stub",
+                  "number": 20,
+                  "text": "Judges",
+                },
+                Object {
+                  "icon": "test-file-stub",
+                  "number": 15,
+                  "text": "Challenges",
+                },
+              ]
+            }
+          />
+        </div>
+      </div>
     </div>
+<<<<<<< 60ed2c2e4702db6e5e6d893c56f7943ab65f7bef
   </div>
   <picture
+=======
+  </_default>
+  <img
+>>>>>>> Use ContentWrapper for all top-level components
     css={
       Object {
         "@media(max-width: 1200px)": Object {

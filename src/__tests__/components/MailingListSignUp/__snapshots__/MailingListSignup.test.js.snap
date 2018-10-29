@@ -11,15 +11,17 @@ exports[`MailingListSignup renders correctly 1`] = `
       "display": "flex",
       "justifyContent": "center",
       "minHeight": "300px",
-      "padding": "5%",
       "width": "100%",
     }
   }
 >
-  <div>
+  <_default>
     <p
       css={
         Object {
+          "@media screen and (max-width: 860px)": Object {
+            "fontSize": "16px",
+          },
           "fontSize": "22px",
           "fontWeight": 700,
           "lineHeight": "28px",
@@ -37,6 +39,6 @@ exports[`MailingListSignup renders correctly 1`] = `
       dataCyInput="mailing-list-input"
       hoverBackgroundColor="#00205b"
     />
-  </div>
+  </_default>
 </div>
 `;
