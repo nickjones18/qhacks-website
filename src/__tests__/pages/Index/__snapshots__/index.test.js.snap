@@ -17,11 +17,6 @@ exports[`IndexPage renders correctly 1`] = `
           "href": "test-file-stub",
           "rel": "shortcut icon",
         },
-        Object {
-          "href": "https://fonts.googleapis.com/css?family=Encode+Sans:400,500,600,700,800",
-          "rel": "stylesheet",
-          "type": "text/css",
-        },
       ]
     }
     meta={

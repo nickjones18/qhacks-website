@@ -66,12 +66,6 @@ export default () => (
         {
           rel: "shortcut icon",
           href: `${favicon}`
-        },
-        {
-          rel: "stylesheet",
-          type: "text/css",
-          href:
-            "https://fonts.googleapis.com/css?family=Encode+Sans:400,500,600,700,800"
         }
       ]}
     />
