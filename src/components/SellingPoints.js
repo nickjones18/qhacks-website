@@ -1,8 +1,10 @@
 import React from "react";
-
 import SellingPointsIcons from "./SellingPointsIcons.js";
+<<<<<<< 46e6c210537985ab73a86b0ba41651fd830ef750
 
 import cubes2png from "../assets/img/icons/cubes-2.png";
+=======
+>>>>>>> Fix ActionButton color transition issue
 import judges from "../assets/img/icons/judgesIcon.svg";
 import cubes2webp from "../assets/img/icons/cubes-2.webp";
 import mentors from "../assets/img/icons/mentorsIcon.svg";
@@ -10,10 +12,17 @@ import hackers from "../assets/img/icons/hackersIcon.svg";
 import schools from "../assets/img/icons/schoolsIcon.svg";
 import challenges from "../assets/img/icons/challengesIcon.svg";
 import applications from "../assets/img/icons/applicationsIcon.svg";
+<<<<<<< 46e6c210537985ab73a86b0ba41651fd830ef750
 import qhacksSellingPointOnejpg from "../assets/img/selling_points/qhacksSellingPointOne.jpg";
 import qhacksSellingPointTwojpg from "../assets/img/selling_points/qhacksSellingPointTwo.jpg";
 import qhacksSellingPointOnewebp from "../assets/img/selling_points/qhacksSellingPointOne.webp";
 import qhacksSellingPointTwowebp from "../assets/img/selling_points/qhacksSellingPointTwo.webp";
+=======
+import qhacksSellingPointOne from "../assets/img/selling_points/qhacksSellingPointOne.webp";
+import qhacksSellingPointTwo from "../assets/img/selling_points/qhacksSellingPointTwo.webp";
+import cubes2 from "../assets/img/icons/cubes-2.webp";
+import ContentWrapper from "./ContentWrapper";
+>>>>>>> Fix ActionButton color transition issue
 
 const twoColumnStyle = {
   display: "flex",

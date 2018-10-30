@@ -85,6 +85,7 @@ const Podcast = () => (
               foregroundColor="#00205b"
               backgroundColor="#ffffff"
               dataCy="listen-button"
+              link="https://open.spotify.com/show/6eZg09yz4xKgynJdZeDmo1"
             >
               Listen
             </ActionButton>

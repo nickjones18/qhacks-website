@@ -98,7 +98,7 @@ const Speakers = () => (
         <img src={cubes3png} alt="Floating cubes" />
       </picture>
     </ContentWrapper>
-  </div>
+  </section>
 );
 
 export default Speakers;

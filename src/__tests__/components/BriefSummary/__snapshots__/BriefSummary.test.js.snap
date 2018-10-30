@@ -98,7 +98,7 @@ exports[`BriefSummary renders correctly 1`] = `
       >
         <iframe
           allow="autoplay; encrypted-media"
-          allowfullscreen={true}
+          allowFullScreen={true}
           css={
             Object {
               "@media(max-width: 1115px)": Object {
@@ -114,7 +114,7 @@ exports[`BriefSummary renders correctly 1`] = `
               "width": "500px",
             }
           }
-          frameborder="0"
+          frameBorder="0"
           src="https://www.youtube.com/embed/sqzy5n3m-RA?rel=0&controls=0&showinfo=0"
         />
       </div>

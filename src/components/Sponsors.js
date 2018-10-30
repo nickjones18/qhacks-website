@@ -2,7 +2,7 @@ import React from "react";
 
 import SponsorLink from "./SponsorLink";
 import ActionButton from "./ActionButton";
-
+import ContentWrapper from "./ContentWrapper";
 import launchAcademy from "../assets/img/sponsors/launchAcademy.svg";
 import scotiabank from "../assets/img/sponsors/scotiabank.svg";
 import kds from "../assets/img/sponsors/kingsDistributed.svg";
@@ -247,8 +247,9 @@ const Sponsors = () => (
               margin: "0 auto"
             }}
             type="rounded"
+            link="https://qhacks.nyc3.cdn.digitaloceanspaces.com/documents/QHacksPartnershipPackage.pdf"
           >
-            Become a partner
+            Partnership Package
           </ActionButton>
         </div>
         {/* School */}

@@ -144,6 +144,7 @@ const Landing = () => (
             backgroundColor="#ffffff"
             foregroundColor="#00205b"
             style={loginButtonCSS}
+            link="https://app.qhacks.io/apply"
             type="rounded"
           >
             Login

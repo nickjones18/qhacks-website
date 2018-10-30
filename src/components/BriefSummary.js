@@ -85,9 +85,9 @@ const BriefSummary = () => (
         >
           <iframe
             src="https://www.youtube.com/embed/sqzy5n3m-RA?rel=0&amp;controls=0&amp;showinfo=0"
-            frameborder="0"
+            frameBorder="0"
             allow="autoplay; encrypted-media"
-            allowfullscreen
+            allowFullScreen
             css={{
               width: "500px",
               height: "281px",
