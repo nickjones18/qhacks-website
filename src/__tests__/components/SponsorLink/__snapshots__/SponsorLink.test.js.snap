@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`SponsorLink renders correctly 1`] = `
-<a
+<OutboundLink
   data-cy="sponsor-link"
   href="https://www.youtube.com/watch?v=6n3pFFPSlW4"
   rel="noopener noreferrer"

@@ -7,6 +7,15 @@ module.exports = {
     "gatsby-plugin-netlify",
     "gatsby-plugin-glamor",
     {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: "UA-72429502-3",
+        head: false,
+        anonymize: false,
+        respectDNT: true
+      }
+    },
+    {
       resolve: "gatsby-plugin-manifest",
       options: {
         name: "QHacks",
