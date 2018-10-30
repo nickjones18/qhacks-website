@@ -1,5 +1,6 @@
-import React, { Component } from "react";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
+import React from "react";
+
 import TestimonialCard from "./TestimonialCard";
 
 const TestimonialList = (props) => {

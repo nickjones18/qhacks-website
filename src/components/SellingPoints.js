@@ -1,14 +1,16 @@
 import React from "react";
-import mentors from "../assets/img/mentors.svg";
-import hackers from "../assets/img/hackers.svg";
-import judges from "../assets/img/judges.svg";
-import schools from "../assets/img/schools.svg";
-import qhacksSellingPointOne from "../assets/img/qhacksSellingPointOne.jpg";
-import qhacksSellingPointTwo from "../assets/img/qhacksSellingPointTwo.jpg";
-import applications from "../assets/img/applications.svg";
-import challenges from "../assets/img/challenges.svg";
+
 import SellingPointsIcons from "./SellingPointsIcons.js";
-import cubes2 from "../assets/img/cubes-2.png";
+
+import cubes2 from "../assets/img/icons/cubes-2.webp";
+import judges from "../assets/img/icons/judgesIcon.svg";
+import mentors from "../assets/img/icons/mentorsIcon.svg";
+import hackers from "../assets/img/icons/hackersIcon.svg";
+import schools from "../assets/img/icons/schoolsIcon.svg";
+import challenges from "../assets/img/icons/challengesIcon.svg";
+import applications from "../assets/img/icons/applicationsIcon.svg";
+import qhacksSellingPointOne from "../assets/img/selling_points/qhacksSellingPointOne.webp";
+import qhacksSellingPointTwo from "../assets/img/selling_points/qhacksSellingPointTwo.webp";
 
 const twoColumnStyle = {
   display: "flex",

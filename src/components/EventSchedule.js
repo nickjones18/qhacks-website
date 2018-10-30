@@ -1,10 +1,11 @@
 import React, { Component } from "react";
-import moment from "moment-timezone";
-import DaySwitcher from "./DaySwitcher";
 import MediaQuery from "react-responsive";
-import EventScheduleFullSizeTable from "./EventScheduleFullSizeTable";
-import EventScheduleCompressedTable from "./EventScheduleCompressedTable";
+import moment from "moment-timezone";
 import { css } from "glamor";
+
+import EventScheduleCompressedTable from "./EventScheduleCompressedTable";
+import EventScheduleFullSizeTable from "./EventScheduleFullSizeTable";
+import DaySwitcher from "./DaySwitcher";
 
 moment.tz.setDefault("America/Kingston");
 

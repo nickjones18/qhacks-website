@@ -1,8 +1,9 @@
 import React from "react";
 import SpeakerCard from "./SpeakerCard";
 import SpeakerSlider from "./SpeakerSlider";
-import musk from "../assets/img/musk.png";
-import cubes3 from "../assets/img/cubes-3.png";
+
+import musk from "../assets/img/speakers/musk.webp";
+import cubes3 from "../assets/img/icons/cubes-3.webp";
 
 //TODO: Update this with real speakers
 const speakers = [

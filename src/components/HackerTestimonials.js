@@ -1,11 +1,13 @@
 import React, { Component } from "react";
-import TestimonialsBlurb from "./TestimonialsBlurb";
-import TestimonialsBlurbCompressed from "./TestimonialsBlurbCompressed";
-import TestimonialList from "./TestimonialList.js";
-import TestimonialListCompressed from "./TestimonialListCompressed.js";
-import placeholderHeadshot from "../assets/img/placeholderHeadshot.jpg";
-import ContentWrapper from "./ContentWrapper";
 import MediaQuery from "react-responsive";
+
+import ContentWrapper from "./ContentWrapper";
+import TestimonialList from "./TestimonialList.js";
+import TestimonialsBlurb from "./TestimonialsBlurb";
+import TestimonialListCompressed from "./TestimonialListCompressed.js";
+import TestimonialsBlurbCompressed from "./TestimonialsBlurbCompressed";
+
+import placeholderHeadshot from "../assets/img/testimonials/placeholderHeadshot.webp";
 
 const testimonials = [
   {

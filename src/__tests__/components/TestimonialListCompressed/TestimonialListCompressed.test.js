@@ -1,7 +1,9 @@
 import React from "react";
-import TestimonialListCompressed from "../../../components/TestimonialListCompressed";
 import { shallow } from "enzyme";
-import placeholderHeadshot from "../assets/img/placeholderHeadshot.jpg";
+
+import TestimonialListCompressed from "../../../components/TestimonialListCompressed";
+
+import placeholderHeadshot from "../assets/img/testimonials/placeholderHeadshot.webp";
 
 describe("TestimonialList", () => {
   it("renders correctly", () => {

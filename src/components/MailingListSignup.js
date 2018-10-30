@@ -1,6 +1,7 @@
 import React from "react";
-import circuits from "../assets/img/circuitsRed.png";
 import SignUpForm from "./SignUpForm";
+
+import circuits from "../assets/img/backgrounds/circuitsRed.webp";
 
 const MailingListSignup = (props) => (
   <div

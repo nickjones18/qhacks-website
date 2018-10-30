@@ -1,4 +1,5 @@
 import React from "react";
+
 import BriefSummary from "./BriefSummary";
 import SellingPoints from "./SellingPoints";
 

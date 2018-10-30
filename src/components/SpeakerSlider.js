@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
+
 import SpeakerCard from "./SpeakerCard";
 import SpeakerSliderDots from "./SpeakerSliderDots";
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
