@@ -35,22 +35,19 @@ exports[`Landing renders correctly 1`] = `
           },
           "display": "grid",
           "gridTemplateColumns": "auto 1fr",
-          "paddingTop": "115px",
         }
       }
     >
       <div
         css={
           Object {
-            "@media (min-width: 820px) and (max-width: 1200px)": Object {
+            "@media (min-width: 821px) and (max-width: 1200px)": Object {
               "paddingRight": "50px",
             },
             "@media(min-width: 1200px)": Object {
               "paddingRight": "50px",
             },
-            "@media(min-width: 820px)": Object {
-              "paddingRight": "42px",
-            },
+            "paddingTop": "115px",
           }
         }
       >
@@ -71,7 +68,7 @@ exports[`Landing renders correctly 1`] = `
           alt="QHacks Illustration"
           css={
             Object {
-              "@media(min-width: 820px)": Object {
+              "@media(min-width: 821px)": Object {
                 "display": "none",
               },
               "maxWidth": "350px",
@@ -183,8 +180,6 @@ exports[`Landing renders correctly 1`] = `
           alt="QHacks Illustration"
           css={
             Object {
-              "display": "block",
-              "maxWidth": "750px",
               "width": "100%",
             }
           }

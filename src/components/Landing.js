@@ -42,7 +42,6 @@ const Landing = () => (
       <section
         css={{
           display: "grid",
-          paddingTop: "115px",
           gridTemplateColumns: "auto 1fr",
           "@media(max-width: 820px)": {
             textAlign: "center",
@@ -52,14 +51,12 @@ const Landing = () => (
       >
         <div
           css={{
+            paddingTop: "115px",
             "@media(min-width: 1200px)": {
               paddingRight: "50px"
             },
-            "@media (min-width: 820px) and (max-width: 1200px)": {
+            "@media (min-width: 821px) and (max-width: 1200px)": {
               paddingRight: "50px"
-            },
-            "@media(min-width: 820px)": {
-              paddingRight: "42px"
             }
           }}
         >
@@ -75,7 +72,7 @@ const Landing = () => (
             css={{
               width: "75vw",
               maxWidth: "350px",
-              "@media(min-width: 820px)": { display: "none" }
+              "@media(min-width: 821px)": { display: "none" }
             }}
             alt="QHacks Illustration"
           />
@@ -161,9 +158,7 @@ const Landing = () => (
           <img
             src={landingImg}
             css={{
-              width: "100%",
-              maxWidth: "750px",
-              display: "block"
+              width: "100%"
             }}
             alt="QHacks Illustration"
           />
