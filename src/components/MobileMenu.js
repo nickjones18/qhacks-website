@@ -1,10 +1,11 @@
 import React from "react";
 
-import hamburger from "../assets/img/icons/mobileMenuOpen.svg";
+import cubeswebp from "../assets/img/icons/mobileMenuCubes.webp";
 import menuClose from "../assets/img/icons/mobileMenuClose.svg";
+import hamburger from "../assets/img/icons/mobileMenuOpen.svg";
 import word from "../assets/img/logo/qhacksWordmark-white.svg";
+import cubespng from "../assets/img/icons/mobileMenuCubes.png";
 import logo from "../assets/img/logo/qhacksCrown-white.svg";
-import cubes from "../assets/img/icons/mobileMenuCubes.webp";
 
 const MobileMenu = (props) => (
   <div
@@ -21,6 +22,7 @@ const MobileMenu = (props) => (
       onClick={props.toggleMenu}
       src={hamburger}
       css={{ width: "32px", height: "24px" }}
+      alt="Open menu"
     />
     <div
       className={props.isMenuVisible ? "no-scroll" : ""}
@@ -41,6 +43,7 @@ const MobileMenu = (props) => (
         css={{ padding: "32px" }}
         src={menuClose}
         onClick={props.toggleMenu}
+        alt="Close menu"
       />
       <div
         css={{
@@ -65,10 +68,10 @@ const MobileMenu = (props) => (
           }}
         >
           <div>
-            <img src={logo} css={{ paddingBottom: "11px" }} />
+            <img src={logo} css={{ paddingBottom: "11px" }} alt="QHacks Crown" />
           </div>
           <div css={{ paddingBottom: "52px" }}>
-            <img src={word} width="134px" height="34.8px" />
+            <img src={word} width="134px" height="34.8px" alt="QHacks Wordmark" />
           </div>
           {props.menuItems.map((i) => (
             <div key={i} css={{ paddingBottom: "24px" }}>
@@ -78,7 +81,11 @@ const MobileMenu = (props) => (
             </div>
           ))}
           <div>
-            <img src={cubes} />
+            <picture>
+              <source srcset={cubeswebp} type="image/webp" />
+              <source srcset={cubespng} type="image/png" />
+              <img src={cubespng} alt="Floating cubes" />
+            </picture>
           </div>
         </div>
       </div>

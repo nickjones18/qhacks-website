@@ -63,6 +63,7 @@ const Sponsors = () => (
             src={tucows}
             css={{ width: "70%" }}
             data-cy="test-sponsor-image"
+            alt="Tucows Logo"
           />
         </SponsorLink>
       </div>
@@ -75,7 +76,7 @@ const Sponsors = () => (
         }}
       >
         <SponsorLink url="https://kingsds.network">
-          <img css={{ width: "80%" }} src={kds} />
+          <img css={{ width: "80%" }} src={kds} alt="Kings Distributed Systems Logo" />
         </SponsorLink>
         <SponsorLink url="https://sunlife.ca">
           <div
@@ -89,6 +90,7 @@ const Sponsors = () => (
                 width: "100%"
               }}
               src={sunlife}
+              alt="SunLife Financial Logo"
             />
           </div>
         </SponsorLink>
@@ -106,15 +108,15 @@ const Sponsors = () => (
         >
           <div css={{ width: "100%" }}>
             <SponsorLink url="https://consensys.net/">
-              <img src={consensys} css={{ width: "100%" }} />
+              <img src={consensys} css={{ width: "100%" }} alt="Consensys Logo" />
             </SponsorLink>
           </div>
           <SponsorLink url="https://td.ca">
-            <img src={td} css={{ width: "45%" }} />
+            <img src={td} css={{ width: "45%" }} alt="TD Logo" />
           </SponsorLink>
           <div>
             <SponsorLink url="https://ratehub.ca">
-              <img src={ratehub} css={{ width: "100%" }} />
+              <img src={ratehub} css={{ width: "100%" }} alt="Ratehub Logo" />
             </SponsorLink>
           </div>
         </div>
@@ -133,12 +135,12 @@ const Sponsors = () => (
       >
         <div>
           <SponsorLink url="https://scotiabank.ca">
-            <img src={scotiabank} css={{ width: "100%" }} />
+            <img src={scotiabank} css={{ width: "100%" }} alt="Scotiabank Logo" />
           </SponsorLink>
         </div>
         <div css={{ " img": { width: "65%" } }}>
           <SponsorLink url="https://loopio.com">
-            <img src={loopio} />
+            <img src={loopio} alt="Loopio Logo" />
           </SponsorLink>
         </div>
       </div>
@@ -156,16 +158,16 @@ const Sponsors = () => (
         }}
       >
         <SponsorLink url="https://balsamiq.com">
-          <img src={balsamiq} css={{ width: "80%" }} />
+          <img src={balsamiq} css={{ width: "80%" }} alt="Balsamiq Logo" />
         </SponsorLink>
         <SponsorLink url="https://wolfram.com/language/">
-          <img src={wolfram} css={{ width: "80%" }} />
+          <img src={wolfram} css={{ width: "80%" }} alt="Wolfram Logo" />
         </SponsorLink>
         <SponsorLink url="https://ritual.co">
-          <img src={ritual} css={{ width: "100%" }} />
+          <img src={ritual} css={{ width: "100%" }} alt="Ritual Logo" />
         </SponsorLink>
         <SponsorLink url="https://wake-ups.com">
-          <img src={wakeups} css={{ width: "50%" }} />
+          <img src={wakeups} css={{ width: "50%" }} alt="Wakeups Logo" />
         </SponsorLink>
       </div>
       <div
@@ -178,10 +180,10 @@ const Sponsors = () => (
         }}
       >
         <SponsorLink url="https://sketchapp.com">
-          <img src={sketch} css={{ width: "100%" }} />
+          <img src={sketch} css={{ width: "100%" }} alt="Sketch Logo" />
         </SponsorLink>
         <SponsorLink url="https://www.launchacademy.ca/">
-          <img src={launchAcademy} css={{ width: "100%" }} />
+          <img src={launchAcademy} css={{ width: "100%" }} alt="Launch Academy Logo" />
         </SponsorLink>
       </div>
       <div css={{ paddingTop: "100px", paddingBottom: "100px" }}>
@@ -228,10 +230,10 @@ const Sponsors = () => (
         }}
       >
         <SponsorLink url="https://queensu.ca/innovationcentre/">
-          <img src={qic} css={{ width: "100%" }} />
+          <img src={qic} css={{ width: "100%" }} alt="QIC Logo"/>
         </SponsorLink>
         <SponsorLink url="https://smith.queensu.ca/grad_studies/mei/">
-          <img src={mmie} css={{ width: "100%" }} />
+          <img src={mmie} css={{ width: "100%" }} alt="MMIE Logo" />
         </SponsorLink>
       </div>
     </div>

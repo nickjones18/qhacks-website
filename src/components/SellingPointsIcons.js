@@ -12,7 +12,7 @@ const SellingPointsIcons = (props) => (
   >
     {props.list.map((item) => (
       <div key={item.text}>
-        <img src={item.icon} />
+        <img src={item.icon} alt="" />
         <div
           css={{
             fontWeight: 600,

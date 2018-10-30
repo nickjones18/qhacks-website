@@ -16,6 +16,7 @@ exports[`SellingPointsIcons renders correctly 1`] = `
     key="Applications"
   >
     <img
+      alt=""
       src="test-file-stub"
     />
     <div
@@ -45,6 +46,7 @@ exports[`SellingPointsIcons renders correctly 1`] = `
     key="Schools"
   >
     <img
+      alt=""
       src="test-file-stub"
     />
     <div
@@ -74,6 +76,7 @@ exports[`SellingPointsIcons renders correctly 1`] = `
     key="Hackers"
   >
     <img
+      alt=""
       src="test-file-stub"
     />
     <div

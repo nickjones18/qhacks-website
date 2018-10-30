@@ -7,7 +7,7 @@ import TestimonialsBlurb from "./TestimonialsBlurb";
 import TestimonialListCompressed from "./TestimonialListCompressed.js";
 import TestimonialsBlurbCompressed from "./TestimonialsBlurbCompressed";
 
-import placeholderHeadshot from "../assets/img/testimonials/placeholderHeadshot.webp";
+import placeholderHeadshot from "../assets/img/testimonials/placeholderHeadshot.jpg";
 
 const testimonials = [
   {

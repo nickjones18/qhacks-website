@@ -2,8 +2,9 @@ import React from "react";
 import SpeakerCard from "./SpeakerCard";
 import SpeakerSlider from "./SpeakerSlider";
 
-import musk from "../assets/img/speakers/musk.webp";
-import cubes3 from "../assets/img/icons/cubes-3.webp";
+import cubes3webp from "../assets/img/icons/cubes-3.webp";
+import cubes3png from "../assets/img/icons/cubes-3.png";
+import musk from "../assets/img/speakers/musk.png";
 
 //TODO: Update this with real speakers
 const speakers = [
@@ -74,21 +75,25 @@ const Speakers = () => (
     >
       <SpeakerSlider speakers={speakers} />
     </div>
-    <img
-      src={cubes3}
-      css={{
-        zIndex: "1",
-        width: "235px",
-        height: "289px",
-        position: "absolute",
-        bottom: "-210px",
-        right: "62px",
-        display: "block",
-        "@media(max-width: 1000px)": {
-          display: "none"
-        }
-      }}
-    />
+    <picture css={{
+      zIndex: "1",
+      width: "235px",
+      height: "289px",
+      position: "absolute",
+      bottom: "-210px",
+      right: "62px",
+      display: "block",
+      "@media(max-width: 1000px)": {
+        display: "none"
+      }
+    }}>
+      <source srcset={cubes3webp} type="image/webp" />
+      <source srcset={cubes3png} type="image/png" />
+      <img
+        src={cubes3png}
+        alt="Floating cubes"
+      />
+    </picture>
   </div>
 );
 

@@ -44,6 +44,7 @@ exports[`Footer renders correctly 1`] = `
       >
         <span>
           <img
+            alt="QHacks Crown"
             css={
               Object {
                 "marginBottom": "5px",
@@ -54,6 +55,7 @@ exports[`Footer renders correctly 1`] = `
             src="test-file-stub"
           />
           <img
+            alt="QHacks Wordmark"
             height="37px"
             src="test-file-stub"
           />

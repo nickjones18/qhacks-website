@@ -52,6 +52,7 @@ exports[`TestimonialsBlurb renders correctly 1`] = `
       }
     >
       <input
+        alt=""
         onClick={[Function]}
         src="test-file-stub"
         style={
@@ -66,6 +67,7 @@ exports[`TestimonialsBlurb renders correctly 1`] = `
         type="image"
       />
       <input
+        alt=""
         onClick={[Function]}
         src="test-file-stub"
         style={

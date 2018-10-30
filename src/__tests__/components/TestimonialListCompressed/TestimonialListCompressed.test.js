@@ -3,7 +3,7 @@ import { shallow } from "enzyme";
 
 import TestimonialListCompressed from "../../../components/TestimonialListCompressed";
 
-import placeholderHeadshot from "../assets/img/testimonials/placeholderHeadshot.webp";
+import placeholderHeadshot from "../assets/img/testimonials/placeholderHeadshot.jpg";
 
 describe("TestimonialList", () => {
   it("renders correctly", () => {

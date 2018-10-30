@@ -14,6 +14,7 @@ exports[`MobileMenu renders correctly 1`] = `
   }
 >
   <img
+    alt="Open menu"
     css={
       Object {
         "height": "24px",
@@ -40,6 +41,7 @@ exports[`MobileMenu renders correctly 1`] = `
   >
     <img
       align="right"
+      alt="Close menu"
       css={
         Object {
           "padding": "32px",
@@ -75,6 +77,7 @@ exports[`MobileMenu renders correctly 1`] = `
       >
         <div>
           <img
+            alt="QHacks Crown"
             css={
               Object {
                 "paddingBottom": "11px",
@@ -91,6 +94,7 @@ exports[`MobileMenu renders correctly 1`] = `
           }
         >
           <img
+            alt="QHacks Wordmark"
             height="34.8px"
             src="test-file-stub"
             width="134px"
@@ -139,9 +143,20 @@ exports[`MobileMenu renders correctly 1`] = `
           </a>
         </div>
         <div>
-          <img
-            src="test-file-stub"
-          />
+          <picture>
+            <source
+              srcset="test-file-stub"
+              type="image/webp"
+            />
+            <source
+              srcset="test-file-stub"
+              type="image/png"
+            />
+            <img
+              alt="Floating cubes"
+              src="test-file-stub"
+            />
+          </picture>
         </div>
       </div>
     </div>
