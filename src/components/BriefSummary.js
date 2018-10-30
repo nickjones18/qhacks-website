@@ -108,8 +108,8 @@ const BriefSummary = () => (
             width: "275px",
             height: "196px",
             "@media(max-width: 1000px)": {
-              width: "165",
-              height: "118",
+              width: "165px",
+              height: "118px",
               bottom: "-70px"
             },
             position: "absolute",
@@ -119,7 +119,18 @@ const BriefSummary = () => (
         >
           <source srcset={cubes1webp} type="image/webp" />
           <source srcset={cubes1png} type="image/png" />
-          <img src={cubes1png} alt="Floating cubes" />
+          <img
+            css={{
+              width: "275px",
+              height: "196px",
+              "@media(max-width: 1000px)": {
+                width: "165px",
+                height: "118px"
+              }
+            }}
+            src={cubes1png}
+            alt="Floating cubes"
+          />
         </picture>
       </div>
     </ContentWrapper>

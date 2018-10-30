@@ -66,7 +66,7 @@ const FAQs = () => (
         css={{
           padding: "110px 40px 114px 40px",
           "@media(max-width: 780px)": {
-            paddingTop: "64px"
+            padding: "64px 0 120px 0"
           }
         }}
       >

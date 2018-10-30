@@ -20,9 +20,9 @@ const menuItems = [
 ];
 
 const loginButtonCSS = {
-  margin: "24px 0 150px 0",
+  margin: "24px 0 100px 0",
   "@media(max-width: 820px)": {
-    margin: "24px auto"
+    margin: "45px auto"
   }
 };
 
@@ -30,9 +30,6 @@ const Landing = () => (
   <div
     css={{
       width: "100%",
-      height: "100vh",
-      minHeight: "790px",
-      maxHeight: "790px",
       background: `url(${backgroundCubes}) no-repeat center center`,
       backgroundSize: "cover",
       "@media(max-width: 600px)": {

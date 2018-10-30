@@ -95,7 +95,15 @@ const Speakers = () => (
       >
         <source srcset={cubes3webp} type="image/webp" />
         <source srcset={cubes3png} type="image/png" />
-        <img src={cubes3png} alt="Floating cubes" />
+        <img
+          css={{
+            "@media(max-width: 1000px)": {
+              display: "none"
+            }
+          }}
+          src={cubes3png}
+          alt="Floating cubes"
+        />
       </picture>
     </ContentWrapper>
   </section>

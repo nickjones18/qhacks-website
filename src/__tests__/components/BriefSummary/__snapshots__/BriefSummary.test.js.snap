@@ -118,13 +118,13 @@ exports[`BriefSummary renders correctly 1`] = `
           src="https://www.youtube.com/embed/sqzy5n3m-RA?rel=0&controls=0&showinfo=0"
         />
       </div>
-      <img
+      <picture
         css={
           Object {
             "@media(max-width: 1000px)": Object {
               "bottom": "-70px",
-              "height": "118",
-              "width": "165",
+              "height": "118px",
+              "width": "165px",
             },
             "bottom": "-140px",
             "height": "196px",
@@ -133,66 +133,31 @@ exports[`BriefSummary renders correctly 1`] = `
             "width": "275px",
           }
         }
-<<<<<<< e5e63872facd98119a7df8b58aafd7888262b906
       >
-        <iframe
-          allow="autoplay; encrypted-media"
-          allowfullscreen={true}
+        <source
+          srcset="test-file-stub"
+          type="image/webp"
+        />
+        <source
+          srcset="test-file-stub"
+          type="image/png"
+        />
+        <img
+          alt="Floating cubes"
           css={
             Object {
-              "@media(max-width: 1115px)": Object {
-                "height": "100%",
-                "paddingTop": "40px",
-                "width": "100%",
+              "@media(max-width: 1000px)": Object {
+                "height": "118px",
+                "width": "165px",
               },
-              "@media(max-width: 1215px)": Object {
-                "height": "225px",
-                "width": "400px",
-              },
-              "height": "281px",
-              "width": "500px",
+              "height": "196px",
+              "width": "275px",
             }
           }
-          frameborder="0"
-          src="https://www.youtube.com/embed/sqzy5n3m-RA?rel=0&controls=0&showinfo=0"
-          title="QHacks Video"
+          src="test-file-stub"
         />
-      </div>
+      </picture>
     </div>
-    <picture
-      css={
-        Object {
-          "@media(max-width: 1000px)": Object {
-            "bottom": "-70px",
-            "height": "118",
-            "width": "165",
-          },
-          "bottom": "-140px",
-          "height": "196px",
-          "position": "absolute",
-          "right": "40px",
-          "width": "275px",
-        }
-      }
-    >
-      <source
-        srcset="test-file-stub"
-        type="image/webp"
-      />
-      <source
-        srcset="test-file-stub"
-        type="image/png"
-      />
-      <img
-        alt="Floating cubes"
-        src="test-file-stub"
-      />
-    </picture>
-=======
-        src="test-file-stub"
-      />
-    </div>
->>>>>>> Make miscellaneous visual fixes
   </_default>
 </div>
 `;

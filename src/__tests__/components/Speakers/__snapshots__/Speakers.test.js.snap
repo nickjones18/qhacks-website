@@ -68,11 +68,6 @@ exports[`Speakers renders correctly 1`] = `
           "paddingBottom": "30px",
         }
       }
-<<<<<<< 60ed2c2e4702db6e5e6d893c56f7943ab65f7bef
-    />
-  </div>
-  <picture
-=======
     >
       <SpeakerSlider
         speakers={
@@ -93,42 +88,42 @@ exports[`Speakers renders correctly 1`] = `
         }
       />
     </div>
-  </_default>
-  <img
->>>>>>> Use ContentWrapper for all top-level components
-    css={
-      Object {
-        "@media(max-width: 1000px)": Object {
-          "display": "none",
-        },
-        "bottom": "-210px",
-        "display": "block",
-        "height": "289px",
-        "position": "absolute",
-        "right": "62px",
-        "width": "235px",
-        "zIndex": "1",
+    <picture
+      css={
+        Object {
+          "@media(max-width: 1000px)": Object {
+            "display": "none",
+          },
+          "bottom": "-210px",
+          "display": "block",
+          "height": "289px",
+          "position": "absolute",
+          "right": "62px",
+          "width": "235px",
+          "zIndex": "1",
+        }
       }
-    }
-<<<<<<< 0aab477cd050c2329faeca878ece0454499fa34c
-  >
-    <source
-      srcset="test-file-stub"
-      type="image/webp"
-    />
-    <source
-      srcset="test-file-stub"
-      type="image/png"
-    />
-    <img
-      alt="Floating cubes"
-      src="test-file-stub"
-    />
-  </picture>
-</div>
-=======
-    src="test-file-stub"
-  />
+    >
+      <source
+        srcset="test-file-stub"
+        type="image/webp"
+      />
+      <source
+        srcset="test-file-stub"
+        type="image/png"
+      />
+      <img
+        alt="Floating cubes"
+        css={
+          Object {
+            "@media(max-width: 1000px)": Object {
+              "display": "none",
+            },
+          }
+        }
+        src="test-file-stub"
+      />
+    </picture>
+  </_default>
 </section>
->>>>>>> Implement Robert's Semantic HTML changes from #164
 `;
