@@ -16,7 +16,7 @@ exports[`FAQs renders correctly 1`] = `
           "@media(max-width: 780px)": Object {
             "padding": "64px 0 120px 0",
           },
-          "padding": "110px 40px 114px 40px",
+          "padding": "110px 0 114px 0",
         }
       }
     >

@@ -57,7 +57,7 @@ class Header extends Component {
       <div>
         <div
           css={{
-            width: "100vw",
+            width: "100%",
             position: "fixed",
             top: this.state.isHeaderVisible ? "0px" : "-100px",
             transition: "0.5s",

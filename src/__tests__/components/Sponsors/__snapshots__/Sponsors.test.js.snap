@@ -371,13 +371,6 @@ exports[`Sponsors renders correctly 1`] = `
           backgroundColor="#f8f8f8"
           foregroundColor="#c81c2e"
           link="https://qhacks.nyc3.cdn.digitaloceanspaces.com/documents/QHacksPartnershipPackage.pdf"
-          style={
-            Object {
-              "margin": "0 auto",
-              "paddingLeft": "40px",
-              "paddingRight": "40px",
-            }
-          }
           type="rounded"
         >
           Partnership Package

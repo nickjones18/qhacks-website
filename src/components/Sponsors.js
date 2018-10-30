@@ -225,11 +225,6 @@ const Sponsors = () => (
           <ActionButton
             backgroundColor="#f8f8f8"
             foregroundColor="#c81c2e"
-            style={{
-              paddingLeft: "40px",
-              paddingRight: "40px",
-              margin: "0 auto"
-            }}
             type="rounded"
             link="https://qhacks.nyc3.cdn.digitaloceanspaces.com/documents/QHacksPartnershipPackage.pdf"
           >

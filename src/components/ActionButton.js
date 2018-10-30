@@ -5,7 +5,11 @@ const ActionButton = (props) => {
     borderRadius: "28px",
     border: `solid 2px ${props.foregroundColor}`,
     paddingLeft: "55px",
-    paddingRight: "55px"
+    paddingRight: "55px",
+    "@media screen and (max-width: 450px)": {
+      width: "92%",
+      paddingLeft: "4%",
+      paddingRight: "4%"   }
   };
 
   const rectStyles = {
@@ -17,9 +21,10 @@ const ActionButton = (props) => {
 
   let commonStyles = {
     ...props.style,
-    height: "48px",
+    minHeight: "48px",
     lineHeight: "48px",
     width: props.width,
+    textAlign: "center",
     textTransform: "uppercase",
     backgroundColor: props.backgroundColor,
     display: "flex",
