@@ -10,6 +10,7 @@ exports[`Menu renders correctly 1`] = `
   }
 >
   <img
+    alt="QHacks Crown"
     css={
       Object {
         "@media(min-width:820px)": Object {

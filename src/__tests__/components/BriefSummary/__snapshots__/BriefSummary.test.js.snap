@@ -120,10 +120,11 @@ exports[`BriefSummary renders correctly 1`] = `
           }
           frameborder="0"
           src="https://www.youtube.com/embed/sqzy5n3m-RA?rel=0&controls=0&showinfo=0"
+          title="QHacks Video"
         />
       </div>
     </div>
-    <img
+    <picture
       css={
         Object {
           "@media(max-width: 1000px)": Object {
@@ -138,8 +139,20 @@ exports[`BriefSummary renders correctly 1`] = `
           "width": "275px",
         }
       }
-      src="test-file-stub"
-    />
+    >
+      <source
+        srcset="test-file-stub"
+        type="image/webp"
+      />
+      <source
+        srcset="test-file-stub"
+        type="image/png"
+      />
+      <img
+        alt="Floating cubes"
+        src="test-file-stub"
+      />
+    </picture>
   </_default>
 </div>
 `;

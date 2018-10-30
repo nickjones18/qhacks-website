@@ -112,8 +112,13 @@ const Footer = () => (
               height="34px"
               src={logo}
               css={{ marginBottom: "5px", paddingRight: "13px" }}
+              alt="QHacks Crown"
             />
-            <img height="37px" src={wordmark} />
+            <img
+              height="37px"
+              src={wordmark}
+              alt="QHacks Wordmark"
+            />
           </span>
           <p
             css={{

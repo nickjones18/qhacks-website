@@ -32,6 +32,7 @@ exports[`TestimonialCard0 renders correctly 1`] = `
     }
   >
     <img
+      alt=""
       src="test-file-stub"
       style={
         Object {
@@ -96,6 +97,7 @@ exports[`TestimonialCard0 renders correctly 1`] = `
     Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
   </p>
   <img
+    alt=""
     src="test-file-stub"
     style={
       Object {
@@ -140,6 +142,7 @@ exports[`TestimonialCard1 renders correctly 1`] = `
     }
   >
     <img
+      alt=""
       src="test-file-stub"
       style={
         Object {
@@ -204,6 +207,7 @@ exports[`TestimonialCard1 renders correctly 1`] = `
     Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
   </p>
   <img
+    alt=""
     src="test-file-stub"
     style={
       Object {

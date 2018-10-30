@@ -49,6 +49,7 @@ exports[`Sponsors renders correctly 1`] = `
         url="https://tucows.com"
       >
         <img
+          alt="Tucows Logo"
           css={
             Object {
               "width": "70%",
@@ -72,6 +73,7 @@ exports[`Sponsors renders correctly 1`] = `
         url="https://kingsds.network"
       >
         <img
+          alt="Kings Distributed Systems Logo"
           css={
             Object {
               "width": "80%",
@@ -92,6 +94,7 @@ exports[`Sponsors renders correctly 1`] = `
           }
         >
           <img
+            alt="SunLife Financial Logo"
             css={
               Object {
                 "width": "100%",
@@ -131,6 +134,7 @@ exports[`Sponsors renders correctly 1`] = `
             url="https://consensys.net/"
           >
             <img
+              alt="Consensys Logo"
               css={
                 Object {
                   "width": "100%",
@@ -144,6 +148,7 @@ exports[`Sponsors renders correctly 1`] = `
           url="https://td.ca"
         >
           <img
+            alt="TD Logo"
             css={
               Object {
                 "width": "45%",
@@ -157,6 +162,7 @@ exports[`Sponsors renders correctly 1`] = `
             url="https://ratehub.ca"
           >
             <img
+              alt="Ratehub Logo"
               css={
                 Object {
                   "width": "100%",
@@ -187,6 +193,7 @@ exports[`Sponsors renders correctly 1`] = `
           url="https://scotiabank.ca"
         >
           <img
+            alt="Scotiabank Logo"
             css={
               Object {
                 "width": "100%",
@@ -209,6 +216,7 @@ exports[`Sponsors renders correctly 1`] = `
           url="https://loopio.com"
         >
           <img
+            alt="Loopio Logo"
             src="test-file-stub"
           />
         </_default>
@@ -232,6 +240,7 @@ exports[`Sponsors renders correctly 1`] = `
         url="https://balsamiq.com"
       >
         <img
+          alt="Balsamiq Logo"
           css={
             Object {
               "width": "80%",
@@ -244,6 +253,7 @@ exports[`Sponsors renders correctly 1`] = `
         url="https://wolfram.com/language/"
       >
         <img
+          alt="Wolfram Logo"
           css={
             Object {
               "width": "80%",
@@ -256,6 +266,7 @@ exports[`Sponsors renders correctly 1`] = `
         url="https://ritual.co"
       >
         <img
+          alt="Ritual Logo"
           css={
             Object {
               "width": "100%",
@@ -268,6 +279,7 @@ exports[`Sponsors renders correctly 1`] = `
         url="https://wake-ups.com"
       >
         <img
+          alt="Wakeups Logo"
           css={
             Object {
               "width": "50%",
@@ -292,6 +304,7 @@ exports[`Sponsors renders correctly 1`] = `
         url="https://sketchapp.com"
       >
         <img
+          alt="Sketch Logo"
           css={
             Object {
               "width": "100%",
@@ -304,6 +317,7 @@ exports[`Sponsors renders correctly 1`] = `
         url="https://www.launchacademy.ca/"
       >
         <img
+          alt="Launch Academy Logo"
           css={
             Object {
               "width": "100%",
@@ -383,6 +397,7 @@ exports[`Sponsors renders correctly 1`] = `
         url="https://queensu.ca/innovationcentre/"
       >
         <img
+          alt="QIC Logo"
           css={
             Object {
               "width": "100%",
@@ -395,6 +410,7 @@ exports[`Sponsors renders correctly 1`] = `
         url="https://smith.queensu.ca/grad_studies/mei/"
       >
         <img
+          alt="MMIE Logo"
           css={
             Object {
               "width": "100%",

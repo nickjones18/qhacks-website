@@ -34,6 +34,7 @@ const TestimonialCard = (props) => (
       <img
         src={props.item.image}
         style={{ borderRadius: "50%", height: "72px", width: "72px" }}
+        alt=""
       />
       <div style={{ display: "inline-block", marginLeft: "24px" }}>
         <strong
@@ -68,6 +69,7 @@ const TestimonialCard = (props) => (
         bottom: 24,
         right: 40
       }}
+      alt=""
     />
   </div>
 );

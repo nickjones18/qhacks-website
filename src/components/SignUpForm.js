@@ -61,19 +61,20 @@ class SignUpForm extends Component {
           style={{
             animation: "spin 2s infinite linear"
           }}
+          alt=""
         />
       );
       break;
     }
     case "success": {
       buttonContent = (
-        <img src={whiteIcons ? circleCheckWhite : circleCheck} />
+        <img src={whiteIcons ? circleCheckWhite : circleCheck} alt="" />
       );
       break;
     }
     case "failure": {
       buttonContent = (
-        <img src={whiteIcons ? circleTimesWhite : circleTimes} />
+        <img src={whiteIcons ? circleTimesWhite : circleTimes} alt="" />
       );
       break;
     }

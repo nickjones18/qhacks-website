@@ -3,7 +3,8 @@ import { css } from "glamor";
 
 import ContentWrapper from "./ContentWrapper";
 
-import cubes1 from "../assets/img/icons/cubes-1.webp";
+import cubes1webp from "../assets/img/icons/cubes-1.webp";
+import cubes1png from "../assets/img/icons/cubes-1.png";
 
 const caretCSS = (backgroundColor) =>
   css({
@@ -87,6 +88,7 @@ const BriefSummary = () => (
           }}
         >
           <iframe
+            title="QHacks Video"
             src="https://www.youtube.com/embed/sqzy5n3m-RA?rel=0&amp;controls=0&amp;showinfo=0"
             frameborder="0"
             allow="autoplay; encrypted-media"
@@ -107,21 +109,25 @@ const BriefSummary = () => (
           />
         </div>
       </div>
-      <img
-        src={cubes1}
-        css={{
-          width: "275px",
-          height: "196px",
-          "@media(max-width: 1000px)": {
-            width: "165",
-            height: "118",
-            bottom: "-70px"
-          },
-          position: "absolute",
-          bottom: "-140px",
-          right: "40px"
-        }}
-      />
+      <picture css={{
+        width: "275px",
+        height: "196px",
+        "@media(max-width: 1000px)": {
+          width: "165",
+          height: "118",
+          bottom: "-70px"
+        },
+        position: "absolute",
+        bottom: "-140px",
+        right: "40px"
+      }}>
+        <source srcset={cubes1webp} type="image/webp" />
+        <source srcset={cubes1png} type="image/png" />
+        <img
+          src={cubes1png}
+          alt="Floating cubes"
+        />
+      </picture>
     </ContentWrapper>
   </div>
 );

@@ -3,8 +3,9 @@ import React from "react";
 import ActionButton from "./ActionButton";
 import ContentWrapper from "./ContentWrapper";
 
-import podcast from "../assets/img/icons/podcastIcon.webp";
-import circuits from "../assets/img/backgrounds/circuitsGrey.webp";
+import circuits from "../assets/img/backgrounds/circuitsGrey.png";
+import podcastwebp from "../assets/img/icons/podcastIcon.webp";
+import podcastpng from "../assets/img/icons/podcastIcon.png";
 
 const Podcast = () => (
   <div>
@@ -41,15 +42,19 @@ const Podcast = () => (
               "@media (max-width: 1128px)": { textAlign: "center" }
             }}
           >
-            <img
-              src={podcast}
-              css={{
-                "@media (max-width: 1128px)": {
-                  width: "100%"
-                },
-                maxWidth: "290px"
-              }}
-            />
+            <picture css={{
+              "@media (max-width: 1128px)": {
+                width: "100%"
+              },
+              maxWidth: "290px"
+            }}>
+              <source srcset={podcastwebp} type="image/webp" />
+              <source srcset={podcastpng} type="image/png" />
+              <img
+                src={podcastpng}
+                alt="Headphones connected to phone"
+              />
+            </picture>
           </div>
           <div
             css={{

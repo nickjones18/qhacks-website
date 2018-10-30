@@ -2,15 +2,18 @@ import React from "react";
 
 import SellingPointsIcons from "./SellingPointsIcons.js";
 
-import cubes2 from "../assets/img/icons/cubes-2.webp";
+import cubes2png from "../assets/img/icons/cubes-2.png";
 import judges from "../assets/img/icons/judgesIcon.svg";
+import cubes2webp from "../assets/img/icons/cubes-2.webp";
 import mentors from "../assets/img/icons/mentorsIcon.svg";
 import hackers from "../assets/img/icons/hackersIcon.svg";
 import schools from "../assets/img/icons/schoolsIcon.svg";
 import challenges from "../assets/img/icons/challengesIcon.svg";
 import applications from "../assets/img/icons/applicationsIcon.svg";
-import qhacksSellingPointOne from "../assets/img/selling_points/qhacksSellingPointOne.webp";
-import qhacksSellingPointTwo from "../assets/img/selling_points/qhacksSellingPointTwo.webp";
+import qhacksSellingPointOnejpg from "../assets/img/selling_points/qhacksSellingPointOne.jpg";
+import qhacksSellingPointTwojpg from "../assets/img/selling_points/qhacksSellingPointTwo.jpg";
+import qhacksSellingPointOnewebp from "../assets/img/selling_points/qhacksSellingPointOne.webp";
+import qhacksSellingPointTwowebp from "../assets/img/selling_points/qhacksSellingPointTwo.webp";
 
 const twoColumnStyle = {
   display: "flex",
@@ -81,7 +84,11 @@ const SellingPoints = () => (
         />
       </div>
       <div css={flexChildStyle}>
-        <img src={qhacksSellingPointOne} css={imgStyle} />
+        <picture css={imgStyle}>
+          <source srcset={qhacksSellingPointOnewebp} type="image/webp" />
+          <source srcset={qhacksSellingPointOnejpg} type="image/jpg" />
+          <img src={qhacksSellingPointOnejpg} alt="Hackers in a workshop" />
+        </picture>
       </div>
     </div>
     <div
@@ -92,7 +99,11 @@ const SellingPoints = () => (
       }}
     >
       <div css={flexChildStyle}>
-        <img src={qhacksSellingPointTwo} css={imgStyle} />
+        <picture css={imgStyle}>
+          <source srcset={qhacksSellingPointTwowebp} type="image/webp" />
+          <source srcset={qhacksSellingPointTwojpg} type="image/jpg" />
+          <img src={qhacksSellingPointTwojpg} alt="Mentor judging a VR hack" />
+        </picture>
       </div>
       <div css={flexChildStyle}>
         <h1>Showcase to Experts.</h1>
@@ -125,24 +136,28 @@ const SellingPoints = () => (
         />
       </div>
     </div>
-    <img
-      src={cubes2}
-      css={{
-        width: "588px",
-        height: "361px",
-        position: "absolute",
-        bottom: "-220px",
-        left: "-100px",
-        zIndex: 3,
-        display: "block",
-        "@media(max-width: 1200px)": {
-          width: "358px",
-          height: "220px",
-          bottom: "-140px",
-          left: "-45px"
-        }
-      }}
-    />
+    <picture css={{
+      width: "588px",
+      height: "361px",
+      position: "absolute",
+      bottom: "-220px",
+      left: "-100px",
+      zIndex: 3,
+      display: "block",
+      "@media(max-width: 1200px)": {
+        width: "358px",
+        height: "220px",
+        bottom: "-140px",
+        left: "-45px"
+      }
+    }}>
+      <source srcset={cubes2webp} type="image/webp" />
+      <source srcset={cubes2png} type="image/png" />
+      <img
+        src={cubes2png}
+        alt="Floating cubes"
+      />
+    </picture>
   </div>
 );
 

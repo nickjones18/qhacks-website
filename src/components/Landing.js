@@ -66,6 +66,7 @@ const Landing = () => (
             src={logo}
             width="170px"
             css={{ "@media(max-width: 820px)": { display: "none" } }}
+            alt="QHacks Crown"
           />
           <img
             src={landingImg}
@@ -74,6 +75,7 @@ const Landing = () => (
               maxWidth: "350px",
               "@media(min-width: 820px)": { display: "none" }
             }}
+            alt="QHacks Illustration"
           />
           <br />
           <img
@@ -90,6 +92,7 @@ const Landing = () => (
                 paddingBottom: "8px"
               }
             }}
+            alt="QHacks Wordmark"
           />
           <h2
             data-cy="qhacks-information"
@@ -112,6 +115,7 @@ const Landing = () => (
               width: "189px",
               "@media(max-width: 820px)": { width: "132px" }
             }}
+            alt="MLH Logo"
           />
           <h2
             data-cy="qhacks-tagline"
@@ -157,6 +161,7 @@ const Landing = () => (
                 display: "none"
               }
             }}
+            alt="QHacks Illustration"
           />
         </div>
       </div>

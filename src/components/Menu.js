@@ -23,6 +23,7 @@ const Menu = (props) => {
           }
         }}
         src={colored}
+        alt="QHacks Crown"
       />
       <div
         align="right"

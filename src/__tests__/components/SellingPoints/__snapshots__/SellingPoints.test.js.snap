@@ -81,7 +81,7 @@ exports[`SellingPoints renders correctly 1`] = `
         }
       }
     >
-      <img
+      <picture
         css={
           Object {
             "maxHeight": "320px",
@@ -89,8 +89,20 @@ exports[`SellingPoints renders correctly 1`] = `
             "width": "100%",
           }
         }
-        src="test-file-stub"
-      />
+      >
+        <source
+          srcset="test-file-stub"
+          type="image/webp"
+        />
+        <source
+          srcset="test-file-stub"
+          type="image/jpg"
+        />
+        <img
+          alt="Hackers in a workshop"
+          src="test-file-stub"
+        />
+      </picture>
     </div>
   </div>
   <div
@@ -117,7 +129,7 @@ exports[`SellingPoints renders correctly 1`] = `
         }
       }
     >
-      <img
+      <picture
         css={
           Object {
             "maxHeight": "320px",
@@ -125,8 +137,20 @@ exports[`SellingPoints renders correctly 1`] = `
             "width": "100%",
           }
         }
-        src="test-file-stub"
-      />
+      >
+        <source
+          srcset="test-file-stub"
+          type="image/webp"
+        />
+        <source
+          srcset="test-file-stub"
+          type="image/jpg"
+        />
+        <img
+          alt="Mentor judging a VR hack"
+          src="test-file-stub"
+        />
+      </picture>
     </div>
     <div
       css={
@@ -177,7 +201,7 @@ exports[`SellingPoints renders correctly 1`] = `
       />
     </div>
   </div>
-  <img
+  <picture
     css={
       Object {
         "@media(max-width: 1200px)": Object {
@@ -195,7 +219,19 @@ exports[`SellingPoints renders correctly 1`] = `
         "zIndex": 3,
       }
     }
-    src="test-file-stub"
-  />
+  >
+    <source
+      srcset="test-file-stub"
+      type="image/webp"
+    />
+    <source
+      srcset="test-file-stub"
+      type="image/png"
+    />
+    <img
+      alt="Floating cubes"
+      src="test-file-stub"
+    />
+  </picture>
 </div>
 `;

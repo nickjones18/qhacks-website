@@ -44,7 +44,7 @@ exports[`Podcast renders correctly 1`] = `
             }
           }
         >
-          <img
+          <picture
             css={
               Object {
                 "@media (max-width: 1128px)": Object {
@@ -53,8 +53,20 @@ exports[`Podcast renders correctly 1`] = `
                 "maxWidth": "290px",
               }
             }
-            src="test-file-stub"
-          />
+          >
+            <source
+              srcset="test-file-stub"
+              type="image/webp"
+            />
+            <source
+              srcset="test-file-stub"
+              type="image/png"
+            />
+            <img
+              alt="Headphones connected to phone"
+              src="test-file-stub"
+            />
+          </picture>
         </div>
         <div
           css={
