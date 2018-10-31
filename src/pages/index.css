@@ -1,40 +1,35 @@
 @font-face {
   font-family: "Encode Sans";
   font-display: swap;
-  src: local("Encode Sans"),
-    url("../assets/fonts/EncodeSans-Bold.ttf");
+  src: local("Encode Sans"), url("../assets/fonts/EncodeSans-Bold.ttf");
   font-weight: 700;
 }
 
 @font-face {
   font-family: "Encode Sans";
   font-display: swap;
-  src: local("Encode Sans"),
-    url("../assets/fonts/EncodeSans-ExtraBold.ttf");
+  src: local("Encode Sans"), url("../assets/fonts/EncodeSans-ExtraBold.ttf");
   font-weight: 800;
 }
 
 @font-face {
   font-family: "Encode Sans";
   font-display: swap;
-  src: local("Encode Sans"),
-    url("../assets/fonts/EncodeSans-Medium.ttf");
+  src: local("Encode Sans"), url("../assets/fonts/EncodeSans-Medium.ttf");
   font-weight: 500;
 }
 
 @font-face {
   font-family: "Encode Sans";
   font-display: swap;
-  src: local("Encode Sans"),
-    url("../assets/fonts/EncodeSans-Regular.ttf");
+  src: local("Encode Sans"), url("../assets/fonts/EncodeSans-Regular.ttf");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Encode Sans";
   font-display: swap;
-  src: local("Encode Sans"),
-    url("../assets/fonts/EncodeSans-SemiBold.ttf");
+  src: local("Encode Sans"), url("../assets/fonts/EncodeSans-SemiBold.ttf");
   font-weight: 600;
 }
 
@@ -65,6 +60,18 @@ button {
 
 input {
   font-family: "Encode Sans", sans-serif;
+}
+
+@media screen and (max-width: 820px) {
+  h1 {
+    font-size: 28px !important;
+  }
+  h2 {
+    font-size: 18px !important;
+  }
+  h3 {
+    font-size: 16px !important;
+  }
 }
 
 h1 {
