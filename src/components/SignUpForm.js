@@ -51,8 +51,8 @@ class SignUpForm extends Component {
       mode: "cors",
       body: JSON.stringify({
         email: email,
-        event: "qhacks-2018",
-        name: "test-mailing-list"
+        event: "qhacks-2019",
+        name: "announcements-newsletter"
       })
     })
       .then((response) => response.json())
