@@ -543,10 +543,14 @@ exports[`FAQs renders correctly 1`] = `
                   "textDecoration": "underline",
                 }
               }
+              href="mailto:hello@qhacks.io"
+              rel="external nofollow"
+              target="_blank"
             >
               hello@qhacks.io
             </a>
-             or on
+             
+            or on
              
             <a
               css={
@@ -556,6 +560,9 @@ exports[`FAQs renders correctly 1`] = `
                   "textDecoration": "underline",
                 }
               }
+              href="https://fb.com/qhacks"
+              rel="external nofollow"
+              target="_blank"
             >
               Facebook
             </a>
