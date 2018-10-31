@@ -49,9 +49,14 @@ const TestimonialCard = (props) => (
         {props.item.project ? (
           <strong>
             <span style={{ color: "#838383", fontWeight: 600 }}>Project:</span>{" "}
-            <span style={{ color: "#00205b", fontWeight: 600 }}>
+            <a
+              rel="external nofollow"
+              target="_blank"
+              href={props.item.projectLink}
+              style={{ fontWeight: 600 }}
+            >
               {props.item.project}
-            </span>
+            </a>
           </strong>
         ) : (
           ""
