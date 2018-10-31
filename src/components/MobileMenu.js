@@ -68,19 +68,32 @@ const MobileMenu = (props) => (
           }}
         >
           <div>
-            <img src={logo} css={{ paddingBottom: "11px" }} alt="QHacks Crown" />
+            <img
+              src={logo}
+              css={{ paddingBottom: "11px" }}
+              alt="QHacks Crown"
+            />
           </div>
           <div css={{ paddingBottom: "52px" }}>
-            <img src={word} width="134px" height="34.8px" alt="QHacks Wordmark" />
+            <img
+              src={word}
+              width="134px"
+              height="34.8px"
+              alt="QHacks Wordmark"
+            />
           </div>
           {props.menuItems.map((i) => (
             <div key={i} css={{ paddingBottom: "24px" }}>
-              <a href={`#${i}`} onClick={props.toggleMenu}>
+              <a
+                href={`#${i}`}
+                onClick={props.toggleMenu}
+                css={{ fontWeight: "bold" }}
+              >
                 {i}
               </a>
             </div>
           ))}
-          <div>
+          <div css={{ marginTop: "-100px" }}>
             <picture>
               <source srcset={cubeswebp} type="image/webp" />
               <source srcset={cubespng} type="image/png" />
