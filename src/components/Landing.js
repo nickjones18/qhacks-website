@@ -12,8 +12,8 @@ import backgroundCubes from "../assets/img/icons/backgroundCubes.svg";
 
 const menuItems = [
   "about",
-  "speakers",
-  "schedule",
+  // "speakers",
+  // "schedule",
   "testimonials",
   "sponsors",
   "faq"

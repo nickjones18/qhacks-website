@@ -245,6 +245,9 @@ const Sponsors = () => (
             <a
               data-cy="partners-email-prompt"
               href="mailto:partnership@qhacks.io"
+              css={{
+                fontSize: "16px"
+              }}
             >
               partnership@qhacks.io
             </a>

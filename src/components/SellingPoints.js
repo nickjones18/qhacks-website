@@ -147,19 +147,19 @@ const SellingPoints = () => (
         </div>
         <picture
           css={{
-            width: "588px",
-            height: "361px",
+            width: "400px",
+            height: "246px",
             position: "absolute",
-            bottom: "-220px",
-            left: "-100px",
-            zIndex: -1,
+            bottom: "-140px",
+            left: "-60px",
+            zIndex: 3,
             "@media(max-width: 1200px)": {
               width: "358px",
               height: "220px",
-              bottom: "-140px",
-              left: "-45px"
+              bottom: "-120px",
+              left: "-40px"
             },
-            "@media(max-width: 850px)": {
+            "@media(max-width: 820px)": {
               display: "none"
             }
           }}
@@ -168,8 +168,9 @@ const SellingPoints = () => (
           <source srcset={cubes2png} type="image/png" />
           <img
             css={{
+              width: "400px",
+              height: "246px",
               "@media(max-width: 1200px)": {
-                position: "relative",
                 width: "358px",
                 height: "220px"
               }

@@ -73,16 +73,17 @@ exports[`TestimonialCard0 renders correctly 1`] = `
           Project:
         </span>
          
-        <span
+        <a
+          rel="external nofollow"
           style={
             Object {
-              "color": "#00205b",
               "fontWeight": 600,
             }
           }
+          target="_blank"
         >
           Dolores
-        </span>
+        </a>
       </strong>
     </div>
   </div>
@@ -183,16 +184,17 @@ exports[`TestimonialCard1 renders correctly 1`] = `
           Project:
         </span>
          
-        <span
+        <a
+          rel="external nofollow"
           style={
             Object {
-              "color": "#00205b",
               "fontWeight": 600,
             }
           }
+          target="_blank"
         >
           Test1
-        </span>
+        </a>
       </strong>
     </div>
   </div>
