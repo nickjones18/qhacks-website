@@ -112,11 +112,7 @@ const Footer = () => (
               css={{ marginBottom: "5px", paddingRight: "13px" }}
               alt="QHacks Crown"
             />
-            <img
-              height="37px"
-              src={wordmark}
-              alt="QHacks Wordmark"
-            />
+            <img height="37px" src={wordmark} alt="QHacks Wordmark" />
           </span>
           <p
             css={{
@@ -129,12 +125,11 @@ const Footer = () => (
               [smallScreens]: { paddingLeft: "24px", paddingRight: "24px" }
             }}
           >
-            QHacks was first held in 2016 with a mission to advocate and
-            incubate the tech community at Queen&#39;s University and throughout
-            Canada. Going into our third year, we have been rapidly growing to
-            become one of the most exciting hackathons in North America.
-            Regardless of your experience, QHacks should be a place where you
-            realize your fullest potential.
+            QHacks is Queen’s University’s annual hackathon! QHacks was founded
+            in 2016 with a mission to advocate and incubate the tech community
+            at Queen’s University and throughout Canada. Going into our fourth
+            year we have been aggressively growing to become one of the biggest
+            and most exciting hackathons in North America.
           </p>
           <h3>Stay Connected</h3>
           <p

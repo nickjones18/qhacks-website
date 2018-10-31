@@ -79,9 +79,11 @@ const Podcast = () => (
                 fontWeight: "500"
               }}
             >
-              Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras
-              ullamcorper bibendum bibendum. Duis tincidunt urna non pretium
-              porta. Nam condimentum vitae ligula vel ornare.
+              Queen’s University has produced a lot of great tech talent - and
+              we want to hear their stories! The QHacks Podcast is our
+              opportunity to learn from current and former Queen’s students who
+              have become leaders, innovators, and entrepreneurs in the tech
+              industry!
             </p>
             <div
               css={{

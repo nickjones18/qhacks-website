@@ -141,9 +141,9 @@ exports[`Landing renders correctly 1`] = `
           }
           data-cy="qhacks-tagline"
         >
-          Canada’s largest hardware hackathon. 
+          Queen’s University’s annual hackathon.
           <br />
-          Join us for an unforgettable experience.
+          Join us for an unforgettable experience!
         </h2>
         <div
           css={
