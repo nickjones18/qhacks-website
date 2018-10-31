@@ -20,6 +20,7 @@ const menuItems = [
 ];
 
 const loginButtonCSS = {
+  visibility: "hidden",
   margin: "24px 0 100px 0",
   "@media(max-width: 820px)": {
     margin: "45px auto"
@@ -133,7 +134,8 @@ const Landing = () => (
             Canada’s largest hardware hackathon. <br />
             Join us for an unforgettable experience.
           </h2>
-          <ActionButton
+          {/* <ActionButton
+            disabled={true}
             dataCy="login-button"
             backgroundColor="#ffffff"
             foregroundColor="#00205b"
@@ -142,7 +144,8 @@ const Landing = () => (
             type="rounded"
           >
             Login
-          </ActionButton>
+          </ActionButton> */}
+          <div css={loginButtonCSS} />
         </div>
         <div
           css={{

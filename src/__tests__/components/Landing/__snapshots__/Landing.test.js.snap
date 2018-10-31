@@ -145,23 +145,17 @@ exports[`Landing renders correctly 1`] = `
           <br />
           Join us for an unforgettable experience.
         </h2>
-        <ActionButton
-          backgroundColor="#ffffff"
-          dataCy="login-button"
-          foregroundColor="#00205b"
-          link="https://app.qhacks.io/apply"
-          style={
+        <div
+          css={
             Object {
               "@media(max-width: 820px)": Object {
                 "margin": "45px auto",
               },
               "margin": "24px 0 100px 0",
+              "visibility": "hidden",
             }
           }
-          type="rounded"
-        >
-          Login
-        </ActionButton>
+        />
       </div>
       <div
         css={
