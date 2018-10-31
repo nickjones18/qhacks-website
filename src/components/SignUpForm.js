@@ -16,34 +16,56 @@ class SignUpForm extends Component {
     boldMessage: ""
   };
 
-  signUp() {
-    // Simulate a sign up request
+  setStatusFailure = (errorMsg) => {
+    this.setState({
+      status: "failure",
+      boldMessage: errorMsg,
+      message: ""
+    });
+    setTimeout(() => this.resetStatus(), 3500);
+  };
+
+  setStatusSuccess = (email) => {
+    this.setState({
+      status: "success",
+      boldMessage: email,
+      message: "has been added to our mailing list."
+    });
+    setTimeout(() => this.resetStatus(), 3500);
+  };
+
+  setStatusLoading = () => {
     this.setState({ status: "loading", message: "", boldMessage: "" });
-    const delay = Math.random() * 4000 + 2000;
-    const resetStatus = () =>
-      setTimeout(
-        () => this.setState({ status: null, message: "", boldMessage: "" }),
-        3500
-      );
-    if (Math.random() >= 0.5) {
-      setTimeout(() => {
-        this.setState({
-          status: "success",
-          boldMessage: this.state.emailAddress,
-          message: "has been added to our mailing list."
-        });
-        resetStatus();
-      }, delay);
-    } else {
-      setTimeout(() => {
-        this.setState({
-          status: "failure",
-          boldMessage: "Invalid email address.",
-          message: ""
-        });
-        resetStatus();
-      }, delay);
-    }
+  };
+
+  resetStatus = () => {
+    this.setState({ status: null, message: "", boldMessage: "" });
+  };
+
+  signUp() {
+    const email = this.state.emailAddress;
+    const baseUrl = "https://app.qhacks.io"; // local: "http://127.0.0.1:9000"
+    this.setStatusLoading();
+    fetch(`${baseUrl}/api/v1/subscribe`, {
+      method: "POST",
+      mode: "cors",
+      body: JSON.stringify({
+        email: email,
+        event: "qhacks-2018",
+        name: "test-mailing-list"
+      })
+    })
+      .then((response) => response.json())
+      .then((response) => {
+        if (!response.code || (response.code >= 200 && response.code <= 299)) {
+          this.setStatusSuccess(email);
+        } else {
+          this.setStatusFailure(response.message);
+        }
+      })
+      .catch(() => {
+        this.setStatusFailure("Something went wrong – please try again later.");
+      });
   }
 
   render() {
