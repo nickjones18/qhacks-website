@@ -21,14 +21,14 @@ const testimonials = [
   },
   {
     name: "Cooper Leong",
-    project: "Dolores",
+    project: "",
     image: cooperLeong,
     text:
       "Events such as QHacks have allowed me to delve into topics without fear. I used to find it time consuming and intimidating to learn enough to feel confident about a topic, but now I can tackle it head on. It has been just under a year since my first hackathon, and I can say that it has changed my life for the best, and I look forward to participating in many more!"
   },
   {
     name: "Benji Christie",
-    project: "Dolores",
+    project: "",
     image: benjiChristie,
     text:
       "Our entire team had never deployed a project before so we struggled a lot with getting it up and running. We had to google and learn, try and fail, and repeat, which ended up being the most rewarding experience."

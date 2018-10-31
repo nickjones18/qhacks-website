@@ -46,7 +46,7 @@ exports[`IndexPage renders correctly 1`] = `
           "property": "og:title",
         },
         Object {
-          "content": "",
+          "content": "test-file-stub",
           "property": "og:image",
         },
         Object {
