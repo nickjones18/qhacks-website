@@ -7,7 +7,6 @@ import circleCheck from "../assets/img/icons/circleSuccess-green.svg";
 import circleTimes from "../assets/img/icons/circleError-red.svg";
 import spinnerWhite from "../assets/img/icons/spinner-white.svg";
 import spinner from "../assets/img/icons/spinner-black.svg";
-import { resolve, reject } from "bluebird";
 
 class SignUpForm extends Component {
   state = {
