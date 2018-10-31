@@ -7,6 +7,7 @@ import circleCheck from "../assets/img/icons/circleSuccess-green.svg";
 import circleTimes from "../assets/img/icons/circleError-red.svg";
 import spinnerWhite from "../assets/img/icons/spinner-white.svg";
 import spinner from "../assets/img/icons/spinner-black.svg";
+import axios from "axios";
 
 class SignUpForm extends Component {
   state = {
@@ -46,16 +47,12 @@ class SignUpForm extends Component {
     const email = this.state.emailAddress;
     const baseUrl = "https://app.qhacks.io"; // local: "http://127.0.0.1:9000"
     this.setStatusLoading();
-    fetch(`${baseUrl}/api/v1/subscribe`, {
-      method: "POST",
-      mode: "cors",
-      body: JSON.stringify({
-        email: email,
+    axios
+      .post(`${baseUrl}/api/v1/subscribe`, {
+        email,
         event: "qhacks-2019",
         name: "announcements-newsletter"
       })
-    })
-      .then((response) => response.json())
       .then((response) => {
         if (!response.code || (response.code >= 200 && response.code <= 299)) {
           this.setStatusSuccess(email);
@@ -63,8 +60,23 @@ class SignUpForm extends Component {
           this.setStatusFailure(response.message);
         }
       })
-      .catch(() => {
-        this.setStatusFailure("Something went wrong – please try again later.");
+      .catch((err) => {
+        const { response } = err;
+        if (response && response.status) {
+          if (response.status === 400) {
+            this.setStatusFailure("This email has already been subscribed!");
+          } else if (response.status === 422) {
+            this.setStatusFailure("Please provide a valid email address!");
+          } else {
+            this.setStatusFailure(
+              "Something went wrong – please try again later."
+            );
+          }
+        } else {
+          this.setStatusFailure(
+            "Something went wrong – please try again later."
+          );
+        }
       });
   }
 
