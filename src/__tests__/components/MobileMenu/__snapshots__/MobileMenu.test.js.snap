@@ -109,6 +109,11 @@ exports[`MobileMenu renders correctly 1`] = `
           key="I"
         >
           <a
+            css={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
             href="#I"
           >
             I
@@ -123,6 +128,11 @@ exports[`MobileMenu renders correctly 1`] = `
           key="LOVE"
         >
           <a
+            css={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
             href="#LOVE"
           >
             LOVE
@@ -137,12 +147,23 @@ exports[`MobileMenu renders correctly 1`] = `
           key="SnApShOtS"
         >
           <a
+            css={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
             href="#SnApShOtS"
           >
             SnApShOtS
           </a>
         </div>
-        <div>
+        <div
+          css={
+            Object {
+              "marginTop": "-100px",
+            }
+          }
+        >
           <picture>
             <source
               srcset="test-file-stub"
