@@ -35,13 +35,13 @@ describe("Landing", () => {
     );
   });
 
-  it("has a login button that links to the QHacks Dashboard", () => {
-    cy.get("[data-cy=login-button]").then(($btn) => {
-      expect($btn.text()).to.equal("Login");
+  // it("has a login button that links to the QHacks Dashboard", () => {
+  //   cy.get("[data-cy=login-button]").then(($btn) => {
+  //     expect($btn.text()).to.equal("Login");
 
-      $btn.click();
-      // TODO: When Login button gets a link uncomment this
-      // cy.url().should('contain', 'https://app.qhacks.io/');
-    });
-  });
+  //     $btn.click();
+  //     // TODO: When Login button gets a link uncomment this
+  //     // cy.url().should('contain', 'https://app.qhacks.io/');
+  //   });
+  // });
 });

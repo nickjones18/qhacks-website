@@ -153,12 +153,15 @@ const SellingPoints = () => (
             position: "absolute",
             bottom: "-220px",
             left: "-100px",
-            zIndex: 3,
+            zIndex: -1,
             "@media(max-width: 1200px)": {
               width: "358px",
               height: "220px",
               bottom: "-140px",
               left: "-45px"
+            },
+            "@media(max-width: 850px)": {
+              display: "none"
             }
           }}
         >
@@ -167,6 +170,7 @@ const SellingPoints = () => (
           <img
             css={{
               "@media(max-width: 1200px)": {
+                position: "relative",
                 width: "358px",
                 height: "220px"
               }

@@ -51,7 +51,8 @@ export default () => (
         },
         {
           property: "og:description",
-          content: "QHacks is back for round four! We're bringing in students from all over North America to come together for a wild 36 hours - designing, developing, demoing, cup-stacking, and foosball-playing at our home base at Queen's University. Whether you're a first timer or a seasoned veteran, QHacks definitely has something to satisfy your interests. This weekend is about inclusiveness for all disciplines - students from any level of skill, from any field of study are encouraged to bring their innovative ideas for a weekend of creative problem solving! The only prerequisites for this weekend are a love for tech and drive to learn."
+          content:
+            "QHacks is back for round four! We're bringing in students from all over North America to come together for a wild 36 hours - designing, developing, demoing, cup-stacking, and foosball-playing at our home base at Queen's University. Whether you're a first timer or a seasoned veteran, QHacks definitely has something to satisfy your interests. This weekend is about inclusiveness for all disciplines - students from any level of skill, from any field of study are encouraged to bring their innovative ideas for a weekend of creative problem solving! The only prerequisites for this weekend are a love for tech and drive to learn."
         },
         {
           property: "og:site_name",
@@ -73,8 +74,8 @@ export default () => (
       <Landing />
       <MailingListSignup />
       <About />
-      <Speakers />
-      <EventSchedule />
+      {/* <Speakers /> */}
+      {/* <EventSchedule /> */}
       <HackerTestimonials />
       <Sponsors />
       <FAQs />
