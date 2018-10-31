@@ -109,15 +109,17 @@ const Landing = () => (
           >
             Queen’s University • February 1-3, 2019
           </h2>
-          <img
-            data-cy="mlh-banner"
-            src={banner}
-            css={{
-              width: "189px",
-              "@media(max-width: 820px)": { width: "132px" }
-            }}
-            alt="MLH Logo"
-          />
+          <a href="https://mlh.io" target="_blank" rel="noopener noreferrer">
+            <img
+              data-cy="mlh-banner"
+              src={banner}
+              css={{
+                width: "189px",
+                "@media(max-width: 820px)": { width: "132px" }
+              }}
+              alt="MLH Logo"
+            />
+          </a>
           <h2
             data-cy="qhacks-tagline"
             css={{

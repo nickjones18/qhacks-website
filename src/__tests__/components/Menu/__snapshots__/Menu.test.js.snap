@@ -9,20 +9,24 @@ exports[`Menu renders correctly 1`] = `
     }
   }
 >
-  <img
-    alt="QHacks Crown"
-    css={
-      Object {
-        "@media(min-width:820px)": Object {
-          "opacity": "0",
-        },
-        "paddingBottom": "20px",
-        "paddingTop": "20px",
-        "transition": "0.5s",
+  <a
+    href="/#"
+  >
+    <img
+      alt="QHacks Crown"
+      css={
+        Object {
+          "@media(min-width:820px)": Object {
+            "opacity": "0",
+          },
+          "paddingBottom": "20px",
+          "paddingTop": "20px",
+          "transition": "0.5s",
+        }
       }
-    }
-    src="test-file-stub"
-  />
+      src="test-file-stub"
+    />
+  </a>
   <div
     align="right"
     css={

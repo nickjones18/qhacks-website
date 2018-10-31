@@ -2,6 +2,7 @@
 
 exports[`HackerTestimonials renders correctly 1`] = `
 <section
+  id="testimonials"
   style={
     Object {
       "overflowX": "hidden",
@@ -14,7 +15,6 @@ exports[`HackerTestimonials renders correctly 1`] = `
       values={Object {}}
     >
       <div
-        id="testimonials"
         style={
           Object {
             "height": "575px",
