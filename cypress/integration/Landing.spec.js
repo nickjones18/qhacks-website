@@ -31,7 +31,7 @@ describe("Landing", () => {
     // TODO: Same apostrophe issue here
     cy.get("[data-cy=qhacks-tagline]").should(
       "contain",
-      "Join us for an unforgettable experience."
+      "Join us for an unforgettable experience!"
     );
   });
 

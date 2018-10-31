@@ -7,29 +7,31 @@ import TestimonialsBlurb from "./TestimonialsBlurb";
 import TestimonialListCompressed from "./TestimonialListCompressed.js";
 import TestimonialsBlurbCompressed from "./TestimonialsBlurbCompressed";
 
-import placeholderHeadshot from "../assets/img/testimonials/placeholderHeadshot.jpg";
+import amyLu from "../assets/img/testimonials/amyLu.png";
+import benjiChristie from "../assets/img/testimonials/benjiChristie.jpg";
+import cooperLeong from "../assets/img/testimonials/cooperLeong.png";
 
 const testimonials = [
   {
-    name: "Robert Saunders",
-    project: "Dolores",
-    image: placeholderHeadshot,
+    name: "Amy Lu",
+    project: "Reeltube",
+    image: amyLu,
     text:
-      "Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare. Phasellus at semper turpis. Nunc eu tellus tortor. Cras ullamcorper bibendum bibendum. "
+      "In high school, I’d never opened a single computer science course brochure, and now I will be an incoming graduate student in machine learning. QHacks gave me a taster of what tech really was - a creative endeavour with technical tools as the paint brush, and societal-level solution pitching as the frame."
   },
   {
-    name: "Ross Hill",
-    project: "Dolores",
-    image: placeholderHeadshot,
+    name: "Cooper Leong",
+    project: "",
+    image: cooperLeong,
     text:
-      "Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare. Phasellus at semper turpis. Nunc eu tellus tortor. Cras ullamcorper bibendum bibendum. "
+      "Events such as QHacks have allowed me to delve into topics without fear. I used to find it time consuming and intimidating to learn enough to feel confident about a topic, but now I can tackle it head on. It has been just under a year since my first hackathon, and I can say that it has changed my life for the best, and I look forward to participating in many more!"
   },
   {
-    name: "Joey Tepperman",
-    project: "Dolores",
-    image: placeholderHeadshot,
+    name: "Benji Christie",
+    project: "",
+    image: benjiChristie,
     text:
-      "Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare. Phasellus at semper turpis. Nunc eu tellus tortor. Cras ullamcorper bibendum bibendum. "
+      "Our entire team had never deployed a project before so we struggled a lot with getting it up and running. We had to google and learn, try and fail, and repeat, which ended up being the most rewarding experience."
   }
 ];
 

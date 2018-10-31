@@ -62,14 +62,13 @@ const BriefSummary = () => (
             <div {...caretCSS("#fedb01")} />
           </div>
           <p css={{ lineHeight: "24px", fontColor: "#000000" }}>
-            QHacks 2018 is back for another year of collaboration, ideation, and
-            creativity! More than 500 students from across North America will
-            come together on February 2nd-4th for a weekend of awesome hacking.
-            Attend workshops, play with hardware, take part in hacker
-            challenges, and meet some new friends while turning your dreams into
-            reality. Out-of-the-box thinkers, creatives, and innovators from all
-            faculties and skill levels are encouraged to attend. We can&#39;t
-            wait to see you there!
+            QHacks is back in 2019 for another year of collaboration, ideation,
+            and creativity! On February 1st - 3rd, more than 500 students from
+            all over North America will come together to turn their ideas into
+            reality. Attend workshops, play with hardware, take part in hacker
+            challenges, and meet some new friends. Out-of-the-box thinkers,
+            creatives, and innovators from all faculties and skill levels are
+            encouraged to attend. We can't wait to see you there!
           </p>
         </div>
         <div

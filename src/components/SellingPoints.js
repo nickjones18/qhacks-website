@@ -57,12 +57,12 @@ const SellingPoints = () => (
           <div css={flexChildStyle}>
             <h1>Grow Your Network.</h1>
             <p css={blurbStyle}>
-              QHacks was first held in 2016 with a mission to advocate and
-              incubate the tech community at Queen&#39;s University and
-              throughout Canada. Going into our third year we have been
-              aggressively growing to become one of the highest quality and
-              exciting hackathons in North America. Over the weekend, immerse
-              yourself in the tech community and meet new people!
+              With hundreds of talented, ambitious, and like-minded individuals
+              all in one place, QHacks is the perfect playground for any tech
+              enthusiast! Over the weekend, immerse yourself in the community,
+              meet new people and talk shop with other students and companies!
+              Strong connections aren’t only important for internet speeds -
+              this is your chance to build, learn and grow!
             </p>
             <SellingPointsIcons
               list={[
@@ -117,13 +117,12 @@ const SellingPoints = () => (
           <div css={flexChildStyle}>
             <h1>Showcase to Experts.</h1>
             <p css={blurbStyle}>
-              This year, we have a colourful array of mentors, speakers,
-              sponsors and other industry professionals. Chat one-on one with
-              the likes of Microsoft, Telus, RBC and other big names with a
-              sprinkling of those smaller tech startups we all love. Looking for
-              some inspiration? Stuck on a roadblock? Did your stepper motor
-              malfunction? Not to worry, there will always be a helping hand at
-              the ready.
+              This year, we’re bringing together a diverse group of mentors,
+              speakers, sponsors and other industry professionals. Chat
+              one-on-one, learn about current tech trends and opportunities, and
+              show off your skills! Looking for some inspiration? Encountering a
+              roadblock? Does python feel like it’s constricting you? Not to
+              worry, there will always be a helping hand at the ready.
             </p>
             <SellingPointsIcons
               list={[

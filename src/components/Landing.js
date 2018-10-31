@@ -131,8 +131,9 @@ const Landing = () => (
               }
             }}
           >
-            Canada’s largest hardware hackathon. <br />
-            Join us for an unforgettable experience.
+            Queen’s University’s annual hackathon.
+            <br />
+            Join us for an unforgettable experience!
           </h2>
           {/* <ActionButton
             disabled={true}
