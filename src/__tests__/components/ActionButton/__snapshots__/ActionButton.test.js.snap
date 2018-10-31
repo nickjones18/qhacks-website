@@ -7,7 +7,6 @@ exports[`ActionButton renders correctly 1`] = `
       ":hover:not(:disabled)": Object {
         "backgroundColor": "#ffffff",
         "color": "#000000",
-        "transition": "0.5s ease",
       },
       "alignItems": "center",
       "backgroundColor": "#000000",
@@ -17,13 +16,16 @@ exports[`ActionButton renders correctly 1`] = `
       "display": "flex",
       "fontSize": "18px",
       "fontWeight": 700,
-      "height": "48px",
       "justifyContent": "center",
+      "lineHeight": "48px",
       "margin": "10px",
+      "minHeight": "48px",
       "padding": "10px",
       "paddingLeft": "25px",
       "paddingRight": "25px",
+      "textAlign": "center",
       "textTransform": "uppercase",
+      "transition": "0.5s ease",
       "width": undefined,
     }
   }
@@ -37,7 +39,11 @@ exports[`ActionButton renders correctly 2`] = `
       ":hover:not(:disabled)": Object {
         "backgroundColor": "#ffffff",
         "color": "#000000",
-        "transition": "0.5s ease",
+      },
+      "@media screen and (max-width: 450px)": Object {
+        "paddingLeft": "4%",
+        "paddingRight": "4%",
+        "width": "92%",
       },
       "alignItems": "center",
       "backgroundColor": "#000000",
@@ -47,13 +53,16 @@ exports[`ActionButton renders correctly 2`] = `
       "display": "flex",
       "fontSize": "18px",
       "fontWeight": 700,
-      "height": "48px",
       "justifyContent": "center",
+      "lineHeight": "48px",
       "margin": "10px",
+      "minHeight": "48px",
       "padding": "10px",
       "paddingLeft": "55px",
       "paddingRight": "55px",
+      "textAlign": "center",
       "textTransform": "uppercase",
+      "transition": "0.5s ease",
       "width": undefined,
     }
   }

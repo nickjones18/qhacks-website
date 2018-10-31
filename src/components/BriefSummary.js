@@ -30,14 +30,10 @@ const BriefSummary = () => (
           display: "grid",
           gridTemplateColumns: "auto auto",
           padding: "80px 55px 80px 55px",
-          margin: "0 80px 0 80px",
+          margin: "0 auto 0 auto",
           borderRadius: "8px",
           boxShadow: "4px 9px 40px 2px rgba(7, 16, 75, 0.1)",
           border: "solid 1px #e8e8e8",
-          "@media(max-width: 820px)": {
-            marginLeft: "20px",
-            marginRight: "20px"
-          },
           "@media(max-width: 750px)": {
             padding: "32px 24px 32px 24px"
           },
@@ -88,11 +84,10 @@ const BriefSummary = () => (
           }}
         >
           <iframe
-            title="QHacks Video"
             src="https://www.youtube.com/embed/sqzy5n3m-RA?rel=0&amp;controls=0&amp;showinfo=0"
-            frameborder="0"
+            frameBorder="0"
             allow="autoplay; encrypted-media"
-            allowfullscreen
+            allowFullScreen
             css={{
               width: "500px",
               height: "281px",
@@ -108,26 +103,36 @@ const BriefSummary = () => (
             }}
           />
         </div>
+        <picture
+          css={{
+            width: "275px",
+            height: "196px",
+            "@media(max-width: 1000px)": {
+              width: "165px",
+              height: "118px",
+              bottom: "-70px"
+            },
+            position: "absolute",
+            bottom: "-140px",
+            right: "40px"
+          }}
+        >
+          <source srcset={cubes1webp} type="image/webp" />
+          <source srcset={cubes1png} type="image/png" />
+          <img
+            css={{
+              width: "275px",
+              height: "196px",
+              "@media(max-width: 1000px)": {
+                width: "165px",
+                height: "118px"
+              }
+            }}
+            src={cubes1png}
+            alt="Floating cubes"
+          />
+        </picture>
       </div>
-      <picture css={{
-        width: "275px",
-        height: "196px",
-        "@media(max-width: 1000px)": {
-          width: "165",
-          height: "118",
-          bottom: "-70px"
-        },
-        position: "absolute",
-        bottom: "-140px",
-        right: "40px"
-      }}>
-        <source srcset={cubes1webp} type="image/webp" />
-        <source srcset={cubes1png} type="image/png" />
-        <img
-          src={cubes1png}
-          alt="Floating cubes"
-        />
-      </picture>
     </ContentWrapper>
   </div>
 );

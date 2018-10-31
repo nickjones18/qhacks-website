@@ -8,7 +8,7 @@ import podcastwebp from "../assets/img/icons/podcastIcon.webp";
 import podcastpng from "../assets/img/icons/podcastIcon.png";
 
 const Podcast = () => (
-  <div>
+  <section>
     <div
       css={{
         paddingBottom: "133px",
@@ -27,30 +27,33 @@ const Podcast = () => (
             border: "solid 1px #e8e8e8",
             display: "grid",
             gridTemplateColumns: "min-content auto",
-            marginLeft: "80px",
-            marginRight: "80px",
-            "@media (max-width: 780px)": {
-              margin: "0px 16px 160px 16px"
-            },
             "@media (max-width: 1128px)": { display: "block" },
-            padding: "40px 28px 40px 28px"
+            padding: "40px 5% 40px 5%"
           }}
         >
           <div
             css={{
-              paddingLeft: "72px",
+              // paddingLeft: "72px",
               "@media (max-width: 1128px)": { textAlign: "center" }
             }}
           >
-            <picture css={{
-              "@media (max-width: 1128px)": {
-                width: "100%"
-              },
-              maxWidth: "290px"
-            }}>
+            <picture
+              css={{
+                "@media (max-width: 1128px)": {
+                  width: "100%"
+                },
+                maxWidth: "290px"
+              }}
+            >
               <source srcset={podcastwebp} type="image/webp" />
               <source srcset={podcastpng} type="image/png" />
               <img
+                css={{
+                  "@media (max-width: 1128px)": {
+                    width: "100%"
+                  },
+                  maxWidth: "290px"
+                }}
                 src={podcastpng}
                 alt="Headphones connected to phone"
               />
@@ -80,14 +83,26 @@ const Podcast = () => (
               ullamcorper bibendum bibendum. Duis tincidunt urna non pretium
               porta. Nam condimentum vitae ligula vel ornare.
             </p>
-            <ActionButton
-              type="rounded"
-              foregroundColor="#00205b"
-              backgroundColor="#ffffff"
-              dataCy="listen-button"
+            <div
+              css={{
+                width: "100%",
+                "@media screen and (max-width: 1128px)": {
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center"
+                }
+              }}
             >
-              Listen
-            </ActionButton>
+              <ActionButton
+                type="rounded"
+                foregroundColor="#00205b"
+                backgroundColor="#ffffff"
+                dataCy="listen-button"
+                link="https://open.spotify.com/show/6eZg09yz4xKgynJdZeDmo1"
+              >
+                Listen
+              </ActionButton>
+            </div>
           </div>
         </div>
       </ContentWrapper>
@@ -103,7 +118,7 @@ const Podcast = () => (
         borderTop: "solid #dbdbdb 3px"
       }}
     />
-  </div>
+  </section>
 );
 
 export default Podcast;

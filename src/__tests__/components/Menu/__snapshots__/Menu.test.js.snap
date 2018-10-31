@@ -15,10 +15,8 @@ exports[`Menu renders correctly 1`] = `
       Object {
         "@media(min-width:820px)": Object {
           "opacity": "0",
-          "paddingLeft": "80px",
         },
         "paddingBottom": "20px",
-        "paddingLeft": "32px",
         "paddingTop": "20px",
         "transition": "0.5s",
       }
@@ -38,7 +36,6 @@ exports[`Menu renders correctly 1`] = `
         "display": "grid",
         "height": "84px",
         "marginLeft": "auto",
-        "marginRight": "80px",
         "paddingBottom": "32px",
         "paddingTop": "32px",
         "transition": "1s",
@@ -50,7 +47,7 @@ exports[`Menu renders correctly 1`] = `
       css={
         Object {
           "display": "grid",
-          "gridColumnGap": "50px",
+          "gridColumnGap": "40px",
           "gridTemplateColumns": "min-content min-content min-content min-content ",
         }
       }

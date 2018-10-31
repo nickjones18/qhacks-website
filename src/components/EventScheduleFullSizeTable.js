@@ -19,9 +19,6 @@ const EventScheduleFullSizeTable = (props) => (
       "> tbody tr:nth-child(2) td": {
         paddingTop: "24px"
       },
-      "> tbody tr:last-child td": {
-        paddingBottom: "24px"
-      },
       "> tbody tr:not(:first-child) td:first-child": {
         borderLeft: "1px solid #e4e4e4"
       },
@@ -29,7 +26,8 @@ const EventScheduleFullSizeTable = (props) => (
         borderRight: "1px solid #e4e4e4"
       },
       "> tbody tr:last-child td": {
-        borderBottom: "1px solid #e4e4e4"
+        borderBottom: "1px solid #e4e4e4",
+        paddingBottom: "24px !important"
       },
       "> tbody tr:last-child td:first-child": {
         borderBottomLeftRadius: "16px"

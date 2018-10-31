@@ -1,148 +1,148 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`EventSchedule renders correctly 1`] = `
-<div
-  css={
-    Object {
-      "margin": "0 auto",
-      "maxWidth": "1076px",
-      "padding": "110px 0",
-      "width": "85%",
-    }
-  }
-  id="schedule"
->
-  <h1
+<_default>
+  <section
     css={
       Object {
-        "position": "relative",
-        "textAlign": "center",
-        "zIndex": 2,
+        "margin": "0 auto",
+        "padding": "110px 0 50px 0",
       }
     }
+    id="schedule"
   >
-    Event Schedule
-  </h1>
-  <DaySwitcher
-    changeDay={[Function]}
-    days={
-      Array [
-        "2019-02-01",
-        "2019-02-02",
-        "2019-02-03",
-      ]
-    }
-  />
-  <h3
-    data-css-1f3anu=""
-  >
-    Friday, February 1st, 2019
-  </h3>
-  <MediaQuery
-    query="screen and (min-width: 760px)"
-    values={Object {}}
-  >
-    <EventScheduleFullSizeTable
-      data={
+    <h1
+      css={
+        Object {
+          "position": "relative",
+          "textAlign": "center",
+          "zIndex": 2,
+        }
+      }
+    >
+      Event Schedule
+    </h1>
+    <DaySwitcher
+      changeDay={[Function]}
+      days={
         Array [
-          Object {
-            "duration": "3 hrs",
-            "endDate": "2019-02-01T20:00:00",
-            "eventName": "Busses arrive/registration",
-            "location": "Kingston Hall",
-            "startDate": "2019-02-01T17:00:00",
-          },
-          Object {
-            "duration": "3 hrs",
-            "endDate": "2019-02-01T20:00:00",
-            "eventName": "Dinner - Presented by iGan Partners (Sandwiches)",
-            "location": "Kingston Hall",
-            "startDate": "2019-02-01T17:00:00",
-          },
-          Object {
-            "duration": "2 hrs",
-            "endDate": "2019-02-01T22:00:00",
-            "eventName": "Opening Ceremonies",
-            "location": "Kingston Hall",
-            "startDate": "2019-02-01T20:00:00",
-          },
-          Object {
-            "duration": "30 mins",
-            "endDate": "2019-02-01T22:30:00",
-            "eventName": "Team Formation",
-            "location": "BioSci Auditorium",
-            "startDate": "2019-02-01T22:00:00",
-          },
-          Object {
-            "duration": "36 hrs",
-            "endDate": "2019-02-03T10:00:00",
-            "eventName": "Hacking Begins",
-            "location": "",
-            "startDate": "2019-02-01T22:00:00",
-          },
-          Object {
-            "duration": "1 hr",
-            "endDate": "2019-02-02T00:00:00",
-            "eventName": "Shipping Products Fast: How to Build Fully-Fledged APIs and Services in minutes using StdLib",
-            "location": "Walter Light Hall - Room 210",
-            "startDate": "2019-02-01T23:00:00",
-          },
+          "2019-02-01",
+          "2019-02-02",
+          "2019-02-03",
         ]
       }
     />
-  </MediaQuery>
-  <MediaQuery
-    query="screen and (max-width: 760px)"
-    values={Object {}}
-  >
-    <EventScheduleCompressedTable
-      data={
-        Array [
-          Object {
-            "duration": "3 hrs",
-            "endDate": "2019-02-01T20:00:00",
-            "eventName": "Busses arrive/registration",
-            "location": "Kingston Hall",
-            "startDate": "2019-02-01T17:00:00",
-          },
-          Object {
-            "duration": "3 hrs",
-            "endDate": "2019-02-01T20:00:00",
-            "eventName": "Dinner - Presented by iGan Partners (Sandwiches)",
-            "location": "Kingston Hall",
-            "startDate": "2019-02-01T17:00:00",
-          },
-          Object {
-            "duration": "2 hrs",
-            "endDate": "2019-02-01T22:00:00",
-            "eventName": "Opening Ceremonies",
-            "location": "Kingston Hall",
-            "startDate": "2019-02-01T20:00:00",
-          },
-          Object {
-            "duration": "30 mins",
-            "endDate": "2019-02-01T22:30:00",
-            "eventName": "Team Formation",
-            "location": "BioSci Auditorium",
-            "startDate": "2019-02-01T22:00:00",
-          },
-          Object {
-            "duration": "36 hrs",
-            "endDate": "2019-02-03T10:00:00",
-            "eventName": "Hacking Begins",
-            "location": "",
-            "startDate": "2019-02-01T22:00:00",
-          },
-          Object {
-            "duration": "1 hr",
-            "endDate": "2019-02-02T00:00:00",
-            "eventName": "Shipping Products Fast: How to Build Fully-Fledged APIs and Services in minutes using StdLib",
-            "location": "Walter Light Hall - Room 210",
-            "startDate": "2019-02-01T23:00:00",
-          },
-        ]
-      }
-    />
-  </MediaQuery>
-</div>
+    <h3
+      data-css-1cm0ws5=""
+    >
+      Friday, February 1st, 2019
+    </h3>
+    <MediaQuery
+      query="screen and (min-width: 760px)"
+      values={Object {}}
+    >
+      <EventScheduleFullSizeTable
+        data={
+          Array [
+            Object {
+              "duration": "3 hrs",
+              "endDate": "2019-02-01T20:00:00",
+              "eventName": "Busses arrive/registration",
+              "location": "Kingston Hall",
+              "startDate": "2019-02-01T17:00:00",
+            },
+            Object {
+              "duration": "3 hrs",
+              "endDate": "2019-02-01T20:00:00",
+              "eventName": "Dinner - Presented by iGan Partners (Sandwiches)",
+              "location": "Kingston Hall",
+              "startDate": "2019-02-01T17:00:00",
+            },
+            Object {
+              "duration": "2 hrs",
+              "endDate": "2019-02-01T22:00:00",
+              "eventName": "Opening Ceremonies",
+              "location": "Kingston Hall",
+              "startDate": "2019-02-01T20:00:00",
+            },
+            Object {
+              "duration": "30 mins",
+              "endDate": "2019-02-01T22:30:00",
+              "eventName": "Team Formation",
+              "location": "BioSci Auditorium",
+              "startDate": "2019-02-01T22:00:00",
+            },
+            Object {
+              "duration": "36 hrs",
+              "endDate": "2019-02-03T10:00:00",
+              "eventName": "Hacking Begins",
+              "location": "",
+              "startDate": "2019-02-01T22:00:00",
+            },
+            Object {
+              "duration": "1 hr",
+              "endDate": "2019-02-02T00:00:00",
+              "eventName": "Shipping Products Fast: How to Build Fully-Fledged APIs and Services in minutes using StdLib",
+              "location": "Walter Light Hall - Room 210",
+              "startDate": "2019-02-01T23:00:00",
+            },
+          ]
+        }
+      />
+    </MediaQuery>
+    <MediaQuery
+      query="screen and (max-width: 760px)"
+      values={Object {}}
+    >
+      <EventScheduleCompressedTable
+        data={
+          Array [
+            Object {
+              "duration": "3 hrs",
+              "endDate": "2019-02-01T20:00:00",
+              "eventName": "Busses arrive/registration",
+              "location": "Kingston Hall",
+              "startDate": "2019-02-01T17:00:00",
+            },
+            Object {
+              "duration": "3 hrs",
+              "endDate": "2019-02-01T20:00:00",
+              "eventName": "Dinner - Presented by iGan Partners (Sandwiches)",
+              "location": "Kingston Hall",
+              "startDate": "2019-02-01T17:00:00",
+            },
+            Object {
+              "duration": "2 hrs",
+              "endDate": "2019-02-01T22:00:00",
+              "eventName": "Opening Ceremonies",
+              "location": "Kingston Hall",
+              "startDate": "2019-02-01T20:00:00",
+            },
+            Object {
+              "duration": "30 mins",
+              "endDate": "2019-02-01T22:30:00",
+              "eventName": "Team Formation",
+              "location": "BioSci Auditorium",
+              "startDate": "2019-02-01T22:00:00",
+            },
+            Object {
+              "duration": "36 hrs",
+              "endDate": "2019-02-03T10:00:00",
+              "eventName": "Hacking Begins",
+              "location": "",
+              "startDate": "2019-02-01T22:00:00",
+            },
+            Object {
+              "duration": "1 hr",
+              "endDate": "2019-02-02T00:00:00",
+              "eventName": "Shipping Products Fast: How to Build Fully-Fledged APIs and Services in minutes using StdLib",
+              "location": "Walter Light Hall - Room 210",
+              "startDate": "2019-02-01T23:00:00",
+            },
+          ]
+        }
+      />
+    </MediaQuery>
+  </section>
+</_default>
 `;

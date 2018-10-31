@@ -20,16 +20,16 @@ const menuItems = [
 ];
 
 const loginButtonCSS = {
-  marginTop: "24px"
+  margin: "24px 0 100px 0",
+  "@media(max-width: 820px)": {
+    margin: "45px auto"
+  }
 };
 
 const Landing = () => (
   <div
     css={{
       width: "100%",
-      height: "100vh",
-      minHeight: "700px",
-      maxHeight: "850px",
       background: `url(${backgroundCubes}) no-repeat center center`,
       backgroundSize: "cover",
       "@media(max-width: 600px)": {
@@ -39,7 +39,7 @@ const Landing = () => (
   >
     <Header menuItems={menuItems} />
     <ContentWrapper>
-      <div
+      <section
         css={{
           display: "grid",
           gridTemplateColumns: "auto 1fr",
@@ -51,14 +51,13 @@ const Landing = () => (
       >
         <div
           css={{
-            "@media(min-width: 820px)": {
-              marginLeft: "80px",
-              paddingRight: "50px",
-              paddingLeft: "0px"
+            paddingTop: "115px",
+            "@media(min-width: 1200px)": {
+              paddingRight: "50px"
             },
-            paddingLeft: "42px",
-            paddingRight: "42px",
-            paddingTop: "110px"
+            "@media (min-width: 821px) and (max-width: 1200px)": {
+              paddingRight: "50px"
+            }
           }}
         >
           <img
@@ -73,7 +72,7 @@ const Landing = () => (
             css={{
               width: "75vw",
               maxWidth: "350px",
-              "@media(min-width: 820px)": { display: "none" }
+              "@media(min-width: 821px)": { display: "none" }
             }}
             alt="QHacks Illustration"
           />
@@ -139,6 +138,7 @@ const Landing = () => (
             backgroundColor="#ffffff"
             foregroundColor="#00205b"
             style={loginButtonCSS}
+            link="https://app.qhacks.io/apply"
             type="rounded"
           >
             Login
@@ -147,24 +147,23 @@ const Landing = () => (
         <div
           css={{
             position: "relative",
-            paddingTop: "110px",
             textAlign: "right",
-            marginRight: "80px"
+            display: "flex",
+            alignItems: "center",
+            "@media(max-width: 820px)": {
+              display: "none"
+            }
           }}
         >
           <img
             src={landingImg}
             css={{
-              width: "100%",
-              maxWidth: "750px",
-              "@media(max-width: 820px)": {
-                display: "none"
-              }
+              width: "100%"
             }}
             alt="QHacks Illustration"
           />
         </div>
-      </div>
+      </section>
     </ContentWrapper>
   </div>
 );

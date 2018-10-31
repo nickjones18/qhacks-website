@@ -23,13 +23,12 @@ const TestimonialsBlurb = (props) => {
         position: "absolute",
         top: 0,
         left: 0,
-        paddingLeft: "180px",
         display: "flex",
         alignItems: "center",
         justifyContent: "right"
       }}
     >
-      <div style={{ width: "455px", marginRight: "64px" }}>
+      <div style={{ marginRight: "64px" }}>
         <h1 style={{ marginBottom: "30px" }}>Hacker Testimonials</h1>
         <p style={{ ...blurbStyle }}>{props.text}</p>
         <div style={{ marginTop: "65px" }}>

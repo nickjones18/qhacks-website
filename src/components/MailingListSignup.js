@@ -1,10 +1,11 @@
 import React from "react";
 import SignUpForm from "./SignUpForm";
+import ContentWrapper from "./ContentWrapper";
 
 import circuits from "../assets/img/backgrounds/circuitsRed.png";
 
 const MailingListSignup = (props) => (
-  <div
+  <section
     css={{
       width: "100%",
       color: "white",
@@ -13,17 +14,19 @@ const MailingListSignup = (props) => (
       alignItems: "center",
       justifyContent: "center",
       background: `#C12232 url(${circuits}) no-repeat center center`,
-      backgroundSize: "cover",
-      padding: "5%"
+      backgroundSize: "cover"
     }}
   >
-    <div>
+    <ContentWrapper>
       <p
         data-cy="mailing-list-cta"
         css={{
           fontWeight: 700,
           marginBottom: "28px",
           fontSize: "22px",
+          "@media screen and (max-width: 860px)": {
+            fontSize: "16px"
+          },
           lineHeight: "28px",
           textAlign: "center"
         }}
@@ -36,8 +39,8 @@ const MailingListSignup = (props) => (
         hoverBackgroundColor="#00205b"
         center={true}
       />
-    </div>
-  </div>
+    </ContentWrapper>
+  </section>
 );
 
 export default MailingListSignup;

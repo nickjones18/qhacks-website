@@ -60,15 +60,13 @@ const linkCss = {
 };
 
 const FAQs = () => (
-  <div id="faq" css={{ backgroundColor: "#ffffff" }}>
+  <section id="faq" css={{ backgroundColor: "#ffffff" }}>
     <ContentWrapper>
       <div
         css={{
-          padding: "110px 180px 114px 180px",
+          padding: "110px 0 114px 0",
           "@media(max-width: 780px)": {
-            paddingLeft: "24px",
-            paddingRight: "24px",
-            paddingTop: "64px"
+            padding: "64px 0 120px 0"
           }
         }}
       >
@@ -121,7 +119,7 @@ const FAQs = () => (
         </div>
       </div>
     </ContentWrapper>
-  </div>
+  </section>
 );
 
 export default FAQs;

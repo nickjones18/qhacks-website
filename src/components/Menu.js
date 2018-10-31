@@ -13,12 +13,10 @@ const Menu = (props) => {
     >
       <img
         css={{
-          paddingLeft: "32px",
           paddingTop: "20px",
           paddingBottom: "20px",
           transition: "0.5s",
           "@media(min-width:820px)": {
-            paddingLeft: "80px",
             opacity: props.imgCss ? "1" : "0"
           }
         }}
@@ -28,7 +26,6 @@ const Menu = (props) => {
       <div
         align="right"
         css={{
-          marginRight: "80px",
           paddingTop: "32px",
           paddingBottom: "32px",
           height: "84px",
@@ -46,7 +43,7 @@ const Menu = (props) => {
         <ScrollSpy
           css={{
             display: "grid",
-            gridColumnGap: "50px",
+            gridColumnGap: "40px",
             gridTemplateColumns: props.menuItems
               .map(() => "min-content ")
               .reduce((a, b) => a + b)

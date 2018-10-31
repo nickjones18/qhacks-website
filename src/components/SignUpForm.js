@@ -87,29 +87,31 @@ class SignUpForm extends Component {
     return (
       <div
         style={{
-          width: "530px",
-          margin: this.props.center ? "0 auto" : "12px 0 0 8px"
+          maxWidth: "530px",
+          margin: this.props.center ? "0 auto" : "12px 0 0 8px",
+          width: "100%"
         }}
       >
         <div
           style={{
             display: "flex",
             alignItems: "center",
-            justifyContent: "center"
+            justifyContent: "center",
+            flexWrap: "wrap"
           }}
         >
           <input
             placeholder="Enter your email address"
             type="email"
             style={{
-              flex: "1",
+              flexGrow: 2,
               padding: "0 16px",
               height: "48px",
               lineHeight: "48px",
               borderRadius: "4px",
               border: "none",
               fontSize: this.props.fontSize || "16px",
-              margin: "0 8px 0 0"
+              margin: "4px"
             }}
             data-cy={this.props.dataCyInput || "signup-input"}
             value={this.state.emailAddress}
@@ -122,6 +124,7 @@ class SignUpForm extends Component {
             type="rect"
             onClick={() => this.signUp()}
             width="130px"
+            style={{ margin: "4px" }}
             disabled={!!this.state.status}
             data-cy={this.props.dataCyButton || "signup-button"}
           >

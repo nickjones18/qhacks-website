@@ -10,6 +10,7 @@ import logo from "../assets/img/logo/qhacksCrown-white.svg";
 import facebook from "../assets/img/icons/socialFacebook.svg";
 import instagram from "../assets/img/icons/socialInstagram.svg";
 import wordmark from "../assets/img/logo/qhacksWordmark-white.svg";
+import MediaQuery from "react-responsive";
 
 const navigateLinks = [
   {
@@ -71,28 +72,25 @@ const finePrint = {
   fontSize: "12px"
 };
 
-const [smallerScreens, largerScreens] = [
+const [smallScreens, mediumScreens, largeScreens] = [
   "@media(max-width: 950px)",
-  "@media(min-width: 950px)"
+  "@media (min-width: 950px) and (max-width: 1200px)",
+  "@media(min-width: 1200px)"
 ];
 
 const Footer = () => (
-  <div css={{ backgroundColor: "#11213f", color: "#ffffff" }}>
+  <footer css={{ backgroundColor: "#11213f", color: "#ffffff" }}>
     <ContentWrapper>
       <div
         css={{
           display: "grid",
-          [largerScreens]: {
-            marginLeft: "80px",
-            marginRight: "80px"
-          },
           gridTemplateColumns: "auto auto auto",
           paddingTop: "80px",
           " h3": {
             color: "inherit",
             textTransform: "uppercase"
           },
-          [smallerScreens]: {
+          [smallScreens]: {
             display: "block",
             textAlign: "center"
           }
@@ -100,7 +98,7 @@ const Footer = () => (
       >
         <div
           css={{
-            [smallerScreens]: {
+            [smallScreens]: {
               marginLeft: "auto",
               marginRight: "auto"
             },
@@ -128,7 +126,7 @@ const Footer = () => (
               paddingRight: "20px",
               paddingBottom: "40px",
               lineHeight: "1.67",
-              [smallerScreens]: { paddingLeft: "24px", paddingRight: "24px" }
+              [smallScreens]: { paddingLeft: "24px", paddingRight: "24px" }
             }}
           >
             QHacks was first held in 2016 with a mission to advocate and
@@ -156,19 +154,30 @@ const Footer = () => (
               display: "flex",
               marginLeft: "-8px",
               paddingBottom: "64px",
-              [smallerScreens]: {
+              [smallScreens]: {
                 marginLeft: "0px"
               }
             }}
           >
-            <SignUpForm
-              fontSize={14}
-              backgroundColor="#c81c2e"
-              foregroundColor="white"
-              dataCy="footer-signup-button"
-            />
+            <MediaQuery query="screen and (max-width: 950px)">
+              <SignUpForm
+                fontSize={14}
+                backgroundColor="#c81c2e"
+                foregroundColor="white"
+                dataCy="footer-signup-button"
+                center={true}
+              />
+            </MediaQuery>
+            <MediaQuery query="screen and (min-width: 950px)">
+              <SignUpForm
+                fontSize={14}
+                backgroundColor="#c81c2e"
+                foregroundColor="white"
+                dataCy="footer-signup-button"
+              />
+            </MediaQuery>
           </div>
-          <div css={{ [smallerScreens]: { display: "none" } }}>
+          <div css={{ [smallScreens]: { display: "none" } }}>
             <p
               data-cy="footer-address"
               css={{ ...finePrint, paddingBottom: "6px" }}
@@ -197,7 +206,7 @@ const Footer = () => (
             marginLeft: "auto",
             marginRight: "auto",
             paddingTop: "80px",
-            [smallerScreens]: {
+            [smallScreens]: {
               paddingTop: "0px",
               paddingBottom: "50px"
             }
@@ -230,12 +239,15 @@ const Footer = () => (
           css={{
             marginLeft: "auto",
             marginRight: "auto",
-            [largerScreens]: {
+            [largeScreens]: {
+              paddingTop: "80px"
+            },
+            [mediumScreens]: {
               paddingTop: "80px"
             }
           }}
         >
-          <h3 css={{ [smallerScreens]: { display: "none" } }}>Get in touch</h3>
+          <h3 css={{ [smallScreens]: { display: "none" } }}>Get in touch</h3>
           <div
             css={{
               paddingTop: "30px",
@@ -248,7 +260,7 @@ const Footer = () => (
                 fontWeight: "bold"
               },
               display: "grid",
-              [smallerScreens]: {
+              [smallScreens]: {
                 marginLeft: "auto",
                 marginRight: "auto",
                 gridTemplateColumns: "1fr 1fr 1fr 1fr",
@@ -272,7 +284,7 @@ const Footer = () => (
                       }
                     }
                   },
-                  [smallerScreens]: {
+                  [smallScreens]: {
                     display: "block",
                     width: "40px",
                     height: "40px",
@@ -294,7 +306,7 @@ const Footer = () => (
                       ":hover": {
                         backgroundColor: "#ed253a"
                       },
-                      [smallerScreens]: {
+                      [smallScreens]: {
                         width: "40px",
                         height: "40px"
                       }
@@ -302,7 +314,7 @@ const Footer = () => (
                   />
                 </a>
                 <a
-                  css={{ [smallerScreens]: { display: "none" } }}
+                  css={{ [smallScreens]: { display: "none" } }}
                   href={url}
                   data-cy={dataCy}
                 >
@@ -312,7 +324,12 @@ const Footer = () => (
             ))}
           </div>
         </div>
-        <div css={{ [largerScreens]: { display: "none" } }}>
+        <div
+          css={{
+            [largeScreens]: { display: "none" },
+            [mediumScreens]: { display: "none" }
+          }}
+        >
           <p
             data-cy="footer-address"
             css={{ ...finePrint, paddingBottom: "6px" }}
@@ -334,7 +351,7 @@ const Footer = () => (
         </div>
       </div>
     </ContentWrapper>
-  </div>
+  </footer>
 );
 
 export default Footer;

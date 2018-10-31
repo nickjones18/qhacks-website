@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Sponsors renders correctly 1`] = `
-<div
+<section
   css={
     Object {
       " img": Object {
@@ -16,102 +16,162 @@ exports[`Sponsors renders correctly 1`] = `
   }
   id="sponsors"
 >
-  <div
-    css={
-      Object {
-        "@media(max-width: 850px)": Object {
-          " >div": Object {
-            "gridTemplateColumns": "1fr",
+  <_default>
+    <div
+      css={
+        Object {
+          "@media(max-width: 850px)": Object {
+            " >div": Object {
+              "gridTemplateColumns": "1fr",
+            },
           },
-          "paddingLeft": "20px",
-          "paddingRight": "20px",
-        },
-        "marginLeft": "auto",
-        "marginRight": "auto",
-        "maxWidth": "1000px",
-        "paddingTop": "80px",
-        "textAlign": "center",
-      }
-    }
-  >
-    <h1>
-      Sponsors
-    </h1>
-    <div
-      css={
-        Object {
-          "display": "block",
-          "paddingTop": "56px",
+          "marginLeft": "auto",
+          "marginRight": "auto",
+          "paddingTop": "80px",
+          "textAlign": "center",
         }
       }
     >
-      <_default
-        url="https://tucows.com"
-      >
-        <img
-          alt="Tucows Logo"
-          css={
-            Object {
-              "width": "70%",
-            }
+      <h1>
+        Sponsors
+      </h1>
+      <div
+        css={
+          Object {
+            "display": "block",
+            "paddingTop": "56px",
           }
-          data-cy="test-sponsor-image"
-          src="test-file-stub"
-        />
-      </_default>
-    </div>
-    <div
-      css={
-        Object {
-          "display": "grid",
-          "gridTemplateColumns": "1fr 1fr",
-          "paddingTop": "50px",
         }
-      }
-    >
-      <_default
-        url="https://kingsds.network"
       >
-        <img
-          alt="Kings Distributed Systems Logo"
-          css={
-            Object {
-              "width": "80%",
+        <_default
+          url="https://tucows.com"
+        >
+          <img
+            alt="Tucows Logo"
+            css={
+              Object {
+                "width": "70%",
+              }
             }
+            data-cy="test-sponsor-image"
+            src="test-file-stub"
+          />
+        </_default>
+      </div>
+      <div
+        css={
+          Object {
+            "display": "grid",
+            "gridTemplateColumns": "1fr 1fr",
+            "paddingTop": "50px",
           }
-          src="test-file-stub"
-        />
-      </_default>
-      <_default
-        url="https://sunlife.ca"
+        }
+      >
+        <_default
+          url="https://kingsds.network"
+        >
+          <img
+            alt="Kings Distributed Systems Logo"
+            css={
+              Object {
+                "width": "80%",
+              }
+            }
+            src="test-file-stub"
+          />
+        </_default>
+        <_default
+          url="https://sunlife.ca"
+        >
+          <div
+            css={
+              Object {
+                "padding": "20px",
+                "position": "relative",
+              }
+            }
+          >
+            <img
+              alt="SunLife Financial Logo"
+              css={
+                Object {
+                  "width": "100%",
+                }
+              }
+              src="test-file-stub"
+            />
+          </div>
+        </_default>
+      </div>
+      <div
+        css={
+          Object {
+            "paddingTop": "75px",
+          }
+        }
       >
         <div
           css={
             Object {
-              "padding": "20px",
-              "position": "relative",
+              "@media(max-width: 850px)": Object {
+                "gridTemplateColumns": "1fr",
+              },
+              "display": "grid",
+              "gridTemplateColumns": "1fr 1fr 1fr",
             }
           }
         >
-          <img
-            alt="SunLife Financial Logo"
+          <div
             css={
               Object {
                 "width": "100%",
               }
             }
-            src="test-file-stub"
-          />
+          >
+            <_default
+              url="https://consensys.net/"
+            >
+              <img
+                alt="Consensys Logo"
+                css={
+                  Object {
+                    "width": "100%",
+                  }
+                }
+                src="test-file-stub"
+              />
+            </_default>
+          </div>
+          <_default
+            url="https://td.ca"
+          >
+            <img
+              alt="TD Logo"
+              css={
+                Object {
+                  "width": "45%",
+                }
+              }
+              src="test-file-stub"
+            />
+          </_default>
+          <div>
+            <_default
+              url="https://ratehub.ca"
+            >
+              <img
+                alt="Ratehub Logo"
+                css={
+                  Object {
+                    "width": "100%",
+                  }
+                }
+                src="test-file-stub"
+              />
+            </_default>
+          </div>
         </div>
-      </_default>
-    </div>
-    <div
-      css={
-        Object {
-          "paddingTop": "75px",
-        }
-      }
-    >
+      </div>
       <div
         css={
           Object {
@@ -119,22 +179,19 @@ exports[`Sponsors renders correctly 1`] = `
               "gridTemplateColumns": "1fr",
             },
             "display": "grid",
-            "gridTemplateColumns": "1fr 1fr 1fr",
+            "gridTemplateColumns": "1fr 1fr",
+            "marginLeft": "auto",
+            "marginRight": "auto",
+            "width": "80%",
           }
         }
       >
-        <div
-          css={
-            Object {
-              "width": "100%",
-            }
-          }
-        >
+        <div>
           <_default
-            url="https://consensys.net/"
+            url="https://scotiabank.ca"
           >
             <img
-              alt="Consensys Logo"
+              alt="Scotiabank Logo"
               css={
                 Object {
                   "width": "100%",
@@ -144,56 +201,121 @@ exports[`Sponsors renders correctly 1`] = `
             />
           </_default>
         </div>
-        <_default
-          url="https://td.ca"
-        >
-          <img
-            alt="TD Logo"
-            css={
-              Object {
-                "width": "45%",
-              }
+        <div
+          css={
+            Object {
+              " img": Object {
+                "width": "65%",
+              },
             }
-            src="test-file-stub"
-          />
-        </_default>
-        <div>
+          }
+        >
           <_default
-            url="https://ratehub.ca"
+            url="https://loopio.com"
           >
             <img
-              alt="Ratehub Logo"
-              css={
-                Object {
-                  "width": "100%",
-                }
-              }
+              alt="Loopio Logo"
               src="test-file-stub"
             />
           </_default>
         </div>
       </div>
-    </div>
-    <div
-      css={
-        Object {
-          "@media(max-width: 850px)": Object {
-            "gridTemplateColumns": "1fr",
-          },
-          "display": "grid",
-          "gridTemplateColumns": "1fr 1fr",
-          "marginLeft": "auto",
-          "marginRight": "auto",
-          "width": "80%",
+      <div
+        css={
+          Object {
+            "@media(max-width: 850px)": Object {
+              "marginLeft": "auto",
+              "marginRight": "auto",
+              "width": "50%",
+            },
+            "display": "grid",
+            "gridTemplateColumns": "1fr 1fr 1fr 1fr",
+            "paddingTop": "50px",
+          }
         }
-      }
-    >
-      <div>
+      >
         <_default
-          url="https://scotiabank.ca"
+          url="https://balsamiq.com"
         >
           <img
-            alt="Scotiabank Logo"
+            alt="Balsamiq Logo"
+            css={
+              Object {
+                "width": "80%",
+              }
+            }
+            src="test-file-stub"
+          />
+        </_default>
+        <_default
+          url="https://wolfram.com/language/"
+        >
+          <img
+            alt="Wolfram Logo"
+            css={
+              Object {
+                "width": "80%",
+              }
+            }
+            src="test-file-stub"
+          />
+        </_default>
+        <_default
+          url="https://ritual.co"
+        >
+          <img
+            alt="Ritual Logo"
+            css={
+              Object {
+                "width": "100%",
+              }
+            }
+            src="test-file-stub"
+          />
+        </_default>
+        <_default
+          url="https://wake-ups.com"
+        >
+          <img
+            alt="Wakeups Logo"
+            css={
+              Object {
+                "width": "50%",
+              }
+            }
+            src="test-file-stub"
+          />
+        </_default>
+      </div>
+      <div
+        css={
+          Object {
+            "display": "grid",
+            "gridTemplateColumns": "1fr 1fr",
+            "marginLeft": "auto",
+            "marginRight": "auto",
+            "width": "50%",
+          }
+        }
+      >
+        <_default
+          url="https://sketchapp.com"
+        >
+          <img
+            alt="Sketch Logo"
+            css={
+              Object {
+                "width": "100%",
+              }
+            }
+            src="test-file-stub"
+          />
+        </_default>
+        <_default
+          url="https://www.launchacademy.ca/"
+        >
+          <img
+            alt="Launch Academy Logo"
             css={
               Object {
                 "width": "100%",
@@ -206,220 +328,91 @@ exports[`Sponsors renders correctly 1`] = `
       <div
         css={
           Object {
-            " img": Object {
-              "width": "65%",
-            },
+            "paddingBottom": "100px",
+            "paddingTop": "100px",
+          }
+        }
+      >
+        <h1
+          css={
+            Object {
+              "paddingBottom": "48px",
+            }
+          }
+        >
+          Our Partners
+        </h1>
+        <p
+          css={
+            Object {
+              ">a": Object {
+                ":hover": Object {
+                  "textDecoration": "none",
+                },
+                "color": "#c81c2e",
+                "textDecoration": "underline",
+              },
+              "color": "#c81c2e",
+              "fontWeight": "bold",
+              "paddingBottom": "24px",
+            }
+          }
+        >
+          Interested in partnering? Contact us at
+           
+          <a
+            data-cy="partners-email-prompt"
+            href="mailto:partnership@qhacks.io"
+          >
+            partnership@qhacks.io
+          </a>
+        </p>
+        <ActionButton
+          backgroundColor="#f8f8f8"
+          foregroundColor="#c81c2e"
+          link="https://qhacks.nyc3.cdn.digitaloceanspaces.com/documents/QHacksPartnershipPackage.pdf"
+          type="rounded"
+        >
+          Partnership Package
+        </ActionButton>
+      </div>
+      <div
+        css={
+          Object {
+            "display": "grid",
+            "gridTemplateColumns": "1fr 1fr",
+            "paddingBottom": "100px",
           }
         }
       >
         <_default
-          url="https://loopio.com"
+          url="https://queensu.ca/innovationcentre/"
         >
           <img
-            alt="Loopio Logo"
+            alt="QIC Logo"
+            css={
+              Object {
+                "width": "100%",
+              }
+            }
+            src="test-file-stub"
+          />
+        </_default>
+        <_default
+          url="https://smith.queensu.ca/grad_studies/mei/"
+        >
+          <img
+            alt="MMIE Logo"
+            css={
+              Object {
+                "width": "100%",
+              }
+            }
             src="test-file-stub"
           />
         </_default>
       </div>
     </div>
-    <div
-      css={
-        Object {
-          "@media(max-width: 850px)": Object {
-            "marginLeft": "auto",
-            "marginRight": "auto",
-            "width": "50%",
-          },
-          "display": "grid",
-          "gridTemplateColumns": "1fr 1fr 1fr 1fr",
-          "paddingTop": "50px",
-        }
-      }
-    >
-      <_default
-        url="https://balsamiq.com"
-      >
-        <img
-          alt="Balsamiq Logo"
-          css={
-            Object {
-              "width": "80%",
-            }
-          }
-          src="test-file-stub"
-        />
-      </_default>
-      <_default
-        url="https://wolfram.com/language/"
-      >
-        <img
-          alt="Wolfram Logo"
-          css={
-            Object {
-              "width": "80%",
-            }
-          }
-          src="test-file-stub"
-        />
-      </_default>
-      <_default
-        url="https://ritual.co"
-      >
-        <img
-          alt="Ritual Logo"
-          css={
-            Object {
-              "width": "100%",
-            }
-          }
-          src="test-file-stub"
-        />
-      </_default>
-      <_default
-        url="https://wake-ups.com"
-      >
-        <img
-          alt="Wakeups Logo"
-          css={
-            Object {
-              "width": "50%",
-            }
-          }
-          src="test-file-stub"
-        />
-      </_default>
-    </div>
-    <div
-      css={
-        Object {
-          "display": "grid",
-          "gridTemplateColumns": "1fr 1fr",
-          "marginLeft": "auto",
-          "marginRight": "auto",
-          "width": "50%",
-        }
-      }
-    >
-      <_default
-        url="https://sketchapp.com"
-      >
-        <img
-          alt="Sketch Logo"
-          css={
-            Object {
-              "width": "100%",
-            }
-          }
-          src="test-file-stub"
-        />
-      </_default>
-      <_default
-        url="https://www.launchacademy.ca/"
-      >
-        <img
-          alt="Launch Academy Logo"
-          css={
-            Object {
-              "width": "100%",
-            }
-          }
-          src="test-file-stub"
-        />
-      </_default>
-    </div>
-    <div
-      css={
-        Object {
-          "paddingBottom": "100px",
-          "paddingTop": "100px",
-        }
-      }
-    >
-      <h1
-        css={
-          Object {
-            "paddingBottom": "48px",
-          }
-        }
-      >
-        Our Partners
-      </h1>
-      <p
-        css={
-          Object {
-            ">a": Object {
-              ":hover": Object {
-                "textDecoration": "none",
-              },
-              "color": "#c81c2e",
-              "textDecoration": "underline",
-            },
-            "color": "#c81c2e",
-            "fontWeight": "bold",
-            "paddingBottom": "24px",
-          }
-        }
-      >
-        Interested in partnering? Contact us at
-         
-        <a
-          data-cy="partners-email-prompt"
-          href="mailto:partnership@qhacks.io"
-        >
-          partnership@qhacks.io
-        </a>
-      </p>
-      <ActionButton
-        backgroundColor="#f8f8f8"
-        foregroundColor="#c81c2e"
-        style={
-          Object {
-            "margin": "0 auto",
-            "paddingLeft": "40px",
-            "paddingRight": "40px",
-          }
-        }
-        type="rounded"
-      >
-        Become a partner
-      </ActionButton>
-    </div>
-    <div
-      css={
-        Object {
-          "display": "grid",
-          "gridTemplateColumns": "1fr 1fr",
-          "paddingBottom": "100px",
-        }
-      }
-    >
-      <_default
-        url="https://queensu.ca/innovationcentre/"
-      >
-        <img
-          alt="QIC Logo"
-          css={
-            Object {
-              "width": "100%",
-            }
-          }
-          src="test-file-stub"
-        />
-      </_default>
-      <_default
-        url="https://smith.queensu.ca/grad_studies/mei/"
-      >
-        <img
-          alt="MMIE Logo"
-          css={
-            Object {
-              "width": "100%",
-            }
-          }
-          src="test-file-stub"
-        />
-      </_default>
-    </div>
-  </div>
-</div>
+  </_default>
+</section>
 `;

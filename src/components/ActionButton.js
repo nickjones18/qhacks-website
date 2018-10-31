@@ -5,7 +5,11 @@ const ActionButton = (props) => {
     borderRadius: "28px",
     border: `solid 2px ${props.foregroundColor}`,
     paddingLeft: "55px",
-    paddingRight: "55px"
+    paddingRight: "55px",
+    "@media screen and (max-width: 450px)": {
+      width: "92%",
+      paddingLeft: "4%",
+      paddingRight: "4%"   }
   };
 
   const rectStyles = {
@@ -17,8 +21,10 @@ const ActionButton = (props) => {
 
   let commonStyles = {
     ...props.style,
-    height: "48px",
+    minHeight: "48px",
+    lineHeight: "48px",
     width: props.width,
+    textAlign: "center",
     textTransform: "uppercase",
     backgroundColor: props.backgroundColor,
     display: "flex",
@@ -26,9 +32,9 @@ const ActionButton = (props) => {
     justifyContent: "center",
     color: props.foregroundColor,
     fontSize: "18px",
+    transition: "0.5s ease",
     fontWeight: 700,
     ":hover:not(:disabled)": {
-      transition: "0.5s ease",
       backgroundColor: props.hoverBackgroundColor || props.foregroundColor,
       color: props.backgroundColor
     }
@@ -43,10 +49,28 @@ const ActionButton = (props) => {
     break;
   }
 
-  return (
+  return props.link ? (
+    <a
+      css={{
+        ...commonStyles,
+        ...props.style,
+        display: "inline-block",
+        boxSizing: "content-box"
+      }}
+      data-cy={props.dataCy}
+      disabled={props.disabled}
+      onClick={props.onClick}
+      href={props.link}
+      rel="external nofollow"
+      target="_blank"
+    >
+      {props.children}
+    </a>
+  ) : (
     <button
       css={{
-        ...commonStyles
+        ...commonStyles,
+        ...props.style
       }}
       data-cy={props.dataCy}
       disabled={props.disabled}
