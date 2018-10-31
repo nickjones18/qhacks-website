@@ -29,6 +29,7 @@ const loginButtonCSS = {
 
 const Landing = () => (
   <div
+    id=""
     css={{
       width: "100%",
       background: `url(${backgroundCubes}) no-repeat center center`,
