@@ -45,31 +45,28 @@ class SignUpForm extends Component {
 
   signUp() {
     const email = this.state.emailAddress;
-    const baseUrl = "https://app.qhacks.io"; // local: "http://127.0.0.1:8000"
+    const baseUrl = "https://app.qhacks.io"; // local: "http://127.0.0.1:9000"
     this.setStatusLoading();
     fetch(`${baseUrl}/api/v1/subscribe`, {
       method: "POST",
-      headers: {
-        "Content-Type": "application/json; charset=utf-8"
-      },
-      mode: "no-cors",
+      mode: "cors",
       body: JSON.stringify({
         email: email,
-        event: "qhacks-2019",
-        name: "announcements-newsletter"
+        event: "qhacks-2018",
+        name: "test-mailing-list"
       })
     })
+      .then((response) => response.json())
       .then((response) => {
-        alert(response.ok);
-        if (response.ok) {
+        if (!response.code || (response.code >= 200 && response.code <= 299)) {
           this.setStatusSuccess(email);
         } else {
-          this.setStatusFailure(
-            "Something went wrong – please try again later."
-          );
+          this.setStatusFailure(response.message);
         }
       })
-      .catch((error) => console.log(error));
+      .catch(() => {
+        this.setStatusFailure("Something went wrong – please try again later.");
+      });
   }
 
   render() {
