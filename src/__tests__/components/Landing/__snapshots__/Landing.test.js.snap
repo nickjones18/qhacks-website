@@ -148,14 +148,15 @@ exports[`Landing renders correctly 1`] = `
         <ActionButton
           backgroundColor="#ffffff"
           dataCy="login-button"
+          disabled={true}
           foregroundColor="#00205b"
-          link="https://app.qhacks.io/apply"
           style={
             Object {
               "@media(max-width: 820px)": Object {
                 "margin": "45px auto",
               },
               "margin": "24px 0 100px 0",
+              "opacity": "0",
             }
           }
           type="rounded"

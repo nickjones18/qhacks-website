@@ -20,6 +20,7 @@ const menuItems = [
 ];
 
 const loginButtonCSS = {
+  opacity: "0",
   margin: "24px 0 100px 0",
   "@media(max-width: 820px)": {
     margin: "45px auto"
@@ -134,11 +135,12 @@ const Landing = () => (
             Join us for an unforgettable experience.
           </h2>
           <ActionButton
+            disabled={true}
             dataCy="login-button"
             backgroundColor="#ffffff"
             foregroundColor="#00205b"
             style={loginButtonCSS}
-            link="https://app.qhacks.io/apply"
+            //link="https://app.qhacks.io/apply"
             type="rounded"
           >
             Login
