@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignUpForm renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "margin": "12px 0 0 8px",
+      "maxWidth": "530px",
+      "width": "100%",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexWrap": "wrap",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <input
+      data-cy="signup-input"
+      onChange={[Function]}
+      placeholder="Enter your email address"
+      style={
+        Object {
+          "border": "none",
+          "borderRadius": "4px",
+          "flexGrow": 2,
+          "fontSize": "16px",
+          "height": "48px",
+          "lineHeight": "48px",
+          "margin": "4px",
+          "padding": "0 16px",
+        }
+      }
+      type="email"
+      value=""
+    />
+    <ActionButton
+      backgroundColor="white"
+      data-cy="signup-button"
+      disabled={false}
+      foregroundColor="black"
+      onClick={[Function]}
+      style={
+        Object {
+          "margin": "4px",
+        }
+      }
+      type="rect"
+      width="130px"
+    >
+      Sign Up
+    </ActionButton>
+  </div>
+  <p
+    style={
+      Object {
+        "fontWeight": "500",
+        "height": "22px",
+        "lineHeight": "22px",
+        "marginTop": "8px",
+      }
+    }
+  />
+</div>
+`;

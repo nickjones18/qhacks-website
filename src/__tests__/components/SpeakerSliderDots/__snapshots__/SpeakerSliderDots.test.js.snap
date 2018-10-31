@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SpeakerSliderDots renders correctly 1`] = `
+<div
+  css={
+    Object {
+      ">div": Object {
+        "borderRadius": "50%",
+        "height": "6px",
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "transition": "0.5s",
+        "width": "6px",
+      },
+      "display": "grid",
+      "gridTemplateColumns": "1fr 1fr ",
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "paddingBottom": "16px",
+      "width": 40,
+    }
+  }
+>
+  <div
+    css={
+      Object {
+        "backgroundColor": "#aeb7c8",
+      }
+    }
+    key="0"
+    onClick={[Function]}
+  />
+  <div
+    css={
+      Object {
+        "backgroundColor": "#aeb7c8",
+      }
+    }
+    key="1"
+    onClick={[Function]}
+  />
+</div>
+`;

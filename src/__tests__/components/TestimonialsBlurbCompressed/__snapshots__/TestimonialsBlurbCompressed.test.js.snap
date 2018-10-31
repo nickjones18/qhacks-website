@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TestimonialsBlurb renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "height": "100%",
+      "justifyContent": "right",
+      "left": 0,
+      "position": "absolute",
+      "top": 0,
+      "width": "50%",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "marginRight": "64px",
+      }
+    }
+  >
+    <h1
+      style={
+        Object {
+          "marginBottom": "30px",
+        }
+      }
+    >
+      Hacker Testimonials
+    </h1>
+    <p
+      style={
+        Object {
+          "fontSize": "20px",
+          "fontWeight": 500,
+          "lineHeight": "1.6",
+        }
+      }
+    >
+      hello
+    </p>
+    <div
+      style={
+        Object {
+          "marginTop": "65px",
+        }
+      }
+    >
+      <input
+        alt=""
+        onClick={[Function]}
+        src="test-file-stub"
+        style={
+          Object {
+            "border": "none",
+            "height": "20px",
+            "marginRight": "64px",
+            "opacity": 1,
+            "width": "40px",
+          }
+        }
+        type="image"
+      />
+      <input
+        alt=""
+        onClick={[Function]}
+        src="test-file-stub"
+        style={
+          Object {
+            "border": "none",
+            "height": "20px",
+            "opacity": 1,
+            "width": "40px",
+          }
+        }
+        type="image"
+      />
+    </div>
+  </div>
+</div>
+`;

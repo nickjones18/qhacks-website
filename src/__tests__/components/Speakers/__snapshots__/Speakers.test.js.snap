@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Speakers renders correctly 1`] = `
+<section
+  id="speakers"
+  style={
+    Object {
+      "backgroundColor": "#f8f8f8",
+      "position": "relative",
+    }
+  }
+>
+  <_default>
+    <h1
+      css={
+        Object {
+          "@media(max-width: 820px)": Object {
+            "paddingBottom": "24px",
+            "paddingTop": "200px",
+          },
+          "paddingBottom": "48px",
+          "paddingTop": "112px",
+          "position": "relative",
+          "textAlign": "center",
+          "zIndex": "3",
+        }
+      }
+    >
+      Fireside Chat Speakers
+    </h1>
+    <div
+      css={
+        Object {
+          "@media(max-width: 820px)": Object {
+            "display": "none",
+          },
+          "display": "grid",
+          "gridTemplateColumns": "1fr 1fr ",
+          "marginLeft": "auto",
+          "marginRight": "auto",
+          "maxWidth": 1000,
+          "position": "relative",
+          "zIndex": 3,
+        }
+      }
+    >
+      <SpeakerCard
+        description="Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and ya."
+        image="test-file-stub"
+        key="Vinith Suriyakumar"
+        name="Vinith Suriyakumar"
+        title="Founder and CEO of Clarifai"
+      />
+      <SpeakerCard
+        description="Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and ya."
+        image="test-file-stub"
+        key="Noah Ifergan"
+        name="Noah Ifergan"
+        title="Founder and CEO of Clarifai"
+      />
+    </div>
+    <div
+      css={
+        Object {
+          "@media(min-width: 820px)": Object {
+            "display": "none",
+          },
+          "paddingBottom": "30px",
+        }
+      }
+    >
+      <SpeakerSlider
+        speakers={
+          Array [
+            Object {
+              "description": "Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and ya.",
+              "image": "test-file-stub",
+              "name": "Vinith Suriyakumar",
+              "title": "Founder and CEO of Clarifai",
+            },
+            Object {
+              "description": "Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and ya.",
+              "image": "test-file-stub",
+              "name": "Noah Ifergan",
+              "title": "Founder and CEO of Clarifai",
+            },
+          ]
+        }
+      />
+    </div>
+    <picture
+      css={
+        Object {
+          "@media(max-width: 1000px)": Object {
+            "display": "none",
+          },
+          "bottom": "-210px",
+          "display": "block",
+          "height": "289px",
+          "position": "absolute",
+          "right": "62px",
+          "width": "235px",
+          "zIndex": "1",
+        }
+      }
+    >
+      <source
+        srcset="test-file-stub"
+        type="image/webp"
+      />
+      <source
+        srcset="test-file-stub"
+        type="image/png"
+      />
+      <img
+        alt="Floating cubes"
+        css={
+          Object {
+            "@media(max-width: 1000px)": Object {
+              "display": "none",
+            },
+          }
+        }
+        src="test-file-stub"
+      />
+    </picture>
+  </_default>
+</section>
+`;
