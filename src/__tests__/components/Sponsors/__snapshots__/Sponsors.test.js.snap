@@ -399,6 +399,11 @@ exports[`Sponsors renders correctly 1`] = `
           Interested in partnering? Contact us at
            
           <a
+            css={
+              Object {
+                "fontSize": "16px",
+              }
+            }
             data-cy="partners-email-prompt"
             href="mailto:partnership@qhacks.io"
           >

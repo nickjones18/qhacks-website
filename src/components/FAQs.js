@@ -141,8 +141,23 @@ const FAQs = () => (
             </h2>
             <p css={{ fontSize: "14px", color: "#000000", lineHeight: "20px" }}>
               Feel free to reach out to us at{" "}
-              <a css={linkCss}>hello@qhacks.io</a> or on{" "}
-              <a css={linkCss}>Facebook</a>
+              <a
+                rel="external nofollow"
+                target="_blank"
+                css={linkCss}
+                href="mailto:hello@qhacks.io"
+              >
+                hello@qhacks.io
+              </a>{" "}
+              or on{" "}
+              <a
+                rel="external nofollow"
+                target="_blank"
+                css={linkCss}
+                href="https://fb.com/qhacks"
+              >
+                Facebook
+              </a>
             </p>
           </div>
         </div>
