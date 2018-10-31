@@ -4,8 +4,8 @@ import SponsorLink from "./SponsorLink";
 import ActionButton from "./ActionButton";
 import ContentWrapper from "./ContentWrapper";
 import launchAcademy from "../assets/img/sponsors/launchAcademy.svg";
+import onepassword from "../assets/img/sponsors/1password.svg";
 import scotiabank from "../assets/img/sponsors/scotiabank.svg";
-import kds from "../assets/img/sponsors/kingsDistributed.svg";
 import consensys from "../assets/img/sponsors/consensys.svg";
 import balsamiq from "../assets/img/sponsors/balsamiq.svg";
 import wakeups from "../assets/img/sponsors/wakeups.svg";
@@ -17,6 +17,8 @@ import loopio from "../assets/img/sponsors/loopio.svg";
 import ritual from "../assets/img/sponsors/ritual.svg";
 import sketch from "../assets/img/sponsors/sketch.svg";
 import mmie from "../assets/img/sponsors/mmie.svg";
+import igan from "../assets/img/sponsors/igan.svg";
+import kds from "../assets/img/sponsors/kingsDistributed.svg";
 import qic from "../assets/img/sponsors/qic.svg";
 import td from "../assets/img/sponsors/td.svg";
 
@@ -97,6 +99,24 @@ const Sponsors = () => (
             </div>
           </SponsorLink>
         </div>
+        <SponsorLink url="http://www.iganpartners.com/">
+          <div
+            css={{
+              position: "relative"
+            }}
+          >
+            <img
+              css={{
+                width: "70%",
+                "@media(max-width: 850px)": {
+                  width: "100%"
+                }
+              }}
+              src={igan}
+              alt="IGan Partners Logo"
+            />
+          </div>
+        </SponsorLink>
         {/* Mega */}
         <div css={{ paddingTop: "75px" }}>
           <div
@@ -183,7 +203,7 @@ const Sponsors = () => (
         <div
           css={{
             display: "grid",
-            gridTemplateColumns: "1fr 1fr",
+            gridTemplateColumns: "1fr 1fr 1fr",
             width: "50%",
             marginLeft: "auto",
             marginRight: "auto"
@@ -191,6 +211,13 @@ const Sponsors = () => (
         >
           <SponsorLink url="https://sketchapp.com">
             <img src={sketch} css={{ width: "100%" }} alt="Sketch Logo" />
+          </SponsorLink>
+          <SponsorLink url="https://www.launchacademy.ca/">
+            <img
+              src={onepassword}
+              css={{ width: "100%", marginTop: "7px" }}
+              alt="OnePassword Logo"
+            />
           </SponsorLink>
           <SponsorLink url="https://www.launchacademy.ca/">
             <img

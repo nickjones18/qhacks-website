@@ -103,6 +103,30 @@ exports[`Sponsors renders correctly 1`] = `
           </div>
         </_default>
       </div>
+      <_default
+        url="http://www.iganpartners.com/"
+      >
+        <div
+          css={
+            Object {
+              "position": "relative",
+            }
+          }
+        >
+          <img
+            alt="IGan Partners Logo"
+            css={
+              Object {
+                "@media(max-width: 850px)": Object {
+                  "width": "100%",
+                },
+                "width": "70%",
+              }
+            }
+            src="test-file-stub"
+          />
+        </div>
+      </_default>
       <div
         css={
           Object {
@@ -291,7 +315,7 @@ exports[`Sponsors renders correctly 1`] = `
         css={
           Object {
             "display": "grid",
-            "gridTemplateColumns": "1fr 1fr",
+            "gridTemplateColumns": "1fr 1fr 1fr",
             "marginLeft": "auto",
             "marginRight": "auto",
             "width": "50%",
@@ -305,6 +329,20 @@ exports[`Sponsors renders correctly 1`] = `
             alt="Sketch Logo"
             css={
               Object {
+                "width": "100%",
+              }
+            }
+            src="test-file-stub"
+          />
+        </_default>
+        <_default
+          url="https://www.launchacademy.ca/"
+        >
+          <img
+            alt="OnePassword Logo"
+            css={
+              Object {
+                "marginTop": "7px",
                 "width": "100%",
               }
             }

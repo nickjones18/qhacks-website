@@ -11,7 +11,7 @@ describe("Sponsors", () => {
 
   describe("Links", () => {
     it("should contain the proper number of sponsors", () => {
-      cy.get("[data-cy=sponsor-link]").should("have.length", 16);
+      cy.get("[data-cy=sponsor-link]").should("have.length", 18);
     });
 
     it("should contain the proper urls", () => {
@@ -19,6 +19,7 @@ describe("Sponsors", () => {
         "https://tucows.com",
         "https://kingsds.network",
         "https://sunlife.ca",
+        "http://www.iganpartners.com/",
         "https://consensys.net/",
         "https://td.ca",
         "https://ratehub.ca",
@@ -29,6 +30,7 @@ describe("Sponsors", () => {
         "https://ritual.co",
         "https://wake-ups.com",
         "https://sketchapp.com",
+        "https://www.launchacademy.ca/",
         "https://www.launchacademy.ca/",
         "https://queensu.ca/innovationcentre/",
         "https://smith.queensu.ca/grad_studies/mei/"
