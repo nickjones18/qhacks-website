@@ -7,6 +7,7 @@ import circleCheck from "../assets/img/icons/circleSuccess-green.svg";
 import circleTimes from "../assets/img/icons/circleError-red.svg";
 import spinnerWhite from "../assets/img/icons/spinner-white.svg";
 import spinner from "../assets/img/icons/spinner-black.svg";
+import { resolve, reject } from "bluebird";
 
 class SignUpForm extends Component {
   state = {
@@ -16,34 +17,59 @@ class SignUpForm extends Component {
     boldMessage: ""
   };
 
-  signUp() {
-    // Simulate a sign up request
+  setStatusFailure = (errorMsg) => {
+    this.setState({
+      status: "failure",
+      boldMessage: errorMsg,
+      message: ""
+    });
+    setTimeout(() => this.resetStatus(), 3500);
+  };
+
+  setStatusSuccess = (email) => {
+    this.setState({
+      status: "success",
+      boldMessage: email,
+      message: "has been added to our mailing list."
+    });
+    setTimeout(() => this.resetStatus(), 3500);
+  };
+
+  setStatusLoading = () => {
     this.setState({ status: "loading", message: "", boldMessage: "" });
-    const delay = Math.random() * 4000 + 2000;
-    const resetStatus = () =>
-      setTimeout(
-        () => this.setState({ status: null, message: "", boldMessage: "" }),
-        3500
-      );
-    if (Math.random() >= 0.5) {
-      setTimeout(() => {
-        this.setState({
-          status: "success",
-          boldMessage: this.state.emailAddress,
-          message: "has been added to our mailing list."
-        });
-        resetStatus();
-      }, delay);
-    } else {
-      setTimeout(() => {
-        this.setState({
-          status: "failure",
-          boldMessage: "Invalid email address.",
-          message: ""
-        });
-        resetStatus();
-      }, delay);
-    }
+  };
+
+  resetStatus = () => {
+    this.setState({ status: null, message: "", boldMessage: "" });
+  };
+
+  signUp() {
+    const email = this.state.emailAddress;
+    const baseUrl = "https://app.qhacks.io"; // local: "http://127.0.0.1:8000"
+    this.setStatusLoading();
+    fetch(`${baseUrl}/api/v1/subscribe`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      mode: "no-cors",
+      body: JSON.stringify({
+        email: email,
+        event: "qhacks-2019",
+        name: "announcements-newsletter"
+      })
+    })
+      .then((response) => {
+        alert(response.ok);
+        if (response.ok) {
+          this.setStatusSuccess(email);
+        } else {
+          this.setStatusFailure(
+            "Something went wrong – please try again later."
+          );
+        }
+      })
+      .catch((error) => console.log(error));
   }
 
   render() {
