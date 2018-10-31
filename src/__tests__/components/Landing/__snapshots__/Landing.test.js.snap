@@ -17,8 +17,6 @@ exports[`Landing renders correctly 1`] = `
     menuItems={
       Array [
         "about",
-        "speakers",
-        "schedule",
         "testimonials",
         "sponsors",
         "faq",

@@ -27,7 +27,13 @@ exports[`HackerTestimonials renders correctly 1`] = `
           lastTestimonial={false}
           nextTestimonial={[Function]}
           prevTestimonial={[Function]}
-          text="See what past hackers thought about the event! Lorem ipsum dolor sit amet, consectetur."
+          text={
+            <span>
+              QHacks has something to offer everyone.
+              <br />
+              See what past hackers thought about the event!
+            </span>
+          }
         />
         <TestimonialList
           currentTestimonial={0}
@@ -68,7 +74,13 @@ exports[`HackerTestimonials renders correctly 1`] = `
         }
       >
         <TestimonialsBlurbCompressed
-          text="See what past hackers thought about the event! Lorem ipsum dolor sit amet, consectetur."
+          text={
+            <span>
+              QHacks has something to offer everyone.
+              <br />
+              See what past hackers thought about the event!
+            </span>
+          }
         />
         <TestimonialListCompressed
           currentTestimonial={0}

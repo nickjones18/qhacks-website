@@ -56,7 +56,7 @@ class HackerTestimonials extends Component {
   }
 
   render() {
-    const blurb = `See what past hackers thought about the event! Lorem ipsum dolor sit amet, consectetur.`;
+    const blurb = <span>QHacks has something to offer everyone.<br/>See what past hackers thought about the event!</span>;
     return (
       <section
         style={{
