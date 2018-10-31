@@ -93,7 +93,7 @@ const MobileMenu = (props) => (
               </a>
             </div>
           ))}
-          <div css={{ marginTop: "-100px" }}>
+          <div css={{ marginTop: "-100px", pointerEvents: "none" }}>
             <picture>
               <source srcset={cubeswebp} type="image/webp" />
               <source srcset={cubespng} type="image/png" />

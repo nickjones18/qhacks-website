@@ -161,6 +161,7 @@ exports[`MobileMenu renders correctly 1`] = `
           css={
             Object {
               "marginTop": "-100px",
+              "pointerEvents": "none",
             }
           }
         >
