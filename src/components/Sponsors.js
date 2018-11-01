@@ -3,24 +3,30 @@ import React from "react";
 import SponsorLink from "./SponsorLink";
 import ActionButton from "./ActionButton";
 import ContentWrapper from "./ContentWrapper";
-import launchAcademy from "../assets/img/sponsors/launchAcademy.svg";
-import onepassword from "../assets/img/sponsors/1password.svg";
-import scotiabank from "../assets/img/sponsors/scotiabank.svg";
-import consensys from "../assets/img/sponsors/consensys.svg";
-import balsamiq from "../assets/img/sponsors/balsamiq.svg";
-import wakeups from "../assets/img/sponsors/wakeups.svg";
-import wolfram from "../assets/img/sponsors/wolfram.svg";
-import sunlife from "../assets/img/sponsors/sunlife.svg";
-import ratehub from "../assets/img/sponsors/ratehub.svg";
-import tucows from "../assets/img/sponsors/tucows.svg";
-import loopio from "../assets/img/sponsors/loopio.svg";
-import ritual from "../assets/img/sponsors/ritual.svg";
-import sketch from "../assets/img/sponsors/sketch.svg";
-import mmie from "../assets/img/sponsors/mmie.svg";
-import igan from "../assets/img/sponsors/igan.svg";
-import kds from "../assets/img/sponsors/kingsDistributed.svg";
-import qic from "../assets/img/sponsors/qic.svg";
-import td from "../assets/img/sponsors/td.svg";
+
+import tdLogo from "../assets/img/sponsors/td.svg";
+import qicLogo from "../assets/img/sponsors/qic.svg";
+import eceLogo from "../assets/img/sponsors/ece.svg";
+import iganLogo from "../assets/img/sponsors/igan.svg";
+import mmieLogo from "../assets/img/sponsors/mmie.svg";
+import mlhLogo from "../assets/img/sponsors/mlhText.svg";
+import githubLogo from "../assets/img/sponsors/github.svg";
+import sketchLogo from "../assets/img/sponsors/sketch.svg";
+import ritualLogo from "../assets/img/sponsors/ritual.svg";
+import loopioLogo from "../assets/img/sponsors/loopio.svg";
+import tucowsLogo from "../assets/img/sponsors/tucows.svg";
+import ratehubLogo from "../assets/img/sponsors/ratehub.svg";
+import sunLifeLogo from "../assets/img/sponsors/sunlife.svg";
+import wolframLogo from "../assets/img/sponsors/wolfram.svg";
+import wakeupsLogo from "../assets/img/sponsors/wakeups.svg";
+import balsamiqLogo from "../assets/img/sponsors/balsamiq.svg";
+import bloombergLogo from "../assets/img/sponsors/bloomberg.svg";
+import consensysLogo from "../assets/img/sponsors/consensys.svg";
+import kdsLogo from "../assets/img/sponsors/kingsDistributed.svg";
+import scotiabankLogo from "../assets/img/sponsors/scotiabank.svg";
+import onePasswordLogo from "../assets/img/sponsors/1password.svg";
+import stickermuleLogo from "../assets/img/sponsors/stickermule.svg";
+import launchAcademyLogo from "../assets/img/sponsors/launchAcademy.svg";
 
 const Sponsors = () => (
   <section
@@ -28,7 +34,6 @@ const Sponsors = () => (
     css={{
       backgroundColor: "#f8f8f8",
       " img": {
-        padding: "20px",
         transition: "0.3s",
         ":hover": {
           transform: "scale(1.1)"
@@ -37,198 +42,174 @@ const Sponsors = () => (
     }}
   >
     <ContentWrapper>
+
       <div
         css={{
           marginLeft: "auto",
           marginRight: "auto",
           textAlign: "center",
-          paddingTop: "80px",
-          "@media(max-width: 850px)": {
-            " >div": {
-              gridTemplateColumns: "1fr"
-            }
-          }
+          paddingTop: "80px"
         }}
       >
-        <h1>Sponsors</h1>
-        {/* Terra */}
-        <div
-          css={{
-            paddingTop: "56px",
-            display: "block"
-          }}
-        >
-          <SponsorLink url="https://tucows.com">
-            <img
-              src={tucows}
-              css={{ width: "70%" }}
-              data-cy="test-sponsor-image"
-              alt="Tucows Logo"
-            />
-          </SponsorLink>
-        </div>
-        {/* Giga */}
-        <div
-          css={{
-            paddingTop: "50px",
-            display: "grid",
-            gridTemplateColumns: "1fr 1fr"
-          }}
-        >
-          <SponsorLink url="https://kingsds.network">
-            <img
-              css={{ width: "80%" }}
-              src={kds}
-              alt="Kings Distributed Systems Logo"
-            />
-          </SponsorLink>
-          <SponsorLink url="https://sunlife.ca">
+
+        {/* Sponsors */}
+        <div>
+          <h1>Sponsors</h1>
+
+          {/* Tera */}
+          <div css={{
+            marginTop: "70px",
+            marginBottom: "80px"
+          }}>
+
+            {/* Tera Row 1 */}
             <div
               css={{
-                position: "relative",
-                padding: "20px"
+                display: "grid",
+                gridTemplateColumns: "1fr"
               }}
             >
-              <img
-                css={{
-                  width: "100%"
-                }}
-                src={sunlife}
-                alt="SunLife Financial Logo"
-              />
-            </div>
-          </SponsorLink>
-        </div>
-        <SponsorLink url="http://www.iganpartners.com/">
-          <div
-            css={{
-              position: "relative"
-            }}
-          >
-            <img
-              css={{
-                width: "70%",
-                "@media(max-width: 850px)": {
-                  width: "100%"
-                }
-              }}
-              src={igan}
-              alt="IGan Partners Logo"
-            />
-          </div>
-        </SponsorLink>
-        {/* Mega */}
-        <div css={{ paddingTop: "75px" }}>
-          <div
-            css={{
-              display: "grid",
-              gridTemplateColumns: "1fr 1fr 1fr",
-              "@media(max-width: 850px)": {
-                gridTemplateColumns: "1fr"
-              }
-            }}
-          >
-            <div css={{ width: "100%" }}>
-              <SponsorLink url="https://consensys.net/">
+              <SponsorLink url="https://tucows.com">
                 <img
-                  src={consensys}
-                  css={{ width: "100%" }}
-                  alt="Consensys Logo"
+                  src={tucowsLogo}
+                  css={{ width: "500px" }}
+                  data-cy="test-sponsor-image"
+                  alt="Tucows Logo"
                 />
               </SponsorLink>
             </div>
-            <SponsorLink url="https://td.ca">
-              <img src={td} css={{ width: "45%" }} alt="TD Logo" />
-            </SponsorLink>
-            <div>
+          </div>
+
+          {/* Giga */}
+          <div css={{
+            marginBottom: "80px"
+          }}>
+
+            {/* Giga Row 1 */}
+            <div css={{
+              display: "grid",
+              gridTemplateColumns: "1fr",
+              marginBottom: "40px"
+            }}>
+              <SponsorLink url="https://kingsds.network">
+                <img css={{ width: "300px" }} src={kdsLogo} alt="Kings Distributed Systems Logo"
+                />
+              </SponsorLink>
+            </div>
+
+
+            {/* Giga Row 2 */}
+            <div
+              css={{
+                display: "grid",
+                gridTemplateColumns: "1fr 1fr"
+              }}
+            >
+              <SponsorLink url="https://sunlife.ca">
+                <img css={{ width: "400px" }} src={sunLifeLogo} alt="Sun Life Financial Logo"
+                />
+              </SponsorLink>
+              <SponsorLink url="http://www.iganpartners.com/">
+                <img css={{ width: "400px", marginTop: "20px" }} src={iganLogo} alt="iGan Partners Logo" />
+              </SponsorLink>
+            </div>
+          </div>
+
+          {/* Mega */}
+          <div css={{
+            marginBottom: "80px"
+          }}>
+
+            {/* Mega Row 1 */}
+            <div
+              css={{
+                display: "grid",
+                gridTemplateColumns: "1fr 1fr 1fr",
+                marginBottom: "40px"
+              }}
+            >
+              <SponsorLink url="https://consensys.net/">
+                <img src={consensysLogo} css={{ width: "300px" }} alt="Consensys Logo" />
+              </SponsorLink>
+              <SponsorLink url="https://td.ca">
+                <img src={tdLogo} css={{ width: "100px" }} alt="TD Logo" />
+              </SponsorLink>
               <SponsorLink url="https://ratehub.ca">
-                <img src={ratehub} css={{ width: "100%" }} alt="Ratehub Logo" />
+                <img src={ratehubLogo} css={{ width: "300px" }} alt="Ratehub Logo" />
+              </SponsorLink>
+            </div>
+
+            {/* Mega Row 2 */}
+            <div
+              css={{
+                display: "grid",
+                gridTemplateColumns: "1fr 1fr",
+                marginLeft: "auto",
+                marginRight: "auto",
+                width: "80%"
+              }}
+            >
+              <SponsorLink url="https://scotiabank.ca">
+                <img src={scotiabankLogo} css={{ width: "300px" }} alt="Scotiabank Logo" />
+              </SponsorLink>
+              <SponsorLink url="https://loopio.com">
+                <img src={loopioLogo} css={{ width: "170px" }} alt="Loopio Logo" />
+              </SponsorLink>
+            </div>
+          </div>
+
+          {/* Startup */}
+          <div>
+
+            {/* Startup Row 1 */}
+            <div
+              css={{
+                display: "grid",
+                gridTemplateColumns: "1fr 1fr 1fr 1fr",
+                marginBottom: "40px"
+              }}
+            >
+              <SponsorLink url="https://balsamiq.com">
+                <img src={balsamiqLogo} css={{ width: "150px" }} alt="Balsamiq Logo" />
+              </SponsorLink>
+              <SponsorLink url="https://wolfram.com/language/">
+                <img src={wolframLogo} css={{ width: "150px" }} alt="Wolfram Logo" />
+              </SponsorLink>
+              <SponsorLink url="https://ritual.co">
+                <img src={ritualLogo} css={{ width: "150px", marginTop: "5px" }} alt="Ritual Logo" />
+              </SponsorLink>
+              <SponsorLink url="https://1password.com/">
+                <img src={onePasswordLogo} css={{ width: "170px", marginTop: "5px" }} alt="One Password Logo" />
+              </SponsorLink>
+            </div>
+
+            {/* Startup Row 2 */}
+            <div
+              css={{
+                display: "grid",
+                gridTemplateColumns: "1fr 1fr 1fr",
+                marginLeft: "auto",
+                marginRight: "auto",
+                width: "80%"
+              }}
+            >
+              <SponsorLink url="https://sketchapp.com">
+                <img src={sketchLogo} css={{ width: "200px", marginTop: "20px" }} alt="Sketch Logo" />
+              </SponsorLink>
+              <SponsorLink url="https://wake-ups.com">
+                <img src={wakeupsLogo} css={{ width: "100px" }} alt="Wakeups Logo" />
+              </SponsorLink>
+              <SponsorLink url="https://www.launchacademy.ca/">
+                <img src={launchAcademyLogo} css={{ width: "200px", marginTop: "18px" }} alt="Launch Academy Logo" />
               </SponsorLink>
             </div>
           </div>
         </div>
-        <div
-          css={{
-            display: "grid",
-            gridTemplateColumns: "1fr 1fr",
-            marginLeft: "auto",
-            marginRight: "auto",
-            width: "80%",
-            "@media(max-width: 850px)": {
-              gridTemplateColumns: "1fr"
-            }
-          }}
-        >
-          <div>
-            <SponsorLink url="https://scotiabank.ca">
-              <img
-                src={scotiabank}
-                css={{ width: "100%" }}
-                alt="Scotiabank Logo"
-              />
-            </SponsorLink>
-          </div>
-          <div css={{ " img": { width: "65%" } }}>
-            <SponsorLink url="https://loopio.com">
-              <img src={loopio} alt="Loopio Logo" />
-            </SponsorLink>
-          </div>
-        </div>
-        {/* Start-ups */}
-        <div
-          css={{
-            display: "grid",
-            gridTemplateColumns: "1fr 1fr 1fr 1fr",
-            paddingTop: "50px",
-            "@media(max-width: 850px)": {
-              width: "50%",
-              marginLeft: "auto",
-              marginRight: "auto"
-            }
-          }}
-        >
-          <SponsorLink url="https://balsamiq.com">
-            <img src={balsamiq} css={{ width: "80%" }} alt="Balsamiq Logo" />
-          </SponsorLink>
-          <SponsorLink url="https://wolfram.com/language/">
-            <img src={wolfram} css={{ width: "80%" }} alt="Wolfram Logo" />
-          </SponsorLink>
-          <SponsorLink url="https://ritual.co">
-            <img src={ritual} css={{ width: "100%" }} alt="Ritual Logo" />
-          </SponsorLink>
-          <SponsorLink url="https://wake-ups.com">
-            <img src={wakeups} css={{ width: "50%" }} alt="Wakeups Logo" />
-          </SponsorLink>
-        </div>
-        <div
-          css={{
-            display: "grid",
-            gridTemplateColumns: "1fr 1fr 1fr",
-            width: "50%",
-            marginLeft: "auto",
-            marginRight: "auto"
-          }}
-        >
-          <SponsorLink url="https://sketchapp.com">
-            <img src={sketch} css={{ width: "100%" }} alt="Sketch Logo" />
-          </SponsorLink>
-          <SponsorLink url="https://www.launchacademy.ca/">
-            <img
-              src={onepassword}
-              css={{ width: "100%", marginTop: "7px" }}
-              alt="OnePassword Logo"
-            />
-          </SponsorLink>
-          <SponsorLink url="https://www.launchacademy.ca/">
-            <img
-              src={launchAcademy}
-              css={{ width: "100%" }}
-              alt="Launch Academy Logo"
-            />
-          </SponsorLink>
-        </div>
-        <div css={{ paddingTop: "100px", paddingBottom: "100px" }}>
-          <h1 css={{ paddingBottom: "48px" }}>Our Partners</h1>
+
+        {/* Partners */}
+
+        <div css={{ paddingTop: "100px", paddingBottom: "70px" }}>
+          <h1 css={{ paddingBottom: "40px" }}>Our Partners</h1>
           <p
             css={{
               fontWeight: "bold",
@@ -246,7 +227,8 @@ const Sponsors = () => (
               data-cy="partners-email-prompt"
               href="mailto:partnership@qhacks.io"
               css={{
-                fontSize: "16px"
+                fontSize: "16px",
+                fontWeight: "bold"
               }}
             >
               partnership@qhacks.io
@@ -261,20 +243,58 @@ const Sponsors = () => (
             Partnership Package
           </ActionButton>
         </div>
+
         {/* School */}
-        <div
-          css={{
-            display: "grid",
-            gridTemplateColumns: "1fr 1fr",
-            paddingBottom: "100px"
-          }}
-        >
-          <SponsorLink url="https://queensu.ca/innovationcentre/">
-            <img src={qic} css={{ width: "100%" }} alt="QIC Logo" />
-          </SponsorLink>
-          <SponsorLink url="https://smith.queensu.ca/grad_studies/mei/">
-            <img src={mmie} css={{ width: "100%" }} alt="MMIE Logo" />
-          </SponsorLink>
+        <div css={{
+          marginBottom: "100px"
+        }}>
+
+          {/* School Row 1 */}
+          <div
+            css={{
+              display: "grid",
+              gridTemplateColumns: "1fr 1fr",
+              marginBottom: "40px"
+            }}
+          >
+            <SponsorLink url="https://smith.queensu.ca/grad_studies/mei/">
+              <img src={mmieLogo} css={{ width: "400px" }} alt="MMIE Logo" />
+            </SponsorLink>
+            <SponsorLink url="https://queensu.ca/innovationcentre/">
+              <img src={qicLogo} css={{ width: "400px", marginTop: "25px" }} alt="QIC Logo" />
+            </SponsorLink>
+          </div>
+
+          {/* School Row 2 */}
+          <div
+            css={{
+              display: "grid",
+              gridTemplateColumns: "1fr 1fr 1fr",
+              marginBottom: "40px"
+            }}
+          >
+            <SponsorLink url="https://www.bloomberg.com/canada">
+              <img src={bloombergLogo} css={{ width: "200px", marginTop: "30px" }} alt="Bloomberg Logo" />
+            </SponsorLink>
+            <SponsorLink url="https://www.stickermule.com/ca">
+              <img src={stickermuleLogo} css={{ width: "150px" }} alt="Stickermule Logo" />
+            </SponsorLink>
+            <SponsorLink url="https://education.github.com/pack">
+              <img src={githubLogo} css={{ width: "150px", marginTop: "25px"  }} alt="GitHub Logo" />
+            </SponsorLink>
+          </div>
+
+          {/* School Row 3 */}
+          <div
+            css={{
+              display: "grid",
+              gridTemplateColumns: "1fr"
+            }}
+          >
+            <SponsorLink url="https://mlh.io/">
+              <img src={mlhLogo} css={{ width: "150px", marginTop: "25px" }} alt="MLH Logo" />
+            </SponsorLink>
+          </div>
         </div>
       </div>
     </ContentWrapper>
