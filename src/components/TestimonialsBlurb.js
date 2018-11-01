@@ -15,6 +15,7 @@ const TestimonialsBlurb = (props) => {
     fontWeight: 500,
     fontSize: "20px"
   };
+
   return (
     <div
       style={{
@@ -30,7 +31,7 @@ const TestimonialsBlurb = (props) => {
     >
       <div style={{ marginRight: "64px" }}>
         <h1 style={{ marginBottom: "30px" }}>Hacker Testimonials</h1>
-        <p style={{ ...blurbStyle }}>{props.text}</p>
+        <p css={{ ...blurbStyle }}>{props.text}</p>
         <div style={{ marginTop: "65px" }}>
           <input
             onClick={() => props.prevTestimonial()}

@@ -11,7 +11,7 @@ describe("Sponsors", () => {
 
   describe("Links", () => {
     it("should contain the proper number of sponsors", () => {
-      cy.get("[data-cy=sponsor-link]").should("have.length", 18);
+      cy.get("[data-cy=sponsor-link]").should("have.length", 22);
     });
 
     it("should contain the proper urls", () => {
@@ -28,26 +28,21 @@ describe("Sponsors", () => {
         "https://balsamiq.com",
         "https://wolfram.com/language/",
         "https://ritual.co",
-        "https://wake-ups.com",
+        "https://1password.com/",
         "https://sketchapp.com",
+        "https://wake-ups.com",
         "https://www.launchacademy.ca/",
-        "https://www.launchacademy.ca/",
+        "https://smith.queensu.ca/grad_studies/mei/",
         "https://queensu.ca/innovationcentre/",
-        "https://smith.queensu.ca/grad_studies/mei/"
+        "https://www.bloomberg.com/canada",
+        "https://www.stickermule.com/ca",
+        "https://education.github.com/pack",
+        "https://mlh.io/"
       ];
 
       cy.get("[data-cy=sponsor-link]").each(($el, index, $list) => {
         expect($el).to.have.attr("href", sponsorURLs[index]);
       });
-    });
-  });
-
-  describe("Images", () => {
-    it("should be diplayed correctly", () => {
-      cy.get("[data-cy=test-sponsor-image]")
-        .invoke("show")
-        .trigger("mouseover")
-        .should("have.css", "padding", "20px");
     });
   });
 });

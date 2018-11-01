@@ -150,7 +150,8 @@ const Footer = () => (
               marginLeft: "-8px",
               paddingBottom: "64px",
               [smallScreens]: {
-                marginLeft: "0px"
+                marginLeft: "0px",
+                paddingBottom: "24px"
               }
             }}
           >
@@ -175,21 +176,19 @@ const Footer = () => (
           <div css={{ [smallScreens]: { display: "none" } }}>
             <p
               data-cy="footer-address"
-              css={{ ...finePrint, paddingBottom: "6px" }}
+              css={{ ...finePrint, marginBottom: "5px" }}
             >
               Queen&#39;s University | 99 University Ave, Kingston, ON
             </p>
-            <p
-              data-cy="footer-dev-plug"
-              css={{ ...finePrint, paddingBottom: "6px" }}
-            >
+            <a data-cy="footer-dev-plug" css={{ ...finePrint, fontWeight: "400" }} href="https://github.com/qhacks/qhacks-website" target="_blank" rel="noopener noreferrer">
               {"< />"} with ♡ by Queen&#39;s students
-            </p>
+            </a>
             <p
               data-cy="footer-copyright-notice"
               css={{
                 ...finePrint,
-                paddingBottom: "32px"
+                paddingBottom: "32px",
+                marginTop: "6px"
               }}
             >
               Copyright © {moment().year()} QHacks
@@ -327,19 +326,16 @@ const Footer = () => (
         >
           <p
             data-cy="footer-address"
-            css={{ ...finePrint, paddingBottom: "6px" }}
+            css={{ ...finePrint, marginBottom: "5px" }}
           >
             Queen&#39;s University | 99 University Ave, Kingston, ON
           </p>
-          <p
-            data-cy="footer-dev-plug"
-            css={{ ...finePrint, paddingBottom: "6px" }}
-          >
+          <a data-cy="footer-dev-plug" css={{ ...finePrint, fontWeight: "400" }} href="https://github.com/qhacks/qhacks-website" target="_blank" rel="noopener noreferrer">
             {"< />"} with ♡ by Queen&#39;s students
-          </p>
+          </a>
           <p
             data-cy="footer-copyright-notice"
-            css={{ ...finePrint, paddingBottom: "32px" }}
+            css={{ ...finePrint, marginTop: "6px", paddingBottom: "32px" }}
           >
             Copyright © {moment().year()} QHacks
           </p>

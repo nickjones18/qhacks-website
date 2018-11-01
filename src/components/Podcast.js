@@ -33,7 +33,6 @@ const Podcast = () => (
         >
           <div
             css={{
-              // paddingLeft: "72px",
               "@media (max-width: 1128px)": { textAlign: "center" }
             }}
           >
@@ -65,7 +64,8 @@ const Podcast = () => (
               paddingLeft: "64px",
               "@media (max-width: 1128px)": {
                 paddingLeft: "0px",
-                paddingTop: "46px"
+                paddingTop: "46px",
+                textAlign: "center"
               }
             }}
           >

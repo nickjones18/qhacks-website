@@ -47,7 +47,13 @@ const imgStyle = {
 const SellingPoints = () => (
   <div style={{ position: "relative" }}>
     <ContentWrapper>
-      <div css={{ padding: "143px 0", margin: "0 -28px" }}>
+      <div css={{
+        padding: "143px 0",
+        margin: "0 -28px",
+        "@media(max-width: 840px)": {
+          padding: "143px 0 50px 0"
+        }
+      }}>
         <div
           css={{
             ...twoColumnStyle,
@@ -159,7 +165,7 @@ const SellingPoints = () => (
               bottom: "-120px",
               left: "-40px"
             },
-            "@media(max-width: 820px)": {
+            "@media(max-width: 840px)": {
               display: "none"
             }
           }}
