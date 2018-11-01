@@ -2,7 +2,7 @@
 
 exports[`TestimonialsBlurb renders correctly 1`] = `
 <div
-  style={
+  css={
     Object {
       "alignItems": "center",
       "display": "flex",
@@ -16,14 +16,14 @@ exports[`TestimonialsBlurb renders correctly 1`] = `
   }
 >
   <div
-    style={
+    css={
       Object {
         "marginRight": "64px",
       }
     }
   >
     <h1
-      style={
+      css={
         Object {
           "marginBottom": "30px",
         }
@@ -32,7 +32,7 @@ exports[`TestimonialsBlurb renders correctly 1`] = `
       Hacker Testimonials
     </h1>
     <p
-      style={
+      css={
         Object {
           "fontSize": "20px",
           "fontWeight": 500,
@@ -43,7 +43,7 @@ exports[`TestimonialsBlurb renders correctly 1`] = `
       hello
     </p>
     <div
-      style={
+      css={
         Object {
           "marginTop": "65px",
         }
@@ -51,9 +51,7 @@ exports[`TestimonialsBlurb renders correctly 1`] = `
     >
       <input
         alt=""
-        onClick={[Function]}
-        src="test-file-stub"
-        style={
+        css={
           Object {
             "border": "none",
             "height": "20px",
@@ -62,13 +60,13 @@ exports[`TestimonialsBlurb renders correctly 1`] = `
             "width": "40px",
           }
         }
+        onClick={[Function]}
+        src="test-file-stub"
         type="image"
       />
       <input
         alt=""
-        onClick={[Function]}
-        src="test-file-stub"
-        style={
+        css={
           Object {
             "border": "none",
             "height": "20px",
@@ -76,6 +74,8 @@ exports[`TestimonialsBlurb renders correctly 1`] = `
             "width": "40px",
           }
         }
+        onClick={[Function]}
+        src="test-file-stub"
         type="image"
       />
     </div>

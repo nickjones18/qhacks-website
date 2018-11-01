@@ -8,7 +8,7 @@ import banner from "../assets/img/sponsors/mlh.svg";
 import landingImg from "../assets/img/icons/landingImg.svg";
 import logo from "../assets/img/logo/qhacksCrown-colored.svg";
 import word from "../assets/img/logo/qhacksWordmark-colored.svg";
-import backgroundCubes from "../assets/img/icons/backgroundCubes.svg";
+import backgroundCubes from "../assets/img/backgrounds/backgroundCubes.svg";
 
 const menuItems = [
   "about",
@@ -29,12 +29,13 @@ const loginButtonCSS = {
 
 const Landing = () => (
   <div
+    id=""
     css={{
       width: "100%",
       background: `url(${backgroundCubes}) no-repeat center center`,
       backgroundSize: "cover",
       "@media(max-width: 600px)": {
-        minHeight: "750px"
+        minHeight: "600px"
       }
     }}
   >
@@ -108,15 +109,17 @@ const Landing = () => (
           >
             Queen’s University • February 1-3, 2019
           </h2>
-          <img
-            data-cy="mlh-banner"
-            src={banner}
-            css={{
-              width: "189px",
-              "@media(max-width: 820px)": { width: "132px" }
-            }}
-            alt="MLH Logo"
-          />
+          <a href="https://mlh.io" target="_blank" rel="noopener noreferrer">
+            <img
+              data-cy="mlh-banner"
+              src={banner}
+              css={{
+                width: "189px",
+                "@media(max-width: 820px)": { width: "132px" }
+              }}
+              alt="MLH Logo"
+            />
+          </a>
           <h2
             data-cy="qhacks-tagline"
             css={{

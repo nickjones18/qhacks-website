@@ -68,15 +68,15 @@ class HackerTestimonials extends Component {
     );
     return (
       <section
-        style={{
+        id="testimonials"
+        css={{
           overflowX: "hidden"
         }}
       >
         <ContentWrapper>
           <MediaQuery query="screen and (min-width: 1000px)">
             <div
-              id="testimonials"
-              style={{
+              css={{
                 height: "575px",
                 position: "relative"
               }}
@@ -97,7 +97,7 @@ class HackerTestimonials extends Component {
             </div>
           </MediaQuery>
           <MediaQuery query="screen and (max-width: 1000px)">
-            <div style={{ margin: "0 0 80px 0" }}>
+            <div css={{ margin: "0 0 80px 0" }}>
               <TestimonialsBlurbCompressed text={blurb} />
               <TestimonialListCompressed
                 currentTestimonial={this.state.currentTestimonial}

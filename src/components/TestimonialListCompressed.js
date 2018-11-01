@@ -38,7 +38,7 @@ class TestimonialListCompressed extends Component {
     const list = this.props.testimonials.map((item, i) => (
       <div
         key={`${item.name} ${item.project}`}
-        style={{
+        css={{
           maxWidth: "700px",
           margin: "0 auto"
         }}

@@ -76,6 +76,7 @@ exports[`Podcast renders correctly 1`] = `
               "@media (max-width: 1128px)": Object {
                 "paddingLeft": "0px",
                 "paddingTop": "46px",
+                "textAlign": "center",
               },
               "paddingLeft": "64px",
               "textAlign": "left",

@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import MediaQuery from "react-responsive";
 import moment from "moment-timezone";
 import { css } from "glamor";
-import ContentWrapper from "./ContentWrapper";
 
 import EventScheduleCompressedTable from "./EventScheduleCompressedTable";
 import EventScheduleFullSizeTable from "./EventScheduleFullSizeTable";
+import ContentWrapper from "./ContentWrapper";
 import DaySwitcher from "./DaySwitcher";
 
 moment.tz.setDefault("America/Kingston");

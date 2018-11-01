@@ -8,7 +8,6 @@ exports[`Sponsors renders correctly 1`] = `
         ":hover": Object {
           "transform": "scale(1.1)",
         },
-        "padding": "20px",
         "transition": "0.3s",
       },
       "backgroundColor": "#f8f8f8",
@@ -20,11 +19,6 @@ exports[`Sponsors renders correctly 1`] = `
     <div
       css={
         Object {
-          "@media(max-width: 850px)": Object {
-            " >div": Object {
-              "gridTemplateColumns": "1fr",
-            },
-          },
           "marginLeft": "auto",
           "marginRight": "auto",
           "paddingTop": "80px",
@@ -32,123 +26,172 @@ exports[`Sponsors renders correctly 1`] = `
         }
       }
     >
-      <h1>
-        Sponsors
-      </h1>
-      <div
-        css={
-          Object {
-            "display": "block",
-            "paddingTop": "56px",
-          }
-        }
-      >
-        <_default
-          url="https://tucows.com"
-        >
-          <img
-            alt="Tucows Logo"
-            css={
-              Object {
-                "width": "70%",
-              }
+      <div>
+        <h1>
+          Sponsors
+        </h1>
+        <div
+          css={
+            Object {
+              "@media(max-width: 460px)": Object {
+                "marginBottom": "60px",
+              },
+              "marginBottom": "80px",
+              "marginTop": "70px",
             }
-            data-cy="test-sponsor-image"
-            src="test-file-stub"
-          />
-        </_default>
-      </div>
-      <div
-        css={
-          Object {
-            "display": "grid",
-            "gridTemplateColumns": "1fr 1fr",
-            "paddingTop": "50px",
           }
-        }
-      >
-        <_default
-          url="https://kingsds.network"
-        >
-          <img
-            alt="Kings Distributed Systems Logo"
-            css={
-              Object {
-                "width": "80%",
-              }
-            }
-            src="test-file-stub"
-          />
-        </_default>
-        <_default
-          url="https://sunlife.ca"
         >
           <div
             css={
               Object {
-                "padding": "20px",
-                "position": "relative",
+                "display": "grid",
+                "gridTemplateColumns": "1fr",
               }
             }
           >
-            <img
-              alt="SunLife Financial Logo"
-              css={
-                Object {
-                  "width": "100%",
+            <_default
+              url="https://tucows.com"
+            >
+              <img
+                alt="Tucows Logo"
+                css={
+                  Object {
+                    "@media(max-width: 460px)": Object {
+                      "width": "200px",
+                    },
+                    "@media(max-width: 680px)": Object {
+                      "width": "300px",
+                    },
+                    "@media(max-width: 980px)": Object {
+                      "width": "400px",
+                    },
+                    "width": "500px",
+                  }
                 }
-              }
-              src="test-file-stub"
-            />
+                data-cy="test-sponsor-image"
+                src="test-file-stub"
+              />
+            </_default>
           </div>
-        </_default>
-      </div>
-      <_default
-        url="http://www.iganpartners.com/"
-      >
-        <div
-          css={
-            Object {
-              "position": "relative",
-            }
-          }
-        >
-          <img
-            alt="IGan Partners Logo"
-            css={
-              Object {
-                "@media(max-width: 850px)": Object {
-                  "width": "100%",
-                },
-                "width": "70%",
-              }
-            }
-            src="test-file-stub"
-          />
         </div>
-      </_default>
-      <div
-        css={
-          Object {
-            "paddingTop": "75px",
-          }
-        }
-      >
         <div
           css={
             Object {
-              "@media(max-width: 850px)": Object {
-                "gridTemplateColumns": "1fr",
-              },
-              "display": "grid",
-              "gridTemplateColumns": "1fr 1fr 1fr",
+              "marginBottom": "80px",
             }
           }
         >
           <div
             css={
               Object {
-                "width": "100%",
+                "@media(max-width: 460px)": Object {
+                  "marginBottom": "20px",
+                },
+                "display": "grid",
+                "gridTemplateColumns": "1fr",
+                "marginBottom": "40px",
+              }
+            }
+          >
+            <_default
+              url="https://kingsds.network"
+            >
+              <img
+                alt="Kings Distributed Systems Logo"
+                css={
+                  Object {
+                    "@media(max-width: 460px)": Object {
+                      "width": "110px",
+                    },
+                    "@media(max-width: 680px)": Object {
+                      "width": "160px",
+                    },
+                    "@media(max-width: 980px)": Object {
+                      "width": "220px",
+                    },
+                    "width": "300px",
+                  }
+                }
+                src="test-file-stub"
+              />
+            </_default>
+          </div>
+          <div
+            css={
+              Object {
+                "@media(max-width: 460px)": Object {
+                  "gridTemplateColumns": "1fr",
+                },
+                "display": "grid",
+                "gridTemplateColumns": "1fr 1fr",
+              }
+            }
+          >
+            <_default
+              url="https://sunlife.ca"
+            >
+              <img
+                alt="Sun Life Financial Logo"
+                css={
+                  Object {
+                    "@media(max-width: 460px)": Object {
+                      "width": "150px",
+                    },
+                    "@media(max-width: 680px)": Object {
+                      "width": "200px",
+                    },
+                    "@media(max-width: 980px)": Object {
+                      "width": "300px",
+                    },
+                    "width": "400px",
+                  }
+                }
+                src="test-file-stub"
+              />
+            </_default>
+            <_default
+              url="http://www.iganpartners.com/"
+            >
+              <img
+                alt="iGan Partners Logo"
+                css={
+                  Object {
+                    "@media(max-width: 460px)": Object {
+                      "marginTop": "25px",
+                      "width": "140px",
+                    },
+                    "@media(max-width: 680px)": Object {
+                      "width": "200px",
+                    },
+                    "@media(max-width: 980px)": Object {
+                      "width": "300px",
+                    },
+                    "marginTop": "15px",
+                    "width": "400px",
+                  }
+                }
+                src="test-file-stub"
+              />
+            </_default>
+          </div>
+        </div>
+        <div
+          css={
+            Object {
+              "marginBottom": "80px",
+            }
+          }
+        >
+          <div
+            css={
+              Object {
+                "@media(max-width: 610px)": Object {
+                  "gridTemplateColumns": "1fr",
+                  "marginBottom": "20px",
+                },
+                "display": "grid",
+                "gridTemplateColumns": "1fr 1fr 1fr",
+                "marginBottom": "40px",
               }
             }
           >
@@ -159,27 +202,39 @@ exports[`Sponsors renders correctly 1`] = `
                 alt="Consensys Logo"
                 css={
                   Object {
-                    "width": "100%",
+                    "@media(max-width: 610px)": Object {
+                      "marginBottom": "20px",
+                      "width": "150px",
+                    },
+                    "@media(max-width: 910px)": Object {
+                      "width": "220px",
+                    },
+                    "width": "300px",
                   }
                 }
                 src="test-file-stub"
               />
             </_default>
-          </div>
-          <_default
-            url="https://td.ca"
-          >
-            <img
-              alt="TD Logo"
-              css={
-                Object {
-                  "width": "45%",
+            <_default
+              url="https://td.ca"
+            >
+              <img
+                alt="TD Logo"
+                css={
+                  Object {
+                    "@media(max-width: 610px)": Object {
+                      "marginBottom": "20px",
+                      "width": "40px",
+                    },
+                    "@media(max-width: 910px)": Object {
+                      "width": "70px",
+                    },
+                    "width": "100px",
+                  }
                 }
-              }
-              src="test-file-stub"
-            />
-          </_default>
-          <div>
+                src="test-file-stub"
+              />
+            </_default>
             <_default
               url="https://ratehub.ca"
             >
@@ -187,7 +242,249 @@ exports[`Sponsors renders correctly 1`] = `
                 alt="Ratehub Logo"
                 css={
                   Object {
-                    "width": "100%",
+                    "@media(max-width: 610px)": Object {
+                      "width": "140px",
+                    },
+                    "@media(max-width: 910px)": Object {
+                      "width": "200px",
+                    },
+                    "width": "275px",
+                  }
+                }
+                src="test-file-stub"
+              />
+            </_default>
+          </div>
+          <div
+            css={
+              Object {
+                "@media(max-width: 610px)": Object {
+                  "gridTemplateColumns": "1fr",
+                },
+                "display": "grid",
+                "gridTemplateColumns": "1fr 1fr",
+                "marginLeft": "auto",
+                "marginRight": "auto",
+                "width": "80%",
+              }
+            }
+          >
+            <_default
+              url="https://scotiabank.ca"
+            >
+              <img
+                alt="Scotiabank Logo"
+                css={
+                  Object {
+                    "@media(max-width: 610px)": Object {
+                      "marginBottom": "20px",
+                      "width": "150px",
+                    },
+                    "@media(max-width: 910px)": Object {
+                      "width": "220px",
+                    },
+                    "width": "300px",
+                  }
+                }
+                src="test-file-stub"
+              />
+            </_default>
+            <_default
+              url="https://loopio.com"
+            >
+              <img
+                alt="Loopio Logo"
+                css={
+                  Object {
+                    "@media(max-width: 610px)": Object {
+                      "width": "80px",
+                    },
+                    "@media(max-width: 910px)": Object {
+                      "width": "120px",
+                    },
+                    "width": "170px",
+                  }
+                }
+                src="test-file-stub"
+              />
+            </_default>
+          </div>
+        </div>
+        <div>
+          <div
+            css={
+              Object {
+                "@media(max-width: 610px)": Object {
+                  "gridTemplateColumns": "1fr",
+                  "marginBottom": "0px",
+                },
+                "@media(max-width: 760px)": Object {
+                  "gridTemplateColumns": "1fr 1fr",
+                  "marginBottom": "10px",
+                  "marginLeft": "auto",
+                  "marginRight": "auto",
+                  "width": "60%",
+                },
+                "display": "grid",
+                "gridTemplateColumns": "1fr 1fr 1fr 1fr",
+                "marginBottom": "40px",
+              }
+            }
+          >
+            <_default
+              url="https://balsamiq.com"
+            >
+              <img
+                alt="Balsamiq Logo"
+                css={
+                  Object {
+                    "@media(max-width: 610px)": Object {
+                      "marginBottom": "10px",
+                      "width": "80px",
+                    },
+                    "@media(max-width: 760px)": Object {
+                      "marginBottom": "30px",
+                      "width": "120px",
+                    },
+                    "width": "150px",
+                  }
+                }
+                src="test-file-stub"
+              />
+            </_default>
+            <_default
+              url="https://wolfram.com/language/"
+            >
+              <img
+                alt="Wolfram Logo"
+                css={
+                  Object {
+                    "@media(max-width: 610px)": Object {
+                      "marginBottom": "10px",
+                      "width": "80px",
+                    },
+                    "@media(max-width: 760px)": Object {
+                      "width": "120px",
+                    },
+                    "width": "150px",
+                  }
+                }
+                src="test-file-stub"
+              />
+            </_default>
+            <_default
+              url="https://ritual.co"
+            >
+              <img
+                alt="Ritual Logo"
+                css={
+                  Object {
+                    "@media(max-width: 610px)": Object {
+                      "marginBottom": "10px",
+                      "width": "80px",
+                    },
+                    "@media(max-width: 760px)": Object {
+                      "width": "120px",
+                    },
+                    "marginTop": "5px",
+                    "width": "150px",
+                  }
+                }
+                src="test-file-stub"
+              />
+            </_default>
+            <_default
+              url="https://1password.com/"
+            >
+              <img
+                alt="One Password Logo"
+                css={
+                  Object {
+                    "@media(max-width: 610px)": Object {
+                      "width": "80px",
+                    },
+                    "@media(max-width: 760px)": Object {
+                      "width": "140px",
+                    },
+                    "marginTop": "5px",
+                    "width": "170px",
+                  }
+                }
+                src="test-file-stub"
+              />
+            </_default>
+          </div>
+          <div
+            css={
+              Object {
+                "@media(max-width: 760px)": Object {
+                  "gridTemplateColumns": "1fr",
+                },
+                "display": "grid",
+                "gridTemplateColumns": "1fr 1fr 1fr",
+                "marginLeft": "auto",
+                "marginRight": "auto",
+                "width": "80%",
+              }
+            }
+          >
+            <_default
+              url="https://sketchapp.com"
+            >
+              <img
+                alt="Sketch Logo"
+                css={
+                  Object {
+                    "@media(max-width: 610px)": Object {
+                      "width": "80px",
+                    },
+                    "@media(max-width: 760px)": Object {
+                      "marginBottom": "20px",
+                      "width": "140px",
+                    },
+                    "marginTop": "20px",
+                    "width": "200px",
+                  }
+                }
+                src="test-file-stub"
+              />
+            </_default>
+            <_default
+              url="https://wake-ups.com"
+            >
+              <img
+                alt="Wakeups Logo"
+                css={
+                  Object {
+                    "@media(max-width: 610px)": Object {
+                      "width": "50px",
+                    },
+                    "@media(max-width: 760px)": Object {
+                      "marginBottom": "10px",
+                      "width": "80px",
+                    },
+                    "width": "100px",
+                  }
+                }
+                src="test-file-stub"
+              />
+            </_default>
+            <_default
+              url="https://www.launchacademy.ca/"
+            >
+              <img
+                alt="Launch Academy Logo"
+                css={
+                  Object {
+                    "@media(max-width: 610px)": Object {
+                      "marginTop": "10px",
+                      "width": "80px",
+                    },
+                    "@media(max-width: 760px)": Object {
+                      "width": "140px",
+                    },
+                    "marginTop": "18px",
+                    "width": "200px",
                   }
                 }
                 src="test-file-stub"
@@ -199,182 +496,15 @@ exports[`Sponsors renders correctly 1`] = `
       <div
         css={
           Object {
-            "@media(max-width: 850px)": Object {
-              "gridTemplateColumns": "1fr",
-            },
-            "display": "grid",
-            "gridTemplateColumns": "1fr 1fr",
-            "marginLeft": "auto",
-            "marginRight": "auto",
-            "width": "80%",
-          }
-        }
-      >
-        <div>
-          <_default
-            url="https://scotiabank.ca"
-          >
-            <img
-              alt="Scotiabank Logo"
-              css={
-                Object {
-                  "width": "100%",
-                }
-              }
-              src="test-file-stub"
-            />
-          </_default>
-        </div>
-        <div
-          css={
-            Object {
-              " img": Object {
-                "width": "65%",
-              },
-            }
-          }
-        >
-          <_default
-            url="https://loopio.com"
-          >
-            <img
-              alt="Loopio Logo"
-              src="test-file-stub"
-            />
-          </_default>
-        </div>
-      </div>
-      <div
-        css={
-          Object {
-            "@media(max-width: 850px)": Object {
-              "marginLeft": "auto",
-              "marginRight": "auto",
-              "width": "50%",
-            },
-            "display": "grid",
-            "gridTemplateColumns": "1fr 1fr 1fr 1fr",
-            "paddingTop": "50px",
-          }
-        }
-      >
-        <_default
-          url="https://balsamiq.com"
-        >
-          <img
-            alt="Balsamiq Logo"
-            css={
-              Object {
-                "width": "80%",
-              }
-            }
-            src="test-file-stub"
-          />
-        </_default>
-        <_default
-          url="https://wolfram.com/language/"
-        >
-          <img
-            alt="Wolfram Logo"
-            css={
-              Object {
-                "width": "80%",
-              }
-            }
-            src="test-file-stub"
-          />
-        </_default>
-        <_default
-          url="https://ritual.co"
-        >
-          <img
-            alt="Ritual Logo"
-            css={
-              Object {
-                "width": "100%",
-              }
-            }
-            src="test-file-stub"
-          />
-        </_default>
-        <_default
-          url="https://wake-ups.com"
-        >
-          <img
-            alt="Wakeups Logo"
-            css={
-              Object {
-                "width": "50%",
-              }
-            }
-            src="test-file-stub"
-          />
-        </_default>
-      </div>
-      <div
-        css={
-          Object {
-            "display": "grid",
-            "gridTemplateColumns": "1fr 1fr 1fr",
-            "marginLeft": "auto",
-            "marginRight": "auto",
-            "width": "50%",
-          }
-        }
-      >
-        <_default
-          url="https://sketchapp.com"
-        >
-          <img
-            alt="Sketch Logo"
-            css={
-              Object {
-                "width": "100%",
-              }
-            }
-            src="test-file-stub"
-          />
-        </_default>
-        <_default
-          url="https://www.launchacademy.ca/"
-        >
-          <img
-            alt="OnePassword Logo"
-            css={
-              Object {
-                "marginTop": "7px",
-                "width": "100%",
-              }
-            }
-            src="test-file-stub"
-          />
-        </_default>
-        <_default
-          url="https://www.launchacademy.ca/"
-        >
-          <img
-            alt="Launch Academy Logo"
-            css={
-              Object {
-                "width": "100%",
-              }
-            }
-            src="test-file-stub"
-          />
-        </_default>
-      </div>
-      <div
-        css={
-          Object {
-            "paddingBottom": "100px",
-            "paddingTop": "100px",
+            "paddingBottom": "70px",
+            "paddingTop": "70px",
           }
         }
       >
         <h1
           css={
             Object {
-              "paddingBottom": "48px",
+              "paddingBottom": "40px",
             }
           }
         >
@@ -402,6 +532,7 @@ exports[`Sponsors renders correctly 1`] = `
             css={
               Object {
                 "fontSize": "16px",
+                "fontWeight": "bold",
               }
             }
             data-cy="partners-email-prompt"
@@ -422,38 +553,184 @@ exports[`Sponsors renders correctly 1`] = `
       <div
         css={
           Object {
-            "display": "grid",
-            "gridTemplateColumns": "1fr 1fr",
-            "paddingBottom": "100px",
+            "marginBottom": "100px",
           }
         }
       >
-        <_default
-          url="https://queensu.ca/innovationcentre/"
-        >
-          <img
-            alt="QIC Logo"
-            css={
-              Object {
-                "width": "100%",
-              }
+        <div
+          css={
+            Object {
+              "@media(max-width: 570px)": Object {
+                "gridTemplateColumns": "1fr",
+                "marginBottom": "20px",
+              },
+              "display": "grid",
+              "gridTemplateColumns": "1fr 1fr",
+              "marginBottom": "40px",
             }
-            src="test-file-stub"
-          />
-        </_default>
-        <_default
-          url="https://smith.queensu.ca/grad_studies/mei/"
+          }
         >
-          <img
-            alt="MMIE Logo"
-            css={
-              Object {
-                "width": "100%",
+          <_default
+            url="https://smith.queensu.ca/grad_studies/mei/"
+          >
+            <img
+              alt="MMIE Logo"
+              css={
+                Object {
+                  "@media(max-width: 460px)": Object {
+                    "width": "200px",
+                  },
+                  "@media(max-width: 680px)": Object {
+                    "width": "250px",
+                  },
+                  "@media(max-width: 980px)": Object {
+                    "width": "310px",
+                  },
+                  "width": "400px",
+                }
               }
+              src="test-file-stub"
+            />
+          </_default>
+          <_default
+            url="https://queensu.ca/innovationcentre/"
+          >
+            <img
+              alt="QIC Logo"
+              css={
+                Object {
+                  "@media(max-width: 460px)": Object {
+                    "width": "200px",
+                  },
+                  "@media(max-width: 680px)": Object {
+                    "width": "250px",
+                  },
+                  "@media(max-width: 980px)": Object {
+                    "width": "310px",
+                  },
+                  "marginTop": "25px",
+                  "width": "400px",
+                }
+              }
+              src="test-file-stub"
+            />
+          </_default>
+        </div>
+        <div
+          css={
+            Object {
+              "@media(max-width: 570px)": Object {
+                "gridTemplateColumns": "1fr",
+                "marginBottom": "20px",
+              },
+              "display": "grid",
+              "gridTemplateColumns": "1fr 1fr 1fr",
+              "marginBottom": "40px",
             }
-            src="test-file-stub"
-          />
-        </_default>
+          }
+        >
+          <_default
+            url="https://www.bloomberg.com/canada"
+          >
+            <img
+              alt="Bloomberg Logo"
+              css={
+                Object {
+                  "@media(max-width: 460px)": Object {
+                    "width": "130px",
+                  },
+                  "@media(max-width: 680px)": Object {
+                    "marginBottom": "10px",
+                    "width": "160px",
+                  },
+                  "@media(max-width: 980px)": Object {
+                    "width": "180px",
+                  },
+                  "marginTop": "30px",
+                  "width": "200px",
+                }
+              }
+              src="test-file-stub"
+            />
+          </_default>
+          <_default
+            url="https://www.stickermule.com/ca"
+          >
+            <img
+              alt="Stickermule Logo"
+              css={
+                Object {
+                  "@media(max-width: 460px)": Object {
+                    "width": "90px",
+                  },
+                  "@media(max-width: 680px)": Object {
+                    "width": "120px",
+                  },
+                  "@media(max-width: 980px)": Object {
+                    "width": "140px",
+                  },
+                  "width": "150px",
+                }
+              }
+              src="test-file-stub"
+            />
+          </_default>
+          <_default
+            url="https://education.github.com/pack"
+          >
+            <img
+              alt="GitHub Logo"
+              css={
+                Object {
+                  "@media(max-width: 460px)": Object {
+                    "width": "90px",
+                  },
+                  "@media(max-width: 680px)": Object {
+                    "width": "120px",
+                  },
+                  "@media(max-width: 980px)": Object {
+                    "width": "140px",
+                  },
+                  "marginTop": "25px",
+                  "width": "150px",
+                }
+              }
+              src="test-file-stub"
+            />
+          </_default>
+        </div>
+        <div
+          css={
+            Object {
+              "display": "grid",
+              "gridTemplateColumns": "1fr",
+            }
+          }
+        >
+          <_default
+            url="https://mlh.io/"
+          >
+            <img
+              alt="MLH Logo"
+              css={
+                Object {
+                  "@media(max-width: 460px)": Object {
+                    "width": "80px",
+                  },
+                  "@media(max-width: 680px)": Object {
+                    "width": "100px",
+                  },
+                  "@media(max-width: 980px)": Object {
+                    "width": "130px",
+                  },
+                  "marginTop": "25px",
+                  "width": "150px",
+                }
+              }
+              src="test-file-stub"
+            />
+          </_default>
+        </div>
       </div>
     </div>
   </_default>
