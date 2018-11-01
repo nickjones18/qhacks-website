@@ -11,18 +11,20 @@ const Menu = (props) => {
         gridTemplateColumns: "min-content auto"
       }}
     >
-      <img
-        css={{
-          paddingTop: "20px",
-          paddingBottom: "20px",
-          transition: "0.5s",
-          "@media(min-width:820px)": {
-            opacity: props.imgCss ? "1" : "0"
-          }
-        }}
-        src={colored}
-        alt="QHacks Crown"
-      />
+      <a href="/#">
+        <img
+          css={{
+            paddingTop: "20px",
+            paddingBottom: "20px",
+            transition: "0.5s",
+            "@media(min-width:820px)": {
+              opacity: props.imgCss ? "1" : "0"
+            }
+          }}
+          src={colored}
+          alt="QHacks Crown"
+        />
+      </a>
       <div
         align="right"
         css={{

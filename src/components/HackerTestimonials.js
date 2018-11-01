@@ -68,6 +68,7 @@ class HackerTestimonials extends Component {
     );
     return (
       <section
+        id="testimonials"
         style={{
           overflowX: "hidden"
         }}
@@ -75,7 +76,6 @@ class HackerTestimonials extends Component {
         <ContentWrapper>
           <MediaQuery query="screen and (min-width: 1000px)">
             <div
-              id="testimonials"
               style={{
                 height: "575px",
                 position: "relative"
