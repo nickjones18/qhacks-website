@@ -5,7 +5,7 @@ exports[`Landing renders correctly 1`] = `
   css={
     Object {
       "@media(max-width: 600px)": Object {
-        "minHeight": "750px",
+        "minHeight": "600px",
       },
       "background": "url(test-file-stub) no-repeat center center",
       "backgroundSize": "cover",

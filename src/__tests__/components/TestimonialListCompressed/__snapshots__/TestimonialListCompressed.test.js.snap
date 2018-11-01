@@ -15,13 +15,13 @@ exports[`TestimonialList renders correctly 1`] = `
     onSwipe={[Function]}
   >
     <div
-      key="Justin Perkins DoppelGallery"
-      style={
+      css={
         Object {
           "margin": "0 auto",
           "maxWidth": "700px",
         }
       }
+      key="Justin Perkins DoppelGallery"
     >
       <TestimonialCard
         index={0}
@@ -37,13 +37,13 @@ exports[`TestimonialList renders correctly 1`] = `
       />
     </div>
     <div
-      key="Ross Hill Dolores"
-      style={
+      css={
         Object {
           "margin": "0 auto",
           "maxWidth": "700px",
         }
       }
+      key="Ross Hill Dolores"
     >
       <TestimonialCard
         index={1}
@@ -59,13 +59,13 @@ exports[`TestimonialList renders correctly 1`] = `
       />
     </div>
     <div
-      key="Joey Tepperman Dolores"
-      style={
+      css={
         Object {
           "margin": "0 auto",
           "maxWidth": "700px",
         }
       }
+      key="Joey Tepperman Dolores"
     >
       <TestimonialCard
         index={2}

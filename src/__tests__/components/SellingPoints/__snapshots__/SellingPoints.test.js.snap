@@ -2,7 +2,7 @@
 
 exports[`SellingPoints renders correctly 1`] = `
 <div
-  style={
+  css={
     Object {
       "position": "relative",
     }
@@ -12,6 +12,9 @@ exports[`SellingPoints renders correctly 1`] = `
     <div
       css={
         Object {
+          "@media(max-width: 840px)": Object {
+            "padding": "143px 0 50px 0",
+          },
           "margin": "0 -28px",
           "padding": "143px 0",
         }
@@ -230,7 +233,7 @@ exports[`SellingPoints renders correctly 1`] = `
               "left": "-40px",
               "width": "358px",
             },
-            "@media(max-width: 820px)": Object {
+            "@media(max-width: 840px)": Object {
               "display": "none",
             },
             "bottom": "-140px",

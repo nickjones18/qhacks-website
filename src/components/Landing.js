@@ -8,7 +8,7 @@ import banner from "../assets/img/sponsors/mlh.svg";
 import landingImg from "../assets/img/icons/landingImg.svg";
 import logo from "../assets/img/logo/qhacksCrown-colored.svg";
 import word from "../assets/img/logo/qhacksWordmark-colored.svg";
-import backgroundCubes from "../assets/img/icons/backgroundCubes.svg";
+import backgroundCubes from "../assets/img/backgrounds/backgroundCubes.svg";
 
 const menuItems = [
   "about",
@@ -35,7 +35,7 @@ const Landing = () => (
       background: `url(${backgroundCubes}) no-repeat center center`,
       backgroundSize: "cover",
       "@media(max-width: 600px)": {
-        minHeight: "750px"
+        minHeight: "600px"
       }
     }}
   >

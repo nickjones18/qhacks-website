@@ -7,7 +7,7 @@ describe("ActionButton", () => {
     expect(
       shallow(
         <ActionButton
-          style={{ padding: "10px", margin: "10px" }}
+          css={{ padding: "10px", margin: "10px" }}
           text="TeSt1"
           backgroundColor="#000000"
           foregroundColor="#ffffff"
@@ -23,7 +23,7 @@ describe("ActionButton", () => {
     expect(
       shallow(
         <ActionButton
-          style={{ padding: "10px", margin: "10px" }}
+          css={{ padding: "10px", margin: "10px" }}
           text="tEsT2"
           backgroundColor="#000000"
           foregroundColor="#ffffff"

@@ -15,9 +15,10 @@ const TestimonialsBlurb = (props) => {
     fontWeight: 500,
     fontSize: "20px"
   };
+
   return (
     <div
-      style={{
+      css={{
         width: "50%",
         height: "100%",
         position: "absolute",
@@ -28,13 +29,13 @@ const TestimonialsBlurb = (props) => {
         justifyContent: "right"
       }}
     >
-      <div style={{ marginRight: "64px" }}>
-        <h1 style={{ marginBottom: "30px" }}>Hacker Testimonials</h1>
-        <p style={{ ...blurbStyle }}>{props.text}</p>
-        <div style={{ marginTop: "65px" }}>
+      <div css={{ marginRight: "64px" }}>
+        <h1 css={{ marginBottom: "30px" }}>Hacker Testimonials</h1>
+        <p css={{ ...blurbStyle }}>{props.text}</p>
+        <div css={{ marginTop: "65px" }}>
           <input
             onClick={() => props.prevTestimonial()}
-            style={{
+            css={{
               ...arrowStyle,
               marginRight: "64px",
               opacity: props.firstTestimonial ? 0.2 : 1
@@ -45,7 +46,7 @@ const TestimonialsBlurb = (props) => {
           />
           <input
             onClick={() => props.nextTestimonial()}
-            style={{
+            css={{
               ...arrowStyle,
               opacity: props.lastTestimonial ? 0.2 : 1
             }}

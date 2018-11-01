@@ -2,13 +2,13 @@
 
 exports[`Speakers renders correctly 1`] = `
 <section
-  id="speakers"
-  style={
+  css={
     Object {
       "backgroundColor": "#f8f8f8",
       "position": "relative",
     }
   }
+  id="speakers"
 >
   <_default>
     <h1

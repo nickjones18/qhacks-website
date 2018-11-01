@@ -16,7 +16,7 @@ const TestimonialList = (props) => {
   ));
   return (
     <div
-      style={{
+      css={{
         width: "50%",
         height: "100%",
         position: "absolute",
@@ -27,7 +27,7 @@ const TestimonialList = (props) => {
       }}
     >
       <div
-        style={{
+        css={{
           display: "flex",
           whiteSpace: "nowrap"
         }}

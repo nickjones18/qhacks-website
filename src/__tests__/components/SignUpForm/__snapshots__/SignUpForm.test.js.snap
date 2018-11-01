@@ -2,7 +2,7 @@
 
 exports[`SignUpForm renders correctly 1`] = `
 <div
-  style={
+  css={
     Object {
       "margin": "12px 0 0 8px",
       "maxWidth": "530px",
@@ -11,7 +11,7 @@ exports[`SignUpForm renders correctly 1`] = `
   }
 >
   <div
-    style={
+    css={
       Object {
         "alignItems": "center",
         "display": "flex",
@@ -21,10 +21,7 @@ exports[`SignUpForm renders correctly 1`] = `
     }
   >
     <input
-      data-cy="signup-input"
-      onChange={[Function]}
-      placeholder="Enter your email address"
-      style={
+      css={
         Object {
           "border": "none",
           "borderRadius": "4px",
@@ -36,20 +33,23 @@ exports[`SignUpForm renders correctly 1`] = `
           "padding": "0 16px",
         }
       }
+      data-cy="signup-input"
+      onChange={[Function]}
+      placeholder="Enter your email address"
       type="email"
       value=""
     />
     <ActionButton
       backgroundColor="white"
-      data-cy="signup-button"
-      disabled={false}
-      foregroundColor="black"
-      onClick={[Function]}
-      style={
+      css={
         Object {
           "margin": "4px",
         }
       }
+      data-cy="signup-button"
+      disabled={false}
+      foregroundColor="black"
+      onClick={[Function]}
       type="rect"
       width="130px"
     >
@@ -57,7 +57,7 @@ exports[`SignUpForm renders correctly 1`] = `
     </ActionButton>
   </div>
   <p
-    style={
+    css={
       Object {
         "fontWeight": "500",
         "height": "22px",

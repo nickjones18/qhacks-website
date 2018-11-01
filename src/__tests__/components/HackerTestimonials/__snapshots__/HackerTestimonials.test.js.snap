@@ -2,12 +2,12 @@
 
 exports[`HackerTestimonials renders correctly 1`] = `
 <section
-  id="testimonials"
-  style={
+  css={
     Object {
       "overflowX": "hidden",
     }
   }
+  id="testimonials"
 >
   <_default>
     <MediaQuery
@@ -15,7 +15,7 @@ exports[`HackerTestimonials renders correctly 1`] = `
       values={Object {}}
     >
       <div
-        style={
+        css={
           Object {
             "height": "575px",
             "position": "relative",
@@ -70,7 +70,7 @@ exports[`HackerTestimonials renders correctly 1`] = `
       values={Object {}}
     >
       <div
-        style={
+        css={
           Object {
             "margin": "0 0 80px 0",
           }
