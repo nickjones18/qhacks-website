@@ -2,7 +2,7 @@
 
 exports[`SellingPoints renders correctly 1`] = `
 <div
-  style={
+  css={
     Object {
       "position": "relative",
     }

@@ -27,7 +27,7 @@ const speakers = [
 
 const Speakers = () => (
   <section
-    style={{
+    css={{
       backgroundColor: "#f8f8f8",
       position: "relative"
     }}

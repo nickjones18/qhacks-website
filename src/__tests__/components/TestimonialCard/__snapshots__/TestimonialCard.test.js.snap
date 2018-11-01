@@ -2,7 +2,7 @@
 
 exports[`TestimonialCard0 renders correctly 1`] = `
 <div
-  style={
+  css={
     Object {
       "backgroundColor": "white",
       "border": "solid 1px #e8e8e8",
@@ -23,7 +23,7 @@ exports[`TestimonialCard0 renders correctly 1`] = `
   }
 >
   <div
-    style={
+    css={
       Object {
         "alignItems": "center",
         "display": "flex",
@@ -33,17 +33,17 @@ exports[`TestimonialCard0 renders correctly 1`] = `
   >
     <img
       alt=""
-      src="test-file-stub"
-      style={
+      css={
         Object {
           "borderRadius": "50%",
           "height": "72px",
           "width": "72px",
         }
       }
+      src="test-file-stub"
     />
     <div
-      style={
+      css={
         Object {
           "display": "inline-block",
           "marginLeft": "24px",
@@ -51,7 +51,7 @@ exports[`TestimonialCard0 renders correctly 1`] = `
       }
     >
       <strong
-        style={
+        css={
           Object {
             "display": "block",
             "fontSize": "20px",
@@ -63,7 +63,7 @@ exports[`TestimonialCard0 renders correctly 1`] = `
       </strong>
       <strong>
         <span
-          style={
+          css={
             Object {
               "color": "#838383",
               "fontWeight": 600,
@@ -74,12 +74,12 @@ exports[`TestimonialCard0 renders correctly 1`] = `
         </span>
          
         <a
-          rel="external nofollow"
-          style={
+          css={
             Object {
               "fontWeight": 600,
             }
           }
+          rel="external nofollow"
           target="_blank"
         >
           Dolores
@@ -88,7 +88,7 @@ exports[`TestimonialCard0 renders correctly 1`] = `
     </div>
   </div>
   <p
-    style={
+    css={
       Object {
         "fontSize": "15px",
         "lineHeight": "32px",
@@ -99,21 +99,21 @@ exports[`TestimonialCard0 renders correctly 1`] = `
   </p>
   <img
     alt=""
-    src="test-file-stub"
-    style={
+    css={
       Object {
         "bottom": 24,
         "position": "absolute",
         "right": 40,
       }
     }
+    src="test-file-stub"
   />
 </div>
 `;
 
 exports[`TestimonialCard1 renders correctly 1`] = `
 <div
-  style={
+  css={
     Object {
       "backgroundColor": "white",
       "border": "solid 1px #e8e8e8",
@@ -134,7 +134,7 @@ exports[`TestimonialCard1 renders correctly 1`] = `
   }
 >
   <div
-    style={
+    css={
       Object {
         "alignItems": "center",
         "display": "flex",
@@ -144,17 +144,17 @@ exports[`TestimonialCard1 renders correctly 1`] = `
   >
     <img
       alt=""
-      src="test-file-stub"
-      style={
+      css={
         Object {
           "borderRadius": "50%",
           "height": "72px",
           "width": "72px",
         }
       }
+      src="test-file-stub"
     />
     <div
-      style={
+      css={
         Object {
           "display": "inline-block",
           "marginLeft": "24px",
@@ -162,7 +162,7 @@ exports[`TestimonialCard1 renders correctly 1`] = `
       }
     >
       <strong
-        style={
+        css={
           Object {
             "display": "block",
             "fontSize": "20px",
@@ -174,7 +174,7 @@ exports[`TestimonialCard1 renders correctly 1`] = `
       </strong>
       <strong>
         <span
-          style={
+          css={
             Object {
               "color": "#838383",
               "fontWeight": 600,
@@ -185,12 +185,12 @@ exports[`TestimonialCard1 renders correctly 1`] = `
         </span>
          
         <a
-          rel="external nofollow"
-          style={
+          css={
             Object {
               "fontWeight": 600,
             }
           }
+          rel="external nofollow"
           target="_blank"
         >
           Test1
@@ -199,7 +199,7 @@ exports[`TestimonialCard1 renders correctly 1`] = `
     </div>
   </div>
   <p
-    style={
+    css={
       Object {
         "fontSize": "15px",
         "lineHeight": "32px",
@@ -210,14 +210,14 @@ exports[`TestimonialCard1 renders correctly 1`] = `
   </p>
   <img
     alt=""
-    src="test-file-stub"
-    style={
+    css={
       Object {
         "bottom": 24,
         "position": "absolute",
         "right": 40,
       }
     }
+    src="test-file-stub"
   />
 </div>
 `;

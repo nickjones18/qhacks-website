@@ -2,7 +2,7 @@
 
 exports[`TestimonialList renders correctly 1`] = `
 <div
-  style={
+  css={
     Object {
       "alignItems": "center",
       "display": "flex",
@@ -15,7 +15,7 @@ exports[`TestimonialList renders correctly 1`] = `
   }
 >
   <div
-    style={
+    css={
       Object {
         "display": "flex",
         "whiteSpace": "nowrap",

@@ -9,7 +9,7 @@ exports[`MobileMenu renders correctly 1`] = `
         "display": "none",
       },
       "marginLeft": "auto",
-      "padding": "32px",
+      "paddingTop": "32px",
     }
   }
 >

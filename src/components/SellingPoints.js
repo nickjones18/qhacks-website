@@ -45,7 +45,7 @@ const imgStyle = {
 };
 
 const SellingPoints = () => (
-  <div style={{ position: "relative" }}>
+  <div css={{ position: "relative" }}>
     <ContentWrapper>
       <div css={{
         padding: "143px 0",

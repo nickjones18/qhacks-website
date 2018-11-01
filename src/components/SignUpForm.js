@@ -92,7 +92,7 @@ class SignUpForm extends Component {
       buttonContent = (
         <img
           src={whiteIcons ? spinnerWhite : spinner}
-          style={{
+          css={{
             animation: "spin 2s infinite linear"
           }}
           alt=""
@@ -120,14 +120,14 @@ class SignUpForm extends Component {
 
     return (
       <div
-        style={{
+        css={{
           maxWidth: "530px",
           margin: this.props.center ? "0 auto" : "12px 0 0 8px",
           width: "100%"
         }}
       >
         <div
-          style={{
+          css={{
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
@@ -137,7 +137,7 @@ class SignUpForm extends Component {
           <input
             placeholder="Enter your email address"
             type="email"
-            style={{
+            css={{
               flexGrow: 2,
               padding: "0 16px",
               height: "48px",
@@ -158,7 +158,7 @@ class SignUpForm extends Component {
             type="rect"
             onClick={() => this.signUp()}
             width="130px"
-            style={{ margin: "4px" }}
+            css={{ margin: "4px" }}
             disabled={!!this.state.status}
             data-cy={this.props.dataCyButton || "signup-button"}
           >
@@ -166,7 +166,7 @@ class SignUpForm extends Component {
           </ActionButton>
         </div>
         <p
-          style={{
+          css={{
             marginTop: "8px",
             height: "22px",
             fontWeight: "500",

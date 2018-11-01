@@ -4,7 +4,7 @@ import quotes from "../assets/img/icons/quotesIcon.svg";
 
 const TestimonialCard = (props) => (
   <div
-    style={{
+    css={{
       display: props.mobile ? "block" : "inline-block",
       height: props.mobile ? null : "375px",
       whiteSpace: "normal",
@@ -25,7 +25,7 @@ const TestimonialCard = (props) => (
     }}
   >
     <div
-      style={{
+      css={{
         display: "flex",
         alignItems: "center",
         marginBottom: "20px"
@@ -33,12 +33,12 @@ const TestimonialCard = (props) => (
     >
       <img
         src={props.item.image}
-        style={{ borderRadius: "50%", height: "72px", width: "72px" }}
+        css={{ borderRadius: "50%", height: "72px", width: "72px" }}
         alt=""
       />
-      <div style={{ display: "inline-block", marginLeft: "24px" }}>
+      <div css={{ display: "inline-block", marginLeft: "24px" }}>
         <strong
-          style={{
+          css={{
             marginBottom: "8px",
             fontSize: "20px",
             display: "block"
@@ -48,12 +48,12 @@ const TestimonialCard = (props) => (
         </strong>
         {props.item.project ? (
           <strong>
-            <span style={{ color: "#838383", fontWeight: 600 }}>Project:</span>{" "}
+            <span css={{ color: "#838383", fontWeight: 600 }}>Project:</span>{" "}
             <a
               rel="external nofollow"
               target="_blank"
               href={props.item.projectLink}
-              style={{ fontWeight: 600 }}
+              css={{ fontWeight: 600 }}
             >
               {props.item.project}
             </a>
@@ -64,7 +64,7 @@ const TestimonialCard = (props) => (
       </div>
     </div>
     <p
-      style={{
+      css={{
         lineHeight: "32px",
         fontSize: "15px"
       }}
@@ -73,7 +73,7 @@ const TestimonialCard = (props) => (
     </p>
     <img
       src={quotes}
-      style={{
+      css={{
         position: "absolute",
         bottom: 24,
         right: 40
