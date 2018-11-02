@@ -5,7 +5,7 @@ export default (props) => (
   <OutboundLink
     href={props.url}
     target="_blank"
-    rel="noopener noreferrer"
+    rel="external noopener"
     data-cy="sponsor-link"
   >
     {props.children}

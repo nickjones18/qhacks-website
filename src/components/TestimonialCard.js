@@ -50,7 +50,7 @@ const TestimonialCard = (props) => (
           <strong>
             <span css={{ color: "#838383", fontWeight: 600 }}>Project:</span>{" "}
             <a
-              rel="external nofollow"
+              rel="external noopener"
               target="_blank"
               href={props.item.projectLink}
               css={{ fontWeight: 600 }}

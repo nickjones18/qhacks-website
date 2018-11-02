@@ -158,7 +158,7 @@ exports[`Footer renders correctly 1`] = `
             }
             data-cy="footer-dev-plug"
             href="https://github.com/qhacks/qhacks-website"
-            rel="noopener noreferrer"
+            rel="external noopener"
             target="_blank"
           >
             &lt; /&gt;
@@ -611,7 +611,7 @@ exports[`Footer renders correctly 1`] = `
           }
           data-cy="footer-dev-plug"
           href="https://github.com/qhacks/qhacks-website"
-          rel="noopener noreferrer"
+          rel="external noopener"
           target="_blank"
         >
           &lt; /&gt;

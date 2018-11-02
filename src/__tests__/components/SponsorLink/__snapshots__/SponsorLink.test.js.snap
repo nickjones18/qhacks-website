@@ -4,7 +4,7 @@ exports[`SponsorLink renders correctly 1`] = `
 <OutboundLink
   data-cy="sponsor-link"
   href="https://www.youtube.com/watch?v=6n3pFFPSlW4"
-  rel="noopener noreferrer"
+  rel="external noopener"
   target="_blank"
 />
 `;

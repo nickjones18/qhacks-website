@@ -185,7 +185,7 @@ const Footer = () => (
               css={{ ...finePrint, fontWeight: "400" }}
               href="https://github.com/qhacks/qhacks-website"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="external noopener"
             >
               {"< />"} with ♡ by Queen&#39;s students
             </a>
@@ -341,7 +341,7 @@ const Footer = () => (
             css={{ ...finePrint, fontWeight: "400" }}
             href="https://github.com/qhacks/qhacks-website"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="external noopener"
           >
             {"< />"} with ♡ by Queen&#39;s students
           </a>

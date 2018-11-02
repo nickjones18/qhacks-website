@@ -70,7 +70,9 @@ export default () => (
           href: `${favicon}`
         }
       ]}
-    />
+    >
+      <html lang="en" />
+    </Helmet>
     <div>
       <Landing />
       <MailingListSignup />
