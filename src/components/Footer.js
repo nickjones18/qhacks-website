@@ -180,7 +180,13 @@ const Footer = () => (
             >
               Queen&#39;s University | 99 University Ave, Kingston, ON
             </p>
-            <a data-cy="footer-dev-plug" css={{ ...finePrint, fontWeight: "400" }} href="https://github.com/qhacks/qhacks-website" target="_blank" rel="noopener noreferrer">
+            <a
+              data-cy="footer-dev-plug"
+              css={{ ...finePrint, fontWeight: "400" }}
+              href="https://github.com/qhacks/qhacks-website"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {"< />"} with ♡ by Queen&#39;s students
             </a>
             <p
@@ -287,7 +293,7 @@ const Footer = () => (
                   }
                 }}
               >
-                <a href={url} css={{}}>
+                <a aria-label={label} href={url} css={{}}>
                   <div
                     css={{
                       backgroundColor: "#e3e3e3",
@@ -330,7 +336,13 @@ const Footer = () => (
           >
             Queen&#39;s University | 99 University Ave, Kingston, ON
           </p>
-          <a data-cy="footer-dev-plug" css={{ ...finePrint, fontWeight: "400" }} href="https://github.com/qhacks/qhacks-website" target="_blank" rel="noopener noreferrer">
+          <a
+            data-cy="footer-dev-plug"
+            css={{ ...finePrint, fontWeight: "400" }}
+            href="https://github.com/qhacks/qhacks-website"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             {"< />"} with ♡ by Queen&#39;s students
           </a>
           <p

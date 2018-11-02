@@ -47,13 +47,15 @@ const imgStyle = {
 const SellingPoints = () => (
   <div css={{ position: "relative" }}>
     <ContentWrapper>
-      <div css={{
-        padding: "143px 0",
-        margin: "0 -28px",
-        "@media(max-width: 840px)": {
-          padding: "143px 0 50px 0"
-        }
-      }}>
+      <div
+        css={{
+          padding: "143px 0",
+          margin: "0 -28px",
+          "@media(max-width: 840px)": {
+            padding: "143px 0 50px 0"
+          }
+        }}
+      >
         <div
           css={{
             ...twoColumnStyle,
@@ -92,8 +94,8 @@ const SellingPoints = () => (
           </div>
           <div css={flexChildStyle}>
             <picture css={imgStyle}>
-              <source srcset={qhacksSellingPointOnewebp} type="image/webp" />
-              <source srcset={qhacksSellingPointOnejpg} type="image/jpg" />
+              <source srcSet={qhacksSellingPointOnewebp} type="image/webp" />
+              <source srcSet={qhacksSellingPointOnejpg} type="image/jpg" />
               <img
                 css={imgStyle}
                 src={qhacksSellingPointOnejpg}
@@ -111,8 +113,8 @@ const SellingPoints = () => (
         >
           <div css={flexChildStyle}>
             <picture css={imgStyle}>
-              <source srcset={qhacksSellingPointTwowebp} type="image/webp" />
-              <source srcset={qhacksSellingPointTwojpg} type="image/jpg" />
+              <source srcSet={qhacksSellingPointTwowebp} type="image/webp" />
+              <source srcSet={qhacksSellingPointTwojpg} type="image/jpg" />
               <img
                 css={imgStyle}
                 src={qhacksSellingPointTwojpg}
@@ -170,8 +172,8 @@ const SellingPoints = () => (
             }
           }}
         >
-          <source srcset={cubes2webp} type="image/webp" />
-          <source srcset={cubes2png} type="image/png" />
+          <source srcSet={cubes2webp} type="image/webp" />
+          <source srcSet={cubes2png} type="image/png" />
           <img
             css={{
               width: "400px",

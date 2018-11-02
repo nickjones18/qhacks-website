@@ -50,7 +50,7 @@ exports[`TestimonialsBlurb renders correctly 1`] = `
       }
     >
       <input
-        alt=""
+        alt="Go to previous testimonial"
         css={
           Object {
             "border": "none",
@@ -65,7 +65,7 @@ exports[`TestimonialsBlurb renders correctly 1`] = `
         type="image"
       />
       <input
-        alt=""
+        alt="Go to next testimonial"
         css={
           Object {
             "border": "none",

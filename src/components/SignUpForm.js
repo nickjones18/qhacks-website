@@ -149,6 +149,7 @@ class SignUpForm extends Component {
             }}
             data-cy={this.props.dataCyInput || "signup-input"}
             value={this.state.emailAddress}
+            aria-label="Your email address"
             onChange={(e) => this.setState({ emailAddress: e.target.value })}
           />
           <ActionButton

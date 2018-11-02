@@ -42,7 +42,7 @@ const TestimonialsBlurb = (props) => {
             }}
             type="image"
             src={leftArrow}
-            alt=""
+            alt="Go to previous testimonial"
           />
           <input
             onClick={() => props.nextTestimonial()}
@@ -52,7 +52,7 @@ const TestimonialsBlurb = (props) => {
             }}
             type="image"
             src={rightArrow}
-            alt=""
+            alt="Go to next testimonial"
           />
         </div>
       </div>

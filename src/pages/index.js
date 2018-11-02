@@ -71,7 +71,7 @@ export default () => (
         }
       ]}
     />
-    <body>
+    <div>
       <Landing />
       <MailingListSignup />
       <About />
@@ -82,6 +82,6 @@ export default () => (
       <FAQs />
       <Podcast />
       <Footer />
-    </body>
+    </div>
   </div>
 );

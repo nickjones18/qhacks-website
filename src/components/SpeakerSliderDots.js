@@ -10,23 +10,22 @@ const SpeakerSliderDots = (props) => (
       gridTemplateColumns: props.speakers
         .map(() => "1fr ")
         .reduce((a, b) => a + b),
-      paddingBottom: "16px",
-      ">div": {
-        transition: "0.5s",
-        borderRadius: "50%",
-        marginLeft: "auto",
-        marginRight: "auto",
-        width: "6px",
-        height: "6px"
-      }
+      paddingBottom: "16px"
     }}
   >
     {props.speakers.map((_, i) => (
-      <div
+      <button
         onClick={props.onClick(i)}
         key={i}
         css={{
-          backgroundColor: i === props.currentIndex ? "#00205b" : "#aeb7c8"
+          backgroundColor: i === props.currentIndex ? "#00205b" : "#aeb7c8",
+          transition: "0.5s",
+          borderRadius: "50%",
+          marginLeft: "auto",
+          marginRight: "auto",
+          width: "6px",
+          height: "6px",
+          border: "none"
         }}
       />
     ))}
