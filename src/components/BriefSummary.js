@@ -68,7 +68,7 @@ const BriefSummary = () => (
             reality. Attend workshops, play with hardware, take part in hacker
             challenges, and meet some new friends. Out-of-the-box thinkers,
             creatives, and innovators from all faculties and skill levels are
-            encouraged to attend. We can't wait to see you there!
+            encouraged to attend. We can&#39;t wait to see you there!
           </p>
         </div>
         <div
