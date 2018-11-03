@@ -113,7 +113,7 @@ exports[`Landing renders correctly 1`] = `
         </h2>
         <a
           href="https://mlh.io"
-          rel="noopener noreferrer"
+          rel="external noopener"
           target="_blank"
         >
           <img

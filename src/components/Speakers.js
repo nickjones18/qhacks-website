@@ -93,8 +93,8 @@ const Speakers = () => (
           }
         }}
       >
-        <source srcset={cubes3webp} type="image/webp" />
-        <source srcset={cubes3png} type="image/png" />
+        <source srcSet={cubes3webp} type="image/webp" />
+        <source srcSet={cubes3png} type="image/png" />
         <img
           css={{
             "@media(max-width: 1000px)": {

@@ -61,7 +61,7 @@ const ActionButton = (props) => {
       disabled={props.disabled}
       onClick={props.onClick}
       href={props.link}
-      rel="external nofollow"
+      rel="external noopener"
       target="_blank"
     >
       {props.children}

@@ -68,7 +68,7 @@ const BriefSummary = () => (
             reality. Attend workshops, play with hardware, take part in hacker
             challenges, and meet some new friends. Out-of-the-box thinkers,
             creatives, and innovators from all faculties and skill levels are
-            encouraged to attend. We can't wait to see you there!
+            encouraged to attend. We can&#39;t wait to see you there!
           </p>
         </div>
         <div
@@ -83,6 +83,7 @@ const BriefSummary = () => (
           }}
         >
           <iframe
+            title="2018 QHacks Hackathon Highlights"
             src="https://www.youtube.com/embed/sqzy5n3m-RA?rel=0&amp;controls=0&amp;showinfo=0"
             frameBorder="0"
             allow="autoplay; encrypted-media"
@@ -116,8 +117,8 @@ const BriefSummary = () => (
             right: "40px"
           }}
         >
-          <source srcset={cubes1webp} type="image/webp" />
-          <source srcset={cubes1png} type="image/png" />
+          <source srcSet={cubes1webp} type="image/webp" />
+          <source srcSet={cubes1png} type="image/png" />
           <img
             css={{
               width: "275px",

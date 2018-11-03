@@ -116,6 +116,7 @@ exports[`BriefSummary renders correctly 1`] = `
           }
           frameBorder="0"
           src="https://www.youtube.com/embed/sqzy5n3m-RA?rel=0&controls=0&showinfo=0"
+          title="2018 QHacks Hackathon Highlights"
         />
       </div>
       <picture
@@ -135,11 +136,11 @@ exports[`BriefSummary renders correctly 1`] = `
         }
       >
         <source
-          srcset="test-file-stub"
+          srcSet="test-file-stub"
           type="image/webp"
         />
         <source
-          srcset="test-file-stub"
+          srcSet="test-file-stub"
           type="image/png"
         />
         <img

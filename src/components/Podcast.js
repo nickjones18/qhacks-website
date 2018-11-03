@@ -44,8 +44,8 @@ const Podcast = () => (
                 maxWidth: "290px"
               }}
             >
-              <source srcset={podcastwebp} type="image/webp" />
-              <source srcset={podcastpng} type="image/png" />
+              <source srcSet={podcastwebp} type="image/webp" />
+              <source srcSet={podcastpng} type="image/png" />
               <img
                 css={{
                   "@media (max-width: 1128px)": {

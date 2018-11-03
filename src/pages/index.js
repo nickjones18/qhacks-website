@@ -70,8 +70,10 @@ export default () => (
           href: `${favicon}`
         }
       ]}
-    />
-    <body>
+    >
+      <html lang="en" />
+    </Helmet>
+    <div>
       <Landing />
       <MailingListSignup />
       <About />
@@ -82,6 +84,6 @@ export default () => (
       <FAQs />
       <Podcast />
       <Footer />
-    </body>
+    </div>
   </div>
 );
