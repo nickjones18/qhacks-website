@@ -1,5 +1,27 @@
+const {
+  NODE_ENV,
+  URL: NETLIFY_SITE_URL = 'https://qhacks.io',
+  DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
+  CONTEXT: NETLIFY_ENV = NODE_ENV
+} = process.env;
+
+const isNetlifyProduction = NETLIFY_ENV === 'production';
+const siteUrl = isNetlifyProduction ? NETLIFY_SITE_URL : NETLIFY_DEPLOY_URL;
+
+const allowCrawling = {
+  policy: [{ userAgent: '*' }],
+  sitemap: null
+};
+
+const disallowCrawling = {
+  policy: [{ userAgent: '*', disallow: ['/'] }],
+  sitemap: null,
+  host: null
+};
+
 module.exports = {
   siteMetadata: {
+    siteUrl,
     title: "QHacks Website"
   },
   plugins: [
@@ -27,6 +49,18 @@ module.exports = {
         icon: "src/assets/img/logo/qhacksAppIcon.png"
       }
     },
-    "gatsby-plugin-offline"
+    "gatsby-plugin-offline",
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        resolveEnv: () => NETLIFY_ENV,
+        env: {
+          production: allowCrawling,
+          development: disallowCrawling,
+          'branch-deploy': disallowCrawling,
+          'deploy-preview': disallowCrawling
+        }
+      }
+    }
   ]
 };
