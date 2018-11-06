@@ -57,7 +57,7 @@ exports[`Sponsors renders correctly 1`] = `
                 css={
                   Object {
                     "@media(max-width: 460px)": Object {
-                      "width": "200px",
+                      "width": "250px",
                     },
                     "@media(max-width: 680px)": Object {
                       "width": "300px",
@@ -85,45 +85,12 @@ exports[`Sponsors renders correctly 1`] = `
             css={
               Object {
                 "@media(max-width: 460px)": Object {
+                  "gridTemplateColumns": "1fr",
                   "marginBottom": "20px",
                 },
                 "display": "grid",
-                "gridTemplateColumns": "1fr",
-                "marginBottom": "40px",
-              }
-            }
-          >
-            <_default
-              url="https://kingsds.network"
-            >
-              <img
-                alt="Kings Distributed Systems Logo"
-                css={
-                  Object {
-                    "@media(max-width: 460px)": Object {
-                      "width": "110px",
-                    },
-                    "@media(max-width: 680px)": Object {
-                      "width": "160px",
-                    },
-                    "@media(max-width: 980px)": Object {
-                      "width": "220px",
-                    },
-                    "width": "300px",
-                  }
-                }
-                src="test-file-stub"
-              />
-            </_default>
-          </div>
-          <div
-            css={
-              Object {
-                "@media(max-width: 460px)": Object {
-                  "gridTemplateColumns": "1fr",
-                },
-                "display": "grid",
                 "gridTemplateColumns": "1fr 1fr",
+                "marginBottom": "40px",
               }
             }
           >
@@ -135,7 +102,7 @@ exports[`Sponsors renders correctly 1`] = `
                 css={
                   Object {
                     "@media(max-width: 460px)": Object {
-                      "width": "150px",
+                      "width": "200px",
                     },
                     "@media(max-width: 680px)": Object {
                       "width": "200px",
@@ -158,7 +125,7 @@ exports[`Sponsors renders correctly 1`] = `
                   Object {
                     "@media(max-width: 460px)": Object {
                       "marginTop": "25px",
-                      "width": "140px",
+                      "width": "190px",
                     },
                     "@media(max-width: 680px)": Object {
                       "width": "200px",
@@ -168,6 +135,37 @@ exports[`Sponsors renders correctly 1`] = `
                     },
                     "marginTop": "15px",
                     "width": "400px",
+                  }
+                }
+                src="test-file-stub"
+              />
+            </_default>
+          </div>
+          <div
+            css={
+              Object {
+                "display": "grid",
+                "gridTemplateColumns": "1fr",
+              }
+            }
+          >
+            <_default
+              url="https://distributed.computer/"
+            >
+              <img
+                alt="Kings Distributed Systems Logo"
+                css={
+                  Object {
+                    "@media(max-width: 460px)": Object {
+                      "width": "190px",
+                    },
+                    "@media(max-width: 680px)": Object {
+                      "width": "200px",
+                    },
+                    "@media(max-width: 980px)": Object {
+                      "width": "280px",
+                    },
+                    "width": "380px",
                   }
                 }
                 src="test-file-stub"
@@ -204,7 +202,7 @@ exports[`Sponsors renders correctly 1`] = `
                   Object {
                     "@media(max-width: 610px)": Object {
                       "marginBottom": "20px",
-                      "width": "150px",
+                      "width": "180px",
                     },
                     "@media(max-width: 910px)": Object {
                       "width": "220px",
@@ -224,7 +222,7 @@ exports[`Sponsors renders correctly 1`] = `
                   Object {
                     "@media(max-width: 610px)": Object {
                       "marginBottom": "20px",
-                      "width": "40px",
+                      "width": "60px",
                     },
                     "@media(max-width: 910px)": Object {
                       "width": "70px",
@@ -243,7 +241,7 @@ exports[`Sponsors renders correctly 1`] = `
                 css={
                   Object {
                     "@media(max-width: 610px)": Object {
-                      "width": "140px",
+                      "width": "160px",
                     },
                     "@media(max-width: 910px)": Object {
                       "width": "200px",
@@ -278,7 +276,7 @@ exports[`Sponsors renders correctly 1`] = `
                   Object {
                     "@media(max-width: 610px)": Object {
                       "marginBottom": "20px",
-                      "width": "150px",
+                      "width": "170px",
                     },
                     "@media(max-width: 910px)": Object {
                       "width": "220px",
@@ -297,7 +295,7 @@ exports[`Sponsors renders correctly 1`] = `
                 css={
                   Object {
                     "@media(max-width: 610px)": Object {
-                      "width": "80px",
+                      "width": "90px",
                     },
                     "@media(max-width: 910px)": Object {
                       "width": "120px",
@@ -340,7 +338,7 @@ exports[`Sponsors renders correctly 1`] = `
                   Object {
                     "@media(max-width: 610px)": Object {
                       "marginBottom": "10px",
-                      "width": "80px",
+                      "width": "90px",
                     },
                     "@media(max-width: 760px)": Object {
                       "marginBottom": "30px",
@@ -361,7 +359,7 @@ exports[`Sponsors renders correctly 1`] = `
                   Object {
                     "@media(max-width: 610px)": Object {
                       "marginBottom": "10px",
-                      "width": "80px",
+                      "width": "90px",
                     },
                     "@media(max-width: 760px)": Object {
                       "width": "120px",
@@ -381,7 +379,7 @@ exports[`Sponsors renders correctly 1`] = `
                   Object {
                     "@media(max-width: 610px)": Object {
                       "marginBottom": "10px",
-                      "width": "80px",
+                      "width": "90px",
                     },
                     "@media(max-width: 760px)": Object {
                       "width": "120px",
@@ -401,7 +399,7 @@ exports[`Sponsors renders correctly 1`] = `
                 css={
                   Object {
                     "@media(max-width: 610px)": Object {
-                      "width": "80px",
+                      "width": "90px",
                     },
                     "@media(max-width: 760px)": Object {
                       "width": "140px",
@@ -436,7 +434,7 @@ exports[`Sponsors renders correctly 1`] = `
                 css={
                   Object {
                     "@media(max-width: 610px)": Object {
-                      "width": "80px",
+                      "width": "90px",
                     },
                     "@media(max-width: 760px)": Object {
                       "marginBottom": "20px",
@@ -457,7 +455,7 @@ exports[`Sponsors renders correctly 1`] = `
                 css={
                   Object {
                     "@media(max-width: 610px)": Object {
-                      "width": "50px",
+                      "width": "60px",
                     },
                     "@media(max-width: 760px)": Object {
                       "marginBottom": "10px",
@@ -478,7 +476,7 @@ exports[`Sponsors renders correctly 1`] = `
                   Object {
                     "@media(max-width: 610px)": Object {
                       "marginTop": "10px",
-                      "width": "80px",
+                      "width": "90px",
                     },
                     "@media(max-width: 760px)": Object {
                       "width": "140px",
@@ -578,7 +576,7 @@ exports[`Sponsors renders correctly 1`] = `
               css={
                 Object {
                   "@media(max-width: 460px)": Object {
-                    "width": "200px",
+                    "width": "230px",
                   },
                   "@media(max-width: 680px)": Object {
                     "width": "250px",
@@ -600,7 +598,7 @@ exports[`Sponsors renders correctly 1`] = `
               css={
                 Object {
                   "@media(max-width: 460px)": Object {
-                    "width": "200px",
+                    "width": "230px",
                   },
                   "@media(max-width: 680px)": Object {
                     "width": "250px",
