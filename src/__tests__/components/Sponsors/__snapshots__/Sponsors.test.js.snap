@@ -77,6 +77,9 @@ exports[`Sponsors renders correctly 1`] = `
         <div
           css={
             Object {
+              "@media(max-width: 500px)": Object {
+                "marginBottom": "60px",
+              },
               "marginBottom": "80px",
             }
           }
@@ -84,13 +87,13 @@ exports[`Sponsors renders correctly 1`] = `
           <div
             css={
               Object {
-                "@media(max-width: 460px)": Object {
+                "@media(max-width: 500px)": Object {
                   "gridTemplateColumns": "1fr",
-                  "marginBottom": "20px",
+                  "marginBottom": "40px",
                 },
                 "display": "grid",
                 "gridTemplateColumns": "1fr 1fr",
-                "marginBottom": "40px",
+                "marginBottom": "60px",
               }
             }
           >
@@ -101,7 +104,7 @@ exports[`Sponsors renders correctly 1`] = `
                 alt="Sun Life Financial Logo"
                 css={
                   Object {
-                    "@media(max-width: 460px)": Object {
+                    "@media(max-width: 500px)": Object {
                       "width": "200px",
                     },
                     "@media(max-width: 680px)": Object {
@@ -123,7 +126,7 @@ exports[`Sponsors renders correctly 1`] = `
                 alt="iGan Partners Logo"
                 css={
                   Object {
-                    "@media(max-width: 460px)": Object {
+                    "@media(max-width: 500px)": Object {
                       "marginTop": "25px",
                       "width": "190px",
                     },
@@ -144,8 +147,11 @@ exports[`Sponsors renders correctly 1`] = `
           <div
             css={
               Object {
+                "@media(max-width: 500px)": Object {
+                  "gridTemplateColumns": "1fr",
+                },
                 "display": "grid",
-                "gridTemplateColumns": "1fr",
+                "gridTemplateColumns": "1fr 1fr",
               }
             }
           >
@@ -153,10 +159,10 @@ exports[`Sponsors renders correctly 1`] = `
               url="https://distributed.computer/"
             >
               <img
-                alt="Kings Distributed Systems Logo"
+                alt="Distributed Compute Labs Logo"
                 css={
                   Object {
-                    "@media(max-width: 460px)": Object {
+                    "@media(max-width: 500px)": Object {
                       "width": "190px",
                     },
                     "@media(max-width: 680px)": Object {
@@ -165,7 +171,30 @@ exports[`Sponsors renders correctly 1`] = `
                     "@media(max-width: 980px)": Object {
                       "width": "280px",
                     },
-                    "width": "380px",
+                    "width": "360px",
+                  }
+                }
+                src="test-file-stub"
+              />
+            </_default>
+            <_default
+              url="https://www.nbc.ca/"
+            >
+              <img
+                alt="National Bank Logo"
+                css={
+                  Object {
+                    "@media(max-width: 500px)": Object {
+                      "marginTop": "25px",
+                      "width": "220px",
+                    },
+                    "@media(max-width: 680px)": Object {
+                      "width": "240px",
+                    },
+                    "@media(max-width: 980px)": Object {
+                      "width": "330px",
+                    },
+                    "width": "450px",
                   }
                 }
                 src="test-file-stub"
@@ -176,6 +205,9 @@ exports[`Sponsors renders correctly 1`] = `
         <div
           css={
             Object {
+              "@media(max-width: 610px)": Object {
+                "marginBottom": "70px",
+              },
               "marginBottom": "80px",
             }
           }

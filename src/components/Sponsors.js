@@ -27,6 +27,7 @@ import consensysLogo from "../assets/img/sponsors/consensys.svg";
 import scotiabankLogo from "../assets/img/sponsors/scotiabank.svg";
 import onePasswordLogo from "../assets/img/sponsors/1password.svg";
 import stickermuleLogo from "../assets/img/sponsors/stickermule.svg";
+import nationalBankLogo from "../assets/img/sponsors/nationalbank.svg";
 import launchAcademyLogo from "../assets/img/sponsors/launchAcademy.svg";
 
 const Sponsors = () => (
@@ -96,7 +97,10 @@ const Sponsors = () => (
 
           {/* Giga */}
           <div css={{
-            marginBottom: "80px"
+            marginBottom: "80px",
+            "@media(max-width: 500px)": {
+              marginBottom: "60px"
+            }
           }}>
 
             {/* Giga Row 1 */}
@@ -104,10 +108,10 @@ const Sponsors = () => (
               css={{
                 display: "grid",
                 gridTemplateColumns: "1fr 1fr",
-                marginBottom: "40px",
-                "@media(max-width: 460px)": {
+                marginBottom: "60px",
+                "@media(max-width: 500px)": {
                   gridTemplateColumns: "1fr",
-                  marginBottom: "20px"
+                  marginBottom: "40px"
                 }
               }}
             >
@@ -121,7 +125,7 @@ const Sponsors = () => (
                     "@media(max-width: 680px)": {
                       width: "200px"
                     },
-                    "@media(max-width: 460px)": {
+                    "@media(max-width: 500px)": {
                       width: "200px"
                     }
                   }}
@@ -140,7 +144,7 @@ const Sponsors = () => (
                     "@media(max-width: 680px)": {
                       width: "200px"
                     },
-                    "@media(max-width: 460px)": {
+                    "@media(max-width: 500px)": {
                       width: "190px",
                       marginTop: "25px"
                     }
@@ -154,24 +158,47 @@ const Sponsors = () => (
             {/* Giga Row 2 */}
             <div css={{
               display: "grid",
-              gridTemplateColumns: "1fr"
+              gridTemplateColumns: "1fr 1fr",
+              "@media(max-width: 500px)": {
+                gridTemplateColumns: "1fr"
+              }
             }}>
               <SponsorLink url="https://distributed.computer/">
                 <img
                   css={{
-                    width: "380px",
+                    width: "360px",
                     "@media(max-width: 980px)": {
                       width: "280px"
                     },
                     "@media(max-width: 680px)": {
                       width: "200px"
                     },
-                    "@media(max-width: 460px)": {
+                    "@media(max-width: 500px)": {
                       width: "190px"
                     }
                   }}
                   src={dcl}
-                  alt="Kings Distributed Systems Logo"
+                  alt="Distributed Compute Labs Logo"
+                />
+              </SponsorLink>
+              <SponsorLink url="https://www.nbc.ca/">
+                <img
+                  css={{
+                    width: "450px",
+
+                    "@media(max-width: 980px)": {
+                      width: "330px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "240px"
+                    },
+                    "@media(max-width: 500px)": {
+                      width: "220px",
+                      marginTop: "25px"
+                    }
+                  }}
+                  src={nationalBankLogo}
+                  alt="National Bank Logo"
                 />
               </SponsorLink>
             </div>
@@ -179,7 +206,10 @@ const Sponsors = () => (
 
           {/* Mega */}
           <div css={{
-            marginBottom: "80px"
+            marginBottom: "80px",
+            "@media(max-width: 610px)": {
+              marginBottom: "70px"
+            }
           }}>
 
             {/* Mega Row 1 */}
