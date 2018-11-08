@@ -1,8 +1,10 @@
 import React from "react";
 import Helmet from "react-helmet";
+import * as Sentry from "@sentry/browser";
 
 import "./index.css";
 import FAQs from "../components/FAQs";
+import pjson from "../../package.json";
 import About from "../components/About";
 import Footer from "../components/Footer";
 import Podcast from "../components/Podcast";
@@ -13,8 +15,17 @@ import EventSchedule from "../components/EventSchedule";
 import MailingListSignup from "../components/MailingListSignup";
 import HackerTestimonials from "../components/HackerTestimonials";
 
-import sharingImage from "../assets/img/logo/sharingImage.png";
 import favicon from "../assets/img/icons/favicon.ico";
+import sharingImage from "../assets/img/logo/sharingImage.png";
+
+let environment = process.env.NETLIFY_ENV = process.env.NODE_ENV;
+environment = environment === 'deploy-preview' ? 'development' : 'staging';
+
+Sentry.init({
+  dsn: 'https://fcd2394efcca4752b9b9b6742861e882@sentry.io/1317531',
+  environment: environment,
+  release: pjson.version
+});
 
 export default () => (
   <div css={{ overflowX: "hidden" }}>
