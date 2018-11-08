@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import ActionButton from "./ActionButton";
+import * as Sentry from "@sentry/browser";
+
 
 import circleCheckWhite from "../assets/img/icons/circleSuccess-white.svg";
 import circleTimesWhite from "../assets/img/icons/circleError-white.svg";
@@ -45,7 +47,7 @@ class SignUpForm extends Component {
 
   signUp() {
     const email = this.state.emailAddress;
-    const baseUrl = "https://app.qhacks.io"; // local: "http://127.0.0.1:9000"
+    const baseUrl = "https://app.qhacks.io";
     this.setStatusLoading();
     axios
       .post(`${baseUrl}/api/v1/subscribe`, {
@@ -68,11 +70,13 @@ class SignUpForm extends Component {
           } else if (response.status === 422) {
             this.setStatusFailure("Please provide a valid email address!");
           } else {
+            Sentry.captureException(err);
             this.setStatusFailure(
               "Something went wrong – please try again later."
             );
           }
         } else {
+          Sentry.captureException(err);
           this.setStatusFailure(
             "Something went wrong – please try again later."
           );
@@ -149,6 +153,7 @@ class SignUpForm extends Component {
             }}
             data-cy={this.props.dataCyInput || "signup-input"}
             value={this.state.emailAddress}
+            aria-label="Your email address"
             onChange={(e) => this.setState({ emailAddress: e.target.value })}
           />
           <ActionButton

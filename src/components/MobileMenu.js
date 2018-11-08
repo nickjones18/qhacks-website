@@ -18,7 +18,8 @@ const MobileMenu = (props) => (
       }
     }}
   >
-    <img
+    <input
+      type="image"
       onClick={props.toggleMenu}
       src={hamburger}
       css={{ width: "32px", height: "24px" }}
@@ -38,7 +39,8 @@ const MobileMenu = (props) => (
         background: "#11213f"
       }}
     >
-      <img
+      <input
+        type="image"
         align="right"
         css={{ padding: "32px" }}
         src={menuClose}
@@ -95,8 +97,8 @@ const MobileMenu = (props) => (
           ))}
           <div css={{ marginTop: "-100px", pointerEvents: "none" }}>
             <picture>
-              <source srcset={cubeswebp} type="image/webp" />
-              <source srcset={cubespng} type="image/png" />
+              <source srcSet={cubeswebp} type="image/webp" />
+              <source srcSet={cubespng} type="image/png" />
               <img src={cubespng} alt="Floating cubes" />
             </picture>
           </div>

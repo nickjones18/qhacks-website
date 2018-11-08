@@ -11,15 +11,16 @@ describe("Sponsors", () => {
 
   describe("Links", () => {
     it("should contain the proper number of sponsors", () => {
-      cy.get("[data-cy=sponsor-link]").should("have.length", 22);
+      cy.get("[data-cy=sponsor-link]").should("have.length", 23);
     });
 
     it("should contain the proper urls", () => {
       const sponsorURLs = [
         "https://tucows.com",
-        "https://kingsds.network",
         "https://sunlife.ca",
         "http://www.iganpartners.com/",
+        "https://distributed.computer/",
+        "https://www.nbc.ca/",
         "https://consensys.net/",
         "https://td.ca",
         "https://ratehub.ca",

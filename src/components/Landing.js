@@ -109,7 +109,7 @@ const Landing = () => (
           >
             Queen’s University • February 1-3, 2019
           </h2>
-          <a href="https://mlh.io" target="_blank" rel="noopener noreferrer">
+          <a href="https://mlh.io" target="_blank" rel="external noopener">
             <img
               data-cy="mlh-banner"
               src={banner}

@@ -4,14 +4,6 @@ exports[`SpeakerSliderDots renders correctly 1`] = `
 <div
   css={
     Object {
-      ">div": Object {
-        "borderRadius": "50%",
-        "height": "6px",
-        "marginLeft": "auto",
-        "marginRight": "auto",
-        "transition": "0.5s",
-        "width": "6px",
-      },
       "display": "grid",
       "gridTemplateColumns": "1fr 1fr ",
       "marginLeft": "auto",
@@ -21,19 +13,33 @@ exports[`SpeakerSliderDots renders correctly 1`] = `
     }
   }
 >
-  <div
+  <button
     css={
       Object {
         "backgroundColor": "#aeb7c8",
+        "border": "none",
+        "borderRadius": "50%",
+        "height": "6px",
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "transition": "0.5s",
+        "width": "6px",
       }
     }
     key="0"
     onClick={[Function]}
   />
-  <div
+  <button
     css={
       Object {
         "backgroundColor": "#aeb7c8",
+        "border": "none",
+        "borderRadius": "50%",
+        "height": "6px",
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "transition": "0.5s",
+        "width": "6px",
       }
     }
     key="1"

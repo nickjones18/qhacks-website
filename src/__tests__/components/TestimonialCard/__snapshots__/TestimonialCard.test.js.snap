@@ -79,7 +79,7 @@ exports[`TestimonialCard0 renders correctly 1`] = `
               "fontWeight": 600,
             }
           }
-          rel="external nofollow"
+          rel="external noopener"
           target="_blank"
         >
           Dolores
@@ -190,7 +190,7 @@ exports[`TestimonialCard1 renders correctly 1`] = `
               "fontWeight": 600,
             }
           }
-          rel="external nofollow"
+          rel="external noopener"
           target="_blank"
         >
           Test1

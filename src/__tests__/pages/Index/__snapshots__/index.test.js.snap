@@ -64,8 +64,12 @@ exports[`IndexPage renders correctly 1`] = `
       ]
     }
     title="QHacks | Queen's University | Winter 2019"
-  />
-  <body>
+  >
+    <html
+      lang="en"
+    />
+  </HelmetWrapper>
+  <div>
     <Landing />
     <MailingListSignup />
     <About />
@@ -74,6 +78,6 @@ exports[`IndexPage renders correctly 1`] = `
     <FAQs />
     <Podcast />
     <Footer />
-  </body>
+  </div>
 </div>
 `;

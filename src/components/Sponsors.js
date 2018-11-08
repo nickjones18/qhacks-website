@@ -5,6 +5,7 @@ import SponsorLink from "./SponsorLink";
 import ActionButton from "./ActionButton";
 import ContentWrapper from "./ContentWrapper";
 
+import dcl from "../assets/img/sponsors/dcl.svg";
 import tdLogo from "../assets/img/sponsors/td.svg";
 import qicLogo from "../assets/img/sponsors/qic.svg";
 import eceLogo from "../assets/img/sponsors/ece.svg";
@@ -23,10 +24,10 @@ import wakeupsLogo from "../assets/img/sponsors/wakeups.svg";
 import balsamiqLogo from "../assets/img/sponsors/balsamiq.svg";
 import bloombergLogo from "../assets/img/sponsors/bloomberg.svg";
 import consensysLogo from "../assets/img/sponsors/consensys.svg";
-import kdsLogo from "../assets/img/sponsors/kingsDistributed.svg";
 import scotiabankLogo from "../assets/img/sponsors/scotiabank.svg";
 import onePasswordLogo from "../assets/img/sponsors/1password.svg";
 import stickermuleLogo from "../assets/img/sponsors/stickermule.svg";
+import nationalBankLogo from "../assets/img/sponsors/nationalbank.svg";
 import launchAcademyLogo from "../assets/img/sponsors/launchAcademy.svg";
 
 const Sponsors = () => (
@@ -84,7 +85,7 @@ const Sponsors = () => (
                       width: "300px"
                     },
                     "@media(max-width: 460px)": {
-                      width: "200px"
+                      width: "250px"
                     }
                   }}
                   data-cy="test-sponsor-image"
@@ -96,46 +97,21 @@ const Sponsors = () => (
 
           {/* Giga */}
           <div css={{
-            marginBottom: "80px"
+            marginBottom: "80px",
+            "@media(max-width: 500px)": {
+              marginBottom: "60px"
+            }
           }}>
 
             {/* Giga Row 1 */}
-            <div css={{
-              display: "grid",
-              gridTemplateColumns: "1fr",
-              marginBottom: "40px",
-              "@media(max-width: 460px)": {
-                marginBottom: "20px"
-              }
-            }}>
-              <SponsorLink url="https://kingsds.network">
-                <img
-                  css={{
-                    width: "300px",
-                    "@media(max-width: 980px)": {
-                      width: "220px"
-                    },
-                    "@media(max-width: 680px)": {
-                      width: "160px"
-                    },
-                    "@media(max-width: 460px)": {
-                      width: "110px"
-                    }
-                  }}
-                  src={kdsLogo}
-                  alt="Kings Distributed Systems Logo"
-                />
-              </SponsorLink>
-            </div>
-
-
-            {/* Giga Row 2 */}
             <div
               css={{
                 display: "grid",
                 gridTemplateColumns: "1fr 1fr",
-                "@media(max-width: 460px)": {
-                  gridTemplateColumns: "1fr"
+                marginBottom: "60px",
+                "@media(max-width: 500px)": {
+                  gridTemplateColumns: "1fr",
+                  marginBottom: "40px"
                 }
               }}
             >
@@ -149,8 +125,8 @@ const Sponsors = () => (
                     "@media(max-width: 680px)": {
                       width: "200px"
                     },
-                    "@media(max-width: 460px)": {
-                      width: "150px"
+                    "@media(max-width: 500px)": {
+                      width: "200px"
                     }
                   }}
                   src={sunLifeLogo}
@@ -168,8 +144,8 @@ const Sponsors = () => (
                     "@media(max-width: 680px)": {
                       width: "200px"
                     },
-                    "@media(max-width: 460px)": {
-                      width: "140px",
+                    "@media(max-width: 500px)": {
+                      width: "190px",
                       marginTop: "25px"
                     }
                   }}
@@ -178,11 +154,62 @@ const Sponsors = () => (
                 />
               </SponsorLink>
             </div>
+
+            {/* Giga Row 2 */}
+            <div css={{
+              display: "grid",
+              gridTemplateColumns: "1fr 1fr",
+              "@media(max-width: 500px)": {
+                gridTemplateColumns: "1fr"
+              }
+            }}>
+              <SponsorLink url="https://distributed.computer/">
+                <img
+                  css={{
+                    width: "360px",
+                    "@media(max-width: 980px)": {
+                      width: "280px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "200px"
+                    },
+                    "@media(max-width: 500px)": {
+                      width: "190px"
+                    }
+                  }}
+                  src={dcl}
+                  alt="Distributed Compute Labs Logo"
+                />
+              </SponsorLink>
+              <SponsorLink url="https://www.nbc.ca/">
+                <img
+                  css={{
+                    width: "450px",
+
+                    "@media(max-width: 980px)": {
+                      width: "330px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "240px"
+                    },
+                    "@media(max-width: 500px)": {
+                      width: "220px",
+                      marginTop: "25px"
+                    }
+                  }}
+                  src={nationalBankLogo}
+                  alt="National Bank Logo"
+                />
+              </SponsorLink>
+            </div>
           </div>
 
           {/* Mega */}
           <div css={{
-            marginBottom: "80px"
+            marginBottom: "80px",
+            "@media(max-width: 610px)": {
+              marginBottom: "70px"
+            }
           }}>
 
             {/* Mega Row 1 */}
@@ -206,7 +233,7 @@ const Sponsors = () => (
                       width: "220px"
                     },
                     "@media(max-width: 610px)": {
-                      width: "150px",
+                      width: "180px",
                       marginBottom: "20px"
                     }
                   }}
@@ -222,7 +249,7 @@ const Sponsors = () => (
                       width: "70px"
                     },
                     "@media(max-width: 610px)": {
-                      width: "40px",
+                      width: "60px",
                       marginBottom: "20px"
                     }
                   }}
@@ -238,7 +265,7 @@ const Sponsors = () => (
                       width: "200px"
                     },
                     "@media(max-width: 610px)": {
-                      width: "140px"
+                      width: "160px"
                     }
                   }}
                   alt="Ratehub Logo"
@@ -268,7 +295,7 @@ const Sponsors = () => (
                       width: "220px"
                     },
                     "@media(max-width: 610px)": {
-                      width: "150px",
+                      width: "170px",
                       marginBottom: "20px"
                     }
                   }}
@@ -284,7 +311,7 @@ const Sponsors = () => (
                       width: "120px"
                     },
                     "@media(max-width: 610px)": {
-                      width: "80px"
+                      width: "90px"
                     }
                   }}
                   alt="Loopio Logo"
@@ -325,7 +352,7 @@ const Sponsors = () => (
                       marginBottom: "30px"
                     },
                     "@media(max-width: 610px)": {
-                      width: "80px",
+                      width: "90px",
                       marginBottom: "10px"
                     }
                   }}
@@ -341,7 +368,7 @@ const Sponsors = () => (
                       width: "120px"
                     },
                     "@media(max-width: 610px)": {
-                      width: "80px",
+                      width: "90px",
                       marginBottom: "10px"
                     }
                   }}
@@ -358,7 +385,7 @@ const Sponsors = () => (
                       width: "120px"
                     },
                     "@media(max-width: 610px)": {
-                      width: "80px",
+                      width: "90px",
                       marginBottom: "10px"
                     }
                   }}
@@ -375,7 +402,7 @@ const Sponsors = () => (
                       width: "140px"
                     },
                     "@media(max-width: 610px)": {
-                      width: "80px"
+                      width: "90px"
                     }
                   }}
                   alt="One Password Logo"
@@ -407,7 +434,7 @@ const Sponsors = () => (
                       marginBottom: "20px"
                     },
                     "@media(max-width: 610px)": {
-                      width: "80px"
+                      width: "90px"
                     }
                   }}
                   alt="Sketch Logo"
@@ -423,7 +450,7 @@ const Sponsors = () => (
                       marginBottom: "10px"
                     },
                     "@media(max-width: 610px)": {
-                      width: "50px"
+                      width: "60px"
                     }
                   }}
                   alt="Wakeups Logo"
@@ -439,7 +466,7 @@ const Sponsors = () => (
                       width: "140px"
                     },
                     "@media(max-width: 610px)": {
-                      width: "80px",
+                      width: "90px",
                       marginTop: "10px"
                     }
                   }}
@@ -520,7 +547,7 @@ const Sponsors = () => (
                     width: "250px"
                   },
                   "@media(max-width: 460px)": {
-                    width: "200px"
+                    width: "230px"
                   }
                 }}
                 alt="MMIE Logo"
@@ -539,7 +566,7 @@ const Sponsors = () => (
                     width: "250px"
                   },
                   "@media(max-width: 460px)": {
-                    width: "200px"
+                    width: "230px"
                   }
                 }}
                 alt="QIC Logo"

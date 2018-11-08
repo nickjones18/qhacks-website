@@ -101,11 +101,11 @@ exports[`SellingPoints renders correctly 1`] = `
             }
           >
             <source
-              srcset="test-file-stub"
+              srcSet="test-file-stub"
               type="image/webp"
             />
             <source
-              srcset="test-file-stub"
+              srcSet="test-file-stub"
               type="image/jpg"
             />
             <img
@@ -155,11 +155,11 @@ exports[`SellingPoints renders correctly 1`] = `
             }
           >
             <source
-              srcset="test-file-stub"
+              srcSet="test-file-stub"
               type="image/webp"
             />
             <source
-              srcset="test-file-stub"
+              srcSet="test-file-stub"
               type="image/jpg"
             />
             <img
@@ -246,11 +246,11 @@ exports[`SellingPoints renders correctly 1`] = `
         }
       >
         <source
-          srcset="test-file-stub"
+          srcSet="test-file-stub"
           type="image/webp"
         />
         <source
-          srcset="test-file-stub"
+          srcSet="test-file-stub"
           type="image/png"
         />
         <img

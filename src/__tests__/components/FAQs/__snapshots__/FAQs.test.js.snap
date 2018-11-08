@@ -433,7 +433,7 @@ exports[`FAQs renders correctly 1`] = `
                
               <a
                 href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
-                rel="external nofollow"
+                rel="external noopener"
                 target="_blank"
               >
                 Major League Hacking Code of Conduct.
@@ -544,7 +544,7 @@ exports[`FAQs renders correctly 1`] = `
                 }
               }
               href="mailto:hello@qhacks.io"
-              rel="external nofollow"
+              rel="external noopener"
               target="_blank"
             >
               hello@qhacks.io
@@ -561,7 +561,7 @@ exports[`FAQs renders correctly 1`] = `
                 }
               }
               href="https://fb.com/qhacks"
-              rel="external nofollow"
+              rel="external noopener"
               target="_blank"
             >
               Facebook

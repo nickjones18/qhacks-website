@@ -21,6 +21,7 @@ exports[`SignUpForm renders correctly 1`] = `
     }
   >
     <input
+      aria-label="Your email address"
       css={
         Object {
           "border": "none",

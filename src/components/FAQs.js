@@ -62,7 +62,7 @@ const questionsAndAnswers = [
         Yes! Hackers are expected to adhere to the{" "}
         <a
           href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
-          rel="external nofollow"
+          rel="external noopener"
           target="_blank"
         >
           Major League Hacking Code of Conduct.
@@ -142,7 +142,7 @@ const FAQs = () => (
             <p css={{ fontSize: "14px", color: "#000000", lineHeight: "20px" }}>
               Feel free to reach out to us at{" "}
               <a
-                rel="external nofollow"
+                rel="external noopener"
                 target="_blank"
                 css={linkCss}
                 href="mailto:hello@qhacks.io"
@@ -151,7 +151,7 @@ const FAQs = () => (
               </a>{" "}
               or on{" "}
               <a
-                rel="external nofollow"
+                rel="external noopener"
                 target="_blank"
                 css={linkCss}
                 href="https://fb.com/qhacks"
