@@ -18,7 +18,7 @@
     }
   },
   "scripts": {
-    "build": "NODE_ENV=production gatsby build",
+    "build": "gatsby build",
     "develop": "gatsby develop",
     "style": "eslint src/**/*.js",
     "format": "prettier --write 'src/**/*.js'",
@@ -37,6 +37,7 @@
     "npm": "6.x"
   },
   "dependencies": {
+    "@sentry/browser": "^4.2.4",
     "axios": "^0.18.0",
     "gatsby": "^2.0.31",
     "gatsby-plugin-glamor": "^2.0.5",
