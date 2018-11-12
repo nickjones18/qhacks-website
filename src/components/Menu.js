@@ -8,21 +8,47 @@ const Menu = (props) => {
     <div
       css={{
         display: "grid",
-        gridTemplateColumns: "min-content auto"
+        gridTemplateColumns: "min-content auto",
+        overflow: "visible",
+        height: "84px"
       }}
     >
-      <a href="/#">
+      <a
+        href="/#"
+        css={{
+          transition: "0.5s",
+          "@media(min-width:820px)": {
+            display: props.imgCss ? "inline-block" : "none"
+          }
+        }}
+      >
         <img
           css={{
             paddingTop: "20px",
-            paddingBottom: "20px",
-            transition: "0.5s",
-            "@media(min-width:820px)": {
-              opacity: props.imgCss ? "1" : "0"
-            }
+            paddingBottom: "20px"
           }}
           src={colored}
           alt="QHacks Crown"
+        />
+      </a>
+      <a
+        id="mlh-trust-badge"
+        href="https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=white"
+        target="_blank"
+        css={{
+          display: "none",
+          "@media(min-width:820px)": {
+            display: props.imgCss ? "none" : "inline-block"
+          },
+          transition: "0.5s"
+        }}
+      >
+        <img
+          src="https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg"
+          alt="Major League Hacking 2019 Hackathon Season"
+          css={{
+            height: "150px"
+          }}
         />
       </a>
       <div

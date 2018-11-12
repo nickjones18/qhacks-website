@@ -9,7 +9,8 @@ const ActionButton = (props) => {
     "@media screen and (max-width: 450px)": {
       width: "92%",
       paddingLeft: "4%",
-      paddingRight: "4%"   }
+      paddingRight: "4%"
+    }
   };
 
   const rectStyles = {
@@ -41,12 +42,12 @@ const ActionButton = (props) => {
   };
 
   switch (props.type) {
-  case "rounded":
-    commonStyles = { ...roundedStyles, ...commonStyles };
-    break;
-  case "rect":
-    commonStyles = { ...rectStyles, ...commonStyles };
-    break;
+    case "rounded":
+      commonStyles = { ...roundedStyles, ...commonStyles };
+      break;
+    case "rect":
+      commonStyles = { ...rectStyles, ...commonStyles };
+      break;
   }
 
   return props.link ? (

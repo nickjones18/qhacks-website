@@ -17,6 +17,7 @@ exports[`Header renders correctly 1`] = `
         "zIndex": "5",
       }
     }
+    data-cy="mlh-banner"
   >
     <_default>
       <div
