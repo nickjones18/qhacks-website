@@ -56,13 +56,16 @@ class Header extends Component {
     return (
       <div>
         <div
+          data-cy="mlh-banner"
           css={{
             width: "100%",
             position: "fixed",
             top: this.state.isHeaderVisible ? "0px" : "-100px",
             transition: "0.5s",
             backgroundColor: "#ffffff",
-            opacity: this.state.isMobileMenuVisible ? "1.0" : "0.95",
+            opacity: this.state.isMobileMenuVisible
+              ? "1.0"
+              : (this.state.isHeaderVisible && "0.95") || "0",
             zIndex: "5",
             "@media(min-width:860px)": {
               backgroundColor: this.state.isAtTheTop
