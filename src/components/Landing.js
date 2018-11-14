@@ -125,7 +125,7 @@ const Landing = () => (
           <h2
             data-cy="qhacks-tagline"
             css={{
-              paddingTop: "40px",
+              paddingTop: "25px",
               color: "#575757",
               fontWeight: 500,
               lineHeight: "30px",
@@ -158,6 +158,7 @@ const Landing = () => (
             position: "relative",
             textAlign: "right",
             display: "flex",
+            paddingTop: "84px",
             alignItems: "center",
             "@media(max-width: 820px)": {
               display: "none"

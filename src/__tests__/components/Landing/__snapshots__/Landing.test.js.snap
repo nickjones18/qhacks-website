@@ -124,7 +124,7 @@ exports[`Landing renders correctly 1`] = `
               "color": "#575757",
               "fontWeight": 500,
               "lineHeight": "30px",
-              "paddingTop": "40px",
+              "paddingTop": "25px",
             }
           }
           data-cy="qhacks-tagline"
@@ -153,6 +153,7 @@ exports[`Landing renders correctly 1`] = `
             },
             "alignItems": "center",
             "display": "flex",
+            "paddingTop": "84px",
             "position": "relative",
             "textAlign": "right",
           }
