@@ -447,14 +447,22 @@ exports[`Sponsors renders correctly 1`] = `
           <div
             css={
               Object {
-                "@media(max-width: 760px)": Object {
+                "@media(max-width: 610px)": Object {
                   "gridTemplateColumns": "1fr",
+                  "marginBottom": "0px",
+                },
+                "@media(max-width: 760px)": Object {
+                  "gridTemplateColumns": "1fr 1fr",
+                  "marginBottom": "10px",
+                  "marginLeft": "auto",
+                  "marginRight": "auto",
+                  "width": "60%",
                 },
                 "display": "grid",
-                "gridTemplateColumns": "1fr 1fr 1fr",
+                "gridTemplateColumns": "1fr 1fr 1fr 1fr",
                 "marginLeft": "auto",
                 "marginRight": "auto",
-                "width": "80%",
+                "width": "100%",
               }
             }
           >
@@ -504,6 +512,27 @@ exports[`Sponsors renders correctly 1`] = `
             >
               <img
                 alt="Launch Academy Logo"
+                css={
+                  Object {
+                    "@media(max-width: 610px)": Object {
+                      "marginTop": "10px",
+                      "width": "90px",
+                    },
+                    "@media(max-width: 760px)": Object {
+                      "width": "140px",
+                    },
+                    "marginTop": "18px",
+                    "width": "200px",
+                  }
+                }
+                src="test-file-stub"
+              />
+            </_default>
+            <_default
+              url="https://www.orangegate.ca/"
+            >
+              <img
+                alt="Orange Gate Logo"
                 css={
                   Object {
                     "@media(max-width: 610px)": Object {

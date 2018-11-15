@@ -24,6 +24,7 @@ import wakeupsLogo from "../assets/img/sponsors/wakeups.svg";
 import balsamiqLogo from "../assets/img/sponsors/balsamiq.svg";
 import bloombergLogo from "../assets/img/sponsors/bloomberg.svg";
 import consensysLogo from "../assets/img/sponsors/consensys.svg";
+import orangeGateLogo from "../assets/img/sponsors/orangeGate.svg";
 import scotiabankLogo from "../assets/img/sponsors/scotiabank.svg";
 import onePasswordLogo from "../assets/img/sponsors/1password.svg";
 import stickermuleLogo from "../assets/img/sponsors/stickermule.svg";
@@ -417,12 +418,20 @@ const Sponsors = () => (
             <div
               css={{
                 display: "grid",
-                gridTemplateColumns: "1fr 1fr 1fr",
+                gridTemplateColumns: "1fr 1fr 1fr 1fr",
                 marginLeft: "auto",
                 marginRight: "auto",
-                width: "80%",
+                width: "100%",
                 "@media(max-width: 760px)": {
-                  gridTemplateColumns: "1fr"
+                  gridTemplateColumns: "1fr 1fr",
+                  width: "60%",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  marginBottom: "10px"
+                },
+                "@media(max-width: 610px)": {
+                  gridTemplateColumns: "1fr",
+                  marginBottom: "0px"
                 }
               }}
             >
@@ -474,6 +483,23 @@ const Sponsors = () => (
                     }
                   }}
                   alt="Launch Academy Logo"
+                />
+              </SponsorLink>
+              <SponsorLink url="https://www.orangegate.ca/">
+                <img
+                  src={orangeGateLogo}
+                  css={{
+                    width: "200px",
+                    marginTop: "18px",
+                    "@media(max-width: 760px)": {
+                      width: "140px"
+                    },
+                    "@media(max-width: 610px)": {
+                      width: "90px",
+                      marginTop: "10px"
+                    }
+                  }}
+                  alt="Orange Gate Logo"
                 />
               </SponsorLink>
             </div>
