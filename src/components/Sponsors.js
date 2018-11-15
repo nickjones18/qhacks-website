@@ -1,5 +1,5 @@
 import React from "react";
-import MediaQuery from 'react-responsive';
+import MediaQuery from "react-responsive";
 
 import SponsorLink from "./SponsorLink";
 import ActionButton from "./ActionButton";
@@ -24,6 +24,7 @@ import wakeupsLogo from "../assets/img/sponsors/wakeups.svg";
 import balsamiqLogo from "../assets/img/sponsors/balsamiq.svg";
 import bloombergLogo from "../assets/img/sponsors/bloomberg.svg";
 import consensysLogo from "../assets/img/sponsors/consensys.svg";
+import orangeGateLogo from "../assets/img/sponsors/orangeGate.svg";
 import scotiabankLogo from "../assets/img/sponsors/scotiabank.svg";
 import onePasswordLogo from "../assets/img/sponsors/1password.svg";
 import stickermuleLogo from "../assets/img/sponsors/stickermule.svg";
@@ -52,20 +53,20 @@ const Sponsors = () => (
           paddingTop: "80px"
         }}
       >
-
         {/* Sponsors */}
         <div>
           <h1>Sponsors</h1>
 
           {/* Tera */}
-          <div css={{
-            marginTop: "70px",
-            marginBottom: "80px",
-            "@media(max-width: 460px)": {
-              marginBottom: "60px"
-            }
-          }}>
-
+          <div
+            css={{
+              marginTop: "70px",
+              marginBottom: "80px",
+              "@media(max-width: 460px)": {
+                marginBottom: "60px"
+              }
+            }}
+          >
             {/* Tera Row 1 */}
             <div
               css={{
@@ -96,13 +97,14 @@ const Sponsors = () => (
           </div>
 
           {/* Giga */}
-          <div css={{
-            marginBottom: "80px",
-            "@media(max-width: 500px)": {
-              marginBottom: "60px"
-            }
-          }}>
-
+          <div
+            css={{
+              marginBottom: "80px",
+              "@media(max-width: 500px)": {
+                marginBottom: "60px"
+              }
+            }}
+          >
             {/* Giga Row 1 */}
             <div
               css={{
@@ -156,13 +158,15 @@ const Sponsors = () => (
             </div>
 
             {/* Giga Row 2 */}
-            <div css={{
-              display: "grid",
-              gridTemplateColumns: "1fr 1fr",
-              "@media(max-width: 500px)": {
-                gridTemplateColumns: "1fr"
-              }
-            }}>
+            <div
+              css={{
+                display: "grid",
+                gridTemplateColumns: "1fr 1fr",
+                "@media(max-width: 500px)": {
+                  gridTemplateColumns: "1fr"
+                }
+              }}
+            >
               <SponsorLink url="https://distributed.computer/">
                 <img
                   css={{
@@ -205,13 +209,14 @@ const Sponsors = () => (
           </div>
 
           {/* Mega */}
-          <div css={{
-            marginBottom: "80px",
-            "@media(max-width: 610px)": {
-              marginBottom: "70px"
-            }
-          }}>
-
+          <div
+            css={{
+              marginBottom: "80px",
+              "@media(max-width: 610px)": {
+                marginBottom: "70px"
+              }
+            }}
+          >
             {/* Mega Row 1 */}
             <div
               css={{
@@ -322,7 +327,6 @@ const Sponsors = () => (
 
           {/* Startup */}
           <div>
-
             {/* Startup Row 1 */}
             <div
               css={{
@@ -414,12 +418,20 @@ const Sponsors = () => (
             <div
               css={{
                 display: "grid",
-                gridTemplateColumns: "1fr 1fr 1fr",
+                gridTemplateColumns: "1fr 1fr 1fr 1fr",
                 marginLeft: "auto",
                 marginRight: "auto",
-                width: "80%",
+                width: "100%",
                 "@media(max-width: 760px)": {
-                  gridTemplateColumns: "1fr"
+                  gridTemplateColumns: "1fr 1fr",
+                  width: "60%",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  marginBottom: "10px"
+                },
+                "@media(max-width: 610px)": {
+                  gridTemplateColumns: "1fr",
+                  marginBottom: "0px"
                 }
               }}
             >
@@ -473,16 +485,35 @@ const Sponsors = () => (
                   alt="Launch Academy Logo"
                 />
               </SponsorLink>
+              <SponsorLink url="https://www.orangegate.ca/">
+                <img
+                  src={orangeGateLogo}
+                  css={{
+                    width: "200px",
+                    marginTop: "18px",
+                    "@media(max-width: 760px)": {
+                      width: "140px"
+                    },
+                    "@media(max-width: 610px)": {
+                      width: "90px",
+                      marginTop: "10px"
+                    }
+                  }}
+                  alt="Orange Gate Logo"
+                />
+              </SponsorLink>
             </div>
           </div>
         </div>
 
         {/* Partners */}
 
-        <div css={{
-          paddingTop: "70px",
-          paddingBottom: "70px"
-        }}>
+        <div
+          css={{
+            paddingTop: "70px",
+            paddingBottom: "70px"
+          }}
+        >
           <h1 css={{ paddingBottom: "40px" }}>Our Partners</h1>
           <p
             css={{
@@ -519,10 +550,11 @@ const Sponsors = () => (
         </div>
 
         {/* School */}
-        <div css={{
-          marginBottom: "100px"
-        }}>
-
+        <div
+          css={{
+            marginBottom: "100px"
+          }}
+        >
           {/* School Row 1 */}
           <div
             css={{
@@ -603,7 +635,8 @@ const Sponsors = () => (
                     width: "130px"
                   }
                 }}
-                alt="Bloomberg Logo" />
+                alt="Bloomberg Logo"
+              />
             </SponsorLink>
             <SponsorLink url="https://www.stickermule.com/ca">
               <img

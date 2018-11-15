@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import ActionButton from "./ActionButton";
 import * as Sentry from "@sentry/browser";
 
-
 import circleCheckWhite from "../assets/img/icons/circleSuccess-white.svg";
 import circleTimesWhite from "../assets/img/icons/circleError-white.svg";
 import circleCheck from "../assets/img/icons/circleSuccess-green.svg";
@@ -92,34 +91,34 @@ class SignUpForm extends Component {
         this.props.foregroundColor.toLowerCase()
       );
     switch (this.state.status) {
-    case "loading": {
-      buttonContent = (
-        <img
-          src={whiteIcons ? spinnerWhite : spinner}
-          css={{
-            animation: "spin 2s infinite linear"
-          }}
-          alt=""
-        />
-      );
-      break;
-    }
-    case "success": {
-      buttonContent = (
-        <img src={whiteIcons ? circleCheckWhite : circleCheck} alt="" />
-      );
-      break;
-    }
-    case "failure": {
-      buttonContent = (
-        <img src={whiteIcons ? circleTimesWhite : circleTimes} alt="" />
-      );
-      break;
-    }
-    default: {
-      buttonContent = "Sign Up";
-      break;
-    }
+      case "loading": {
+        buttonContent = (
+          <img
+            src={whiteIcons ? spinnerWhite : spinner}
+            css={{
+              animation: "spin 2s infinite linear"
+            }}
+            alt=""
+          />
+        );
+        break;
+      }
+      case "success": {
+        buttonContent = (
+          <img src={whiteIcons ? circleCheckWhite : circleCheck} alt="" />
+        );
+        break;
+      }
+      case "failure": {
+        buttonContent = (
+          <img src={whiteIcons ? circleTimesWhite : circleTimes} alt="" />
+        );
+        break;
+      }
+      default: {
+        buttonContent = "Sign Up";
+        break;
+      }
     }
 
     return (

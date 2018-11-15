@@ -11,7 +11,7 @@ describe("Sponsors", () => {
 
   describe("Links", () => {
     it("should contain the proper number of sponsors", () => {
-      cy.get("[data-cy=sponsor-link]").should("have.length", 23);
+      cy.get("[data-cy=sponsor-link]").should("have.length", 24);
     });
 
     it("should contain the proper urls", () => {
@@ -33,6 +33,7 @@ describe("Sponsors", () => {
         "https://sketchapp.com",
         "https://wake-ups.com",
         "https://www.launchacademy.ca/",
+        "https://www.orangegate.ca/",
         "https://smith.queensu.ca/grad_studies/mei/",
         "https://queensu.ca/innovationcentre/",
         "https://www.bloomberg.com/canada",

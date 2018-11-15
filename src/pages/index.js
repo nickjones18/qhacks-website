@@ -18,11 +18,11 @@ import HackerTestimonials from "../components/HackerTestimonials";
 import favicon from "../assets/img/icons/favicon.ico";
 import sharingImage from "../assets/img/logo/sharingImage.png";
 
-let environment = process.env.NETLIFY_ENV = process.env.NODE_ENV;
-environment = environment === 'deploy-preview' ? 'development' : 'staging';
+let environment = (process.env.NETLIFY_ENV = process.env.NODE_ENV);
+environment = environment === "deploy-preview" ? "development" : "staging";
 
 Sentry.init({
-  dsn: 'https://fcd2394efcca4752b9b9b6742861e882@sentry.io/1317531',
+  dsn: "https://fcd2394efcca4752b9b9b6742861e882@sentry.io/1317531",
   environment: environment,
   release: pjson.version
 });

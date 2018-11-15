@@ -55,10 +55,12 @@ const Landing = () => (
           css={{
             paddingTop: "115px",
             "@media(min-width: 1200px)": {
-              paddingRight: "50px"
+              paddingRight: "50px",
+              paddingTop: "215px"
             },
             "@media (min-width: 821px) and (max-width: 1200px)": {
-              paddingRight: "50px"
+              paddingRight: "50px",
+              paddingTop: "215px"
             }
           }}
         >
@@ -83,7 +85,7 @@ const Landing = () => (
             data-cy="qhacks-wordmark"
             src={word}
             css={{
-              paddingTop: "72px",
+              paddingTop: "43px",
               paddingBottom: "24px",
               width: "100vw",
               maxWidth: "300px",
@@ -109,7 +111,7 @@ const Landing = () => (
           >
             Queen’s University • February 1-3, 2019
           </h2>
-          <a href="https://mlh.io" target="_blank" rel="external noopener">
+          {/* <a href="https://mlh.io" target="_blank" rel="external noopener">
             <img
               data-cy="mlh-banner"
               src={banner}
@@ -119,11 +121,11 @@ const Landing = () => (
               }}
               alt="MLH Logo"
             />
-          </a>
+          </a> */}
           <h2
             data-cy="qhacks-tagline"
             css={{
-              paddingTop: "40px",
+              paddingTop: "25px",
               color: "#575757",
               fontWeight: 500,
               lineHeight: "30px",
@@ -156,6 +158,7 @@ const Landing = () => (
             position: "relative",
             textAlign: "right",
             display: "flex",
+            paddingTop: "84px",
             alignItems: "center",
             "@media(max-width: 820px)": {
               display: "none"
