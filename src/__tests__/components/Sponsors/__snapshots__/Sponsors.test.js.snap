@@ -44,8 +44,15 @@ exports[`Sponsors renders correctly 1`] = `
           <div
             css={
               Object {
+                "@media(max-width: 460px)": Object {
+                  "marginBottom": "40px",
+                },
+                "@media(max-width: 980px)": Object {
+                  "marginBottom": "60px",
+                },
                 "display": "grid",
                 "gridTemplateColumns": "1fr",
+                "marginBottom": "80px",
               }
             }
           >
@@ -54,6 +61,38 @@ exports[`Sponsors renders correctly 1`] = `
             >
               <img
                 alt="Tucows Logo"
+                css={
+                  Object {
+                    "@media(max-width: 460px)": Object {
+                      "width": "250px",
+                    },
+                    "@media(max-width: 680px)": Object {
+                      "width": "300px",
+                    },
+                    "@media(max-width: 980px)": Object {
+                      "width": "400px",
+                    },
+                    "width": "500px",
+                  }
+                }
+                data-cy="test-sponsor-image"
+                src="test-file-stub"
+              />
+            </_default>
+          </div>
+          <div
+            css={
+              Object {
+                "display": "grid",
+                "gridTemplateColumns": "1fr",
+              }
+            }
+          >
+            <_default
+              url="https://stdlib.com/"
+            >
+              <img
+                alt="Standard Library Logo"
                 css={
                   Object {
                     "@media(max-width: 460px)": Object {
@@ -348,7 +387,7 @@ exports[`Sponsors renders correctly 1`] = `
                   "gridTemplateColumns": "1fr",
                   "marginBottom": "0px",
                 },
-                "@media(max-width: 760px)": Object {
+                "@media(max-width: 920px)": Object {
                   "gridTemplateColumns": "1fr 1fr",
                   "marginBottom": "10px",
                   "marginLeft": "auto",
@@ -372,7 +411,7 @@ exports[`Sponsors renders correctly 1`] = `
                       "marginBottom": "10px",
                       "width": "90px",
                     },
-                    "@media(max-width: 760px)": Object {
+                    "@media(max-width: 920px)": Object {
                       "marginBottom": "30px",
                       "width": "120px",
                     },
@@ -393,7 +432,7 @@ exports[`Sponsors renders correctly 1`] = `
                       "marginBottom": "10px",
                       "width": "90px",
                     },
-                    "@media(max-width: 760px)": Object {
+                    "@media(max-width: 920px)": Object {
                       "width": "120px",
                     },
                     "width": "150px",
@@ -413,7 +452,7 @@ exports[`Sponsors renders correctly 1`] = `
                       "marginBottom": "10px",
                       "width": "90px",
                     },
-                    "@media(max-width: 760px)": Object {
+                    "@media(max-width: 920px)": Object {
                       "width": "120px",
                     },
                     "marginTop": "5px",
@@ -433,7 +472,7 @@ exports[`Sponsors renders correctly 1`] = `
                     "@media(max-width: 610px)": Object {
                       "width": "90px",
                     },
-                    "@media(max-width: 760px)": Object {
+                    "@media(max-width: 920px)": Object {
                       "width": "140px",
                     },
                     "marginTop": "5px",
@@ -451,7 +490,7 @@ exports[`Sponsors renders correctly 1`] = `
                   "gridTemplateColumns": "1fr",
                   "marginBottom": "0px",
                 },
-                "@media(max-width: 760px)": Object {
+                "@media(max-width: 920px)": Object {
                   "gridTemplateColumns": "1fr 1fr",
                   "marginBottom": "10px",
                   "marginLeft": "auto",
@@ -460,6 +499,7 @@ exports[`Sponsors renders correctly 1`] = `
                 },
                 "display": "grid",
                 "gridTemplateColumns": "1fr 1fr 1fr 1fr",
+                "marginBottom": "40px",
                 "marginLeft": "auto",
                 "marginRight": "auto",
                 "width": "100%",
@@ -476,7 +516,7 @@ exports[`Sponsors renders correctly 1`] = `
                     "@media(max-width: 610px)": Object {
                       "width": "90px",
                     },
-                    "@media(max-width: 760px)": Object {
+                    "@media(max-width: 920px)": Object {
                       "marginBottom": "20px",
                       "width": "140px",
                     },
@@ -488,20 +528,20 @@ exports[`Sponsors renders correctly 1`] = `
               />
             </_default>
             <_default
-              url="https://wake-ups.com"
+              url="https://www.mosaicmfg.com/"
             >
               <img
-                alt="Wakeups Logo"
+                alt="Mosaic Manufacturing Logo"
                 css={
                   Object {
                     "@media(max-width: 610px)": Object {
-                      "width": "60px",
+                      "width": "100px",
                     },
-                    "@media(max-width: 760px)": Object {
+                    "@media(max-width: 920px)": Object {
                       "marginBottom": "10px",
-                      "width": "80px",
+                      "width": "130px",
                     },
-                    "width": "100px",
+                    "width": "150px",
                   }
                 }
                 src="test-file-stub"
@@ -518,7 +558,7 @@ exports[`Sponsors renders correctly 1`] = `
                       "marginTop": "10px",
                       "width": "90px",
                     },
-                    "@media(max-width: 760px)": Object {
+                    "@media(max-width: 920px)": Object {
                       "width": "140px",
                     },
                     "marginTop": "18px",
@@ -539,7 +579,7 @@ exports[`Sponsors renders correctly 1`] = `
                       "marginTop": "10px",
                       "width": "90px",
                     },
-                    "@media(max-width: 760px)": Object {
+                    "@media(max-width: 920px)": Object {
                       "width": "140px",
                     },
                     "marginTop": "18px",
@@ -551,6 +591,38 @@ exports[`Sponsors renders correctly 1`] = `
             </_default>
           </div>
         </div>
+      </div>
+      <div
+        css={
+          Object {
+            "display": "grid",
+            "gridTemplateColumns": "1fr",
+            "marginLeft": "auto",
+            "marginRight": "auto",
+            "width": "100%",
+          }
+        }
+      >
+        <_default
+          url="https://wake-ups.com"
+        >
+          <img
+            alt="Wakeups Logo"
+            css={
+              Object {
+                "@media(max-width: 610px)": Object {
+                  "marginTop": "10px",
+                  "width": "60px",
+                },
+                "@media(max-width: 920px)": Object {
+                  "width": "80px",
+                },
+                "width": "100px",
+              }
+            }
+            src="test-file-stub"
+          />
+        </_default>
       </div>
       <div
         css={
@@ -616,6 +688,38 @@ exports[`Sponsors renders correctly 1`] = `
           }
         }
       >
+        <div
+          css={
+            Object {
+              "display": "grid",
+              "gridTemplateColumns": "1fr",
+              "marginBottom": "25px",
+            }
+          }
+        >
+          <_default
+            url="https://www.ece.queensu.ca/"
+          >
+            <img
+              alt="ECE Logo"
+              css={
+                Object {
+                  "@media(max-width: 460px)": Object {
+                    "width": "80px",
+                  },
+                  "@media(max-width: 680px)": Object {
+                    "width": "100px",
+                  },
+                  "@media(max-width: 980px)": Object {
+                    "width": "130px",
+                  },
+                  "width": "200px",
+                }
+              }
+              src="test-file-stub"
+            />
+          </_default>
+        </div>
         <div
           css={
             Object {

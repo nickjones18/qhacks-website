@@ -1,5 +1,4 @@
 import React from "react";
-import MediaQuery from "react-responsive";
 
 import SponsorLink from "./SponsorLink";
 import ActionButton from "./ActionButton";
@@ -17,6 +16,8 @@ import sketchLogo from "../assets/img/sponsors/sketch.svg";
 import ritualLogo from "../assets/img/sponsors/ritual.svg";
 import loopioLogo from "../assets/img/sponsors/loopio.svg";
 import tucowsLogo from "../assets/img/sponsors/tucows.svg";
+import stdlibLogo from "../assets/img/sponsors/stdlib.svg";
+import mosaicLogo from "../assets/img/sponsors/mosaic.svg";
 import ratehubLogo from "../assets/img/sponsors/ratehub.svg";
 import sunLifeLogo from "../assets/img/sponsors/sunlife.svg";
 import wolframLogo from "../assets/img/sponsors/wolfram.svg";
@@ -71,7 +72,14 @@ const Sponsors = () => (
             <div
               css={{
                 display: "grid",
-                gridTemplateColumns: "1fr"
+                gridTemplateColumns: "1fr",
+                marginBottom: "80px",
+                "@media(max-width: 460px)": {
+                  marginBottom: "40px"
+                },
+                "@media(max-width: 980px)": {
+                  marginBottom: "60px"
+                }
               }}
             >
               <SponsorLink url="https://tucows.com">
@@ -91,6 +99,34 @@ const Sponsors = () => (
                   }}
                   data-cy="test-sponsor-image"
                   alt="Tucows Logo"
+                />
+              </SponsorLink>
+            </div>
+
+            {/* Tera Row 2 */}
+            <div
+              css={{
+                display: "grid",
+                gridTemplateColumns: "1fr"
+              }}
+            >
+              <SponsorLink url="https://stdlib.com/">
+                <img
+                  src={stdlibLogo}
+                  css={{
+                    width: "500px",
+                    "@media(max-width: 980px)": {
+                      width: "400px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "300px"
+                    },
+                    "@media(max-width: 460px)": {
+                      width: "250px"
+                    }
+                  }}
+                  data-cy="test-sponsor-image"
+                  alt="Standard Library Logo"
                 />
               </SponsorLink>
             </div>
@@ -333,7 +369,7 @@ const Sponsors = () => (
                 display: "grid",
                 gridTemplateColumns: "1fr 1fr 1fr 1fr",
                 marginBottom: "40px",
-                "@media(max-width: 760px)": {
+                "@media(max-width: 920px)": {
                   gridTemplateColumns: "1fr 1fr",
                   width: "60%",
                   marginLeft: "auto",
@@ -351,7 +387,7 @@ const Sponsors = () => (
                   src={balsamiqLogo}
                   css={{
                     width: "150px",
-                    "@media(max-width: 760px)": {
+                    "@media(max-width: 920px)": {
                       width: "120px",
                       marginBottom: "30px"
                     },
@@ -368,7 +404,7 @@ const Sponsors = () => (
                   src={wolframLogo}
                   css={{
                     width: "150px",
-                    "@media(max-width: 760px)": {
+                    "@media(max-width: 920px)": {
                       width: "120px"
                     },
                     "@media(max-width: 610px)": {
@@ -385,7 +421,7 @@ const Sponsors = () => (
                   css={{
                     width: "150px",
                     marginTop: "5px",
-                    "@media(max-width: 760px)": {
+                    "@media(max-width: 920px)": {
                       width: "120px"
                     },
                     "@media(max-width: 610px)": {
@@ -402,7 +438,7 @@ const Sponsors = () => (
                   css={{
                     width: "170px",
                     marginTop: "5px",
-                    "@media(max-width: 760px)": {
+                    "@media(max-width: 920px)": {
                       width: "140px"
                     },
                     "@media(max-width: 610px)": {
@@ -422,7 +458,8 @@ const Sponsors = () => (
                 marginLeft: "auto",
                 marginRight: "auto",
                 width: "100%",
-                "@media(max-width: 760px)": {
+                marginBottom: "40px",
+                "@media(max-width: 920px)": {
                   gridTemplateColumns: "1fr 1fr",
                   width: "60%",
                   marginLeft: "auto",
@@ -441,7 +478,7 @@ const Sponsors = () => (
                   css={{
                     width: "200px",
                     marginTop: "20px",
-                    "@media(max-width: 760px)": {
+                    "@media(max-width: 920px)": {
                       width: "140px",
                       marginBottom: "20px"
                     },
@@ -452,20 +489,20 @@ const Sponsors = () => (
                   alt="Sketch Logo"
                 />
               </SponsorLink>
-              <SponsorLink url="https://wake-ups.com">
+              <SponsorLink url="https://www.mosaicmfg.com/">
                 <img
-                  src={wakeupsLogo}
+                  src={mosaicLogo}
                   css={{
-                    width: "100px",
-                    "@media(max-width: 760px)": {
-                      width: "80px",
+                    width: "150px",
+                    "@media(max-width: 920px)": {
+                      width: "130px",
                       marginBottom: "10px"
                     },
                     "@media(max-width: 610px)": {
-                      width: "60px"
+                      width: "100px"
                     }
                   }}
-                  alt="Wakeups Logo"
+                  alt="Mosaic Manufacturing Logo"
                 />
               </SponsorLink>
               <SponsorLink url="https://www.launchacademy.ca/">
@@ -474,7 +511,7 @@ const Sponsors = () => (
                   css={{
                     width: "200px",
                     marginTop: "18px",
-                    "@media(max-width: 760px)": {
+                    "@media(max-width: 920px)": {
                       width: "140px"
                     },
                     "@media(max-width: 610px)": {
@@ -491,7 +528,7 @@ const Sponsors = () => (
                   css={{
                     width: "200px",
                     marginTop: "18px",
-                    "@media(max-width: 760px)": {
+                    "@media(max-width: 920px)": {
                       width: "140px"
                     },
                     "@media(max-width: 610px)": {
@@ -504,6 +541,34 @@ const Sponsors = () => (
               </SponsorLink>
             </div>
           </div>
+        </div>
+
+        {/* Startup Row 3 */}
+        <div
+          css={{
+            display: "grid",
+            gridTemplateColumns: "1fr",
+            marginLeft: "auto",
+            marginRight: "auto",
+            width: "100%"
+          }}
+        >
+          <SponsorLink url="https://wake-ups.com">
+            <img
+              src={wakeupsLogo}
+              css={{
+                width: "100px",
+                "@media(max-width: 920px)": {
+                  width: "80px"
+                },
+                "@media(max-width: 610px)": {
+                  width: "60px",
+                  marginTop: "10px"
+                }
+              }}
+              alt="Wakeups Logo"
+            />
+          </SponsorLink>
         </div>
 
         {/* Partners */}
@@ -555,7 +620,36 @@ const Sponsors = () => (
             marginBottom: "100px"
           }}
         >
+
           {/* School Row 1 */}
+          <div
+            css={{
+              display: "grid",
+              gridTemplateColumns: "1fr",
+              marginBottom: "25px"
+            }}
+          >
+            <SponsorLink url="https://www.ece.queensu.ca/">
+              <img
+                src={eceLogo}
+                css={{
+                  width: "200px",
+                  "@media(max-width: 980px)": {
+                    width: "130px"
+                  },
+                  "@media(max-width: 680px)": {
+                    width: "100px"
+                  },
+                  "@media(max-width: 460px)": {
+                    width: "80px"
+                  }
+                }}
+                alt="ECE Logo"
+              />
+            </SponsorLink>
+          </div>
+
+          {/* School Row 2 */}
           <div
             css={{
               display: "grid",
@@ -606,7 +700,7 @@ const Sponsors = () => (
             </SponsorLink>
           </div>
 
-          {/* School Row 2 */}
+          {/* School Row 3 */}
           <div
             css={{
               display: "grid",
@@ -677,7 +771,7 @@ const Sponsors = () => (
             </SponsorLink>
           </div>
 
-          {/* School Row 3 */}
+          {/* School Row 4 */}
           <div
             css={{
               display: "grid",
